@@ -704,3 +704,4 @@ Because protection of private data is critical, {{site.data.keyword.IBM_notm}} n
 <li>Move a copy of your encrypted backup data off-site, just as you would for any other backup data that you manage.</li>
 <li>Provide the backup files for the {{site.data.keyword.IBM_notm}} administrator in case of any need to restore.</li>
 </ul>
+
