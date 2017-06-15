@@ -6,7 +6,7 @@ copyright:
 
   years: 2015, 2017
 
-lastupdated: "2017-04-11"
+lastupdated: "2017-05-23"
 
 
 ---
@@ -69,7 +69,7 @@ IBM® 使用雲端作業作為服務來監視及維護您的環境，因此您�
 
 **附註**：「{{site.data.keyword.Bluemix_notm}} 本端」元件可能會指出特定的已配置容量（例如 GB 數或每秒交易數）。因為任何雲端服務配置的實際容量實際上會因許多因素而不同，所以實際容量實際上可能會高於或低於已配置的容量。
 
-### 聯合型錄
+## 聯合型錄
 {: #cataloglocal}
 
 {{site.data.keyword.Bluemix_local_notm}} 包括一份專用型錄，將公用及本端部署的核准服務組織在一起。您甚至可以透過 {{site.data.keyword.Bluemix_notm}} 型錄發佈及管理專屬服務的存取權。您可以選擇根據資料隱私及安全準則來決定符合您商業需求的公用服務。
@@ -126,7 +126,7 @@ IBM® 使用雲端作業作為服務來監視及維護您的環境，因此您�
 |{{site.data.keyword.iot_short}}		|是		|是		|否|
 |{{site.data.keyword.weather_short}}		|是		|是		|是|
 |{{site.data.keyword.workloadscheduler}}	|是		|是		|是 |
-{: caption="表 4. 依地區可從 Bluemix 公用聯合的服務" caption-side="top"}
+{: caption="表 4. 依地區可從「{{site.data.keyword.Bluemix_notm}} 公用」聯合的服務" caption-side="top"}
 {: #table04}
 
 **附註**：此表格不包括協力廠商服務。請檢查協力廠商服務選項的型錄。
@@ -702,12 +702,3 @@ vSphere Enterprise plus（如果您計劃使用分散式虛擬交換器）</dd>
 <li>在需要進行還原時，將備份檔提供給 {{site.data.keyword.IBM_notm}} 管理者。</li>
 </ul>
 
-# rellinks
-{: rellinks}
-## general
-{: general}
-* [Discover: {{site.data.keyword.Bluemix_local_notm}} ![外部鏈結圖示](../icons/launch-glyph.svg)](http://www.ibm.com/cloud-computing/bluemix/hybrid/local/){: new_window}
-* [{{site.data.keyword.Bluemix_notm}} 新增功能](/docs/whatsnew/index.html)
-* [{{site.data.keyword.Bluemix_notm}} 名詞解釋](/docs/overview/glossary/index.html)
-* [管理 {{site.data.keyword.Bluemix_local_notm}} 及 {{site.data.keyword.Bluemix_notm}} 專用](/docs/admin/index.html#mng)
-* [與支援中心聯絡](/docs/support/index.html#getting-customer-support)

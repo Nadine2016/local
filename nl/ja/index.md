@@ -6,7 +6,7 @@ copyright:
 
   years: 2015, 2017
 
-lastupdated: "2017-04-11"
+lastupdated: "2017-05-23"
 
 
 ---
@@ -69,7 +69,7 @@ IBM® はクラウド操作をサービスとして使用してお客様の環�
 
 **注**: {{site.data.keyword.Bluemix_notm}} Local のコンポーネントは、構成された特定の容量 (ギガバイト数や、1 秒当たりのトランザクション数など) で示される場合があります。どんな構成でも、クラウド・サービスで実際に使用される容量は、さまざまな要因によって異なるため、実際に使用される容量は、構成された容量より増減する可能性があります。
 
-### シンジケートされたカタログ
+## シンジケートされたカタログ
 {: #cataloglocal}
 
 {{site.data.keyword.Bluemix_local_notm}} には、パブリック・デプロイメントおよびローカル・デプロイメントすべてにわたって承認済みサービスを集めたプライベート・カタログが含まれています。{{site.data.keyword.Bluemix_notm}} カタログを通して、お客様独自のサービスを公開したり、それらのサービスへのアクセスを管理したりすることもできます。データ・プライバシーとセキュリティー基準に基づいて、ビジネスの要件に合致したパブリック・サービスを決定できます。
@@ -126,7 +126,7 @@ IBM® はクラウド操作をサービスとして使用してお客様の環�
 |{{site.data.keyword.iot_short}}		|はい		|はい		|いいえ|
 |{{site.data.keyword.weather_short}}		|はい		|はい		|はい|
 |{{site.data.keyword.workloadscheduler}}	|はい		|はい		|はい |
-{: caption="表 4. Bluemix パブリックからのシンジケーションに使用可能な、地域別のサービス" caption-side="top"}
+{: caption="表 4. {{site.data.keyword.Bluemix_notm}} Public からのシンジケーションに使用可能な、地域別のサービス" caption-side="top"}
 {: #table04}
 
 **注**: サード・パーティー・サービスは表に含まれていません。サード・パーティー・サービス・オプションについては、カタログを確認してください。
@@ -753,12 +753,3 @@ Akamai や Dyn などのグローバル・ロード・バランサーを選択�
 <li>リストアが必要な場合には、{{site.data.keyword.IBM_notm}} 管理者にバックアップ・ファイルを提供する。</li>
 </ul>
 
-# 関連リンク
-{: rellinks}
-## 一般
-{: general}
-* [{{site.data.keyword.Bluemix_local_notm}} ![「外部リンク」アイコン](../icons/launch-glyph.svg)](http://www.ibm.com/cloud-computing/bluemix/hybrid/local/){: new_window}
-* [{{site.data.keyword.Bluemix_notm}} の新機能](/docs/whatsnew/index.html)
-* [{{site.data.keyword.Bluemix_notm}} 用語集](/docs/overview/glossary/index.html)
-* [{{site.data.keyword.Bluemix_local_notm}} および {{site.data.keyword.Bluemix_notm}} Dedicated の管理](/docs/admin/index.html#mng)
-* [サポートへのお問い合わせ](/docs/support/index.html#getting-customer-support)

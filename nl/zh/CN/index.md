@@ -6,7 +6,7 @@ copyright:
 
   years: 2015, 2017
 
-lastupdated: "2017-04-11"
+lastupdated: "2017-05-23"
 
 
 ---
@@ -69,7 +69,7 @@ IBM® 使用云操作即服务来监视和维护您的环境，让您可以专�
 
 **注**：{{site.data.keyword.Bluemix_notm}} Local 组件可能指示特定配置的容量，例如千兆字节或每秒事务数。由于现实中云服务的任何配置的实际容量根据多种因素而变化，因此现实中的实际容量可能大于或小于配置的容量。
 
-### 联合目录
+## 联合目录
 {: #cataloglocal}
 
 {{site.data.keyword.Bluemix_local_notm}} 包含一个私有目录，用于将公共部署和本地部署中已批准的服务集中在一起。您甚至可以通过 {{site.data.keyword.Bluemix_notm}} 目录来发布您自己的服务并管理对这些服务的访问权。您可以选择根据自己的数据隐私和安全标准来确定哪些公共服务满足您的业务需求。
@@ -126,7 +126,7 @@ IBM® 使用云操作即服务来监视和维护您的环境，让您可以专�
 |{{site.data.keyword.iot_short}}		|是		|是		|否|
 |{{site.data.keyword.weather_short}}		|是		|是		|是|
 |{{site.data.keyword.workloadscheduler}}	|是		|是		|是 |
-{: caption="表 4. 按区域为 Bluemix Public 联合提供的服务" caption-side="top"}
+{: caption="表 4. 按区域为 {{site.data.keyword.Bluemix_notm}} Public 联合提供的服务" caption-side="top"}
 {: #table04}
 
 **注**：此表中未包含第三方服务。请检查目录以获取第三方服务选项。
@@ -697,12 +697,3 @@ vSphere Enterprise plus（如果计划使用分布式虚拟交换机）</dd>
 <li>向 {{site.data.keyword.IBM_notm}} 管理员提供备份文件，以防万一有任何需要复原的情况。</li>
 </ul>
 
-# rellinks
-{: rellinks}
-## general
-{: general}
-* [发现：{{site.data.keyword.Bluemix_local_notm}} ![外部链接图标](../icons/launch-glyph.svg)](http://www.ibm.com/cloud-computing/bluemix/hybrid/local/){: new_window}
-* [{{site.data.keyword.Bluemix_notm}} 中的新增功能](/docs/whatsnew/index.html)
-* [{{site.data.keyword.Bluemix_notm}} 词汇表](/docs/overview/glossary/index.html)
-* [管理 {{site.data.keyword.Bluemix_local_notm}} 和 {{site.data.keyword.Bluemix_notm}} Dedicated](/docs/admin/index.html#mng)
-* [联系支持人员](/docs/support/index.html#getting-customer-support)

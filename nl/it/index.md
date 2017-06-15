@@ -6,7 +6,7 @@ copyright:
 
   years: 2015, 2017
 
-lastupdated: "2017-04-11"
+lastupdated: "2017-05-23"
 
 
 ---
@@ -71,7 +71,7 @@ Sono presenti dei componenti facoltativi disponibili per te da acquistare per ri
 
 **Nota**: i componenti locali {{site.data.keyword.Bluemix_notm}} possono indicare una capacità configurata specifica, come ad esempio gigabyte o transazioni al secondo. Poiché la capacità attuale messa in pratica per ogni configurazione del servizio cloud varia in base a molti fattori, la capacità attuale messa in pratica può essere maggiore o inferiore alla capacità configurata.
 
-### Catalogo diffuso
+## Catalogo diffuso
 {: #cataloglocal}
 
 {{site.data.keyword.Bluemix_local_notm}} include un catalogo privato che riunisce i servizi approvati tra le tue distribuzioni pubbliche e locali. Puoi anche pubblicare e gestire l'accesso ai tuoi servizi tramite il catalogo {{site.data.keyword.Bluemix_notm}}. Hai la possibilità di decidere quali servizi pubblici rispondono ai tuoi requisiti aziendali, sulla base di criteri di sicurezza e privacy dei dati.
@@ -128,7 +128,7 @@ Se disponi di un'istanza privata di un servizio {{site.data.keyword.Bluemix_notm
 |{{site.data.keyword.iot_short}}		|Sì		|Sì		|No|
 |{{site.data.keyword.weather_short}}		|Sì		|Sì		|Sì|
 |{{site.data.keyword.workloadscheduler}}	|Sì		|Sì		|Sì |
-{: caption="Tabella 4. Servizi disponibili per la diffusione da Bluemix pubblico per regione" caption-side="top"}
+{: caption="Tabella 4. Servizi disponibili per la diffusione da {{site.data.keyword.Bluemix_notm}} pubblico per regione" caption-side="top"}
 {: #table04}
 
 **Nota**: i servizi di terze parti non sono inclusi nella tabella. Controlla il tuo catalogo per le opzioni dei servizi di terze parti.
@@ -313,7 +313,7 @@ Per la distribuzione e configurazione iniziale del tuo ambiente puoi prevedere u
 <br />
 Puoi anche definire un dominio personalizzato completo, come mycustombmx.mycompany.com e application.mycompany.com. È necessario fornire il certificato SSL, la chiave del certificato e il certificato root prima che l'ambiente venga distribuito. Il certificato root fornito può anche essere utilizzato per configurare l'<a href="index.html#sslinspection">Ispezione SSL</a> per il tuo ambiente su richiesta. <br />
 <br />
-Puoi scegliere il numero di domini personalizzati desiderato per le tue applicazioni, finché fornisci i certificati per i domini personalizzati. Per ulteriori informazioni sulla creazione del dominio personalizzato, consulta <a href="../manageapps/updapps.html#domain">Creazione e utilizzo di un dominio personalizzato</a>.</li>
+Puoi scegliere il numero di domini personalizzati desiderato per le tue applicazioni, finché fornisci i certificati per i domini personalizzati. Per ulteriori informazioni sulla creazione del dominio personalizzato, vedi <a href="../manageapps/updapps.html#domain">Creazione e utilizzo di un dominio personalizzato</a>.</li>
 <li>Scegli quale tecnologia utilizzare (il tunnel IPSec o OpenVPN) per configurare Relay per la riconnessione al centro operativo {{site.data.keyword.IBM_notm}}.</li>
 <li>{{site.data.keyword.IBM_notm}} installa e avvia la macchina virtuale di inizio all'interno del cluster {{site.data.keyword.Bluemix_notm}}. Se fornisci il tuo proprio VMware, il rappresentante {{site.data.keyword.IBM_notm}} aiuterà il tuo rappresentante clienti a completare questa attività. Se hai ordinato l'opzione hardware del sistema {{site.data.keyword.Bluemix_notm}} locale, un rappresentante IBM completa questa attività.</li>
 <li>{{site.data.keyword.IBM_notm}} configura Relay per comunicare con il centro operativo {{site.data.keyword.IBM_notm}}.</li>
@@ -601,7 +601,7 @@ Se viene segnalato un problema dopo l'aggiornamento di manutenzione, insieme al 
 ### Manutenzione dell'infrastruttura del cliente
 {: #inframaintenance}
 
-{{site.data.keyword.Bluemix_local_notm}} viene distribuito sull'hypervisor ESXi e l'applicazione vCenter viene utilizzata per gestire centralmente le macchine virtuali e gli host ESXi. {{site.data.keyword.Bluemix_notm}} supporta le ultime tre versioni di ESXi e vCenter, compresi tutti gli aggiornamenti e le patch intermedi. Per informazioni sulle ultime versioni supportate, consulta la documentazione [Requisiti dell'infrastruttura locale](../local/index.html#localinfra).
+{{site.data.keyword.Bluemix_local_notm}} viene distribuito sull'hypervisor ESXi e l'applicazione vCenter viene utilizzata per gestire centralmente le macchine virtuali e gli host ESXi. {{site.data.keyword.Bluemix_notm}} supporta le ultime tre versioni di ESXi e vCenter, compresi tutti gli aggiornamenti e le patch intermedi. Per informazioni sulle ultime versioni supportate, vedi la documentazione [Requisiti dell'infrastruttura locale](../local/index.html#localinfra).
 
 **Importante**: con la distribuzione di {{site.data.keyword.Bluemix_local_notm}} locale sull'hypervisor ESXi, aggiornamenti e patch per ESXi possono ostacolare la disponibilità dell'ambiente locale, incluse tutte le applicazioni e i servizi in esecuzione nell'ambiente. Invia una notifica a {{site.data.keyword.Bluemix_notm}} attraverso un ticket di supporto prima di completare un aggiornamento o una patch, per far sì che l'interruzione del servizio non allerti il team operativo interessato. Se ti è stato assegnato un client success manager (CSM), puoi comunicargli la pianificazione dell'aggiornamento.
 
@@ -619,7 +619,7 @@ Se identifichi un problema che richiede un intervento e attenzione da parte del 
 
 ### Incidenti critici rilevati da IBM
 
-Gli incidenti critici sono interruzioni dei servizi impreviste con carattere d'urgenza e problemi di stabilità che colpiscono il tuo ambiente o i tuoi utenti. Se {{site.data.keyword.IBM_notm}} individua un incidente critico nel proprio ambiente, te lo comunica tramite notifica nella pagina **Stato**. Puoi consultare la pagina Stato anche per eventuali problemi noti relativi alla piattaforma o ai tuoi servizi. Per ulteriori informazioni sulla pagina Stato, consulta [Visualizzazione dello stato](../admin/index.html#oc_status).
+Gli incidenti critici sono interruzioni dei servizi impreviste con carattere d'urgenza e problemi di stabilità che colpiscono il tuo ambiente o i tuoi utenti. Se {{site.data.keyword.IBM_notm}} individua un incidente critico nel proprio ambiente, te lo comunica tramite notifica nella pagina **Stato**. Puoi consultare la pagina Stato anche per eventuali problemi noti relativi alla piattaforma o ai tuoi servizi. Per ulteriori informazioni sulla pagina Stato, vedi [Visualizzazione dello stato](../admin/index.html#oc_status).
 
 Se desideri integrare le tue notifiche con un servizio Web che supporti gli hook Web, vedi [Notifiche e sottoscrizioni di eventi](/docs/admin/index.html#oc_eventsubscription) per informazioni su come estendere le funzioni di notifica.
 
@@ -714,12 +714,3 @@ Poiché la protezione dei dati privati è di importanza critica, {{site.data.key
 <li>Fornire i file di backup per l'amministratore {{site.data.keyword.IBM_notm}} nel caso occorra eseguire un ripristino.</li>
 </ul>
 
-# rellinks
-{: rellinks}
-## general
-{: general}
-* [Scopri: {{site.data.keyword.Bluemix_local_notm}} ![Icona link esterno](../icons/launch-glyph.svg)](http://www.ibm.com/cloud-computing/bluemix/hybrid/local/){: new_window}
-* [Novità in {{site.data.keyword.Bluemix_notm}}](/docs/whatsnew/index.html)
-* [{{site.data.keyword.Bluemix_notm}} glossario](/docs/overview/glossary/index.html)
-* [Managing {{site.data.keyword.Bluemix_local_notm}} e {{site.data.keyword.Bluemix_notm}} dedicato](/docs/admin/index.html#mng)
-* [Come contattare il supporto](/docs/support/index.html#getting-customer-support)

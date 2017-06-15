@@ -6,7 +6,7 @@ copyright:
 
   years: 2015, 2017
 
-lastupdated: "2017-04-11"
+lastupdated: "2017-05-23"
 
 
 ---
@@ -69,7 +69,7 @@ Vous pouvez acquérir des composants facultatifs pour élargir la capacité de v
 
 **Remarque **: les composants {{site.data.keyword.Bluemix_notm}} Local peuvent indiquer une capacité configurée spécifique, par exemple en gigaoctets ou transactions par seconde. Comme la capacité effective concrète pour chaque configuration du service de cloud varie en fonction de nombreux facteurs, elle peut être supérieure ou inférieure à la capacité configurée.
 
-### Catalogue mixte
+## Catalogue mixte
 {: #cataloglocal}
 
 L'environnement {{site.data.keyword.Bluemix_local_notm}} inclut un catalogue privé qui regroupe les services approuvés dans vos déploiements publics et locaux. Vous pouvez même publier et gérer l'accès à vos propres services via ce catalogue {{site.data.keyword.Bluemix_notm}}. Vous pouvez choisir les services publics qui satisfont les exigences pour votre activité selon vos critères de sécurité et de confidentialité des données.
@@ -126,7 +126,7 @@ Si vous disposez d'une instance privée d'un service {{site.data.keyword.Bluemix
 |{{site.data.keyword.iot_short}}		|Oui		|Oui		|Non|
 |{{site.data.keyword.weather_short}}		|Oui		|Oui		|Oui|
 |{{site.data.keyword.workloadscheduler}}	|Oui		|Oui		|Oui |
-{: caption="Tableau 4. Services disponibles pour la syndication à partir de Bluemix Public par région" caption-side="top"}
+{: caption="Tableau 4. Services disponibles par région pour la syndication depuis {{site.data.keyword.Bluemix_notm}} Public" caption-side="top"}
 {: #table04}
 
 **Remarque** : les services tiers ne sont pas répertoriés dans le tableau. Consultez votre catalogue pour prendre connaissance des services tiers disponibles.
@@ -798,12 +798,3 @@ gérez.</li>
 restauration est nécessaire.</li>
 </ul>
 
-# rellinks
-{: rellinks}
-## general
-{: general}
-* [Découvrir : {{site.data.keyword.Bluemix_local_notm}} ![icône de lien externe](../icons/launch-glyph.svg)](http://www.ibm.com/cloud-computing/bluemix/hybrid/local/){: new_window}
-* [Nouveautés de {{site.data.keyword.Bluemix_notm}}](/docs/whatsnew/index.html)
-* [Glossaire {{site.data.keyword.Bluemix_notm}}](/docs/overview/glossary/index.html)
-* [Gestion de l'environnement {{site.data.keyword.Bluemix_local_notm}} et de l'environnement {{site.data.keyword.Bluemix_notm}} dédié](/docs/admin/index.html#mng)
-* [Contacter le service de support](/docs/support/index.html#getting-customer-support)

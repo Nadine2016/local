@@ -6,7 +6,7 @@ copyright:
 
   years: 2015, 2017
 
-lastupdated: "2017-04-11"
+lastupdated: "2017-05-23"
 
 
 ---
@@ -69,7 +69,7 @@ IBM®은 환경의 맨 위에서 실행되는 앱과 서비스를 빌드하는 �
 
 **참고**: {{site.data.keyword.Bluemix_notm}} 로컬 컴포넌트는 특정 구성 용량(예: 기가바이트 또는 초당 트랜잭션)을 표시할 수 있습니다. 클라우드 서비스의 구성에 대한 사실상의 실제 용량이 수많은 요인에 따라 다양하므로, 사실상의 실제 용량은 구성된 용량보다 크거나 작을 수 있습니다.
 
-### 신디케이트된(각 클라우드 형태 간 동일하게 연동된) 카탈로그
+## 신디케이트된(각 클라우드 형태 간 동일하게 연동된) 카탈로그
 {: #cataloglocal}
 
 {{site.data.keyword.Bluemix_local_notm}}에는 퍼블릭 및 로컬 배치의 승인된 서비스를 한데 모으는 개인용 카탈로그가 있습니다. 이 {{site.data.keyword.Bluemix_notm}} 카탈로그를 통해 사용자 소유의 서비스를 공개하고 서비스에 대한 액세스를 관리할 수도 있습니다. 데이터에 대한 개인정보 보호정책 및 보안 기준에 따라 사용자 비즈니스의 요구사항을 충족해야 하는 공용 서비스를 결정하는 옵션이 있습니다. 
@@ -126,7 +126,7 @@ IBM®은 환경의 맨 위에서 실행되는 앱과 서비스를 빌드하는 �
 |{{site.data.keyword.iot_short}}		|예		|예		|아니오|
 |{{site.data.keyword.weather_short}}		|예		|예		|예|
 |{{site.data.keyword.workloadscheduler}}	|예		|예		|예 |
-{: caption="표 4. 지역별 Bluemix 공용에서 신디케이션에 사용 가능한 서비스" caption-side="top"}
+{: caption="표 4. 지역별 {{site.data.keyword.Bluemix_notm}} 퍼블릭에서 신디케이션에 사용 가능한 서비스" caption-side="top"}
 {: #table04}
 
 **참고**: 표에 써드파티 서비스가 포함되어 있지 않습니다. 써드파티 서비스 옵션에 대한 카탈로그를 확인하십시오. 
@@ -705,12 +705,3 @@ Akamai 또는 Dyn과 같은 글로벌 로드 밸런서를 선택할 수 있습�
 <li>복원이 필요한 경우 백업 파일을 {{site.data.keyword.IBM_notm}} 관리자에게 제공합니다.</li>
 </ul>
 
-# rellinks
-{: rellinks}
-## general
-{: general}
-* [탐색: {{site.data.keyword.Bluemix_local_notm}} ![외부 링크 아이콘](../icons/launch-glyph.svg)](http://www.ibm.com/cloud-computing/bluemix/hybrid/local/){: new_window}
-* [{{site.data.keyword.Bluemix_notm}}의 새로운 기능](/docs/whatsnew/index.html)
-* [{{site.data.keyword.Bluemix_notm}} 용어집](/docs/overview/glossary/index.html)
-* [{{site.data.keyword.Bluemix_local_notm}} 및 {{site.data.keyword.Bluemix_notm}} 데디케이티드 관리](/docs/admin/index.html#mng)
-* [지원 문의](/docs/support/index.html#getting-customer-support)

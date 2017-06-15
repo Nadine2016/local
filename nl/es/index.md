@@ -6,7 +6,7 @@ copyright:
 
   years: 2015, 2017
 
-lastupdated: "2017-04-11"
+lastupdated: "2017-05-23"
 
 
 ---
@@ -69,7 +69,7 @@ Hay componentes opcionales que se pueden adquirir para escalar y ampliar la capa
 
 **Nota**: Los componentes de {{site.data.keyword.Bluemix_notm}} local pueden iniciar una capacidad configurada específica, como gigabytes o transacciones por segundo. Dado que la capacidad actual en la práctica para cualquier configuración del servicio de nube varía en función de muchos factores, la capacidad real en la práctica puede ser superior o inferior a la capacidad configurada.
 
-### Catálogo sindicado
+## Catálogo sindicado
 {: #cataloglocal}
 
 {{site.data.keyword.Bluemix_local_notm}} incluye un catálogo privado que aúna servicios aprobados de los despliegues públicos y locales. Incluso puede publicar y gestionar el acceso a sus propios servicios a través del catálogo de {{site.data.keyword.Bluemix_notm}}. Tiene la opción de decidir qué servicios públicos cumplen los requisitos de su empresa en función de sus criterios de privacidad de datos y de seguridad.
@@ -126,7 +126,7 @@ Si es una instancia privada de un servicio de {{site.data.keyword.Bluemix_notm}}
 |{{site.data.keyword.iot_short}}		|Sí		|Sí		|No|
 |{{site.data.keyword.weather_short}}		|Sí		|Sí		|Sí|
 |{{site.data.keyword.workloadscheduler}}	|Sí		|Sí		|Sí |
-{: caption="Tabla 4. Servicios disponibles para su sindicación desde Bluemix Public por región" caption-side="top"}
+{: caption="Tabla 4. Servicios disponibles para su sindicación desde {{site.data.keyword.Bluemix_notm}} Public por región" caption-side="top"}
 {: #table04}
 
 **Nota**: Los servicios de terceros no están incluidos en la tabla. Compruebe el catálogo para opciones de servicio de terceros.
@@ -746,12 +746,3 @@ Puesto que la protección de datos privados es crítica, {{site.data.keyword.IBM
 <li>Proporcionar los archivos de copia de seguridad al administrador de {{site.data.keyword.IBM_notm}} en caso de cualquier necesidad de restauración.</li>
 </ul>
 
-# rellinks
-{: rellinks}
-## general
-{: general}
-* [Descubrir: {{site.data.keyword.Bluemix_local_notm}} ![icono de enlace externo](../icons/launch-glyph.svg)](http://www.ibm.com/cloud-computing/bluemix/hybrid/local/){: new_window}
-* [Novedades de {{site.data.keyword.Bluemix_notm}}](/docs/whatsnew/index.html)
-* [{{site.data.keyword.Bluemix_notm}} glosario](/docs/overview/glossary/index.html)
-* [Gestión de {{site.data.keyword.Bluemix_local_notm}} y {{site.data.keyword.Bluemix_notm}} dedicado](/docs/admin/index.html#mng)
-* [Cómo obtener soporte](/docs/support/index.html#getting-customer-support)
