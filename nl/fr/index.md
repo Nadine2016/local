@@ -142,8 +142,7 @@ L'environnement {{site.data.keyword.Bluemix_local_notm}} s'appuie sur une infras
 Figure 1. Architecture de l'environnement {{site.data.keyword.Bluemix_local_notm}}
 {: #figure01}
 
-La machine virtuelle de création s'exécute dans votre infrastructure virtuelle d'entreprise derrière votre pare-feu d'entreprise. La machine virtuelle de création crée une connexion réseau sortante vers le centre des opérations {{site.data.keyword.IBM_notm}} par le biais de la technologie de relais d'{{site.data.keyword.IBM_notm}}. Le relais a plusieurs fonctions et est décrit dans la section
-[Relais](#localrelay) ci-après.
+La machine virtuelle de création s'exécute dans votre infrastructure virtuelle d'entreprise derrière votre pare-feu d'entreprise. La machine virtuelle de création crée une connexion réseau sortante vers le centre des opérations {{site.data.keyword.IBM_notm}} par le biais de la technologie de relais d'{{site.data.keyword.IBM_notm}}. Le relais a plusieurs fonctions et est décrit dans la section [Relais](#localrelay) ci-après.
 
 Les composants de la plateforme {{site.data.keyword.Bluemix_notm}} et les fonctions de base s'exécutent sur un réseau local virtuel (VLAN) isolé et privé. L'environnement {{site.data.keyword.Bluemix_local_notm}} utilise un réseau VLAN pour le sous-réseau privé. L'utilisation d'un sous-réseau privé à la place d'un réseau VLAN public est plus sécurisée et peut vous aider à éviter les problèmes de routage. Les fonctions de base qui constituent et prennent en charge la plateforme sont les suivantes :
 

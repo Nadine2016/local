@@ -135,8 +135,7 @@ Si es una instancia privada de un servicio de {{site.data.keyword.Bluemix_notm}}
 ## Arquitectura de {{site.data.keyword.Bluemix_local_notm}}
 {: #localarch}
 
-{{site.data.keyword.Bluemix_local_notm}} forma parte de una infraestructura virtualizada que está detrás del cortafuegos de la empresa, lo que le permite disponer de la infraestructura de nube de alto rendimiento y más segura. {{site.data.keyword.IBM_notm}} instala, supervisa de forma remota y gestiona
-{{site.data.keyword.Bluemix_local_notm}} en su centro de datos gracias a la tecnología [Relay](#localrelay) de {{site.data.keyword.IBM_notm}}. La arquitectura lógica de [Figure 1](#figure01) describe cómo {{site.data.keyword.Bluemix_notm}} configura el entorno local y cómo {{site.data.keyword.IBM_notm}} mantiene la instancia local:
+{{site.data.keyword.Bluemix_local_notm}} forma parte de una infraestructura virtualizada que está detrás del cortafuegos de la empresa, lo que le permite disponer de la infraestructura de nube de alto rendimiento y más segura. {{site.data.keyword.IBM_notm}} instala, supervisa de forma remota y gestiona {{site.data.keyword.Bluemix_local_notm}} en su centro de datos gracias a la tecnología [Relay](#localrelay) de {{site.data.keyword.IBM_notm}}. La arquitectura lógica de [Figure 1](#figure01) describe cómo {{site.data.keyword.Bluemix_notm}} configura el entorno local y cómo {{site.data.keyword.IBM_notm}} mantiene la instancia local:
 
 ![Arquitectura de {{site.data.keyword.Bluemix_local_notm}}](images/bmlocal_arch.png "Diagrama de la arquitectura de Bluemix Local") 
 
@@ -145,8 +144,7 @@ Figura 1. Arquitectura de {{site.data.keyword.Bluemix_local_notm}}
 
 La máquina virtual inicial (VM inicial) se ejecuta en la infraestructura virtualizada de la empresa detrás del cortafuegos de la empresa. La VM inicial crea una conexión de red de salida con el centro de operaciones de {{site.data.keyword.IBM_notm}} a través de la tecnología de relé de {{site.data.keyword.IBM_notm}}. La tecnología de relé realiza varias funciones que se describen en la siguiente sección [Relay (Relé)](#localrelay).
 
-Los componentes de la plataforma de {{site.data.keyword.Bluemix_notm}} y las funciones principales que dan soporte a los componentes de la plataforma, se ejecutan en una red de área local virtual aislada y privada (VLAN). {{site.data.keyword.Bluemix_local_notm}} utiliza una VLAN para la subred privada. El uso de una subred privada en lugar de una VLAN pública es más seguro y puede ayudar a evitar problemas de direccionamiento. El conjunto de funciones centrales que dan soporte
-a la plataforma son:
+Los componentes de la plataforma de {{site.data.keyword.Bluemix_notm}} y las funciones principales que dan soporte a los componentes de la plataforma, se ejecutan en una red de área local virtual aislada y privada (VLAN). {{site.data.keyword.Bluemix_local_notm}} utiliza una VLAN para la subred privada. El uso de una subred privada en lugar de una VLAN pública es más seguro y puede ayudar a evitar problemas de direccionamiento. El conjunto de funciones centrales que dan soporte a la plataforma son:
 
 <dl>
 <dt>Plataforma</dt>
@@ -192,8 +190,7 @@ Para obtener más información sobre las especificaciones de red y los requisito
 ### Relay (Relé)
 {: #localrelay}
 
-Relay es el enlace seguro entre la red de la empresa e {{site.data.keyword.IBM_notm}} Cloud Operations. El tráfico sobre la conexión relay es una actividad automatizada para el servicio y
-mantenimiento de la plataforma {{site.data.keyword.Bluemix_local_notm}}, los recursos de cálculo y los servicios para su instancia. El tráfico sobre la conexión relay se pueden clasificar como se indica a continuación:
+Relay es el enlace seguro entre la red de la empresa e {{site.data.keyword.IBM_notm}} Cloud Operations. El tráfico sobre la conexión relay es una actividad automatizada para el servicio y mantenimiento de la plataforma {{site.data.keyword.Bluemix_local_notm}}, los recursos de cálculo y los servicios para su instancia. El tráfico sobre la conexión relay se pueden clasificar como se indica a continuación:
 
 * supervisión y sucesos
 * inteligencia y seguridad
@@ -207,8 +204,7 @@ Supervisión y sucesos
 </dt>
 <dd>
 Las funciones de supervisión y sucesos se despliegan en sus centros de datos. Los datos de la aplicación permanecen en el centro de datos.<br>
-El tráfico sobre la conexión relay incluye la prestación de supervisión
-que utiliza {{site.data.keyword.IBM_notm}} Operations para llevar a cabo la supervisión de estado y la determinación de problemas cuando sea necesario.<br>
+El tráfico sobre la conexión relay incluye la prestación de supervisión que utiliza {{site.data.keyword.IBM_notm}} Operations para llevar a cabo la supervisión de estado y la determinación de problemas cuando sea necesario.<br>
 <p>No se incluyen datos confidenciales en la información de supervisión, lo que significa nada de contraseñas, datos de aplicación, registros de aplicación ni claves. El tráfico sobre relay incluye flujos entre VM inicial y el centro de operaciones de {{site.data.keyword.Bluemix_notm}}.</p>
 </dd>
 <dt>
