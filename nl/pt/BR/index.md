@@ -36,7 +36,7 @@ Além disso, há um conjunto de serviços que estão disponíveis como serviços
 |Opcional | [{{site.data.keyword.apiconnect_short}}](/docs/services/apiconnect/index.html) | O {{site.data.keyword.apiconnect_long}} integra o {{site.data.keyword.APIM}} e o IBM StrongLoop em uma única oferta que fornece uma solução abrangente para criar, executar, gerenciar e impingir APIs e microsserviços. |
 |Opcional | [{{site.data.keyword.containershort}}](/docs/containers/container_index.html) | Execute os contêineres do Docker no {{site.data.keyword.Bluemix_notm}} Local. Contêineres são objetos de software virtuais que incluem todos os elementos que um aplicativo precisa executar. Um contêiner tem os benefícios do isolamento e da alocação de recursos, mas é mais móvel e eficiente do que, por exemplo, uma máquina virtual. Para obter informações sobre requisitos de hardware, consulte [IBM {{site.data.keyword.containershort}} em {{site.data.keyword.Bluemix_notm}} Dedicated e Bluemix Local](/docs/containers/container_ov.html#container_dl). |
 |Opcional | [{{site.data.keyword.datacshort}}](/docs/services/DataCache/index.html#data_cache) | Esse serviço fornece uma grade de dados da memória que suporta cenários de armazenamento em cache distribuído para seus apps. Inclui 50 GB de cache na memória. |
-| Opcional (Beta) | [Registro de log](/docs/monitoringandlogging/cfapps_ml_logs_dedicated_ov.html#container_ml_logs_dedicated_ov) | Fornece logs para os aplicativos Cloud Foundry em sua interface com o usuário do {{site.data.keyword.Bluemix_notm}} e logs pesquisáveis e painéis em Kibana. |
+| Opcional (Beta) | [Criação de log](/docs/monitoringandlogging/cfapps_ml_logs_dedicated_ov.html#container_ml_logs_dedicated_ov) | Fornece logs para os aplicativos Cloud Foundry em sua interface com o usuário do {{site.data.keyword.Bluemix_notm}} e logs pesquisáveis e painéis em Kibana. |
 |Opcional | [{{site.data.keyword.mobilepush}}](/docs/services/mobilepush/index.html) | O {{site.data.keyword.mobilepush}} é um serviço que você pode usar para enviar notificações para iOS e dispositivo Android. É possível direcionar notificações para todos os usuários do aplicativo ou para um conjunto específico de usuários e dispositivos usando tags. É possível administrar dispositivos, tags e assinaturas. É possível também usar um SDK (kit de desenvolvimento de software) e interfaces de programação de aplicativo (APIs) Representational State Transfer (REST) para desenvolver ainda mais seus aplicativos cliente. |
 |Opcional | [{{site.data.keyword.sescashort}}](/docs/services/SessionCache/index.html#session_cache) | Para maior redundância, o {{site.data.keyword.sescashort}} fornece uma réplica de uma sessão armazenada no cache. Portanto, no caso de uma indisponibilidade de energia, seu aplicativo cliente manterá acesso à sessão no cache. O serviço suporta cenários de armazenamento em cache de sessão para aplicativos móveis e da web. |
 |Opcional | [{{site.data.keyword.iot_short}}](/docs/services/IoT/index.html) | Esse serviço permite que os apps se comuniquem e consumam dados coletados por seus dispositivos conectados, sensores e gateways. A oferta de base local inclui um ambiente inicial que permite executar uma versão privada do IBM {{site.data.keyword.iot_short}} dentro do ambiente local com uma capacidade de 100.000 dispositivos ou aplicativos conectados simultaneamente e 1.6 TB de troca de dados. |
@@ -76,13 +76,13 @@ O {{site.data.keyword.Bluemix_local_notm}} inclui um catálogo privado que reún
 
 Se você tiver uma instância privada de um serviço do {{site.data.keyword.Bluemix_notm}} para seu ambiente local, verá uma tag "Local" com os nomes do serviço em sua visualização de administração do catálogo. Da mesma forma, se ela for um serviço customizado, significando que você usou um broker de serviço para criá-la, você verá "Customizado" listado com o nome do serviço. Todos os outros serviços listados que não possuem uma tag "local" ou "customizado" estão disponíveis usando a organização do {{site.data.keyword.Bluemix_notm}} Public. Serviços organizados fornecem a função para criar aplicativos híbridos que consistem em serviços públicos e privados.
 
-|Serviço	|Disponível na região sul dos EUA	|Disponível na região do Reino Unido na Europa |Disponível na região de Sydney, na Austrália|
+|Serviço |Disponível na região sul dos EUA	|Disponível na região do Reino Unido na Europa |Disponível na região de Sydney, na Austrália|
 |:----------|:------------------------------|:------------------|:------------------|
 |{{site.data.keyword.alchemyapishort}} 		|Sim	   	|Sim  		|Sim|
 |{{site.data.keyword.alertnotificationshort}}	|Sim		|Sim		|Sim	|
 |{{site.data.keyword.apiconnect_short}}         |Sim            |Sim            |Sim  |
 |{{site.data.keyword.appseccloudshort}}		|Sim		|Sim		|Sim |
-|{{site.data.keyword.apiconnect_short}} 	|Sim   	 	|Sim  	 	|Sim   |
+|{{site.data.keyword.apiconnect_short}} 	|Sim   	 	|Sim   	 	|Sim   |
 |Verificador de acessibilidade automatizado |Sim       |Sim    |Sim   |
 |{{site.data.keyword.rules_short}}		|Sim		|Sim		|Sim |
 |{{site.data.keyword.iotmapinsights_short}}    |Sim  |Sim  |Sim  |
@@ -117,9 +117,9 @@ Se você tiver uma instância privada de um serviço do {{site.data.keyword.Blue
 |{{site.data.keyword.runbook_short}}		|Sim		|Sim		|Sim|
 |{{site.data.keyword.SecureGateway}}		|Sim		|Sim		|Sim |
 |{{site.data.keyword.ssofull}}			|Sim		|Não		|Não|
-|{{site.data.keyword.speechtotextshort}}	|Sim 		|Sim	 	|Sim|
+|{{site.data.keyword.speechtotextshort}}	|Sim 		|Sim	   	|Sim|
 |{{site.data.keyword.streaminganalyticsshort}}	|Sim		|Sim		|Sim |
-|{{site.data.keyword.texttospeechshort}} 	|Sim 		|Sim	 	|Sim|
+|{{site.data.keyword.texttospeechshort}} 	|Sim 		|Sim	   	|Sim|
 |{{site.data.keyword.toneanalyzershort}} 	|Sim 		|Sim 		|Sim|
 |{{site.data.keyword.tradeoffanalyticsshort}}	|Sim		|Sim		|Sim|
 |{{site.data.keyword.visualrecognitionshort}}	|Sim 		|Sim	 	|Sim|
@@ -137,7 +137,7 @@ Se você tiver uma instância privada de um serviço do {{site.data.keyword.Blue
 
 O {{site.data.keyword.Bluemix_local_notm}} fica em uma infraestrutura virtualizada que está atrás do firewall Corporativo, fornecendo a infraestrutura em nuvem mais segura e com maior desempenho. A {{site.data.keyword.IBM_notm}} instala, monitora remotamente e gerencia o {{site.data.keyword.Bluemix_local_notm}} em seu datacenter por meio da tecnologia de [Retransmissão](#localrelay) da {{site.data.keyword.IBM_notm}}. A arquitetura lógica na [Figura 1](#figure01) descreve como o {{site.data.keyword.Bluemix_notm}} está configurado em seu ambiente local e como a {{site.data.keyword.IBM_notm}} mantém sua instância local:
 
-![Arquitetura do {{site.data.keyword.Bluemix_local_notm}}.](images/bmlocal_arch.png "Diagrama de arquitetura do Bluemix Local") 
+![Arquitetura do {{site.data.keyword.Bluemix_local_notm}}.](images/bmlocal_arch.png "Diagrama da arquitetura do Bluemix Local") 
 
 Figura 1. Arquitetura do {{site.data.keyword.Bluemix_local_notm}}
 {: #figure01}
@@ -167,8 +167,7 @@ O ambiente de rede corporativa tem um link de rede bidirecional para o {{site.da
 <dt>Serviços Locais</dt>
 <dd>Um conjunto de serviços está disponível para ser usado privativamente no ambiente do {{site.data.keyword.Bluemix_local_notm}}. Geralmente, você decide quais serviços deseja para seu ambiente antes da implementação pela equipe do {{site.data.keyword.IBM_notm}}. Para obter uma lista de serviços disponíveis, acesse [Serviços e tempos de execução locais](#table01).
 </dd>
-<dt>DataPower
-Gateway</dt>
+<dt>DataPower Gateway</dt>
 <dd>
 Os dispositivos do {{site.data.keyword.IBM_notm}} DataPower Gateway fornecem acesso a domínios de aplicativos do {{site.data.keyword.Bluemix_notm}}. Esses dispositivos se conectam à sua rede intranet e à rede privada do {{site.data.keyword.Bluemix_notm}}, fornecendo um gateway seguro para a implementação do {{site.data.keyword.Bluemix_notm}}. Os desenvolvedores, que estão implementando apps e serviços, obtêm acesso de sua intranet por meio desse gateway. Os usuários dos aplicativos obterão acesso por meio dos dispositivos DataPower, bem como seus administradores.
 </dd>
@@ -217,7 +216,7 @@ Atualizações de implementação e manutenção
 </dt>
 <dd>
 Exceto para a instalação inicial da VM de concepção que é instalada no estágio inicial do processo de implementação, a implementação da maioria dos outros componentes é automatizada usando o UrbanCode Deploy.<br>
-<p>Para a atividade de implementação, o UrbanCode Deploy depende do [BOSH ![Ícone de link externo](../icons/launch-glyph.svg)](https://bosh.cloudfoundry.org/){:new_window}, com os componentes do BOSH estando entre os primeiros componentes implementados a partir da VM de concepção. O recurso de entrega contínua do UrbanCode Deploy é usado para entregar atualizações de plataforma por meio de um processo de teste e validação consistente.</p>
+<p>Para a atividade de implementação, o UrbanCode Deploy conta com a [BOSH ![Ícone de link externo](../icons/launch-glyph.svg)](https://bosh.cloudfoundry.org/){:new_window}, com os componentes da BOSH estando entre os primeiros componentes implementados por meio da VM de concepção. O recurso de entrega contínua do UrbanCode Deploy é usado para entregar atualizações de plataforma por meio de um processo de teste e validação consistente.</p>
 <p>Os scripts e pacotes são transferidos do centro de Operações da {{site.data.keyword.IBM_notm}} para a plataforma local do {{site.data.keyword.Bluemix_notm}} por meio da Retransmissão.</p>
 </dd>
 <dt>
@@ -261,7 +260,8 @@ Para configurar sua versão privada do {{site.data.keyword.Bluemix_notm}}:
 
 <ol>
 <li>Revise os <a href="index.html#localinfra" title="Abre em uma nova janela">{{site.data.keyword.Bluemix_local_notm}}requisitos de infraestrutura</a> para configurar sua instância local.</li>
-<li>Entre em contato com o representante de conta designado da {{site.data.keyword.IBM_notm}} ou <a href="https://console.ng.bluemix.net/?direct=classic/#/contactUs/cloudOEPaneId=contactUs" target="_blank">entre em contato com o {{site.data.keyword.Bluemix_notm}} <img src="../icons/launch-glyph.svg" alt="Ícone de link externo"> </a> para iniciar.</li>
+<li>Entre em contato com o representante de conta designado da {{site.data.keyword.IBM_notm}} ou <a href="https://console.ng.bluemix.net/?direct=classic/#/contactUs/cloudOEPaneId=contactUs" target="_blank">entre em contato com o {{site.data.keyword.Bluemix_notm}} <img src="../icons/launch-glyph.svg" alt="Ícone de link externo">
+</a> para iniciar.</li>
 <li>Estabeleça seu contrato do {{site.data.keyword.Bluemix_local_notm}} com a {{site.data.keyword.IBM_notm}} que inclui datas de acontecimento para entrega.
 	<ol type="a">
 	<li>Trabalhe com a IBM em sua configuração única e taxas mensais recorrentes para sua instância do {{site.data.keyword.Bluemix_notm}} Local. A taxa de recorrência mensal baseia-se nos serviços locais que você deseja usar, mais uma assinatura para todos os serviços públicos do {{site.data.keyword.Bluemix_notm}}. Em seguida, você receberá uma fatura para tudo o que usar além desse contrato de assinatura.</li>
@@ -662,7 +662,7 @@ Um balanceador de carga global não apenas assegura disponibilidade contínua e 
 * Fornece failover do site com base na verificação de funcionamento do aplicativo
 * Usa roteamento ponderado entre os terminais
 
-É possível escolher um balanceador de carga global, como Akamai ou Dyn. Para obter mais informações sobre como usar o Akamai como um balanceador de carga global, veja [Gerenciamento de tráfego global ![Ícone de link externo](../icons/launch-glyph.svg)](https://www.akamai.com/us/en/solutions/products/web-performance/global-traffic-management.jsp){: new_window}. Para obter mais informações sobre como usar o Dyn como um balanceador de carga global, veja [Quatro motivos pelos quais as empresas estão levando o balanceamento de carga global para a nuvem ![Ícone de link externo](../icons/launch-glyph.svg)](http://dyn.com/blog/4-reasons-businesses-are-taking-global-load-balancing-to-the-cloud/){: new_window}.
+É possível escolher um balanceador de carga global, como Akamai ou Dyn. Para saber mais sobre como usar o Akamai como um balanceador de carga global, veja [Gerenciamento de tráfego global ![Ícone de link externo](../icons/launch-glyph.svg)](https://www.akamai.com/us/en/solutions/products/web-performance/global-traffic-management.jsp){: new_window}. Para saber mais sobre como usar o Dyn como um balanceador de carga global, veja [4 Reasons Businesses Are Taking Global Load Balancing to the Cloud ![Ícone de link externo](../icons/launch-glyph.svg)](http://dyn.com/blog/4-reasons-businesses-are-taking-global-load-balancing-to-the-cloud/){: new_window}.
 
 ### Alta disponibilidade
 {: #ha}

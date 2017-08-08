@@ -78,7 +78,7 @@ Sono presenti dei componenti facoltativi disponibili per te da acquistare per ri
 
 Se disponi di un'istanza privata di un servizio {{site.data.keyword.Bluemix_notm}} per il tuo ambiente locale, vedi una tag "Locale" con i nomi del servizio nella vista di amministrazione del catalogo. Allo stesso modo, se si tratta di un servizio personalizzato, il che significa che hai utilizzato un broker dei servizi per crearlo, vedi "Personalizzato" elencato insieme al nome del servizio. Tutti gli altri servizi elencati che non presentano una tag "locale" o "personalizzato" sono disponibili tramite la diffusione da {{site.data.keyword.Bluemix_notm}} pubblico. I servizi diffusi forniscono la funzione per creare applicazioni ibride composte da servizi pubblici e privati.
 
-|Servizio	|Disponibile nella regione Stati Uniti Sud	|Disponibile nella regione Europa Regno Unito |Disponibile nella regione di Sydney in Australia|
+|Servizio|Disponibile nella regione Stati Uniti Sud	|Disponibile nella regione Europa Regno Unito |Disponibile nella regione di Sydney in Australia|
 |:----------|:------------------------------|:------------------|:------------------|
 |{{site.data.keyword.alchemyapishort}} 		|Sì	   	|Sì  		|Sì|
 |{{site.data.keyword.alertnotificationshort}}	|Sì		|Sì		|Sì	|
@@ -111,20 +111,20 @@ Se disponi di un'istanza privata di un servizio {{site.data.keyword.Bluemix_notm
 |{{site.data.keyword.amashort}}			|Sì		|Sì		|Sì |
 |{{site.data.keyword.mqa}}			|Sì		|Sì		|Sì |
 |{{site.data.keyword.mql}}			|No		|No		|Sì |
-|{{site.data.keyword.nlclassifierlshort}} 	|Sì 		|Sì 		|Sì|
+|{{site.data.keyword.nlclassifierlshort}} 	|Sì  		|Sì  		|Sì|
 |{{site.data.keyword.personalityinsightsshort}}	|Sì		|Sì		|Sì|
 |{{site.data.keyword.pm_short}}			|Sì		|Sì		|No |
 |{{site.data.keyword.mobilepush}}		|Sì		|Sì		|Sì |
-|{{site.data.keyword.retrieveandrankshort}}	|Sì 		|Sì 		|Sì|
+|{{site.data.keyword.retrieveandrankshort}}	|Sì  		|Sì  		|Sì|
 |{{site.data.keyword.runbook_short}}		|Sì		|Sì		|Sì|
 |{{site.data.keyword.SecureGateway}}		|Sì		|Sì		|Sì |
 |{{site.data.keyword.ssofull}}			|Sì		|No		|No|
-|{{site.data.keyword.speechtotextshort}}	|Sì 		|Sì	 	|Sì|
+|{{site.data.keyword.speechtotextshort}}	|Sì  		|Sì	   	|Sì|
 |{{site.data.keyword.streaminganalyticsshort}}	|Sì		|Sì		|Sì |
-|{{site.data.keyword.texttospeechshort}} 	|Sì 		|Sì	 	|Sì|
-|{{site.data.keyword.toneanalyzershort}} 	|Sì 		|Sì 		|Sì|
+|{{site.data.keyword.texttospeechshort}} 	|Sì  		|Sì	   	|Sì|
+|{{site.data.keyword.toneanalyzershort}} 	|Sì  		|Sì  		|Sì|
 |{{site.data.keyword.tradeoffanalyticsshort}}	|Sì		|Sì		|Sì|
-|{{site.data.keyword.visualrecognitionshort}}	|Sì 		|Sì	 	|Sì|
+|{{site.data.keyword.visualrecognitionshort}}	|Sì  		|Sì	   	|Sì|
 |{{site.data.keyword.iot_short}}		|Sì		|Sì		|No|
 |{{site.data.keyword.weather_short}}		|Sì		|Sì		|Sì|
 |{{site.data.keyword.workloadscheduler}}	|Sì		|Sì		|Sì |
@@ -139,7 +139,7 @@ Se disponi di un'istanza privata di un servizio {{site.data.keyword.Bluemix_notm
 
 {{site.data.keyword.Bluemix_local_notm}} si trova su una struttura virtuale protetta dal tuo firewall aziendale, mettendo così a tua disposizione l'infrastruttura cloud con le prestazioni più elevate e la massima protezione possibili. {{site.data.keyword.IBM_notm}} installa, esegue il monitoraggio in remoto e gestisce {{site.data.keyword.Bluemix_local_notm}} nel tuo data center attraverso la tecnologia [Relay](#localrelay) di {{site.data.keyword.IBM_notm}}. L'architettura logica in [Figure 1](#figure01) descrive come {{site.data.keyword.Bluemix_notm}} nel tuo ambiente locale e sulle modalità di gestione della tua istanza locale da parte di {{site.data.keyword.IBM_notm}}:
 
-![Architettura {{site.data.keyword.Bluemix_local_notm}}.](images/bmlocal_arch.png "Diagramma dell'architettura di Bluemix locale") 
+![{{site.data.keyword.Bluemix_local_notm}} architettura.](images/bmlocal_arch.png "Diagramma dell'architettura di Bluemix locale") 
 
 Figura 1. Architettura {{site.data.keyword.Bluemix_local_notm}}
 {: #figure01}
@@ -254,7 +254,8 @@ Il team di distribuzione {{site.data.keyword.Bluemix_notm}} carica il certificat
 * Fornisci tu l'hardware VMware.
 * Ordini il sistema {{site.data.keyword.Bluemix_notm}} locale, che è integrato nell'applicazione PureApplication preconfigurata che puoi ordinare tramite {{site.data.keyword.IBM_notm}}. Per ulteriori informazioni sulle opzioni dell'applicazione PureApplication, vedi [IBM {{site.data.keyword.Bluemix_notm}} Local System W3500 and W3550 models run cloud native services, enabled middleware, and open pattern workloads concurrently ![Icona link esterno](../icons/launch-glyph.svg)](https://www-01.ibm.com/common/ssi/rep_ca/5/897/ENUS216-325/){: new_window}.
 
-Per {{site.data.keyword.Bluemix_local_notm}}, puoi utilizzare i servizi e i runtime {{site.data.keyword.Bluemix_notm}} per supportare le tue esigenze di elaborazione in un ambiente cloud protetto, ospitato e gestito dal cliente. {{site.data.keyword.IBM_notm}} ti fornisce l'accesso a {{site.data.keyword.Bluemix_local_notm}} utilizzando un accesso protetto da password. Puoi accedere a servizi, runtime e risorse associate nonché distribuire e rimuovere applicazioni {{site.data.keyword.Bluemix_notm}}. Riesamina i seguenti passi per lavorare con il tuo rappresentante {{site.data.keyword.IBM_notm}} per configurare la tua istanza locale di {{site.data.keyword.Bluemix_notm}}.
+Per {{site.data.keyword.Bluemix_local_notm}}, puoi utilizzare i servizi e i runtime {{site.data.keyword.Bluemix_notm}} per supportare le tue esigenze di elaborazione in un ambiente cloud protetto, ospitato e gestito dal cliente. {{site.data.keyword.IBM_notm}} ti fornisce l'accesso a {{site.data.keyword.Bluemix_local_notm}} utilizzando un accesso protetto da password. Puoi accedere a servizi, runtime
+e risorse associate nonché distribuire e rimuovere applicazioni {{site.data.keyword.Bluemix_notm}}. Riesamina i seguenti passi per lavorare con il tuo rappresentante {{site.data.keyword.IBM_notm}} per configurare la tua istanza locale di {{site.data.keyword.Bluemix_notm}}.
 
 **Nota**: se ospiti {{site.data.keyword.Bluemix_local_notm}} sull'hardware del sistema {{site.data.keyword.Bluemix_notm}} locale, il processo di configurazione potrebbe essere diverso: dovrai fornire meno informazioni al rappresentante IBM. Inoltre, il campo di applicazione dei tuoi ruoli e delle tue responsabilità nel corso delle fasi iniziali e centrali potrebbe ridursi per via del modello di manutenzione "call-home" dell'applicazione PureApplication rispetto al modello di gestione che serve per utilizzare la VMware di proprietà del cliente.
 
@@ -264,7 +265,7 @@ Per configurare la tua versione privata di {{site.data.keyword.Bluemix_notm}}:
 <li>Riesamina i <a href="index.html#localinfra" title="Si apre in nuova pagina">Requisiti dell'infrastruttura {{site.data.keyword.Bluemix_local_notm}}</a> per configurare la tua istanza locale.</li>
 <li>Per iniziare, contatta il tuo rappresentante dell'account designato {{site.data.keyword.IBM_notm}} oppure
 <a href="https://console.ng.bluemix.net/?direct=classic/#/contactUs/cloudOEPaneId=contactUs" target="_blank">contatta
-{{site.data.keyword.Bluemix_notm}} <img src="../icons/launch-glyph.svg" alt="Icona link esterno">
+{{site.data.keyword.Bluemix_notm}} <img src="../icons/launch-glyph.svg" alt="icona link esterno">
 </a>.</li>
 <li>Stabilisci un accordo per {{site.data.keyword.Bluemix_local_notm}} con {{site.data.keyword.IBM_notm}} che includa le date cardine per la distribuzione.
 	<ol type="a">
@@ -312,7 +313,7 @@ Per la distribuzione e configurazione iniziale del tuo ambiente puoi prevedere u
 <br />
 Puoi anche definire un dominio personalizzato completo, come mycustombmx.mycompany.com e application.mycompany.com. È necessario fornire il certificato SSL, la chiave del certificato e il certificato root prima che l'ambiente venga distribuito. Il certificato root fornito può anche essere utilizzato per configurare l'<a href="index.html#sslinspection">Ispezione SSL</a> per il tuo ambiente su richiesta. <br />
 <br />
-Puoi scegliere il numero di domini personalizzati desiderato per le tue applicazioni, finché fornisci i certificati per i domini personalizzati. Per ulteriori informazioni sulla creazione del dominio personalizzato, vedi <a href="../manageapps/updapps.html#domain">Creazione e utilizzo di un dominio personalizzato</a>.</li>
+Puoi scegliere il numero di domini personalizzati desiderato per le tue applicazioni, finché fornisci i certificati per i domini personalizzati. Per ulteriori informazioni sulla creazione del dominio personalizzato, consulta <a href="../manageapps/updapps.html#domain">Creazione e utilizzo di un dominio personalizzato</a>.</li>
 <li>Scegli quale tecnologia utilizzare (il tunnel IPSec o OpenVPN) per configurare Relay per la riconnessione al centro operativo {{site.data.keyword.IBM_notm}}.</li>
 <li>{{site.data.keyword.IBM_notm}} installa e avvia la macchina virtuale di inizio all'interno del cluster {{site.data.keyword.Bluemix_notm}}. Se fornisci il tuo proprio VMware, il rappresentante {{site.data.keyword.IBM_notm}} aiuterà il tuo rappresentante clienti a completare questa attività. Se hai ordinato l'opzione hardware del sistema {{site.data.keyword.Bluemix_notm}} locale, un rappresentante IBM completa questa attività.</li>
 <li>{{site.data.keyword.IBM_notm}} configura Relay per comunicare con il centro operativo {{site.data.keyword.IBM_notm}}.</li>

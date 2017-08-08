@@ -29,9 +29,9 @@ L'environnement {{site.data.keyword.Bluemix_local_notm}} est fourni avec tous le
 
 Par ailleurs, un éventail de services est disponible en tant que services de {{site.data.keyword.Bluemix_local_notm}}. Examinez le tableau suivant pour déterminer les éléments inclus et ceux dont vous pouvez faire l'acquisition.
 
-| **Type** | **Nom ** | **Description** |
+| **Type** | **Nom** | **Description** |
 |----------|----------|-----------------|
-|Inclus | [Contextes d'exécution {{site.data.keyword.Bluemix_notm}}](/docs/cfapps/runtimes.html) | Utilisez des contextes d'exécution pour que votre application soit opérationnelle rapidement, sans qu'il soit nécessaire de configurer et de gérer des machines et des systèmes d'exploitation. Vous pouvez utiliser tous les contextes d'exécution {{site.data.keyword.Bluemix_notm}} dans votre instance {{site.data.keyword.Bluemix_notm}} locale.|
+|Inclus | Contextes d'exécution [{{site.data.keyword.Bluemix_notm}}](/docs/cfapps/runtimes.html) | Utilisez des contextes d'exécution pour que votre application soit opérationnelle rapidement, sans qu'il soit nécessaire de configurer et de gérer des machines et des systèmes d'exploitation. Vous pouvez utiliser tous les contextes d'exécution {{site.data.keyword.Bluemix_notm}} dans votre instance {{site.data.keyword.Bluemix_notm}} locale.|
 |Inclus | [{{site.data.keyword.autoscaling}}](/docs/services/Auto-Scaling/index.html)| Augmentez ou diminuez dynamiquement la capacité de traitement de votre application en fonction de règles. Avec ce service, vous bénéficiez d'une utilisation illimitée dans votre environnement {{site.data.keyword.Bluemix}} local.|
 |Facultatif | [{{site.data.keyword.apiconnect_short}}](/docs/services/apiconnect/index.html) | {{site.data.keyword.apiconnect_long}} intègre {{site.data.keyword.APIM}} et IBM StrongLoop dans une offre unique qui fournit une solution complète pour la création, l'exécution, la gestion et l'application d'API et de microservices. |
 |Facultatif | [{{site.data.keyword.containershort}}](/docs/containers/container_index.html) | Conteneurs Run Docker dans l'environnement {{site.data.keyword.Bluemix_notm}} local. Les conteneurs sont des objets logiciels virtuels qui incluent tous les éléments qu'une application a besoin d'exécuter. Un conteneur tire parti de l'isolation et de l'allocation des ressources, mais est plus portable et efficace que, par exemple, une machine virtuelle. Pour des informations sur la configuration matérielle requise, voir [IBM {{site.data.keyword.containershort}} dans les environnements {{site.data.keyword.Bluemix_notm}} dédié et local](/docs/containers/container_ov.html#container_dl). |
@@ -46,7 +46,7 @@ Par ailleurs, un éventail de services est disponible en tant que services de {{
 
 Vous pouvez acquérir des composants facultatifs pour élargir la capacité de vos ressources et périphériques. Vous pouvez acquérir ces composants en contactant l'équipe commerciale. Accédez à la page [Contactez-nous](https://console.ng.bluemix.net/?direct=classic/#/contactUs/cloudOEPaneId=contactUs) pour plus d'informations sur la manière de contacter un ingénieur commercial. Pour rehausser votre plan pour un service, vous pouvez sélectionner un plan depuis la vignette Service dans votre catalogue.
 
-| **Nom ** | **Description** |
+| **Nom** | **Description** |
 |----------|-----------------|
 |{{site.data.keyword.Bluemix_notm}} Local {{site.data.keyword.apiconnect_short}} Professional 5 Million API Calls | Environnement permettant l'exécution d'une version privée de {{site.data.keyword.apiconnect_short}} avec une capacité de 5 millions d'appels d'API par mois ciblant des projets d'API au niveau des départements de l'entreprise. |
 |{{site.data.keyword.Bluemix_notm}} Local {{site.data.keyword.apiconnect_short}} Professional 100 thousand API Calls increase| Extension de l'environnement {{site.data.keyword.apiconnect_short}} Professional offrant une capacité supplémentaire de 100000  appels d'API par mois. |
@@ -58,7 +58,7 @@ Vous pouvez acquérir des composants facultatifs pour élargir la capacité de v
 {: caption="Tableau 2. Composants de services facultatifs pour achat" caption-side="top"}
 {: #table02}
 
-| **Nom ** | **Description** |
+| **Nom** | **Description** |
 |----------|-----------------|
 |Local Cloud Foundry runtimes 64 GB capacity  | Environnement de contextes d'exécution Cloud Foundry avec une capacité d'exécution de 64 Go. |
 |Local Cloud Foundry runtimes 16 GB capacity increase  | Extension de l'environnement de contextes d'exécution Cloud Foundry pour fournir une capacité d'exécution supplémentaire de 16 Go. |
@@ -137,12 +137,13 @@ Si vous disposez d'une instance privée d'un service {{site.data.keyword.Bluemix
 
 L'environnement {{site.data.keyword.Bluemix_local_notm}} s'appuie sur une infrastructure virtuelle qui se situe derrière le pare-feu de votre société pour que vous puissiez bénéficier de l'infrastructure de cloud la plus performante et la mieux sécurisée. {{site.data.keyword.IBM_notm}} installe, surveille à distance et gère l'environnement {{site.data.keyword.Bluemix_local_notm}} dans votre centre de données par le biais de la technologie de [relais](#localrelay) d'{{site.data.keyword.IBM_notm}}. L'architecture logique de la [Figure 1](#figure01) décrit la façon dont {{site.data.keyword.Bluemix_notm}} est configuré dans votre environnement local et la façon dont {{site.data.keyword.IBM_notm}} gère votre instance locale :
 
-![Architecture de l'environnement {{site.data.keyword.Bluemix_local_notm}}](images/bmlocal_arch.png "Diagramme de l'architecture de l'environnement Bluemix local") 
+![{{site.data.keyword.Bluemix_local_notm}}.](images/bmlocal_arch.png "Diagramme de l'architecture de Bluemix Local") 
 
 Figure 1. Architecture de l'environnement {{site.data.keyword.Bluemix_local_notm}}
 {: #figure01}
 
-La machine virtuelle de création s'exécute dans votre infrastructure virtuelle d'entreprise derrière votre pare-feu d'entreprise. La machine virtuelle de création crée une connexion réseau sortante vers le centre des opérations {{site.data.keyword.IBM_notm}} par le biais de la technologie de relais d'{{site.data.keyword.IBM_notm}}. Le relais a plusieurs fonctions et est décrit dans la section [Relais](#localrelay) ci-après.
+La machine virtuelle de création s'exécute dans votre infrastructure virtuelle d'entreprise derrière votre pare-feu d'entreprise. La machine virtuelle de création crée une connexion réseau sortante vers le centre des opérations {{site.data.keyword.IBM_notm}} par le biais de la technologie de relais d'{{site.data.keyword.IBM_notm}}. Le relais a plusieurs fonctions et est décrit dans la section
+[Relais](#localrelay) ci-après.
 
 Les composants de la plateforme {{site.data.keyword.Bluemix_notm}} et les fonctions de base s'exécutent sur un réseau local virtuel (VLAN) isolé et privé. L'environnement {{site.data.keyword.Bluemix_local_notm}} utilise un réseau VLAN pour le sous-réseau privé. L'utilisation d'un sous-réseau privé à la place d'un réseau VLAN public est plus sécurisée et peut vous aider à éviter les problèmes de routage. Les fonctions de base qui constituent et prennent en charge la plateforme sont les suivantes :
 

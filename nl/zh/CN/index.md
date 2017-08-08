@@ -29,41 +29,41 @@ IBM® 使用云操作即服务来监视和维护您的环境，让您可以专�
 
 此外，还有一组可作为 {{site.data.keyword.Bluemix_local_notm}} 服务使用的服务。请查看下表以了解哪些已包含在内，哪些可供您购买。
 
-| **类型** | **名称** | **描述** |
+| **类型**| **名称**| **描述**|
 |----------|----------|-----------------|
-|已包含 | [{{site.data.keyword.Bluemix_notm}} 运行时](/docs/cfapps/runtimes.html) | 使用运行时可快速启动并运行应用程序，无需设置和管理计算机与操作系统。所有 {{site.data.keyword.Bluemix_notm}} 运行时都可供您在 {{site.data.keyword.Bluemix_notm}} Local 实例中使用。|
-|已包含 | [{{site.data.keyword.autoscaling}}](/docs/services/Auto-Scaling/index.html)| 根据策略，动态增大或减小应用程序的计算容量。通过此服务，您在 {{site.data.keyword.Bluemix}} Local 环境中的使用不受限制。|
-|可选 | [{{site.data.keyword.apiconnect_short}}](/docs/services/apiconnect/index.html) | {{site.data.keyword.apiconnect_long}} 将 {{site.data.keyword.APIM}} 和 IBM StrongLoop 集成到单个产品中，以提供一个综合解决方案来创建、运行、管理和强制执行 API 与微服务。 |
-|可选 | [{{site.data.keyword.containershort}}](/docs/containers/container_index.html) | 在 {{site.data.keyword.Bluemix_notm}} Local 上运行 Docker 容器。容器是包含应用程序运行所需的所有元素的虚拟软件对象。容器不仅具有资源隔离和分配的好处，而且还比虚拟机器（举例来说）的可移植性更好，且更有效率。有关硬件需求的信息，请参阅 [{{site.data.keyword.Bluemix_notm}} Dedicated 和 Bluemix Local 中的 IBM {{site.data.keyword.containershort}}](/docs/containers/container_ov.html#container_dl)。 |
-|可选 | [{{site.data.keyword.datacshort}}](/docs/services/DataCache/index.html#data_cache) | 此服务提供内存中数据网格，支持应用程序使用分布式高速缓存方案。包含 50 GB 内存中高速缓存。 |
-| 可选 (Beta) | [日志记录](/docs/monitoringandlogging/cfapps_ml_logs_dedicated_ov.html#container_ml_logs_dedicated_ov) | 为 {{site.data.keyword.Bluemix_notm}} 用户界面中的 Cloud Foundry 应用程序和 Kibana 中的可搜索日志和仪表板提供日志。 |
-|可选 | [{{site.data.keyword.mobilepush}}](/docs/services/mobilepush/index.html) | {{site.data.keyword.mobilepush}} 是可用于向 iOS 和 Android 设备发送通知的服务。通知可以针对所有应用程序用户发送，也可以针对一组使用标记的特定用户和设备发送。您可以管理设备、标记和预订。还可以使用 SDK（软件开发包）和具象状态传输 (REST) 应用程序编程接口 (API) 来进一步开发您的客户机应用程序。 |
-|可选 | [{{site.data.keyword.sescashort}}](/docs/services/SessionCache/index.html#session_cache) | 为了提高冗余度，{{site.data.keyword.sescashort}} 提供了高速缓存中存储的会话的副本。因此，万一发生掉线或中断，客户机应用程序能够继续访问高速缓存中的会话。此服务支持 Web 和移动应用程序的会话高速缓存场景。 |
-|可选 | [{{site.data.keyword.iot_short}}](/docs/services/IoT/index.html) | 此服务允许应用程序与连接的设备、传感器和网关进行通信，以及使用这些设备、传感器和网关收集的数据。本地基本产品包括初始环境，允许在本地环境中运行 IBM {{site.data.keyword.iot_short}} 的专用版本，容量为 100,000 个并行连接设备或应用程序，数据交换量为 1.6 TB。 |
+|已包含| [{{site.data.keyword.Bluemix_notm}} 运行时](/docs/cfapps/runtimes.html)| 使用运行时可快速启动并运行应用程序，无需设置和管理计算机与操作系统。所有 {{site.data.keyword.Bluemix_notm}} 运行时都可供您在 {{site.data.keyword.Bluemix_notm}} Local 实例中使用。|
+|已包含| [{{site.data.keyword.autoscaling}}](/docs/services/Auto-Scaling/index.html)| 根据策略，动态增大或减小应用程序的计算容量。通过此服务，您在 {{site.data.keyword.Bluemix}} Local 环境中的使用不受限制。|
+|可选| [{{site.data.keyword.apiconnect_short}}](/docs/services/apiconnect/index.html) | {{site.data.keyword.apiconnect_long}} 将 {{site.data.keyword.APIM}} 和 IBM StrongLoop 集成到单个产品中，以提供一个综合解决方案来创建、运行、管理和强制执行 API 与微服务。|
+|可选| [{{site.data.keyword.containershort}}](/docs/containers/container_index.html) | 在 {{site.data.keyword.Bluemix_notm}} Local 上运行 Docker 容器。容器是包含应用程序运行所需的所有元素的虚拟软件对象。容器不仅具有资源隔离和分配的好处，而且还比虚拟机器（举例来说）的可移植性更好，且更有效率。有关硬件需求的信息，请参阅 [{{site.data.keyword.Bluemix_notm}} Dedicated 和 Bluemix Local 中的 IBM {{site.data.keyword.containershort}}](/docs/containers/container_ov.html#container_dl)。|
+|可选| [{{site.data.keyword.datacshort}}](/docs/services/DataCache/index.html#data_cache) | 此服务提供内存中数据网格，支持应用程序使用分布式高速缓存方案。包含 50 GB 内存中高速缓存。|
+| 可选 (Beta)| [日志记录](/docs/monitoringandlogging/cfapps_ml_logs_dedicated_ov.html#container_ml_logs_dedicated_ov)| 为 {{site.data.keyword.Bluemix_notm}} 用户界面中的 Cloud Foundry 应用程序和 Kibana 中的可搜索日志和仪表板提供日志。|
+|可选| [{{site.data.keyword.mobilepush}}](/docs/services/mobilepush/index.html) | {{site.data.keyword.mobilepush}} 是可用于向 iOS 和 Android 设备发送通知的服务。通知可以针对所有应用程序用户发送，也可以针对一组使用标记的特定用户和设备发送。您可以管理设备、标记和预订。还可以使用 SDK（软件开发包）和具象状态传输 (REST) 应用程序编程接口 (API) 来进一步开发您的客户机应用程序。|
+|可选| [{{site.data.keyword.sescashort}}](/docs/services/SessionCache/index.html#session_cache) | 为了提高冗余度，{{site.data.keyword.sescashort}} 提供了高速缓存中存储的会话的副本。因此，万一发生掉线或中断，客户机应用程序能够继续访问高速缓存中的会话。此服务支持 Web 和移动应用程序的会话高速缓存场景。|
+|可选| [{{site.data.keyword.iot_short}}](/docs/services/IoT/index.html) | 此服务允许应用程序与连接的设备、传感器和网关进行通信，以及使用这些设备、传感器和网关收集的数据。本地基本产品包括初始环境，允许在本地环境中运行 IBM {{site.data.keyword.iot_short}} 的专用版本，容量为 100,000 个并行连接设备或应用程序，数据交换量为 1.6 TB。|
 {: caption="表 1. Local 服务和运行时" caption-side="top"}
 {: #table01}
 
 
 有一些可选组件可供您购买，用于扩展资源和服务的容量。可以通过联系销售团队来购买其中任何组件；请转至[联系我们](https://console.ng.bluemix.net/?direct=classic/#/contactUs/cloudOEPaneId=contactUs)，以获取有关联系销售代表的信息。要增加服务的套餐，可以从目录的服务磁贴中选择套餐。
 
-| **名称** | **描述** |
+| **名称**| **描述**|
 |----------|-----------------|
-|{{site.data.keyword.Bluemix_notm}} Local {{site.data.keyword.apiconnect_short}} Professional 500 万次 API 调用 | 此环境允许运行 {{site.data.keyword.apiconnect_short}} 的专用版本，容量为每月针对部门 API 项目进行 500 万次 API 调用。 |
-|{{site.data.keyword.Bluemix_notm}} Local {{site.data.keyword.apiconnect_short}} Professional 增加 10 万次 API 调用| {{site.data.keyword.apiconnect_short}} Professional 环境的扩展，用于每月提供额外 10 万次 API 调用容量。 |
-|{{site.data.keyword.Bluemix_notm}} Local {{site.data.keyword.apiconnect_short}} Enterprise 2500 万次 API 调用 | 此环境允许运行 {{site.data.keyword.apiconnect_short}} 的专用版本，容量为每月针对企业级 API 项目进行 2500 万次 API 调用。 |
-|{{site.data.keyword.Bluemix_notm}} Local {{site.data.keyword.apiconnect_short}} Enterprise 增加 10 万次 API 调用 | {{site.data.keyword.apiconnect_short}} Enterprise 环境的扩展，用于每月提供额外 10 万次 API 调用容量。 |
-|{{site.data.keyword.Bluemix_notm}} Data & Session Cache 增加 50 GB 容量 | 此环境允许部署和运行 Data Cache 和 Session Cache 实例，最高累计容量为 50 GB。 |
-|{{site.data.keyword.Bluemix_notm}} {{site.data.keyword.iot_short}} Local 递增增加 | 除允许在本地环境中运行 {{site.data.keyword.iot_short}} 专用版本的 {{site.data.keyword.iot_short}} Local 基本服务产品以外的环境，容量为 100,000 个并行连接设备或应用程序，数据交换量为 0.5 TB。 |
-|{{site.data.keyword.IBM_notm}} {{site.data.keyword.mobilepush}} Local 附加组件实例 | 此环境允许部署和运行 {{site.data.keyword.mobilepush}} 实例，每秒能额外接受 300 个请求。 |
+|{{site.data.keyword.Bluemix_notm}} Local {{site.data.keyword.apiconnect_short}} Professional 500 万次 API 调用| 此环境允许运行 {{site.data.keyword.apiconnect_short}} 的专用版本，容量为每月针对部门 API 项目进行 500 万次 API 调用。|
+|{{site.data.keyword.Bluemix_notm}} Local {{site.data.keyword.apiconnect_short}} Professional 增加 10 万次 API 调用| {{site.data.keyword.apiconnect_short}} Professional 环境的扩展，用于每月提供额外 10 万次 API 调用容量。|
+|{{site.data.keyword.Bluemix_notm}} Local {{site.data.keyword.apiconnect_short}} Enterprise 2500 万次 API 调用| 此环境允许运行 {{site.data.keyword.apiconnect_short}} 的专用版本，容量为每月针对企业级 API 项目进行 2500 万次 API 调用。|
+|{{site.data.keyword.Bluemix_notm}} Local {{site.data.keyword.apiconnect_short}} Enterprise 增加 10 万次 API 调用| {{site.data.keyword.apiconnect_short}} Enterprise 环境的扩展，用于每月提供额外 10 万次 API 调用容量。|
+|{{site.data.keyword.Bluemix_notm}} Data & Session Cache 增加 50 GB 容量| 此环境允许部署和运行 Data Cache 和 Session Cache 实例，最高累计容量为 50 GB。|
+|{{site.data.keyword.Bluemix_notm}} {{site.data.keyword.iot_short}} Local 递增增加| 除允许在本地环境中运行 {{site.data.keyword.iot_short}} 专用版本的 {{site.data.keyword.iot_short}} Local 基本服务产品以外的环境，容量为 100,000 个并行连接设备或应用程序，数据交换量为 0.5 TB。|
+|{{site.data.keyword.IBM_notm}} {{site.data.keyword.mobilepush}} Local 附加组件实例| 此环境允许部署和运行 {{site.data.keyword.mobilepush}} 实例，每秒能额外接受 300 个请求。|
 {: caption="表 2. 可购买的可选服务组件" caption-side="top"}
 {: #table02}
 
-| **名称** | **描述** |
+| **名称**| **描述**|
 |----------|-----------------|
-|本地 Cloud Foundry 运行时 64 GB 容量  | Cloud Foundry 运行时环境，具有 64 GB 运行时容量。 |
-|本地 Cloud Foundry 运行时增加 16 GB 容量  | 扩展 Cloud Foundry 运行时环境，以额外提供 16 GB 运行时容量。 |
-|本地 {{site.data.keyword.containerlong}} 增加 16 GB 容量  | 扩展 {{site.data.keyword.containerlong}} 环境，以额外提供 16 GB 容量。 |
-|本地 {{site.data.keyword.containerlong}} 64 GB 容量  | {{site.data.keyword.containerlong}} 环境，具有 64 GB 容量。 |
+|本地 Cloud Foundry 运行时 64 GB 容量| Cloud Foundry 运行时环境，具有 64 GB 运行时容量。|
+|本地 Cloud Foundry 运行时增加 16 GB 容量| 扩展 Cloud Foundry 运行时环境，以额外提供 16 GB 运行时容量。|
+|本地 {{site.data.keyword.containerlong}} 增加 16 GB 容量| 扩展 {{site.data.keyword.containerlong}} 环境，以额外提供 16 GB 容量。|
+|本地 {{site.data.keyword.containerlong}} 64 GB 容量| {{site.data.keyword.containerlong}} 环境，具有 64 GB 容量。|
 {: caption="表 3. 可购买的可选平台附加组件" caption-side="top"}
 {: #table03}
 
@@ -76,56 +76,56 @@ IBM® 使用云操作即服务来监视和维护您的环境，让您可以专�
 
 如果您的本地环境有私有的 {{site.data.keyword.Bluemix_notm}} 服务实例，那么您将在目录管理视图中看到服务名称带有“本地”标记。与此类似，如果这是定制服务（即您使用的是服务代理程序创建的服务），那么您将看到列出服务名称时有“定制”字样。通过从 {{site.data.keyword.Bluemix_notm}} Public 使用联合，即可使用列出的不带“本地”或“定制”标记的其他所有服务。联合服务提供了用于创建混合应用程序的功能，混合应用程序由公共服务和私有服务组成。
 
-|服务	|在美国南部区域中可用	|在欧洲英国区域中可用 |在澳洲悉尼区域中可用|
+|服务|在美国南部区域中可用|在欧洲英国区域中可用|在澳洲悉尼区域中可用|
 |:----------|:------------------------------|:------------------|:------------------|
-|{{site.data.keyword.alchemyapishort}} 		|是	   	|是  		|是|
-|{{site.data.keyword.alertnotificationshort}}	|是		|是		|是	|
-|{{site.data.keyword.apiconnect_short}}         |是            |是            |是  |
-|{{site.data.keyword.appseccloudshort}}		|是		|是		|是 |
-|{{site.data.keyword.apiconnect_short}} 	|是   	 	|是  	 	|是   |
-|Automated Accessibility Checker |是       |是    |是   |
-|{{site.data.keyword.rules_short}}		|是		|是		|是 |
-|{{site.data.keyword.iotmapinsights_short}}    |是  |是  |是  |
-|{{site.data.keyword.conversationshort}}  |是  |是  |是  |
-|{{site.data.keyword.dashdbshort}}		|是		|是		|是 |
-|{{site.data.keyword.dataworks_short}}		|是		|是		|否|
-|{{site.data.keyword.DB2OnCloud_short}}		|是		|是		|是 |
-|Digital Content Checker |是  |是  |是  |
-|{{site.data.keyword.documentconversionshort}}	|是		|是		|是|
-|{{site.data.keyword.iotdriverinsights_short}}  |是 |是  |是  |
-|{{site.data.keyword.geospatialshort_Geospatial}}	|是	|是		|是 |
-|{{site.data.keyword.GlobalizationPipeline_short}}	|是		| 是		| 是 |
-|{{site.data.keyword.identitymixershort}}		|是		|是		|是|
-|{{site.data.keyword.iot4auto_short}} |是   |是  |是  |
-|{{site.data.keyword.iotelectronics}}  |是  |是  |否 |
-|{{site.data.keyword.iotinsurance_short}} |否   |否   |是  |
-|{{site.data.keyword.twittershort}}		|是		|是		|是|
-|{{site.data.keyword.languagetranslationshort}}	|是		|是		|是 |
-|{{site.data.keyword.languagetranslatorshort}} |是  |是  |是  |
-|{{site.data.keyword.dwl_short}}  |是  |是  |否  |
-|{{site.data.keyword.eventhubshort}}		|是		|否		|否|
-|{{site.data.keyword.messagehub}}		|是		|是		|否|
-|{{site.data.keyword.manda}}			|是		|是		|是 |
-|{{site.data.keyword.amashort}}			|是		|是		|是 |
-|{{site.data.keyword.mqa}}			|是		|是		|是 |
-|{{site.data.keyword.mql}}			|否		|否		|是 |
-|{{site.data.keyword.nlclassifierlshort}} 	|是 		|是 		|是|
-|{{site.data.keyword.personalityinsightsshort}}	|是		|是		|是|
-|{{site.data.keyword.pm_short}}			|是		|是		|否 |
-|{{site.data.keyword.mobilepush}}		|是		|是		|是 |
-|{{site.data.keyword.retrieveandrankshort}}	|是 		|是 		|是|
-|{{site.data.keyword.runbook_short}}		|是		|是		|是|
-|{{site.data.keyword.SecureGateway}}		|是		|是		|是 |
-|{{site.data.keyword.ssofull}}			|是		|否		|否|
-|{{site.data.keyword.speechtotextshort}}	|是 		|是	 	|是|
-|{{site.data.keyword.streaminganalyticsshort}}	|是		|是		|是 |
-|{{site.data.keyword.texttospeechshort}} 	|是 		|是	 	|是|
-|{{site.data.keyword.toneanalyzershort}} 	|是 		|是 		|是|
-|{{site.data.keyword.tradeoffanalyticsshort}}	|是		|是		|是|
-|{{site.data.keyword.visualrecognitionshort}}	|是 		|是	 	|是|
-|{{site.data.keyword.iot_short}}		|是		|是		|否|
-|{{site.data.keyword.weather_short}}		|是		|是		|是|
-|{{site.data.keyword.workloadscheduler}}	|是		|是		|是 |
+|{{site.data.keyword.alchemyapishort}} 		|是|是|是|
+|{{site.data.keyword.alertnotificationshort}}	|是|是|是|
+|{{site.data.keyword.apiconnect_short}}         |是|是|是|
+|{{site.data.keyword.appseccloudshort}}		|是|是|是|
+|{{site.data.keyword.apiconnect_short}} 	|是|是|是|
+|Automated Accessibility Checker|是|是|是|
+|{{site.data.keyword.rules_short}}		|是|是|是|
+|{{site.data.keyword.iotmapinsights_short}}    |是|是|是|
+|{{site.data.keyword.conversationshort}}  |是|是|是|
+|{{site.data.keyword.dashdbshort}}		|是|是|是|
+|{{site.data.keyword.dataworks_short}}		|是|是|否|
+|{{site.data.keyword.DB2OnCloud_short}}		|是|是|是|
+|Digital Content Checker|是|是|是|
+|{{site.data.keyword.documentconversionshort}}	|是|是|是|
+|{{site.data.keyword.iotdriverinsights_short}}  |是|是|是|
+|{{site.data.keyword.geospatialshort_Geospatial}}	|是|是|是|
+|{{site.data.keyword.GlobalizationPipeline_short}}	|是| 是| 是|
+|{{site.data.keyword.identitymixershort}}		|是|是|是|
+|{{site.data.keyword.iot4auto_short}} |是|是|是|
+|{{site.data.keyword.iotelectronics}}  |是|是|否|
+|{{site.data.keyword.iotinsurance_short}} |否|否|是|
+|{{site.data.keyword.twittershort}}		|是|是|是|
+|{{site.data.keyword.languagetranslationshort}}	|是|是|是|
+|{{site.data.keyword.languagetranslatorshort}} |是|是|是|
+|{{site.data.keyword.dwl_short}}  |是|是|否|
+|{{site.data.keyword.eventhubshort}}		|是|否|否|
+|{{site.data.keyword.messagehub}}		|是|是|否|
+|{{site.data.keyword.manda}}			|是|是|是|
+|{{site.data.keyword.amashort}}			|是|是|是|
+|{{site.data.keyword.mqa}}			|是|是|是|
+|{{site.data.keyword.mql}}			|否|否|是|
+|{{site.data.keyword.nlclassifierlshort}} 	|是|是|是|
+|{{site.data.keyword.personalityinsightsshort}}	|是|是|是|
+|{{site.data.keyword.pm_short}}			|是|是|否|
+|{{site.data.keyword.mobilepush}}		|是|是|是|
+|{{site.data.keyword.retrieveandrankshort}}	|是|是|是|
+|{{site.data.keyword.runbook_short}}		|是|是|是|
+|{{site.data.keyword.SecureGateway}}		|是|是|是|
+|{{site.data.keyword.ssofull}}			|是|否|否|
+|{{site.data.keyword.speechtotextshort}}	|是|是|是|
+|{{site.data.keyword.streaminganalyticsshort}}	|是|是|是|
+|{{site.data.keyword.texttospeechshort}} 	|是|是|是|
+|{{site.data.keyword.toneanalyzershort}} 	|是|是|是|
+|{{site.data.keyword.tradeoffanalyticsshort}}	|是|是|是|
+|{{site.data.keyword.visualrecognitionshort}}	|是|是|是|
+|{{site.data.keyword.iot_short}}		|是|是|否|
+|{{site.data.keyword.weather_short}}		|是|是|是|
+|{{site.data.keyword.workloadscheduler}}	|是|是|是|
 {: caption="表 4. 按区域为 {{site.data.keyword.Bluemix_notm}} Public 联合提供的服务" caption-side="top"}
 {: #table04}
 
@@ -367,31 +367,31 @@ Cloud Foundry 和 {{site.data.keyword.Bluemix_notm}} 应用程序访问本地环
 - 定义并建立企业网络与 {{site.data.keyword.Bluemix_notm}} 运营之间的网络连接。
 - 为管理团队确定并分配角色。
 
-| **任务** | **任务详细信息** | **责任方** |
+| **任务**| **任务详细信息**| **责任方**|
 |----------|------------------|-----------------------|
-|设置合规标准 | 确定环境所需的政府、行业和专有公司标准。 | 客户 |
-|创建安全和合规性集成计划 | 创建安全和集成计划，其中包含达到安全合规性所需的成本、计划安排和资源。 | {{site.data.keyword.IBM_notm}} |
-|合规性计划审批 | 审批合规性计划。 | 客户 |
-|创建环境规模标准 |  	基于预定义的选项来创建环境规模标准，这些选项将高可用性、灾难恢复目标以及初始 DEA 和服务供应全部考虑在内，其中初始 DEA 和服务供应是为使用平台创建的应用程序提供支持所必需的。您和 {{site.data.keyword.IBM_notm}} 一起定义一些内容，例如需要哪些数据库，以及在客户的联合目录中提供哪些服务等。 | {{site.data.keyword.IBM_notm}} 和客户共担责任 |
-|选择体系结构 | 基于预定义的选项来选择体系结构，这些选项将高可用性和灾难恢复需求考虑在内。 | {{site.data.keyword.IBM_notm}} |
-|定义灾难恢复目标 | 为环境定义灾难恢复需求。 | 客户 |
-|创建灾难恢复计划 | 协商和定义灾难恢复计划。{{site.data.keyword.IBM_notm}} 创建灾难恢复模型，并与您协商在何处由您提供反馈和审批计划。 | {{site.data.keyword.IBM_notm}} 和客户共担责任 |
-|创建备份和恢复计划 | 创建备份和恢复计划，其中定义现场和非现场分布的备份的频率和需求。{{site.data.keyword.IBM_notm}} 备份平台组件、{{site.data.keyword.IBM_notm}} 服务、服务元数据（包括用户角色）等。您备份自己负责的任何特定于应用程序的数据。 | {{site.data.keyword.IBM_notm}} 和客户共担责任 |
-|确定用于事件检测和问题确定的工具 | 确定用于在 {{site.data.keyword.Bluemix_notm}} 平台级别进行事件检测和问题确定的 {{site.data.keyword.IBM_notm}} 和第三方工具。 | {{site.data.keyword.IBM_notm}} |
-|定义上报计划 | 定义上报计划以分类和解决从监视组件检测到的事件。 | {{site.data.keyword.IBM_notm}} |
-|签署基础架构、平台和支持协议 | 签署预订协议，包括环境的财务条款和条件。签署支持预订。 | 客户 |
-|采购环境 | 采购计算资源、网络和存储。有关环境基础架构需求的更多信息，请参阅 [Local 基础架构需求](../local/index.html#localinfra)。 | 客户 |
-|安装 VPN 解决方案 | 安装双向 VPN 解决方案。 | {{site.data.keyword.IBM_notm}} |
-|安装平台、应用程序以及监视和管理组件 | 安装、配置和验证平台组件（例如，BOSH Director、云控制器、运行状况管理器、消息传递、路由器、DEA 和服务提供者），以及在上报和问题检测计划中定义的监视组件。 | {{site.data.keyword.IBM_notm}} |
-|安装和配置安全组件 | 安装和配置与监视和上报计划绑定的安全组件，包括 {{site.data.keyword.IBM_notm}} QRadar、凭证保险库、入侵防御系统、{{site.data.keyword.IBM_notm}} BigFix 和 {{site.data.keyword.IBM_notm}} Security Privileged Identity Management。 | {{site.data.keyword.IBM_notm}} |
-|配置登录服务器 | 配置登录服务器以与公司 LDAP 配合使用。 | {{site.data.keyword.IBM_notm}} |
-|安装和配置定制组件 |  	安装和配置位于 {{site.data.keyword.Bluemix_notm}} 产品和服务范围之外的定制组件。 | 客户 |
-|连接 {{site.data.keyword.Bluemix_notm}} 管道 | 将 {{site.data.keyword.Bluemix_notm}} 持续集成和持续交付管道与 {{site.data.keyword.IBM_notm}} 存储库相连接。 | {{site.data.keyword.IBM_notm}} |
-|定制外部解决方案组件 | 为灾难恢复方案定制负载均衡器。 | 客户 |
-|跟踪安全性、合规性和审计控制的状态  | 跟踪状态，直到所有工具和流程全部落实到位，达到确定的合规性为止。 | 客户 |
-|审查物理基础架构 | 审查托管解决方案组件的物理部署是否有威胁，并查看用于保护数据中心的安全性控制。 | 客户 |
-|检查监视软件 | 检查上报和问题确定计划中定义的监视和管理组件。 | 客户 |
-|检查操作系统 | 检查以确保操作系统映像达到合规标准。{{site.data.keyword.IBM_notm}} 提供对操作系统映像的访问权。 | {{site.data.keyword.IBM_notm}} 和客户共担责任 |
+|设置合规标准| 确定环境所需的政府、行业和专有公司标准。| 客户|
+|创建安全和合规性集成计划| 创建安全和集成计划，其中包含达到安全合规性所需的成本、计划安排和资源。| {{site.data.keyword.IBM_notm}} |
+|合规性计划审批| 审批合规性计划。| 客户|
+|创建环境规模标准|  	基于预定义的选项来创建环境规模标准，这些选项将高可用性、灾难恢复目标以及初始 DEA 和服务供应全部考虑在内，其中初始 DEA 和服务供应是为使用平台创建的应用程序提供支持所必需的。您和 {{site.data.keyword.IBM_notm}} 一起定义一些内容，例如需要哪些数据库，以及在客户的联合目录中提供哪些服务等。| {{site.data.keyword.IBM_notm}} 和客户共担责任|
+|选择体系结构| 基于预定义的选项来选择体系结构，这些选项将高可用性和灾难恢复需求考虑在内。| {{site.data.keyword.IBM_notm}} |
+|定义灾难恢复目标| 为环境定义灾难恢复需求。| 客户|
+|创建灾难恢复计划| 协商和定义灾难恢复计划。{{site.data.keyword.IBM_notm}} 创建灾难恢复模型，并与您协商在何处由您提供反馈和审批计划。| {{site.data.keyword.IBM_notm}} 和客户共担责任|
+|创建备份和恢复计划| 创建备份和恢复计划，其中定义现场和非现场分布的备份的频率和需求。{{site.data.keyword.IBM_notm}} 备份平台组件、{{site.data.keyword.IBM_notm}} 服务、服务元数据（包括用户角色）等。您备份自己负责的任何特定于应用程序的数据。| {{site.data.keyword.IBM_notm}} 和客户共担责任|
+|确定用于事件检测和问题确定的工具| 确定用于在 {{site.data.keyword.Bluemix_notm}} 平台级别进行事件检测和问题确定的 {{site.data.keyword.IBM_notm}} 和第三方工具。| {{site.data.keyword.IBM_notm}} |
+|定义上报计划| 定义上报计划以分类和解决从监视组件检测到的事件。| {{site.data.keyword.IBM_notm}} |
+|签署基础架构、平台和支持协议| 签署预订协议，包括环境的财务条款和条件。签署支持预订。| 客户|
+|采购环境| 采购计算资源、网络和存储。有关环境基础架构需求的更多信息，请参阅 [Local 基础架构需求](../local/index.html#localinfra)。| 客户|
+|安装 VPN 解决方案| 安装双向 VPN 解决方案。| {{site.data.keyword.IBM_notm}} |
+|安装平台、应用程序以及监视和管理组件| 安装、配置和验证平台组件（例如，BOSH Director、云控制器、运行状况管理器、消息传递、路由器、DEA 和服务提供者），以及在上报和问题检测计划中定义的监视组件。| {{site.data.keyword.IBM_notm}} |
+|安装和配置安全组件| 安装和配置与监视和上报计划绑定的安全组件，包括 {{site.data.keyword.IBM_notm}} QRadar、凭证保险库、入侵防御系统、{{site.data.keyword.IBM_notm}} BigFix 和 {{site.data.keyword.IBM_notm}} Security Privileged Identity Management。| {{site.data.keyword.IBM_notm}} |
+|配置登录服务器| 配置登录服务器以与公司 LDAP 配合使用。| {{site.data.keyword.IBM_notm}} |
+|安装和配置定制组件|  	安装和配置位于 {{site.data.keyword.Bluemix_notm}} 产品和服务范围之外的定制组件。| 客户|
+|连接 {{site.data.keyword.Bluemix_notm}} 管道| 将 {{site.data.keyword.Bluemix_notm}} 持续集成和持续交付管道与 {{site.data.keyword.IBM_notm}} 存储库相连接。| {{site.data.keyword.IBM_notm}} |
+|定制外部解决方案组件| 为灾难恢复方案定制负载均衡器。| 客户|
+|跟踪安全性、合规性和审计控制的状态| 跟踪状态，直到所有工具和流程全部落实到位，达到确定的合规性为止。| 客户|
+|审查物理基础架构| 审查托管解决方案组件的物理部署是否有威胁，并查看用于保护数据中心的安全性控制。| 客户|
+|检查监视软件| 检查上报和问题确定计划中定义的监视和管理组件。| 客户|
+|检查操作系统| 检查以确保操作系统映像达到合规标准。{{site.data.keyword.IBM_notm}} 提供对操作系统映像的访问权。| {{site.data.keyword.IBM_notm}} 和客户共担责任|
 {: caption="表 5. 先启阶段任务" caption-side="top"}
 
 接下来是进展阶段。进展阶段描述了您和 IBM 的持续协作关系。此阶段的主要目标包含以下内容：
@@ -400,21 +400,21 @@ Cloud Foundry 和 {{site.data.keyword.Bluemix_notm}} 应用程序访问本地环
 - 审查维护和平台改进。
 - 协调问题解决和根本原因分析活动。
 
-| **任务** | **任务详细信息** | **责任方** |
+| **任务**| **任务详细信息**| **责任方**|
 |----------|------------------|-----------------------|
-|审查每周容量报告 | 审查每周容量报告，并根据需要采取纠正措施。 | 客户 |
-|创建每月预测 | 收集容量和使用量信息，并创建容量和使用量的每月预测。 | {{site.data.keyword.IBM_notm}} 和客户共担责任 |
-|审查容量预测 | 审查容量预测，这些预测与可能影响容量的外部事件以及与预期的新应用程序部署相关。与 {{site.data.keyword.IBM_notm}} 一起审查预测并相应地进行规划。 | {{site.data.keyword.IBM_notm}} 和客户共担责任 |
-|调整容量 |  随着需求的变化来增减容量。 | {{site.data.keyword.IBM_notm}} |
-|发布即将到来的更新和维护 | 创建 {{site.data.keyword.IBM_notm}} 组件所需维护的相应文档。 | {{site.data.keyword.IBM_notm}} |
-|执行维护 | 与 {{site.data.keyword.IBM_notm}} 一起安排必需的维护（维护时段为 21 天）。您可以提供在 21 天的时段内可能不适合进行维护的日期，然后 {{site.data.keyword.IBM_notm}} 会尽量相应地制定维护计划。 | {{site.data.keyword.IBM_notm}} 和客户共担责任 |
-|地址供应失败 | 针对部署到“目录”的客户创建的服务，解决供应失败问题（如果发生）。 | {{site.data.keyword.IBM_notm}} |
-|执行网络和 IP 扫描 | 执行每日和每月网络和 IP 扫描。 | {{site.data.keyword.IBM_notm}} 和客户共担责任 |
-|提供对审计日志的访问权 | 提供对所有安全和管理审计日志的访问权。   | {{site.data.keyword.IBM_notm}} 和客户共担责任 |
-|执行测试 | 执行定期“关键运营控制”测试和第三方渗透测试。 | {{site.data.keyword.IBM_notm}} 和客户共担责任 |
-|状态报告、审计协调和合规性会议  | 完成状态报告、外部审计协调以及在合规性审查状态会议上陈述。 | {{site.data.keyword.IBM_notm}} |
-|聘用和业务需求核查 | 针对有权访问客户环境的 {{site.data.keyword.IBM_notm}} 代表，完成每季度的聘用情况核查和持续业务需求核查。 | {{site.data.keyword.IBM_notm}} |
-|解决安全漏洞 | 解决报告的平台安全漏洞。 | {{site.data.keyword.IBM_notm}} |
+|审查每周容量报告| 审查每周容量报告，并根据需要采取纠正措施。| 客户|
+|创建每月预测| 收集容量和使用量信息，并创建容量和使用量的每月预测。| {{site.data.keyword.IBM_notm}} 和客户共担责任|
+|审查容量预测| 审查容量预测，这些预测与可能影响容量的外部事件以及与预期的新应用程序部署相关。与 {{site.data.keyword.IBM_notm}} 一起审查预测并相应地进行规划。| {{site.data.keyword.IBM_notm}} 和客户共担责任|
+|调整容量|  随着需求的变化来增减容量。| {{site.data.keyword.IBM_notm}} |
+|发布即将到来的更新和维护| 创建 {{site.data.keyword.IBM_notm}} 组件所需维护的相应文档。| {{site.data.keyword.IBM_notm}} |
+|执行维护| 与 {{site.data.keyword.IBM_notm}} 一起安排必需的维护（维护时段为 21 天）。您可以提供在 21 天的时段内可能不适合进行维护的日期，然后 {{site.data.keyword.IBM_notm}} 会尽量相应地制定维护计划。| {{site.data.keyword.IBM_notm}} 和客户共担责任|
+|地址供应失败| 针对部署到“目录”的客户创建的服务，解决供应失败问题（如果发生）。| {{site.data.keyword.IBM_notm}} |
+|执行网络和 IP 扫描| 执行每日和每月网络和 IP 扫描。| {{site.data.keyword.IBM_notm}} 和客户共担责任|
+|提供对审计日志的访问权| 提供对所有安全和管理审计日志的访问权。| {{site.data.keyword.IBM_notm}} 和客户共担责任|
+|执行测试| 执行定期“关键运营控制”测试和第三方渗透测试。| {{site.data.keyword.IBM_notm}} 和客户共担责任|
+|状态报告、审计协调和合规性会议| 完成状态报告、外部审计协调以及在合规性审查状态会议上陈述。| {{site.data.keyword.IBM_notm}} |
+|聘用和业务需求核查| 针对有权访问客户环境的 {{site.data.keyword.IBM_notm}} 代表，完成每季度的聘用情况核查和持续业务需求核查。| {{site.data.keyword.IBM_notm}} |
+|解决安全漏洞| 解决报告的平台安全漏洞。| {{site.data.keyword.IBM_notm}} |
 {: caption="表 6. 进展阶段任务" caption-side="top"}
 
 最后是完成阶段，此阶段表示您和 {{site.data.keyword.IBM_notm}} {{site.data.keyword.Bluemix_notm}} 之间的关系结束。此阶段的主要任务包含以下内容：
@@ -423,12 +423,12 @@ Cloud Foundry 和 {{site.data.keyword.Bluemix_notm}} 应用程序访问本地环
 * 除去所有网络连接
 * 回收基础架构
 
-| **任务** | **任务详细信息** | **责任方** |
+| **任务**| **任务详细信息**| **责任方**|
 |----------|------------------|-----------------------|
-|结束财务协议 | 讨论并同意结束财务协议合同。 | {{site.data.keyword.IBM_notm}} 和客户共担责任 |
-|解除环境 | 关闭对环境的访问以及环境的凭证。 | {{site.data.keyword.IBM_notm}} 和客户共担责任 |
-|关闭中继 | 终止中继连接。 | {{site.data.keyword.IBM_notm}} |
-|回收基础架构 | 根据公司准则回收基础架构。 | 客户 |
+|结束财务协议| 讨论并同意结束财务协议合同。| {{site.data.keyword.IBM_notm}} 和客户共担责任|
+|解除环境| 关闭对环境的访问以及环境的凭证。| {{site.data.keyword.IBM_notm}} 和客户共担责任|
+|关闭中继| 终止中继连接。| {{site.data.keyword.IBM_notm}} |
+|回收基础架构| 根据公司准则回收基础架构。| 客户|
 {: caption="表 7. 完成阶段任务" caption-side="top"}
 
 

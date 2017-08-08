@@ -78,11 +78,11 @@ Wenn es sich um eine private Instanz eines {{site.data.keyword.Bluemix_notm}}-Se
 
 |Service	|Verfügbar in Region 'US South'	|Verfügbar in Region 'Europe United Kingdom' |Verfügbar in Region 'Australia Sydney'|
 |:----------|:------------------------------|:------------------|:------------------|
-|{{site.data.keyword.alchemyapishort}} 		|Ja	   	|Ja  		|Ja|
-|{{site.data.keyword.alertnotificationshort}}	|Ja		|Ja		|Ja	|
-|{{site.data.keyword.apiconnect_short}}         |Ja            |Ja            |Ja  |
+|{{site.data.keyword.alchemyapishort}} 		|Ja	   	|Ja   |Ja|
+|{{site.data.keyword.alertnotificationshort}}	|Ja		|Ja		|Ja	   	|
+|{{site.data.keyword.apiconnect_short}}         |Ja   |Ja            |Ja  |
 |{{site.data.keyword.appseccloudshort}}		|Ja		|Ja		|Ja |
-|{{site.data.keyword.apiconnect_short}} 	|Ja   	 	|Ja  	 	|Ja   |
+|{{site.data.keyword.apiconnect_short}} 	|Ja   	 	|Ja   	 	|Ja   |
 |Automatisches Prüfprogramm für Eingabehilfen |Ja       |Ja    |Ja   |
 |{{site.data.keyword.rules_short}}		|Ja		|Ja		|Ja |
 |{{site.data.keyword.iotmapinsights_short}}    |Ja  |Ja  |Ja  |
@@ -93,7 +93,7 @@ Wenn es sich um eine private Instanz eines {{site.data.keyword.Bluemix_notm}}-Se
 |Prüfprogramm für digitalen Inhalt |Ja  |Ja  |Ja  |
 |{{site.data.keyword.documentconversionshort}}	|Ja		|Ja		|Ja|
 |{{site.data.keyword.iotdriverinsights_short}}  |Ja |Ja  |Ja  |
-|{{site.data.keyword.geospatialshort_Geospatial}}	|Ja	|Ja		|Ja |
+|{{site.data.keyword.geospatialshort_Geospatial}}	|Ja	   	|Ja		|Ja |
 |{{site.data.keyword.GlobalizationPipeline_short}}	|Ja		| Ja		| Ja |
 |{{site.data.keyword.identitymixershort}}		|Ja		|Ja		|Ja|
 |{{site.data.keyword.iot4auto_short}} |Ja   |Ja  |Ja  |
@@ -109,20 +109,20 @@ Wenn es sich um eine private Instanz eines {{site.data.keyword.Bluemix_notm}}-Se
 |{{site.data.keyword.amashort}}			|Ja		|Ja		|Ja |
 |{{site.data.keyword.mqa}}			|Ja		|Ja		|Ja |
 |{{site.data.keyword.mql}}			|Nein		|Nein		|Ja |
-|{{site.data.keyword.nlclassifierlshort}} 	|Ja 		|Ja 		|Ja|
+|{{site.data.keyword.nlclassifierlshort}} 	|Ja   |Ja   |Ja|
 |{{site.data.keyword.personalityinsightsshort}}	|Ja		|Ja		|Ja|
 |{{site.data.keyword.pm_short}}			|Ja		|Ja		|Nein |
 |{{site.data.keyword.mobilepush}}		|Ja		|Ja		|Ja |
-|{{site.data.keyword.retrieveandrankshort}}	|Ja 		|Ja 		|Ja|
+|{{site.data.keyword.retrieveandrankshort}}	|Ja   |Ja   |Ja|
 |{{site.data.keyword.runbook_short}}		|Ja		|Ja		|Ja|
 |{{site.data.keyword.SecureGateway}}		|Ja		|Ja		|Ja |
 |{{site.data.keyword.ssofull}}			|Ja		|Nein		|Nein|
-|{{site.data.keyword.speechtotextshort}}	|Ja 		|Ja	 	|Ja|
+|{{site.data.keyword.speechtotextshort}}	|Ja   |Ja	   	|Ja|
 |{{site.data.keyword.streaminganalyticsshort}}	|Ja		|Ja		|Ja |
-|{{site.data.keyword.texttospeechshort}} 	|Ja 		|Ja	 	|Ja|
-|{{site.data.keyword.toneanalyzershort}} 	|Ja 		|Ja 		|Ja|
+|{{site.data.keyword.texttospeechshort}} 	|Ja   |Ja	   	|Ja|
+|{{site.data.keyword.toneanalyzershort}} 	|Ja   |Ja   |Ja|
 |{{site.data.keyword.tradeoffanalyticsshort}}	|Ja		|Ja		|Ja|
-|{{site.data.keyword.visualrecognitionshort}}	|Ja 		|Ja	 	|Ja|
+|{{site.data.keyword.visualrecognitionshort}}	|Ja   |Ja	   	|Ja|
 |{{site.data.keyword.iot_short}}		|Ja		|Ja		|Nein|
 |{{site.data.keyword.weather_short}}		|Ja		|Ja		|Ja|
 |{{site.data.keyword.workloadscheduler}}	|Ja		|Ja		|Ja |
@@ -420,7 +420,7 @@ Als Nächstes folgt die Fortschrittsphase. Die Fortschrittsphase beschreibt die 
 
 | **Task** | **Taskdetails** | **Zuständiges Team** |
 |----------|------------------|-----------------------|
-|Überprüfen von wöchentlichen Kapazitätsberichten | Überprüfen Sie die wöchentlichen Kapazitätsberichte und ergreifen Sie ggf. Korrekturmaßnahmen. | Kunde |
+|Überprüfen von wöchentlichen Kapazitätsberichten| Überprüfen Sie die wöchentlichen Kapazitätsberichte und ergreifen Sie ggf. Korrekturmaßnahmen. | Kunde |
 |Erstellen von monatlichen Projektionen | Erfassen Sie Informationen und erstellen Sie eine monatliche Projektion von Kapazität und Nutzung. | {{site.data.keyword.IBM_notm}} und Kunde |
 |Überprüfen von Kapazitätsprojektionen | Überprüfen Sie die Kapazitätsprojektionen hinsichtlich externer Ereignisse, die sich sowohl auf die Kapazität als auch auf geplante neue Implementierungen von Apps auswirken können. Arbeiten Sie gemeinsam mit {{site.data.keyword.IBM_notm}} an der Überprüfung der Projektionen und der
 entsprechenden Planung. | {{site.data.keyword.IBM_notm}} und Kunde |
@@ -705,7 +705,6 @@ Zu diesen Technologien zählen die folgenden:
 Execution Agent (DEA) <img src="../icons/launch-glyph.svg" alt="Symbol für externen Link"></a> führt Diagnosen
 der integrierten Apps aus. Falls ein Problem mit der App oder dem DEA selbst auftritt, werden zusätzliche Instanzen der App in einem alternativen DEA bereitgestellt, um das Problem zu beheben. Weitere Informationen finden Sie unter <a href="https://docs.cloudfoundry.org/concepts/high-availability.html" target="_blank">Configuring CF for High Availability with Redundancy <img src="../icons/launch-glyph.svg" alt="Symbol für externen Link"></a>.
 <p>Um die Hochverfügbarkeit für Ihre Anwendungen sicherzustellen, benötigen Sie genügend Rechenressourcen für den Lastausgleich sowie gegebenenfalls weitere Rechenressourcen zur Unterstützung einer möglichen Störung. Wenn Sie Ihre Umgebung skalieren möchten, indem Sie den DEA-Pool vergrößern, um für eine Störung vorbereitet zu sein oder eine Lastspitze für Ihre App-Instanzen auszugleichen, können Sie in Absprache mit Ihrem IBM Ansprechpartner zusätzliche DEAs bestellen und sicherstellen, dass Sie über die entsprechende Hardware verfügen, um die zusätzlichen Ressourcen zu unterstützen.
-
 </p>
 </dd>
 <dt>Metadatensicherung</dt>

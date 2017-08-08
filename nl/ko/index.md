@@ -31,15 +31,15 @@ IBM®은 환경의 맨 위에서 실행되는 앱과 서비스를 빌드하는 �
 
 | **유형** | **이름** | **설명** |
 |----------|----------|-----------------|
-|포함 | [{{site.data.keyword.Bluemix_notm}} 런타임](/docs/cfapps/runtimes.html) | 시스템 및 운영 체제를 설정하고 관리할 필요 없이 신속하게 앱을 시작하고 실행하려면 런타임을 사용하십시오. 모든 {{site.data.keyword.Bluemix_notm}} 런타임은 {{site.data.keyword.Bluemix_notm}} 로컬 인스턴스에서 사용자에게 사용 가능합니다.|
-|포함 | [{{site.data.keyword.autoscaling}}](/docs/services/Auto-Scaling/index.html)| 정책에 따라 애플리케이션의 컴퓨팅 용량을 동적으로 늘리거나 줄입니다. 이 서비스를 사용하면 {{site.data.keyword.Bluemix}} 로컬 환경에서 무제한 사용이 가능합니다.|
-|선택사항 | [{{site.data.keyword.apiconnect_short}}](/docs/services/apiconnect/index.html) | {{site.data.keyword.apiconnect_long}}는 {{site.data.keyword.APIM}}와 IBM StrongLoop를 API 및 마이크로서비스를 작성, 실행, 관리 및 적용하기 위한 포괄적 솔루션을 제공하는 단일 오퍼링으로 통합합니다. |
-|선택사항 | [{{site.data.keyword.containershort}}](/docs/containers/container_index.html) | {{site.data.keyword.Bluemix_notm}} 로컬에서 Docker 컨테이너를 실행합니다. 컨테이너는 앱에서 실행해야 하는 모든 요소를 포함하는 가상 소프트웨어 오브젝트입니다. 컨테이너는 리소스 격리와 할당의 이점이 있으며 가상 머신 등보다 휴대가 간편하고 효율적입니다. 하드웨어 요구사항에 대한 정보는 [{{site.data.keyword.Bluemix_notm}} 데디케이티드 및 Bluemix 로컬의 IBM {{site.data.keyword.containershort}}](/docs/containers/container_ov.html#container_dl)를 참조하십시오. |
-|선택사항 | [{{site.data.keyword.datacshort}}](/docs/services/DataCache/index.html#data_cache) | 이 서비스는 앱에 대한 분산 캐싱 시나리오를 지원하는 인메모리 데이터 그리드를 제공합니다. 50GB의 인메모리 캐시가 포함됩니다. |
-| 선택사항(베타) | [Logging](/docs/monitoringandlogging/cfapps_ml_logs_dedicated_ov.html#container_ml_logs_dedicated_ov) | Kibana의 검색 가능한 로그 및 대시보드와 {{site.data.keyword.Bluemix_notm}} 사용자 인터페이스의 Cloud Foundry 앱에 대한 로그를 제공합니다. |
-|선택사항 | [{{site.data.keyword.mobilepush}}](/docs/services/mobilepush/index.html) | {{site.data.keyword.mobilepush}}는 iOS 및 Android 디바이스에 알림을 보내는 데 사용할 수 있는 서비스입니다. 알림은 모든 애플리케이션 사용자와 태그를 사용하는 특정 디바이스 및 사용자 세트를 대상으로 할 수 있습니다. 디바이스, 태그 및 구독을 관리할 수 있습니다. SDK(Software Development Kit) 및 REST(Representational State Transfer) API(Application Program Interface)를 사용하여 클라이언트 애플리케이션을 추가적으로 개발할 수도 있습니다. |
-|선택사항 | [{{site.data.keyword.sescashort}}](/docs/services/SessionCache/index.html#session_cache) | 증가된 중복성을 위해 {{site.data.keyword.sescashort}}에서는 캐시에 저장된 세션의 복제본을 제공합니다. 따라서 등화 관제 또는 가동 중단의 상황에서도 클라이언트 애플리케이션은 캐시의 세션에 계속 액세스할 수 있습니다. 이 서비스는 웹 및 모바일 애플리케이션에 대한 세션 캐싱 시나리오를 지원합니다. |
-|선택사항 | [{{site.data.keyword.iot_short}}](/docs/services/IoT/index.html) | 이 서비스를 사용하여 앱은 연결된 디바이스, 센서 및 게이트웨이와 통신하고 여기서 수집한 데이터를 이용할 수 있습니다. 로컬 기본 오퍼링에는 1.6TB의 데이터 교환과 100,000개의 동시 연결된 디바이스 또는 애플리케이션의 용량을 지닌 전용 환경 내에서 IBM {{site.data.keyword.iot_short}}의 개인용 버전 실행을 허용하는 초기 환경이 포함됩니다. |
+|포함| [{{site.data.keyword.Bluemix_notm}} 런타임](/docs/cfapps/runtimes.html) | 시스템 및 운영 체제를 설정하고 관리할 필요 없이 신속하게 앱을 시작하고 실행하려면 런타임을 사용하십시오. 모든 {{site.data.keyword.Bluemix_notm}} 런타임은 {{site.data.keyword.Bluemix_notm}} 로컬 인스턴스에서 사용자에게 사용 가능합니다.|
+|포함| [{{site.data.keyword.autoscaling}}](/docs/services/Auto-Scaling/index.html)| 정책에 따라 애플리케이션의 컴퓨팅 용량을 동적으로 늘리거나 줄입니다. 이 서비스를 사용하면 {{site.data.keyword.Bluemix}} 로컬 환경에서 무제한 사용이 가능합니다.|
+|선택사항| [{{site.data.keyword.apiconnect_short}}](/docs/services/apiconnect/index.html) | {{site.data.keyword.apiconnect_long}}는 {{site.data.keyword.APIM}}와 IBM StrongLoop를 API 및 마이크로서비스를 작성, 실행, 관리 및 적용하기 위한 포괄적 솔루션을 제공하는 단일 오퍼링으로 통합합니다.|
+|선택사항| [{{site.data.keyword.containershort}}](/docs/containers/container_index.html) | {{site.data.keyword.Bluemix_notm}} 로컬에서 Docker 컨테이너를 실행합니다. 컨테이너는 앱에서 실행해야 하는 모든 요소를 포함하는 가상 소프트웨어 오브젝트입니다. 컨테이너는 리소스 격리와 할당의 이점이 있으며 가상 머신 등보다 휴대가 간편하고 효율적입니다. 하드웨어 요구사항에 대한 정보는 [{{site.data.keyword.Bluemix_notm}} 데디케이티드 및 Bluemix 로컬의 IBM {{site.data.keyword.containershort}}](/docs/containers/container_ov.html#container_dl)를 참조하십시오.|
+|선택사항| [{{site.data.keyword.datacshort}}](/docs/services/DataCache/index.html#data_cache) | 이 서비스는 앱에 대한 분산 캐싱 시나리오를 지원하는 인메모리 데이터 그리드를 제공합니다. 50GB의 인메모리 캐시가 포함됩니다.|
+| 선택사항(베타)| [로깅](/docs/monitoringandlogging/cfapps_ml_logs_dedicated_ov.html#container_ml_logs_dedicated_ov) | Kibana의 검색 가능한 로그 및 대시보드와 {{site.data.keyword.Bluemix_notm}} 사용자 인터페이스의 Cloud Foundry 앱에 대한 로그를 제공합니다.|
+|선택사항| [{{site.data.keyword.mobilepush}}](/docs/services/mobilepush/index.html) | {{site.data.keyword.mobilepush}}는 iOS 및 Android 디바이스에 알림을 보내는 데 사용할 수 있는 서비스입니다. 알림은 모든 애플리케이션 사용자와 태그를 사용하는 특정 디바이스 및 사용자 세트를 대상으로 할 수 있습니다. 디바이스, 태그 및 구독을 관리할 수 있습니다. SDK(Software Development Kit) 및 REST(Representational State Transfer) API(Application Program Interface)를 사용하여 클라이언트 애플리케이션을 추가적으로 개발할 수도 있습니다.|
+|선택사항| [{{site.data.keyword.sescashort}}](/docs/services/SessionCache/index.html#session_cache) | 증가된 중복성을 위해 {{site.data.keyword.sescashort}}에서는 캐시에 저장된 세션의 복제본을 제공합니다. 따라서 등화 관제 또는 가동 중단의 상황에서도 클라이언트 애플리케이션은 캐시의 세션에 계속 액세스할 수 있습니다. 이 서비스는 웹 및 모바일 애플리케이션에 대한 세션 캐싱 시나리오를 지원합니다.|
+|선택사항| [{{site.data.keyword.iot_short}}](/docs/services/IoT/index.html) | 이 서비스를 사용하여 앱은 연결된 디바이스, 센서 및 게이트웨이와 통신하고 여기서 수집한 데이터를 이용할 수 있습니다. 로컬 기본 오퍼링에는 1.6TB의 데이터 교환과 100,000개의 동시 연결된 디바이스 또는 애플리케이션의 용량을 지닌 전용 환경 내에서 IBM {{site.data.keyword.iot_short}}의 개인용 버전 실행을 허용하는 초기 환경이 포함됩니다.|
 {: caption="표 1. 로컬 서비스 및 런타임" caption-side="top"}
 {: #table01}
 
@@ -48,22 +48,22 @@ IBM®은 환경의 맨 위에서 실행되는 앱과 서비스를 빌드하는 �
 
 | **이름** | **설명** |
 |----------|-----------------|
-|{{site.data.keyword.Bluemix_notm}} 로컬 {{site.data.keyword.apiconnect_short}} Professional 500만 API 호출 | 부서별 API 프로젝트 방향으로 대상 지정된 월간 500만 API 호출의 용량을 지닌 {{site.data.keyword.apiconnect_short}}의 개인용 버전 실행을 허용하는 환경입니다.  |
-|{{site.data.keyword.Bluemix_notm}} 로컬 {{site.data.keyword.apiconnect_short}} Professional 10만 API 호출 증가| 매월 10만 API 호출의 추가 용량을 제공하는 {{site.data.keyword.apiconnect_short}} Professional 환경의 확장입니다.  |
-|{{site.data.keyword.Bluemix_notm}} 로컬 {{site.data.keyword.apiconnect_short}} Enterprise 2,500만 API 호출 | 엔터프라이즈 전체 API 프로젝트 방향으로 대상 지정된 월간 2,500만 API 호출의 용량을 지닌 {{site.data.keyword.apiconnect_short}}의 개인용 버전 실행을 허용하는 환경입니다.  |
-|{{site.data.keyword.Bluemix_notm}} 로컬 {{site.data.keyword.apiconnect_short}} Enterprise 10만 API 호출 증가 | 매월 10만 API 호출의 추가 용량을 제공하는 {{site.data.keyword.apiconnect_short}} Enterprise 환경의 확장입니다.  |
-|{{site.data.keyword.Bluemix_notm}} 데이터 & 세션 캐시 50GB 용량 증가 | 최대 50GB 누적 용량까지 데이터 캐시 및 세션 캐시 인스턴스의 배치 및 실행을 허용하는 환경입니다. |
-|{{site.data.keyword.Bluemix_notm}} {{site.data.keyword.iot_short}} 로컬 증분 증가 | 0.5TB 데이터 교환과 100,000개의 동시 연결된 디바이스 또는 애플리케이션의 용량을 지닌 로컬 환경 내에서 {{site.data.keyword.iot_short}}의 개인용 버전 실행을 허용하는 {{site.data.keyword.iot_short}} 로컬 기본 서비스 오퍼링에 대한 추가 환경입니다. |
-|{{site.data.keyword.IBM_notm}} {{site.data.keyword.mobilepush}} 로컬 추가 기능 인스턴스 | 초당 300개의 추가 요청을 승인할 수 있는 능력이 있는 {{site.data.keyword.mobilepush}} 인스턴스를 배치하고 실행할 수 있는 환경입니다.  |
+|{{site.data.keyword.Bluemix_notm}} 로컬 {{site.data.keyword.apiconnect_short}} Professional 500만 API 호출| 부서별 API 프로젝트 방향으로 대상 지정된 월간 500만 API 호출의 용량을 지닌 {{site.data.keyword.apiconnect_short}}의 개인용 버전 실행을 허용하는 환경입니다. |
+|{{site.data.keyword.Bluemix_notm}} 로컬 {{site.data.keyword.apiconnect_short}} Professional 10만 API 호출 증가| 매월 10만 API 호출의 추가 용량을 제공하는 {{site.data.keyword.apiconnect_short}} Professional 환경의 확장입니다. |
+|{{site.data.keyword.Bluemix_notm}} 로컬 {{site.data.keyword.apiconnect_short}} Enterprise 2,500만 API 호출| 엔터프라이즈 전체 API 프로젝트 방향으로 대상 지정된 월간 2,500만 API 호출의 용량을 지닌 {{site.data.keyword.apiconnect_short}}의 개인용 버전 실행을 허용하는 환경입니다. |
+|{{site.data.keyword.Bluemix_notm}} 로컬 {{site.data.keyword.apiconnect_short}} Enterprise 10만 API 호출 증가| 매월 10만 API 호출의 추가 용량을 제공하는 {{site.data.keyword.apiconnect_short}} Enterprise 환경의 확장입니다. |
+|{{site.data.keyword.Bluemix_notm}} 데이터 & 세션 캐시 50GB 용량 증가| 최대 50GB 누적 용량까지 데이터 캐시 및 세션 캐시 인스턴스의 배치 및 실행을 허용하는 환경입니다.|
+|{{site.data.keyword.Bluemix_notm}} {{site.data.keyword.iot_short}} 로컬 증분 증가| 0.5TB 데이터 교환과 100,000개의 동시 연결된 디바이스 또는 애플리케이션의 용량을 지닌 로컬 환경 내에서 {{site.data.keyword.iot_short}}의 개인용 버전 실행을 허용하는 {{site.data.keyword.iot_short}} 로컬 기본 서비스 오퍼링에 대한 추가 환경입니다.|
+|{{site.data.keyword.IBM_notm}} {{site.data.keyword.mobilepush}} 로컬 추가 기능 인스턴스| 초당 300개의 추가 요청을 승인할 수 있는 능력이 있는 {{site.data.keyword.mobilepush}} 인스턴스를 배치하고 실행할 수 있는 환경입니다. |
 {: caption="표 2. 구매할 수 있는 선택적 서비스 컴포넌트" caption-side="top"}
 {: #table02}
 
 | **이름** | **설명** |
 |----------|-----------------|
-|로컬 Cloud Foundry 런타임 64GB 용량  | 64GB 런타임 용량을 제공하는 Cloud Foundry 런타임 환경입니다. |
-|로컬 Cloud Foundry 런타임 16GB 용량 증가  | 추가 16GB 런타임 용량을 제공하는 Cloud Foundry 런타임 환경의 확장입니다. |
-|로컬 {{site.data.keyword.containerlong}} 16GB 용량 증가  | 추가 16GB 용량을 제공하는 {{site.data.keyword.containerlong}} 환경의 확장입니다. |
-|로컬 {{site.data.keyword.containerlong}} 64GB 용량  | 64GB 용량을 제공하는 {{site.data.keyword.containerlong}} 환경입니다. |
+|로컬 Cloud Foundry 런타임 64GB 용량| 64GB 런타임 용량을 제공하는 Cloud Foundry 런타임 환경입니다.|
+|로컬 Cloud Foundry 런타임 16GB 용량 증가| 추가 16GB 런타임 용량을 제공하는 Cloud Foundry 런타임 환경의 확장입니다.|
+|로컬 {{site.data.keyword.containerlong}} 16GB 용량 증가| 추가 16GB 용량을 제공하는 {{site.data.keyword.containerlong}} 환경의 확장입니다.|
+|로컬 {{site.data.keyword.containerlong}} 64GB 용량| 64GB 용량을 제공하는 {{site.data.keyword.containerlong}} 환경입니다.|
 {: caption="표 3. 구매할 수 있는 선택적 플랫폼 추가 기능 컴포넌트" caption-side="top"}
 {: #table03}
 
@@ -76,56 +76,56 @@ IBM®은 환경의 맨 위에서 실행되는 앱과 서비스를 빌드하는 �
 
 로컬 환경에 대한 {{site.data.keyword.Bluemix_notm}} 서비스의 개인용 인스턴스가 있으면 카탈로그 관리 보기에 서비스 이름과 함께 "로컬" 태그가 표시됩니다. 마찬가지로, 사용자 정의 서비스인 경우(즉, 서비스 브로커를 사용하여 작성한 경우)에는 서비스 이름과 함께 "사용자 정의"가 나열됩니다. "로컬" 또는 "사용자 정의" 태그 없이 나열된 기타 모든 서비스는 {{site.data.keyword.Bluemix_notm}} 퍼블릭에서 신디케이션을 사용하여 사용할 수 있습니다. 신디케이트된(각 클라우드 형태 간 동일하게 연동된) 카탈로그는 공용 및 개인 서비스로 구성되는 하이브리드 애플리케이션을 작성하는 기능을 제공합니다. 
 
-|서비스	|미국 남부 지역에서 사용 가능	|유럽 영국 지역에서 사용 가능 |오스트레일리아 시드니 지역에서 사용 가능|
+|서비스	|미국 남부 지역에서 사용 가능|유럽 영국 지역에서 사용 가능|오스트레일리아 시드니 지역에서 사용 가능|
 |:----------|:------------------------------|:------------------|:------------------|
 |{{site.data.keyword.alchemyapishort}} 		|예	   	|예  		|예|
 |{{site.data.keyword.alertnotificationshort}}	|예		|예		|예	|
-|{{site.data.keyword.apiconnect_short}}         |예            |예            |예  |
-|{{site.data.keyword.appseccloudshort}}		|예		|예		|예 |
-|{{site.data.keyword.apiconnect_short}} 	|예   	 	|예  	 	|예   |
-|Automated Accessibility Checker |예       |예    |예   |
-|{{site.data.keyword.rules_short}}		|예		|예		|예 |
-|{{site.data.keyword.iotmapinsights_short}}    |예  |예  |예  |
-|{{site.data.keyword.conversationshort}}  |예  |예  |예  |
-|{{site.data.keyword.dashdbshort}}		|예		|예		|예 |
+|{{site.data.keyword.apiconnect_short}}         |예|예|예|
+|{{site.data.keyword.appseccloudshort}}		|예		|예		|예|
+|{{site.data.keyword.apiconnect_short}} 	|예   	 	|예   	 	|예|
+|Automated Accessibility Checker|예|예|예|
+|{{site.data.keyword.rules_short}}		|예		|예		|예|
+|{{site.data.keyword.iotmapinsights_short}}    |예|예|예|
+|{{site.data.keyword.conversationshort}}  |예|예|예|
+|{{site.data.keyword.dashdbshort}}		|예		|예		|예|
 |{{site.data.keyword.dataworks_short}}		|예		|예		|아니오|
-|{{site.data.keyword.DB2OnCloud_short}}		|예		|예		|예 |
-|Digital Content Checker |예  |예  |예  |
+|{{site.data.keyword.DB2OnCloud_short}}		|예		|예		|예|
+|Digital Content Checker|예|예|예|
 |{{site.data.keyword.documentconversionshort}}	|예		|예		|예|
-|{{site.data.keyword.iotdriverinsights_short}}  |예 |예  |예  |
-|{{site.data.keyword.geospatialshort_Geospatial}}	|예	|예		|예 |
-|{{site.data.keyword.GlobalizationPipeline_short}}	|예		| 예		| 예 |
+|{{site.data.keyword.iotdriverinsights_short}}  |예|예|예|
+|{{site.data.keyword.geospatialshort_Geospatial}}	|예	|예		|예|
+|{{site.data.keyword.GlobalizationPipeline_short}}	|예		| 예		| 예|
 |{{site.data.keyword.identitymixershort}}		|예		|예		|예|
-|{{site.data.keyword.iot4auto_short}} |예   |예  |예  |
-|{{site.data.keyword.iotelectronics}}  |예  |예  |아니오 |
-|{{site.data.keyword.iotinsurance_short}} |아니오   |아니오   |예  |
+|{{site.data.keyword.iot4auto_short}} |예|예|예|
+|{{site.data.keyword.iotelectronics}}  |예|예|아니오|
+|{{site.data.keyword.iotinsurance_short}} |아니오|아니오|예|
 |{{site.data.keyword.twittershort}}		|예		|예		|예|
-|{{site.data.keyword.languagetranslationshort}}	|예		|예		|예 |
-|{{site.data.keyword.languagetranslatorshort}} |예  |예  |예  |
-|{{site.data.keyword.dwl_short}}  |예  |예  |아니오  |
+|{{site.data.keyword.languagetranslationshort}}	|예		|예		|예|
+|{{site.data.keyword.languagetranslatorshort}} |예|예|예|
+|{{site.data.keyword.dwl_short}}  |예|예|아니오|
 |{{site.data.keyword.eventhubshort}}		|예		|아니오		|아니오|
 |{{site.data.keyword.messagehub}}		|예		|예		|아니오|
-|{{site.data.keyword.manda}}			|예		|예		|예 |
-|{{site.data.keyword.amashort}}			|예		|예		|예 |
-|{{site.data.keyword.mqa}}			|예		|예		|예 |
-|{{site.data.keyword.mql}}			|아니오		|아니오		|예 |
-|{{site.data.keyword.nlclassifierlshort}} 	|예 		|예 		|예|
+|{{site.data.keyword.manda}}			|예		|예		|예|
+|{{site.data.keyword.amashort}}			|예		|예		|예|
+|{{site.data.keyword.mqa}}			|예		|예		|예|
+|{{site.data.keyword.mql}}			|아니오		|아니오		|예|
+|{{site.data.keyword.nlclassifierlshort}} 	|예  		|예  		|예|
 |{{site.data.keyword.personalityinsightsshort}}	|예		|예		|예|
-|{{site.data.keyword.pm_short}}			|예		|예		|아니오 |
-|{{site.data.keyword.mobilepush}}		|예		|예		|예 |
-|{{site.data.keyword.retrieveandrankshort}}	|예 		|예 		|예|
+|{{site.data.keyword.pm_short}}			|예		|예		|아니오|
+|{{site.data.keyword.mobilepush}}		|예		|예		|예|
+|{{site.data.keyword.retrieveandrankshort}}	|예  		|예  		|예|
 |{{site.data.keyword.runbook_short}}		|예		|예		|예|
-|{{site.data.keyword.SecureGateway}}		|예		|예		|예 |
+|{{site.data.keyword.SecureGateway}}		|예		|예		|예|
 |{{site.data.keyword.ssofull}}			|예		|아니오		|아니오|
-|{{site.data.keyword.speechtotextshort}}	|예 		|예	 	|예|
-|{{site.data.keyword.streaminganalyticsshort}}	|예		|예		|예 |
-|{{site.data.keyword.texttospeechshort}} 	|예 		|예	 	|예|
-|{{site.data.keyword.toneanalyzershort}} 	|예 		|예 		|예|
+|{{site.data.keyword.speechtotextshort}}	|예  		|예	   	|예|
+|{{site.data.keyword.streaminganalyticsshort}}	|예		|예		|예|
+|{{site.data.keyword.texttospeechshort}} 	|예  		|예	   	|예|
+|{{site.data.keyword.toneanalyzershort}} 	|예  		|예  		|예|
 |{{site.data.keyword.tradeoffanalyticsshort}}	|예		|예		|예|
-|{{site.data.keyword.visualrecognitionshort}}	|예 		|예	 	|예|
+|{{site.data.keyword.visualrecognitionshort}}	|예  		|예	  |예|
 |{{site.data.keyword.iot_short}}		|예		|예		|아니오|
 |{{site.data.keyword.weather_short}}		|예		|예		|예|
-|{{site.data.keyword.workloadscheduler}}	|예		|예		|예 |
+|{{site.data.keyword.workloadscheduler}}	|예		|예		|예|
 {: caption="표 4. 지역별 {{site.data.keyword.Bluemix_notm}} 퍼블릭에서 신디케이션에 사용 가능한 서비스" caption-side="top"}
 {: #table04}
 
@@ -371,31 +371,31 @@ Cloud Foundry 및 {{site.data.keyword.Bluemix_notm}} 애플리케이션은 로�
 - 기업 네트워크 및 {{site.data.keyword.Bluemix_notm}} 오퍼레이션 간의 네트워크 연결을 정의하고 설정합니다.
 - 관리 팀에 대한 역할을 식별하고 지정합니다.
 
-| **태스크** | **태스크 세부사항** | **책임자** |
+| **태스크** | **태스크 세부사항** | **책임 당사자** |
 |----------|------------------|-----------------------|
-|규제 준수 표준 설정 | 환경에 필요한 정부, 산업 및 개인 기업 표준을 식별합니다. | 고객 |
-|보안 및 규제 준수 통합 플랜 작성 | 보안 규제 준수를 달성하는 데 필요한 비용, 스케줄 및 리소스를 포함하는 보안 및 통합 플랜을 작성합니다. | {{site.data.keyword.IBM_notm}} |
-|규제 준수 플랜 승인 | 규제 준수 플랜을 승인합니다. | 고객 |
-|환경에 대한 크기 작성 |  	플랫폼에서 작성된 앱을 지원하는 데 필요한 초기 DEA 및 서비스 프로비저닝뿐 아니라 고가용성 및 재해 복구 목표를 고려하여 사전 정의된 선택사항을 토대로 환경의 크기를 작성합니다. {{site.data.keyword.IBM_notm}}과 협력하여 필요한 데이터베이스, 고객의 신디케이트된(각 클라우드 형태 간 동일하게 연동된) 카탈로그에 제공되는 서비스 등을 정의합니다. | {{site.data.keyword.IBM_notm}} 및 고객 책임 공유 |
-|아키텍처 선택 | 고가용성 및 재해 복구 요구사항을 고려하여 사전 정의된 선택사항을 토대로 아키텍처를 선택합니다. | {{site.data.keyword.IBM_notm}} |
-|재해 복구 목표 정의 | 환경에 대한 재해 복구 요구사항을 정의합니다. | 고객 |
-|재해 복구 플랜 작성 | 재해 복구 플랜을 상의하여 정의합니다. {{site.data.keyword.IBM_notm}}은 재해 복구 모델을 작성하고 사용자가 피드백을 제공하고 플랜을 승인할 때 사용자와 상의합니다. | {{site.data.keyword.IBM_notm}} 및 고객 책임 공유 |
-|백업 및 복구 플랜 작성 | 온오프 사이트 백업 분배를 위한 요구사항과 빈도를 정의하는 백업 및 복구 플랜을 작성합니다. {{site.data.keyword.IBM_notm}}은 플랫폼 컴포넌트, {{site.data.keyword.IBM_notm}} 서비스, 사용자 역할을 포함하는 서비스 메타데이터 등을 백업합니다. 사용자는 사용자에게 책임이 있는 애플리케이션 고유 데이터를 백업합니다. | {{site.data.keyword.IBM_notm}} 및 고객 책임 공유 |
-|이벤트 발견 및 문제점 판별을 위한 식별 도구 | {{site.data.keyword.Bluemix_notm}} 플랫폼 레벨에서 이벤트 발견 및 문제점 판별에 사용되는 {{site.data.keyword.IBM_notm}} 및 써드파티 도구를 식별합니다. | {{site.data.keyword.IBM_notm}} |
-|확대 플랜 정의 | 모니터링 컴포넌트를 통해 발견된 이벤트를 선별하고 해결하는 단계적 확대 플랜을 정의합니다. | {{site.data.keyword.IBM_notm}} |
-|인프라, 플랫폼 및 지원 계약에 서명 | 환경에 대한 재무 조건을 포함하여 구독 계약에 서명합니다. 지원 구독에 서명합니다. | 고객 |
-|환경 조달 | 컴퓨팅 리소스, 네트워크 및 스토리지를 조달합니다. 환경의 인프라 요구사항에 대한 자세한 정보는 [Local 인프라 요구사항](../local/index.html#localinfra)을 참조하십시오. | 고객 |
-|VPN 솔루션 설치 | 양방향 VPN 솔루션을 설치합니다. | {{site.data.keyword.IBM_notm}} |
-|플랫폼, 애플리케이션, 모니터링 및 관리 컴포넌트 설치 | 플랫폼 컴포넌트(예: BOSH Director, 클라우드 제어기, 상태 관리자, 메시징, 라우터, DEA 및 서비스 제공자)와, 단계적 확대 및 문제점 발견 플랜에 정의된 모니터링 컴포넌트를 설치하고 구성하며 확인합니다. | {{site.data.keyword.IBM_notm}} |
-|보안 컴포넌트 설치 및 구성 | 모니터링 및 단계적 확대 플랜에 연결된 보안 컴포넌트(예: {{site.data.keyword.IBM_notm}} QRadar, 신임 정보 저장소, 침입 방지 시스템, {{site.data.keyword.IBM_notm}} BigFix 및 {{site.data.keyword.IBM_notm}} Security Privileged Identity Management)를 설치하고 구성합니다. | {{site.data.keyword.IBM_notm}} |
-|로그인 서버 구성 | 기업 LDAP에 사용할 로그인 서버를 구성합니다. | {{site.data.keyword.IBM_notm}} |
-|사용자 정의 컴포넌트 설치 및 구성 |  	{{site.data.keyword.Bluemix_notm}} 제품 및 서비스 범위의 외부에 상주하는 사용자 정의 컴포넌트를 설치하고 구성합니다. | 고객 |
-|{{site.data.keyword.Bluemix_notm}} 파이프라인 연결 | {{site.data.keyword.Bluemix_notm}} 지속적 통합 및 지속적 딜리버리 파이프라인을 {{site.data.keyword.IBM_notm}} 저장소에 연결합니다. | {{site.data.keyword.IBM_notm}} |
-|외부 솔루션 컴포넌트 사용자 정의 | 재해 복구 시나리오에 대비해 로드 밸런서를 사용자 정의합니다. | 고객 |
-|보안, 규제 준수 및 감사 제어를 위한 상태 추적  | 모든 도구와 프로세스가 식별된 규제 준수 수준에 도달하는 시점까지 상태를 추적합니다. | 고객 |
-|실제 인프라 검토 | 위협에 대비한 솔루션 컴포넌트를 호스팅하는 실제 구내와 데이터 센터를 보호하기 위한 보안 제어를 검토합니다. | 고객 |
-|모니터링 소프트웨어 검사 | 단계적 확대 및 문제점 판별 플랜에 정의된 대로 모니터링 및 관리 컴포넌트를 검사합니다. | 고객 |
-|OS 검사 | 운영 체제 이미지가 규제 준수 표준에 부합하는지 검사합니다. {{site.data.keyword.IBM_notm}}이 OS 이미지에 대한 액세스를 제공합니다. | {{site.data.keyword.IBM_notm}} 및 고객 책임 공유 |
+|규제 준수 표준 설정| 환경에 필요한 정부, 산업 및 개인 기업 표준을 식별합니다.| 고객|
+|보안 및 규제 준수 통합 플랜 작성| 보안 규제 준수를 달성하는 데 필요한 비용, 스케줄 및 리소스를 포함하는 보안 및 통합 플랜을 작성합니다.| {{site.data.keyword.IBM_notm}} |
+|규제 준수 플랜 승인| 규제 준수 플랜을 승인합니다.| 고객|
+|환경에 대한 크기 작성|  	플랫폼에서 작성된 앱을 지원하는 데 필요한 초기 DEA 및 서비스 프로비저닝뿐 아니라 고가용성 및 재해 복구 목표를 고려하여 사전 정의된 선택사항을 토대로 환경의 크기를 작성합니다. {{site.data.keyword.IBM_notm}}과 협력하여 필요한 데이터베이스, 고객의 신디케이트된(각 클라우드 형태 간 동일하게 연동된) 카탈로그에 제공되는 서비스 등을 정의합니다.| {{site.data.keyword.IBM_notm}} 및 고객 책임 공유|
+|아키텍처 선택| 고가용성 및 재해 복구 요구사항을 고려하여 사전 정의된 선택사항을 토대로 아키텍처를 선택합니다.| {{site.data.keyword.IBM_notm}} |
+|재해 복구 목표 정의| 환경에 대한 재해 복구 요구사항을 정의합니다.| 고객|
+|재해 복구 플랜 작성| 재해 복구 플랜을 상의하여 정의합니다. {{site.data.keyword.IBM_notm}}은 재해 복구 모델을 작성하고 사용자가 피드백을 제공하고 플랜을 승인할 때 사용자와 상의합니다.| {{site.data.keyword.IBM_notm}} 및 고객 책임 공유|
+|백업 및 복구 플랜 작성| 온오프 사이트 백업 분배를 위한 요구사항과 빈도를 정의하는 백업 및 복구 플랜을 작성합니다. {{site.data.keyword.IBM_notm}}은 플랫폼 컴포넌트, {{site.data.keyword.IBM_notm}} 서비스, 사용자 역할을 포함하는 서비스 메타데이터 등을 백업합니다. 사용자는 사용자에게 책임이 있는 애플리케이션 고유 데이터를 백업합니다.| {{site.data.keyword.IBM_notm}} 및 고객 책임 공유|
+|이벤트 발견 및 문제점 판별을 위한 식별 도구| {{site.data.keyword.Bluemix_notm}} 플랫폼 레벨에서 이벤트 발견 및 문제점 판별에 사용되는 {{site.data.keyword.IBM_notm}} 및 써드파티 도구를 식별합니다.| {{site.data.keyword.IBM_notm}} |
+|확대 플랜 정의| 모니터링 컴포넌트를 통해 발견된 이벤트를 선별하고 해결하는 단계적 확대 플랜을 정의합니다.| {{site.data.keyword.IBM_notm}} |
+|인프라, 플랫폼 및 지원 계약에 서명| 환경에 대한 재무 조건을 포함하여 구독 계약에 서명합니다. 지원 구독에 서명합니다.| 고객|
+|환경 조달| 컴퓨팅 리소스, 네트워크 및 스토리지를 조달합니다. 환경의 인프라 요구사항에 대한 자세한 정보는 [Local 인프라 요구사항](../local/index.html#localinfra)을 참조하십시오.| 고객|
+|VPN 솔루션 설치| 양방향 VPN 솔루션을 설치합니다.| {{site.data.keyword.IBM_notm}} |
+|플랫폼, 애플리케이션, 모니터링 및 관리 컴포넌트 설치| 플랫폼 컴포넌트(예: BOSH Director, 클라우드 제어기, 상태 관리자, 메시징, 라우터, DEA 및 서비스 제공자)와, 단계적 확대 및 문제점 발견 플랜에 정의된 모니터링 컴포넌트를 설치하고 구성하며 확인합니다.| {{site.data.keyword.IBM_notm}} |
+|보안 컴포넌트 설치 및 구성| 모니터링 및 단계적 확대 플랜에 연결된 보안 컴포넌트(예: {{site.data.keyword.IBM_notm}} QRadar, 신임 정보 저장소, 침입 방지 시스템, {{site.data.keyword.IBM_notm}} BigFix 및 {{site.data.keyword.IBM_notm}} Security Privileged Identity Management)를 설치하고 구성합니다.| {{site.data.keyword.IBM_notm}} |
+|로그인 서버 구성| 기업 LDAP에 사용할 로그인 서버를 구성합니다.| {{site.data.keyword.IBM_notm}} |
+|사용자 정의 컴포넌트 설치 및 구성|  	{{site.data.keyword.Bluemix_notm}} 제품 및 서비스 범위의 외부에 상주하는 사용자 정의 컴포넌트를 설치하고 구성합니다.| 고객|
+|{{site.data.keyword.Bluemix_notm}} 파이프라인 연결| {{site.data.keyword.Bluemix_notm}} 지속적 통합 및 지속적 딜리버리 파이프라인을 {{site.data.keyword.IBM_notm}} 저장소에 연결합니다.| {{site.data.keyword.IBM_notm}} |
+|외부 솔루션 컴포넌트 사용자 정의| 재해 복구 시나리오에 대비해 로드 밸런서를 사용자 정의합니다.| 고객|
+|보안, 규제 준수 및 감사 제어를 위한 상태 추적| 모든 도구와 프로세스가 식별된 규제 준수 수준에 도달하는 시점까지 상태를 추적합니다.| 고객|
+|실제 인프라 검토| 위협에 대비한 솔루션 컴포넌트를 호스팅하는 실제 구내와 데이터 센터를 보호하기 위한 보안 제어를 검토합니다.| 고객|
+|모니터링 소프트웨어 검사| 단계적 확대 및 문제점 판별 플랜에 정의된 대로 모니터링 및 관리 컴포넌트를 검사합니다.| 고객|
+|OS 검사| 운영 체제 이미지가 규제 준수 표준에 부합하는지 검사합니다. {{site.data.keyword.IBM_notm}}이 OS 이미지에 대한 액세스를 제공합니다.| {{site.data.keyword.IBM_notm}} 및 고객 책임 공유|
 {: caption="표 5. 도입/인식(Inception) 단계(Phase) 태스크" caption-side="top"}
 
 다음은 진행 단계입니다. 진행 단계에서 사용자와 IBM 사이의 지속적 협력 관계를 기술합니다. 이 단계의 1차 목표에는 다음이 포함됩니다.
@@ -404,21 +404,21 @@ Cloud Foundry 및 {{site.data.keyword.Bluemix_notm}} 애플리케이션은 로�
 - 유지보수 및 플랫폼 개선 방안을 검토합니다.
 - 문제점 해결 및 근본 원인 분석을 위한 활동을 조정합니다.
 
-| **태스크** | **태스크 세부사항** | **책임자** |
+| **태스크** | **태스크 세부사항** | **책임 당사자** |
 |----------|------------------|-----------------------|
-|주간 용량 보고서 검토 | 주간 용량 보고서를 검토하고 필요 시 정정 조치를 수행합니다. | 고객 |
-|월별 예측 작성 | 정보를 수집하여 용량 및 사용량에 대한 월별 예측을 작성합니다. | {{site.data.keyword.IBM_notm}} 및 고객 책임 공유 |
-|용량 예측 검토 | 용량 예측은 예상되는 앱의 새 배치뿐 아니라 용량에 영향을 줄 수 있는 외부 이벤트와 관련되므로 이를 검토합니다. {{site.data.keyword.IBM_notm}}과 협력하여 추정을 검토하고 이에 따라 계획합니다. | {{site.data.keyword.IBM_notm}} 및 고객 책임 공유 |
-|용량 조정 |  변경이 필요할 때 용량을 추가하거나 제거합니다. | {{site.data.keyword.IBM_notm}} |
-|다음 업데이트 및 유지보수 공개 | {{site.data.keyword.IBM_notm}} 컴포넌트의 필수 유지보수를 위한 문서를 작성합니다. | {{site.data.keyword.IBM_notm}} |
-|유지보수 수행 | {{site.data.keyword.IBM_notm}}과 협력하여 21일 기간 내에서 필수 유지보수를 스케줄링합니다. 21일 기간 내에서 작업이 없는 날짜를 제공하고 {{site.data.keyword.IBM_notm}}은 이에 따라 유지보수를 스케줄링합니다. | {{site.data.keyword.IBM_notm}} 및 고객 책임 공유 |
-|프로비저닝 장애 해결 | 카탈로그에 배치된 고객 작성 서비스의 프로비지닝 장애(발생하는 경우)를 수정합니다. | {{site.data.keyword.IBM_notm}} |
-|네트워크 및 IP 스캔 수행 | 네트워크 및 IP 스캔을 일별 및 월별로 수행합니다. | {{site.data.keyword.IBM_notm}} 및 고객 책임 공유 |
-|감사 로그에 대한 액세스 권한 제공 | 모든 보안 및 관리 감사 로그에 대한 액세스 권한을 제공합니다.   | {{site.data.keyword.IBM_notm}} 및 고객 책임 공유 |
-|테스트 수행 | 운영 테스트 및 써드파티 침투 테스트에 대해 정기적 키 제어를 수행합니다. | {{site.data.keyword.IBM_notm}} 및 고객 책임 공유 |
-|상태 보고, 감사 조정 및 규제 준수 미팅  | 규제 준수 검토 상태 미팅에서 상태 보고, 외부 감사 조정 및 표시를 완료합니다. | {{site.data.keyword.IBM_notm}} |
-|채용 및 비즈니스 수요 검증 | 고객 환경에 액세스하는 {{site.data.keyword.IBM_notm}} 담당자를 위해 분기별 채용 확인 및 지속적 비즈니스 수요에 대한 확인을 완료합니다. | {{site.data.keyword.IBM_notm}} |
-|보안 취약점 해결 | 플랫폼에서 보고된 보안 취약점을 해결합니다. | {{site.data.keyword.IBM_notm}} |
+|주간 용량 보고서 검토| 주간 용량 보고서를 검토하고 필요 시 정정 조치를 수행합니다.| 고객|
+|월별 예측 작성| 정보를 수집하여 용량 및 사용량에 대한 월별 예측을 작성합니다.| {{site.data.keyword.IBM_notm}} 및 고객 책임 공유|
+|용량 예측 검토| 용량 예측은 예상되는 앱의 새 배치뿐 아니라 용량에 영향을 줄 수 있는 외부 이벤트와 관련되므로 이를 검토합니다. {{site.data.keyword.IBM_notm}}과 협력하여 추정을 검토하고 이에 따라 계획합니다.| {{site.data.keyword.IBM_notm}} 및 고객 책임 공유|
+|용량 조정|  변경이 필요할 때 용량을 추가하거나 제거합니다.| {{site.data.keyword.IBM_notm}} |
+|다음 업데이트 및 유지보수 공개| {{site.data.keyword.IBM_notm}} 컴포넌트의 필수 유지보수를 위한 문서를 작성합니다.| {{site.data.keyword.IBM_notm}} |
+|유지보수 수행| {{site.data.keyword.IBM_notm}}과 협력하여 21일 기간 내에서 필수 유지보수를 스케줄링합니다. 21일 기간 내에서 작업이 없는 날짜를 제공하고 {{site.data.keyword.IBM_notm}}은 이에 따라 유지보수를 스케줄링합니다.| {{site.data.keyword.IBM_notm}} 및 고객 책임 공유|
+|프로비저닝 장애 해결| 카탈로그에 배치된 고객 작성 서비스의 프로비지닝 장애(발생하는 경우)를 수정합니다.| {{site.data.keyword.IBM_notm}} |
+|네트워크 및 IP 스캔 수행| 네트워크 및 IP 스캔을 일별 및 월별로 수행합니다.| {{site.data.keyword.IBM_notm}} 및 고객 책임 공유|
+|감사 로그에 대한 액세스 권한 제공| 모든 보안 및 관리 감사 로그에 대한 액세스 권한을 제공합니다.| {{site.data.keyword.IBM_notm}} 및 고객 책임 공유|
+|테스트 수행| 운영 테스트 및 써드파티 침투 테스트에 대해 정기적 키 제어를 수행합니다.| {{site.data.keyword.IBM_notm}} 및 고객 책임 공유|
+|상태 보고, 감사 조정 및 규제 준수 미팅| 규제 준수 검토 상태 미팅에서 상태 보고, 외부 감사 조정 및 표시를 완료합니다.| {{site.data.keyword.IBM_notm}} |
+|채용 및 비즈니스 수요 검증| 고객 환경에 액세스하는 {{site.data.keyword.IBM_notm}} 담당자를 위해 분기별 채용 확인 및 지속적 비즈니스 수요에 대한 확인을 완료합니다.| {{site.data.keyword.IBM_notm}} |
+|보안 취약점 해결| 플랫폼에서 보고된 보안 취약점을 해결합니다.| {{site.data.keyword.IBM_notm}} |
 {: caption="표 6. 진행 단계(Phase) 태스크" caption-side="top"}
 
 최종 완료 단계는 사용자와 {{site.data.keyword.IBM_notm}} {{site.data.keyword.Bluemix_notm}} 사이의 관계 종료를 나타냅니다. 이 단계의 1차 태스크에는 다음이 포함됩니다.
@@ -427,12 +427,12 @@ Cloud Foundry 및 {{site.data.keyword.Bluemix_notm}} 애플리케이션은 로�
 * 모든 네트워크 연결 제거
 * 인프라 재사용
 
-| **태스크** | **태스크 세부사항** | **책임자** |
+| **태스크** | **태스크 세부사항** | **책임 당사자** |
 |----------|------------------|-----------------------|
-|재무 계약 종료 | 재무 계약의 종료를 논의하고 합의합니다. | {{site.data.keyword.IBM_notm}} 및 고객 책임 공유 |
-|환경에 대한 커미션 해지 | 환경에 대한 액세스 권한과 신임 정보를 종료합니다. | {{site.data.keyword.IBM_notm}} 및 고객 책임 공유 |
-|Relay 종료 | Relay 연결을 종료합니다. | {{site.data.keyword.IBM_notm}} |
-|인프라 재사용 | 회사 가이드라인에 따라 인프라를 재사용합니다. | 고객 |
+|재무 계약 종료| 재무 계약의 종료를 논의하고 합의합니다.| {{site.data.keyword.IBM_notm}} 및 고객 책임 공유|
+|환경에 대한 커미션 해지| 환경에 대한 액세스 권한과 신임 정보를 종료합니다.| {{site.data.keyword.IBM_notm}} 및 고객 책임 공유|
+|Relay 종료| Relay 연결을 종료합니다.| {{site.data.keyword.IBM_notm}} |
+|인프라 재사용| 회사 가이드라인에 따라 인프라를 재사용합니다.| 고객|
 {: caption="표 7. 완료 단계(Phase) 태스크" caption-side="top"}
 
 
