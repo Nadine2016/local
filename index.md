@@ -481,7 +481,7 @@ Review the following version, datacenter, resource pool, and datastore requireme
 
 <dl>
 <dt>**Supported VMware versions**</dt>
-<dd>vCenter and ESXi 5.1, 5.5, and 6.0</dd>
+<dd>vCenter and ESXi 5.1, 5.5, 6.0, & 6.5</dd>
 <dt>**Supported VMware types**</dt>
 <dd>vSphere Enterprise<br />
 vSphere Enterprise plus, if you plan to use distributed virtual switches</dd>
