@@ -6,7 +6,7 @@ copyright:
 
   years: 2015, 2017
 
-lastupdated: "2017-05-23"
+lastupdated: "2017-08-08"
 
 
 ---
@@ -76,56 +76,48 @@ IBM® はクラウド操作をサービスとして使用してお客様の環�
 
 ローカル環境用に {{site.data.keyword.Bluemix_notm}} サービスのプライベート・インスタンスを保有している場合、カタログ管理ビュー内でサービス名と共に「ローカル」というタグが示されます。同様に、カスタム・サービスである場合 (つまり、サービス・ブローカーを使用して作成した場合)、サービス名と共に「カスタム」と表示されます。「ローカル」というタグも「カスタム」というタグも付いていない、リスト中の他のサービスはすべて、{{site.data.keyword.Bluemix_notm}} Public からシンジケーションを使用して利用可能です。シンジケートされたサービスは、パブリック・サービスとプライベート・サービスからなるハイブリッド・アプリケーションを作成する機能を提供します。
 
-|サービス	|米国南部地域で利用可能|ヨーロッパ英国地域で利用可能|オーストラリア、シドニー地域で利用可能|
-|:----------|:------------------------------|:------------------|:------------------|
-|{{site.data.keyword.alchemyapishort}} 		|はい	   	|はい  		|はい|
-|{{site.data.keyword.alertnotificationshort}}	|はい		|はい		|はい	|
-|{{site.data.keyword.apiconnect_short}}         |はい|はい|はい|
-|{{site.data.keyword.appseccloudshort}}		|はい		|はい		|はい|
-|{{site.data.keyword.apiconnect_short}} 	|はい   	 	|はい   	 	|はい|
-|Automated Accessibility Checker|はい|はい|はい|
-|{{site.data.keyword.rules_short}}		|はい		|はい		|はい|
-|{{site.data.keyword.iotmapinsights_short}}    |はい|はい|はい|
-|{{site.data.keyword.conversationshort}}  |はい|はい|はい|
-|{{site.data.keyword.dashdbshort}}		|はい		|はい		|はい|
-|{{site.data.keyword.dataworks_short}}		|はい		|はい		|いいえ|
-|{{site.data.keyword.DB2OnCloud_short}}		|はい		|はい		|はい|
-|Digital Content Checker|はい|はい|はい|
-|{{site.data.keyword.documentconversionshort}}	|はい		|はい		|はい|
-|{{site.data.keyword.iotdriverinsights_short}}  |はい|はい|はい|
-|{{site.data.keyword.geospatialshort_Geospatial}}	|はい	|はい		|はい|
-|{{site.data.keyword.GlobalizationPipeline_short}}	|はい		| はい		| はい|
-|{{site.data.keyword.identitymixershort}}		|はい		|はい		|はい|
-|{{site.data.keyword.iot4auto_short}} |はい|はい|はい|
-|{{site.data.keyword.iotelectronics}}  |はい|はい|いいえ|
-|{{site.data.keyword.iotinsurance_short}} |いいえ|いいえ|はい|
-|{{site.data.keyword.twittershort}}		|はい		|はい		|はい|
-|{{site.data.keyword.languagetranslationshort}}	|はい		|はい		|はい|
-|{{site.data.keyword.languagetranslatorshort}} |はい|はい|はい|
-|{{site.data.keyword.dwl_short}}  |はい|はい|いいえ|
-|{{site.data.keyword.eventhubshort}}		|はい		|いいえ		|いいえ|
-|{{site.data.keyword.messagehub}}		|はい		|はい		|いいえ|
-|{{site.data.keyword.manda}}			|はい		|はい		|はい|
-|{{site.data.keyword.amashort}}			|はい		|はい		|はい|
-|{{site.data.keyword.mqa}}			|はい		|はい		|はい|
-|{{site.data.keyword.mql}}			|いいえ		|いいえ		|はい|
-|{{site.data.keyword.nlclassifierlshort}} 	|はい  		|はい  		|はい|
-|{{site.data.keyword.personalityinsightsshort}}	|はい		|はい		|はい|
-|{{site.data.keyword.pm_short}}			|はい		|はい		|いいえ|
-|{{site.data.keyword.mobilepush}}		|はい		|はい		|はい|
-|{{site.data.keyword.retrieveandrankshort}}	|はい  		|はい  		|はい|
-|{{site.data.keyword.runbook_short}}		|はい		|はい		|はい|
-|{{site.data.keyword.SecureGateway}}		|はい		|はい		|はい|
-|{{site.data.keyword.ssofull}}			|はい		|いいえ		|いいえ|
-|{{site.data.keyword.speechtotextshort}}	|はい  		|はい	   	|はい|
-|{{site.data.keyword.streaminganalyticsshort}}	|はい		|はい		|はい|
-|{{site.data.keyword.texttospeechshort}} 	|はい  		|はい	   	|はい|
-|{{site.data.keyword.toneanalyzershort}} 	|はい  		|はい  		|はい|
-|{{site.data.keyword.tradeoffanalyticsshort}}	|はい		|はい		|はい|
-|{{site.data.keyword.visualrecognitionshort}}	|はい  		|はい	   	|はい|
-|{{site.data.keyword.iot_short}}		|はい		|はい		|いいえ|
-|{{site.data.keyword.weather_short}}		|はい		|はい		|はい|
-|{{site.data.keyword.workloadscheduler}}	|はい		|はい		|はい|
+|サービス	|米国南部地域で利用可能|ヨーロッパ英国地域で利用可能|オーストラリア、シドニー地域で利用可能|ドイツ地域で利用可能|
+|:----------|:------------------------------|:------------------|:------------------|:------------------|
+|{{site.data.keyword.alertnotificationshort}} | はい| はい| はい| いいえ|
+|{{site.data.keyword.appseccloudshort}}		|はい		|はい		|はい|いいえ|
+|Automated Accessibility Checker|はい|はい|はい|はい|いいえ|
+|{{site.data.keyword.cloudant}}			|はい		|はい		|はい|はい|
+|{{site.data.keyword.evtmgt_short}} | はい| はい| はい| いいえ|
+|{{site.data.keyword.iotmapinsights_short}}    |はい|はい|はい|いいえ|
+|{{site.data.keyword.uccr_short}} | はい| いいえ| いいえ| いいえ|
+|{{site.data.keyword.conversationshort}}  |はい|はい|はい|はい|
+|{{site.data.keyword.dataworks_short}}		|はい		|はい		|いいえ|いいえ|
+|Db2 hosted | はい| はい| はい| はい|
+|{{site.data.keyword.DB2OnCloud_short}}		|はい		|はい		|はい|はい|
+|{{site.data.keyword.dashdbshort_notm}} | はい| はい| はい| はい|
+|Digital Content Checker|はい|はい|はい|いいえ|
+|{{site.data.keyword.servicediscoveryshort}} | はい| はい| はい| いいえ|
+|{{site.data.keyword.documentconversionshort}}	|はい		|はい		|はい|いいえ|
+|{{site.data.keyword.iotdriverinsights_short}}  |はい|はい|はい|いいえ|
+|{{site.data.keyword.geospatialshort_Geospatial}}	|はい	|はい		|はい|いいえ|
+|{{site.data.keyword.GlobalizationPipeline_short}}	|はい		| はい		| はい|はい|
+|{{site.data.keyword.identitymixershort}}		|はい		|はい		|はい|いいえ|
+|{{site.data.keyword.iot4auto_short}} |はい|はい|はい|いいえ|
+|{{site.data.keyword.iotelectronics}}  |はい|はい|いいえ| いいえ|
+|{{site.data.keyword.languagetranslatorshort}} |はい|はい|はい|はい|
+|{{site.data.keyword.dwl_short}}  |はい|はい|いいえ|いいえ|
+|{{site.data.keyword.pm_short}} | はい| はい| いいえ| いいえ|
+|{{site.data.keyword.messagehub}}		|はい		|はい		|はい| はい|
+|{{site.data.keyword.manda}}			|はい		|はい		|はい|いいえ|
+|{{site.data.keyword.nlclassifiershort}} 	|はい  		|はい  		|はい|いいえ|
+|{{site.data.keyword.nlushort}} | はい| はい| はい| いいえ|
+|{{site.data.keyword.personalityinsightsshort}}	|はい		|はい		|はい|はい|
+|{{site.data.keyword.mobilepushshort}}		|はい		|はい		|はい|はい|
+|{{site.data.keyword.retrieveandrankshort}}	|はい  		|はい  		|はい|いいえ|
+|{{site.data.keyword.SecureGateway}}		|はい		|はい		|はい|はい|
+|{{site.data.keyword.ssofull}}			|はい		|いいえ		|いいえ| いいえ|
+|{{site.data.keyword.speechtotextshort}}	|はい  		|はい	   	|はい|はい|
+|{{site.data.keyword.streaminganalyticsshort}}	|はい		|はい		|はい|いいえ|
+|{{site.data.keyword.texttospeechshort}} 	|はい  		|はい	   	|はい|はい|
+|{{site.data.keyword.toneanalyzershort}} 	|はい  		|はい  		|はい|はい|
+|{{site.data.keyword.visualrecognitionshort}}	|はい  		|はい	   	|はい|いいえ|
+|{{site.data.keyword.weather_short}}		|はい		|はい		|はい|いいえ|
+|{{site.data.keyword.workloadscheduler}}	|はい		|はい		|はい|はい|
 {: caption="表 4. {{site.data.keyword.Bluemix_notm}} Public からのシンジケーションに使用可能な、地域別のサービス" caption-side="top"}
 {: #table04}
 
@@ -492,7 +484,7 @@ ESXi は、物理サーバーで実行され、プロセッサー、メモリー
 
 <dl>
 <dt>**サポートされる VMware バージョン**</dt>
-<dd>vCenter および ESXi 5.1、5.5、および 6.0</dd>
+<dd>vCenter および ESXi 5.1、5.5、6.0、および 6.5</dd>
 <dt>**サポートされる VMware タイプ**</dt>
 <dd>vSphere Enterprise<br />
 分散仮想スイッチを使用する予定の場合は、vSphere Enterprise Plus。</dd>

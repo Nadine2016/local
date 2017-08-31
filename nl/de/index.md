@@ -6,7 +6,7 @@ copyright:
 
   years: 2015, 2017
 
-lastupdated: "2017-05-23"
+lastupdated: "2017-08-08"
 
 
 ---
@@ -76,56 +76,48 @@ Durch optionale Komponenten, die zusätzlich zum Kauf angeboten werden, können 
 
 Wenn es sich um eine private Instanz eines {{site.data.keyword.Bluemix_notm}}-Service für Ihre lokale Umgebung handelt, wird bei den Servicenamen in Ihrer Katalog-Verwaltungsansicht das Tag "Lokal" angezeigt. Entsprechend sehen Sie "Angepasst" bei den Servicekacheln (d. h. Sie haben einen Servicebroker für die Erstellung verwendet), wenn es sich um einen benutzerdefinierten Service handelt. Alle anderen aufgelisteten Services ohne das Tag "Lokal" oder "Angepasst" sind über die Syndikation aus {{site.data.keyword.Bluemix_notm}} Public verfügbar. Syndizierte Services bieten die Funktion zum Erstellen von Hybridanwendungen, die aus öffentlichen und privaten Services bestehen.
 
-|Service	|Verfügbar in Region 'US South'	|Verfügbar in Region 'Europe United Kingdom' |Verfügbar in Region 'Australia Sydney'|
-|:----------|:------------------------------|:------------------|:------------------|
-|{{site.data.keyword.alchemyapishort}} 		|Ja	   	|Ja   |Ja|
-|{{site.data.keyword.alertnotificationshort}}	|Ja		|Ja		|Ja	   	|
-|{{site.data.keyword.apiconnect_short}}         |Ja   |Ja            |Ja  |
-|{{site.data.keyword.appseccloudshort}}		|Ja		|Ja		|Ja |
-|{{site.data.keyword.apiconnect_short}} 	|Ja   	 	|Ja   	 	|Ja   |
-|Automatisches Prüfprogramm für Eingabehilfen |Ja       |Ja    |Ja   |
-|{{site.data.keyword.rules_short}}		|Ja		|Ja		|Ja |
-|{{site.data.keyword.iotmapinsights_short}}    |Ja  |Ja  |Ja  |
-|{{site.data.keyword.conversationshort}}  |Ja  |Ja  |Ja  |
-|{{site.data.keyword.dashdbshort}}		|Ja		|Ja		|Ja |
-|{{site.data.keyword.dataworks_short}}		|Ja		|Ja		|Nein|
-|{{site.data.keyword.DB2OnCloud_short}}		|Ja		|Ja		|Ja |
-|Prüfprogramm für digitalen Inhalt |Ja  |Ja  |Ja  |
-|{{site.data.keyword.documentconversionshort}}	|Ja		|Ja		|Ja|
-|{{site.data.keyword.iotdriverinsights_short}}  |Ja |Ja  |Ja  |
-|{{site.data.keyword.geospatialshort_Geospatial}}	|Ja	   	|Ja		|Ja |
-|{{site.data.keyword.GlobalizationPipeline_short}}	|Ja		| Ja		| Ja |
-|{{site.data.keyword.identitymixershort}}		|Ja		|Ja		|Ja|
-|{{site.data.keyword.iot4auto_short}} |Ja   |Ja  |Ja  |
-|{{site.data.keyword.iotelectronics}}  |Ja  |Ja  |Nein |
-|{{site.data.keyword.iotinsurance_short}} |Nein   |Nein   |Ja  |
-|{{site.data.keyword.twittershort}}		|Ja		|Ja		|Ja|
-|{{site.data.keyword.languagetranslationshort}}	|Ja		|Ja		|Ja |
-|{{site.data.keyword.languagetranslatorshort}} |Ja  |Ja  |Ja  |
-|{{site.data.keyword.dwl_short}}  |Ja  |Ja  |Nein  |
-|{{site.data.keyword.eventhubshort}}		|Ja		|Nein		|Nein|
-|{{site.data.keyword.messagehub}}		|Ja		|Ja		|Nein|
-|{{site.data.keyword.manda}}			|Ja		|Ja		|Ja |
-|{{site.data.keyword.amashort}}			|Ja		|Ja		|Ja |
-|{{site.data.keyword.mqa}}			|Ja		|Ja		|Ja |
-|{{site.data.keyword.mql}}			|Nein		|Nein		|Ja |
-|{{site.data.keyword.nlclassifierlshort}} 	|Ja   |Ja   |Ja|
-|{{site.data.keyword.personalityinsightsshort}}	|Ja		|Ja		|Ja|
-|{{site.data.keyword.pm_short}}			|Ja		|Ja		|Nein |
-|{{site.data.keyword.mobilepush}}		|Ja		|Ja		|Ja |
-|{{site.data.keyword.retrieveandrankshort}}	|Ja   |Ja   |Ja|
-|{{site.data.keyword.runbook_short}}		|Ja		|Ja		|Ja|
-|{{site.data.keyword.SecureGateway}}		|Ja		|Ja		|Ja |
-|{{site.data.keyword.ssofull}}			|Ja		|Nein		|Nein|
-|{{site.data.keyword.speechtotextshort}}	|Ja   |Ja	   	|Ja|
-|{{site.data.keyword.streaminganalyticsshort}}	|Ja		|Ja		|Ja |
-|{{site.data.keyword.texttospeechshort}} 	|Ja   |Ja	   	|Ja|
-|{{site.data.keyword.toneanalyzershort}} 	|Ja   |Ja   |Ja|
-|{{site.data.keyword.tradeoffanalyticsshort}}	|Ja		|Ja		|Ja|
-|{{site.data.keyword.visualrecognitionshort}}	|Ja   |Ja	   	|Ja|
-|{{site.data.keyword.iot_short}}		|Ja		|Ja		|Nein|
-|{{site.data.keyword.weather_short}}		|Ja		|Ja		|Ja|
-|{{site.data.keyword.workloadscheduler}}	|Ja		|Ja		|Ja |
+|Service	|Verfügbar in Region 'US South'	|Verfügbar in Region 'Europe United Kingdom' |Verfügbar in Region 'Australia Sydney'|Verfügbar in Region 'Deutschland'|
+|:----------|:------------------------------|:------------------|:------------------|:------------------|
+|{{site.data.keyword.alertnotificationshort}} | Ja | Ja | Ja | Nein |
+|{{site.data.keyword.appseccloudshort}}		|Ja		|Ja		|Ja |Nein  |
+|Automatisches Prüfprogramm für Eingabehilfen |Ja       |Ja    |Ja   |Ja  |Nein |
+|{{site.data.keyword.cloudant}}			|Ja		|Ja		|Ja |Ja  |
+|{{site.data.keyword.evtmgt_short}} | Ja | Ja | Ja | Nein |
+|{{site.data.keyword.iotmapinsights_short}}    |Ja  |Ja  |Ja  |Nein  |
+|{{site.data.keyword.uccr_short}} | Ja | Nein | Nein | Nein |
+|{{site.data.keyword.conversationshort}}  |Ja  |Ja  |Ja  |Ja  |
+|{{site.data.keyword.dataworks_short}}		|Ja		|Ja		|Nein|Nein|
+|Db2-gehostet | Ja | Ja | Ja | Ja |
+|{{site.data.keyword.DB2OnCloud_short}}		|Ja		|Ja		|Ja |Ja  |
+|{{site.data.keyword.dashdbshort_notm}} | Ja | Ja | Ja | Ja |
+|Prüfprogramm für digitalen Inhalt |Ja  |Ja  |Ja  |Nein  |
+|{{site.data.keyword.servicediscoveryshort}} | Ja | Ja | Ja | Nein |
+|{{site.data.keyword.documentconversionshort}}	|Ja		|Ja		|Ja|Nein  |
+|{{site.data.keyword.iotdriverinsights_short}}  |Ja |Ja  |Ja  |Nein  |
+|{{site.data.keyword.geospatialshort_Geospatial}}	|Ja	|Ja		|Ja |Nein  |
+|{{site.data.keyword.GlobalizationPipeline_short}}	|Ja		| Ja		| Ja |Ja  |
+|{{site.data.keyword.identitymixershort}}		|Ja		|Ja		|Ja|Nein  |
+|{{site.data.keyword.iot4auto_short}} |Ja   |Ja  |Ja  |Nein  |
+|{{site.data.keyword.iotelectronics}}  |Ja  |Ja  |Nein | Nein|
+|{{site.data.keyword.languagetranslatorshort}} |Ja  |Ja  |Ja  |Ja  |
+|{{site.data.keyword.dwl_short}}  |Ja  |Ja  |Nein  |Nein|
+|{{site.data.keyword.pm_short}} | Ja | Ja | Nein | Nein |
+|{{site.data.keyword.messagehub}}		|Ja		|Ja		|Ja | Ja|
+|{{site.data.keyword.manda}}			|Ja		|Ja		|Ja |Nein  |
+|{{site.data.keyword.nlclassifiershort}} 	|Ja 		|Ja 		|Ja |Nein  |
+|{{site.data.keyword.nlushort}} | Ja | Ja | Ja | Nein |
+|{{site.data.keyword.personalityinsightsshort}}	|Ja		|Ja		|Ja|Ja  |
+|{{site.data.keyword.mobilepushshort}}		|Ja		|Ja		|Ja |Ja  |
+|{{site.data.keyword.retrieveandrankshort}}	|Ja 		|Ja 		|Ja|Nein  |
+|{{site.data.keyword.SecureGateway}}		|Ja		|Ja		|Ja |Ja  |
+|{{site.data.keyword.ssofull}}			|Ja		|Nein		|Nein| Nein|
+|{{site.data.keyword.speechtotextshort}}	|Ja 		|Ja	 	|Ja|Ja  |
+|{{site.data.keyword.streaminganalyticsshort}}	|Ja		|Ja		|Ja |Nein  |
+|{{site.data.keyword.texttospeechshort}} 	|Ja 		|Ja	 	|Ja|Ja  |
+|{{site.data.keyword.toneanalyzershort}} 	|Ja 		|Ja 		|Ja|Ja  |
+|{{site.data.keyword.visualrecognitionshort}}	|Ja 		|Ja	 	|Ja|Nein  |
+|{{site.data.keyword.weather_short}}		|Ja		|Ja		|Ja|Nein  |
+|{{site.data.keyword.workloadscheduler}}	|Ja		|Ja		|Ja |Ja  |
 {: caption="Tabelle 4. Verfügbare Services für die Syndikation aus {{site.data.keyword.Bluemix_notm}} Public nach Region" caption-side="top"}
 {: #table04}
 
@@ -420,7 +412,7 @@ Als Nächstes folgt die Fortschrittsphase. Die Fortschrittsphase beschreibt die 
 
 | **Task** | **Taskdetails** | **Zuständiges Team** |
 |----------|------------------|-----------------------|
-|Überprüfen von wöchentlichen Kapazitätsberichten| Überprüfen Sie die wöchentlichen Kapazitätsberichte und ergreifen Sie ggf. Korrekturmaßnahmen. | Kunde |
+|Überprüfen von wöchentlichen Kapazitätsberichten | Überprüfen Sie die wöchentlichen Kapazitätsberichte und ergreifen Sie ggf. Korrekturmaßnahmen. | Kunde |
 |Erstellen von monatlichen Projektionen | Erfassen Sie Informationen und erstellen Sie eine monatliche Projektion von Kapazität und Nutzung. | {{site.data.keyword.IBM_notm}} und Kunde |
 |Überprüfen von Kapazitätsprojektionen | Überprüfen Sie die Kapazitätsprojektionen hinsichtlich externer Ereignisse, die sich sowohl auf die Kapazität als auch auf geplante neue Implementierungen von Apps auswirken können. Arbeiten Sie gemeinsam mit {{site.data.keyword.IBM_notm}} an der Überprüfung der Projektionen und der
 entsprechenden Planung. | {{site.data.keyword.IBM_notm}} und Kunde |
@@ -512,7 +504,7 @@ Informieren Sie sich über die folgenden Anforderungen in Bezug auf Version, Rec
 
 <dl>
 <dt>**Unterstützte VMware-Versionen**</dt>
-<dd>vCenter und ESXi 5.1, 5.5 und 6.0</dd>
+<dd>vCenter und ESXi 5.1, 5.5, 6.0 und 6.5</dd>
 <dt>**Unterstützte VMware-Typen**</dt>
 <dd>vSphere Enterprise<br />
 vSphere Enterprise plus, wenn Sie beabsichtigen, verteilte virtuelle Switches zu verwenden</dd>

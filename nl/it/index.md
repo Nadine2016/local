@@ -6,7 +6,7 @@ copyright:
 
   years: 2015, 2017
 
-lastupdated: "2017-05-23"
+lastupdated: "2017-08-08"
 
 
 ---
@@ -78,56 +78,48 @@ Sono presenti dei componenti facoltativi disponibili per te da acquistare per ri
 
 Se disponi di un'istanza privata di un servizio {{site.data.keyword.Bluemix_notm}} per il tuo ambiente locale, vedi una tag "Locale" con i nomi del servizio nella vista di amministrazione del catalogo. Allo stesso modo, se si tratta di un servizio personalizzato, il che significa che hai utilizzato un broker dei servizi per crearlo, vedi "Personalizzato" elencato insieme al nome del servizio. Tutti gli altri servizi elencati che non presentano una tag "locale" o "personalizzato" sono disponibili tramite la diffusione da {{site.data.keyword.Bluemix_notm}} pubblico. I servizi diffusi forniscono la funzione per creare applicazioni ibride composte da servizi pubblici e privati.
 
-|Servizio|Disponibile nella regione Stati Uniti Sud	|Disponibile nella regione Europa Regno Unito |Disponibile nella regione di Sydney in Australia|
-|:----------|:------------------------------|:------------------|:------------------|
-|{{site.data.keyword.alchemyapishort}} 		|Sì	   	|Sì  		|Sì|
-|{{site.data.keyword.alertnotificationshort}}	|Sì		|Sì		|Sì	|
-|{{site.data.keyword.apiconnect_short}}         |Sì            |Sì            |Sì  |
-|{{site.data.keyword.appseccloudshort}}		|Sì		|Sì		|Sì |
-|{{site.data.keyword.apiconnect_short}} 	|Sì   	 	|Sì  	 	|Sì   |
-|Automated Accessibility Checker |Sì       |Sì    |Sì   |
-|{{site.data.keyword.rules_short}}		|Sì		|Sì		|Sì |
-|{{site.data.keyword.iotmapinsights_short}}    |Sì  |Sì  |Sì  |
-|{{site.data.keyword.conversationshort}}  |Sì  |Sì  |Sì  |
-|{{site.data.keyword.dashdbshort}}		|Sì		|Sì		|Sì |
-|{{site.data.keyword.dataworks_short}}		|Sì		|Sì		|No|
-|{{site.data.keyword.DB2OnCloud_short}}		|Sì		|Sì		|Sì |
-|Digital Content Checker |Sì  |Sì  |Sì  |
-|{{site.data.keyword.documentconversionshort}}	|Sì		|Sì		|Sì|
-|{{site.data.keyword.iotdriverinsights_short}}  |Sì |Sì  |Sì  |
-|{{site.data.keyword.geospatialshort_Geospatial}}	|Sì	|Sì		|Sì |
-|{{site.data.keyword.GlobalizationPipeline_short}}	|Sì		| Sì		| Sì |
-|{{site.data.keyword.identitymixershort}}		|Sì		|Sì		|Sì|
-|{{site.data.keyword.iot4auto_short}} |Sì   |Sì  |Sì  |
-|{{site.data.keyword.iotelectronics}}  |Sì  |Sì  |No |
-|{{site.data.keyword.iotinsurance_short}} |No   |No   |Sì  |
-|{{site.data.keyword.twittershort}}		|Sì		|Sì		|Sì|
-|{{site.data.keyword.languagetranslationshort}}	|Sì		|Sì		|Sì |
-|{{site.data.keyword.languagetranslatorshort}} |Sì  |Sì  |Sì  |
-|{{site.data.keyword.dwl_short}}  |Sì  |Sì  |No  |
-|{{site.data.keyword.eventhubshort}}		|Sì		|No		|No|
-|{{site.data.keyword.messagehub}}		|Sì		|Sì		|No|
-|{{site.data.keyword.manda}}			|Sì		|Sì		|Sì |
-|{{site.data.keyword.amashort}}			|Sì		|Sì		|Sì |
-|{{site.data.keyword.mqa}}			|Sì		|Sì		|Sì |
-|{{site.data.keyword.mql}}			|No		|No		|Sì |
-|{{site.data.keyword.nlclassifierlshort}} 	|Sì  		|Sì  		|Sì|
-|{{site.data.keyword.personalityinsightsshort}}	|Sì		|Sì		|Sì|
-|{{site.data.keyword.pm_short}}			|Sì		|Sì		|No |
-|{{site.data.keyword.mobilepush}}		|Sì		|Sì		|Sì |
-|{{site.data.keyword.retrieveandrankshort}}	|Sì  		|Sì  		|Sì|
-|{{site.data.keyword.runbook_short}}		|Sì		|Sì		|Sì|
-|{{site.data.keyword.SecureGateway}}		|Sì		|Sì		|Sì |
-|{{site.data.keyword.ssofull}}			|Sì		|No		|No|
-|{{site.data.keyword.speechtotextshort}}	|Sì  		|Sì	   	|Sì|
-|{{site.data.keyword.streaminganalyticsshort}}	|Sì		|Sì		|Sì |
-|{{site.data.keyword.texttospeechshort}} 	|Sì  		|Sì	   	|Sì|
-|{{site.data.keyword.toneanalyzershort}} 	|Sì  		|Sì  		|Sì|
-|{{site.data.keyword.tradeoffanalyticsshort}}	|Sì		|Sì		|Sì|
-|{{site.data.keyword.visualrecognitionshort}}	|Sì  		|Sì	   	|Sì|
-|{{site.data.keyword.iot_short}}		|Sì		|Sì		|No|
-|{{site.data.keyword.weather_short}}		|Sì		|Sì		|Sì|
-|{{site.data.keyword.workloadscheduler}}	|Sì		|Sì		|Sì |
+|Servizio	|Disponibile nella regione Stati Uniti Sud	|Disponibile nella regione Europa Regno Unito |Disponibile nella regione di Sydney in Australia|Disponibile nella regione Germania|
+|:----------|:------------------------------|:------------------|:------------------|:------------------|
+|{{site.data.keyword.alertnotificationshort}} | Sì | Sì | Sì | No |
+|{{site.data.keyword.appseccloudshort}}		|Sì		|Sì		|Sì |No  |
+|Automated Accessibility Checker |Sì       |Sì    |Sì   |Sì  |No |
+|{{site.data.keyword.cloudant}}			|Sì		|Sì		|Sì |Sì  |
+|{{site.data.keyword.evtmgt_short}} | Sì | Sì | Sì | No |
+|{{site.data.keyword.iotmapinsights_short}}    |Sì  |Sì  |Sì  |No  |
+|{{site.data.keyword.uccr_short}} | Sì | No | No | No |
+|{{site.data.keyword.conversationshort}}  |Sì  |Sì  |Sì  |Sì  |
+|{{site.data.keyword.dataworks_short}}		|Sì		|Sì		|No|No|
+|Ospitato Db2 | Sì | Sì | Sì | Sì |
+|{{site.data.keyword.DB2OnCloud_short}}		|Sì		|Sì		|Sì |Sì  |
+|{{site.data.keyword.dashdbshort_notm}} | Sì | Sì | Sì | Sì |
+|Digital Content Checker |Sì  |Sì  |Sì  |No  |
+|{{site.data.keyword.servicediscoveryshort}} | Sì | Sì | Sì | No |
+|{{site.data.keyword.documentconversionshort}}	|Sì		|Sì		|Sì|No  |
+|{{site.data.keyword.iotdriverinsights_short}}  |Sì |Sì  |Sì  |No  |
+|{{site.data.keyword.geospatialshort_Geospatial}}	|Sì	|Sì		|Sì |No  |
+|{{site.data.keyword.GlobalizationPipeline_short}}	|Sì		| Sì		| Sì |Sì  |
+|{{site.data.keyword.identitymixershort}}		|Sì		|Sì		|Sì|No  |
+|{{site.data.keyword.iot4auto_short}} |Sì   |Sì  |Sì  |No  |
+|{{site.data.keyword.iotelectronics}}  |Sì  |Sì  |No | No|
+|{{site.data.keyword.languagetranslatorshort}} |Sì  |Sì  |Sì  |Sì  |
+|{{site.data.keyword.dwl_short}}  |Sì  |Sì  |No  |No|
+|{{site.data.keyword.pm_short}} | Sì | Sì | No | No |
+|{{site.data.keyword.messagehub}}		|Sì		|Sì		|Sì | Sì|
+|{{site.data.keyword.manda}}			|Sì		|Sì		|Sì |No  |
+|{{site.data.keyword.nlclassifiershort}} 	|Sì 		|Sì 		|Sì |No  |
+|{{site.data.keyword.nlushort}} | Sì | Sì | Sì | No |
+|{{site.data.keyword.personalityinsightsshort}}	|Sì		|Sì		|Sì|Sì  |
+|{{site.data.keyword.mobilepushshort}}		|Sì		|Sì		|Sì |Sì  |
+|{{site.data.keyword.retrieveandrankshort}}	|Sì 		|Sì 		|Sì|No  |
+|{{site.data.keyword.SecureGateway}}		|Sì		|Sì		|Sì |Sì  |
+|{{site.data.keyword.ssofull}}			|Sì		|No		|No| No|
+|{{site.data.keyword.speechtotextshort}}	|Sì 		|Sì	 	|Sì|Sì  |
+|{{site.data.keyword.streaminganalyticsshort}}	|Sì		|Sì		|Sì |No  |
+|{{site.data.keyword.texttospeechshort}} 	|Sì 		|Sì	 	|Sì|Sì  |
+|{{site.data.keyword.toneanalyzershort}} 	|Sì 		|Sì 		|Sì|Sì  |
+|{{site.data.keyword.visualrecognitionshort}}	|Sì 		|Sì	 	|Sì|No  |
+|{{site.data.keyword.weather_short}}		|Sì		|Sì		|Sì|No  |
+|{{site.data.keyword.workloadscheduler}}	|Sì		|Sì		|Sì |Sì  |
 {: caption="Tabella 4. Servizi disponibili per la diffusione da {{site.data.keyword.Bluemix_notm}} pubblico per regione" caption-side="top"}
 {: #table04}
 
@@ -498,7 +490,7 @@ Riesamina i seguenti requisiti di versione, datacenter, pool di risorse e archiv
 
 <dl>
 <dt>**Versioni VMware supportate**</dt>
-<dd>vCenter ed ESXi 5.1, 5.5 e 6.0</dd>
+<dd>vCenter e ESXi 5.1, 5.5, 6.0 e 6.5</dd>
 <dt>**Tipi VMware supportati**</dt>
 <dd>vSphere Enterprise<br />
 vSphere Enterprise Plus, se intendi utilizzare gli switch virtuali distribuiti</dd>

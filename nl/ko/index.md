@@ -6,7 +6,7 @@ copyright:
 
   years: 2015, 2017
 
-lastupdated: "2017-05-23"
+lastupdated: "2017-08-08"
 
 
 ---
@@ -34,7 +34,7 @@ IBM®은 환경의 맨 위에서 실행되는 앱과 서비스를 빌드하는 �
 |포함| [{{site.data.keyword.Bluemix_notm}} 런타임](/docs/cfapps/runtimes.html) | 시스템 및 운영 체제를 설정하고 관리할 필요 없이 신속하게 앱을 시작하고 실행하려면 런타임을 사용하십시오. 모든 {{site.data.keyword.Bluemix_notm}} 런타임은 {{site.data.keyword.Bluemix_notm}} 로컬 인스턴스에서 사용자에게 사용 가능합니다.|
 |포함| [{{site.data.keyword.autoscaling}}](/docs/services/Auto-Scaling/index.html)| 정책에 따라 애플리케이션의 컴퓨팅 용량을 동적으로 늘리거나 줄입니다. 이 서비스를 사용하면 {{site.data.keyword.Bluemix}} 로컬 환경에서 무제한 사용이 가능합니다.|
 |선택사항| [{{site.data.keyword.apiconnect_short}}](/docs/services/apiconnect/index.html) | {{site.data.keyword.apiconnect_long}}는 {{site.data.keyword.APIM}}와 IBM StrongLoop를 API 및 마이크로서비스를 작성, 실행, 관리 및 적용하기 위한 포괄적 솔루션을 제공하는 단일 오퍼링으로 통합합니다.|
-|선택사항| [{{site.data.keyword.containershort}}](/docs/containers/container_index.html) | {{site.data.keyword.Bluemix_notm}} 로컬에서 Docker 컨테이너를 실행합니다. 컨테이너는 앱에서 실행해야 하는 모든 요소를 포함하는 가상 소프트웨어 오브젝트입니다. 컨테이너는 리소스 격리와 할당의 이점이 있으며 가상 머신 등보다 휴대가 간편하고 효율적입니다. 하드웨어 요구사항에 대한 정보는 [{{site.data.keyword.Bluemix_notm}} 데디케이티드 및 Bluemix 로컬의 IBM {{site.data.keyword.containershort}}](/docs/containers/container_ov.html#container_dl)를 참조하십시오.|
+|선택사항| [{{site.data.keyword.containershort}}](/docs/containers/container_index.html) | {{site.data.keyword.Bluemix_notm}} 로컬에서 Docker 컨테이너를 실행합니다. 컨테이너는 앱에서 실행해야 하는 모든 요소를 포함하는 가상 소프트웨어 오브젝트입니다. 컨테이너는 리소스 격리와 할당의 이점이 있으며 가상 머신 등보다 휴대가 간편하고 효율적입니다. 하드웨어 요구사항에 대한 정보는 [IBM {{site.data.keyword.containershort}}를 {{site.data.keyword.Bluemix_notm}} 데디케이티드 및 Bluemix 로컬](/docs/containers/container_ov.html#container_dl)에서 참조하십시오.|
 |선택사항| [{{site.data.keyword.datacshort}}](/docs/services/DataCache/index.html#data_cache) | 이 서비스는 앱에 대한 분산 캐싱 시나리오를 지원하는 인메모리 데이터 그리드를 제공합니다. 50GB의 인메모리 캐시가 포함됩니다.|
 | 선택사항(베타)| [로깅](/docs/monitoringandlogging/cfapps_ml_logs_dedicated_ov.html#container_ml_logs_dedicated_ov) | Kibana의 검색 가능한 로그 및 대시보드와 {{site.data.keyword.Bluemix_notm}} 사용자 인터페이스의 Cloud Foundry 앱에 대한 로그를 제공합니다.|
 |선택사항| [{{site.data.keyword.mobilepush}}](/docs/services/mobilepush/index.html) | {{site.data.keyword.mobilepush}}는 iOS 및 Android 디바이스에 알림을 보내는 데 사용할 수 있는 서비스입니다. 알림은 모든 애플리케이션 사용자와 태그를 사용하는 특정 디바이스 및 사용자 세트를 대상으로 할 수 있습니다. 디바이스, 태그 및 구독을 관리할 수 있습니다. SDK(Software Development Kit) 및 REST(Representational State Transfer) API(Application Program Interface)를 사용하여 클라이언트 애플리케이션을 추가적으로 개발할 수도 있습니다.|
@@ -76,56 +76,48 @@ IBM®은 환경의 맨 위에서 실행되는 앱과 서비스를 빌드하는 �
 
 로컬 환경에 대한 {{site.data.keyword.Bluemix_notm}} 서비스의 개인용 인스턴스가 있으면 카탈로그 관리 보기에 서비스 이름과 함께 "로컬" 태그가 표시됩니다. 마찬가지로, 사용자 정의 서비스인 경우(즉, 서비스 브로커를 사용하여 작성한 경우)에는 서비스 이름과 함께 "사용자 정의"가 나열됩니다. "로컬" 또는 "사용자 정의" 태그 없이 나열된 기타 모든 서비스는 {{site.data.keyword.Bluemix_notm}} 퍼블릭에서 신디케이션을 사용하여 사용할 수 있습니다. 신디케이트된(각 클라우드 형태 간 동일하게 연동된) 카탈로그는 공용 및 개인 서비스로 구성되는 하이브리드 애플리케이션을 작성하는 기능을 제공합니다. 
 
-|서비스	|미국 남부 지역에서 사용 가능|유럽 영국 지역에서 사용 가능|오스트레일리아 시드니 지역에서 사용 가능|
-|:----------|:------------------------------|:------------------|:------------------|
-|{{site.data.keyword.alchemyapishort}} 		|예	   	|예  		|예|
-|{{site.data.keyword.alertnotificationshort}}	|예		|예		|예	|
-|{{site.data.keyword.apiconnect_short}}         |예|예|예|
-|{{site.data.keyword.appseccloudshort}}		|예		|예		|예|
-|{{site.data.keyword.apiconnect_short}} 	|예   	 	|예   	 	|예|
-|Automated Accessibility Checker|예|예|예|
-|{{site.data.keyword.rules_short}}		|예		|예		|예|
-|{{site.data.keyword.iotmapinsights_short}}    |예|예|예|
-|{{site.data.keyword.conversationshort}}  |예|예|예|
-|{{site.data.keyword.dashdbshort}}		|예		|예		|예|
-|{{site.data.keyword.dataworks_short}}		|예		|예		|아니오|
-|{{site.data.keyword.DB2OnCloud_short}}		|예		|예		|예|
-|Digital Content Checker|예|예|예|
-|{{site.data.keyword.documentconversionshort}}	|예		|예		|예|
-|{{site.data.keyword.iotdriverinsights_short}}  |예|예|예|
-|{{site.data.keyword.geospatialshort_Geospatial}}	|예	|예		|예|
-|{{site.data.keyword.GlobalizationPipeline_short}}	|예		| 예		| 예|
-|{{site.data.keyword.identitymixershort}}		|예		|예		|예|
-|{{site.data.keyword.iot4auto_short}} |예|예|예|
-|{{site.data.keyword.iotelectronics}}  |예|예|아니오|
-|{{site.data.keyword.iotinsurance_short}} |아니오|아니오|예|
-|{{site.data.keyword.twittershort}}		|예		|예		|예|
-|{{site.data.keyword.languagetranslationshort}}	|예		|예		|예|
-|{{site.data.keyword.languagetranslatorshort}} |예|예|예|
-|{{site.data.keyword.dwl_short}}  |예|예|아니오|
-|{{site.data.keyword.eventhubshort}}		|예		|아니오		|아니오|
-|{{site.data.keyword.messagehub}}		|예		|예		|아니오|
-|{{site.data.keyword.manda}}			|예		|예		|예|
-|{{site.data.keyword.amashort}}			|예		|예		|예|
-|{{site.data.keyword.mqa}}			|예		|예		|예|
-|{{site.data.keyword.mql}}			|아니오		|아니오		|예|
-|{{site.data.keyword.nlclassifierlshort}} 	|예  		|예  		|예|
-|{{site.data.keyword.personalityinsightsshort}}	|예		|예		|예|
-|{{site.data.keyword.pm_short}}			|예		|예		|아니오|
-|{{site.data.keyword.mobilepush}}		|예		|예		|예|
-|{{site.data.keyword.retrieveandrankshort}}	|예  		|예  		|예|
-|{{site.data.keyword.runbook_short}}		|예		|예		|예|
-|{{site.data.keyword.SecureGateway}}		|예		|예		|예|
-|{{site.data.keyword.ssofull}}			|예		|아니오		|아니오|
-|{{site.data.keyword.speechtotextshort}}	|예  		|예	   	|예|
-|{{site.data.keyword.streaminganalyticsshort}}	|예		|예		|예|
-|{{site.data.keyword.texttospeechshort}} 	|예  		|예	   	|예|
-|{{site.data.keyword.toneanalyzershort}} 	|예  		|예  		|예|
-|{{site.data.keyword.tradeoffanalyticsshort}}	|예		|예		|예|
-|{{site.data.keyword.visualrecognitionshort}}	|예  		|예	  |예|
-|{{site.data.keyword.iot_short}}		|예		|예		|아니오|
-|{{site.data.keyword.weather_short}}		|예		|예		|예|
-|{{site.data.keyword.workloadscheduler}}	|예		|예		|예|
+|서비스	|미국 남부 지역에서 사용 가능|유럽 영국 지역에서 사용 가능|오스트레일리아 시드니 지역에서 사용 가능|독일 지역에서 사용 가능|
+|:----------|:------------------------------|:------------------|:------------------|:------------------|
+|{{site.data.keyword.alertnotificationshort}} | 예| 예| 예| 아니오|
+|{{site.data.keyword.appseccloudshort}}		|예		|예		|예|아니오|
+|Automated Accessibility Checker|예|예|예|예|아니오|
+|{{site.data.keyword.cloudant}}			|예		|예		|예|예|
+|{{site.data.keyword.evtmgt_short}} | 예| 예| 예| 아니오|
+|{{site.data.keyword.iotmapinsights_short}}    |예|예|예|아니오|
+|{{site.data.keyword.uccr_short}} | 예| 아니오| 아니오| 아니오|
+|{{site.data.keyword.conversationshort}}  |예|예|예|예|
+|{{site.data.keyword.dataworks_short}}		|예		|예		|아니오|아니오|
+|Db2 호스팅 | 예| 예| 예| 예|
+|{{site.data.keyword.DB2OnCloud_short}}		|예		|예		|예|예|
+|{{site.data.keyword.dashdbshort_notm}} | 예| 예| 예| 예|
+|Digital Content Checker|예|예|예|아니오|
+|{{site.data.keyword.servicediscoveryshort}} | 예| 예| 예| 아니오|
+|{{site.data.keyword.documentconversionshort}}	|예		|예		|예|아니오|
+|{{site.data.keyword.iotdriverinsights_short}}  |예|예|예|아니오|
+|{{site.data.keyword.geospatialshort_Geospatial}}	|예	|예		|예|아니오|
+|{{site.data.keyword.GlobalizationPipeline_short}}	|예		| 예		| 예|예|
+|{{site.data.keyword.identitymixershort}}		|예		|예		|예|아니오|
+|{{site.data.keyword.iot4auto_short}} |예|예|예|아니오|
+|{{site.data.keyword.iotelectronics}}  |예|예|아니오| 아니오|
+|{{site.data.keyword.languagetranslatorshort}} |예|예|예|예|
+|{{site.data.keyword.dwl_short}}  |예|예|아니오|아니오|
+|{{site.data.keyword.pm_short}} | 예| 예| 아니오| 아니오|
+|{{site.data.keyword.messagehub}}		|예		|예		|예| 예|
+|{{site.data.keyword.manda}}			|예		|예		|예|아니오|
+|{{site.data.keyword.nlclassifiershort}} 	|예  		|예  		|예|아니오|
+|{{site.data.keyword.nlushort}} | 예| 예| 예| 아니오|
+|{{site.data.keyword.personalityinsightsshort}}	|예		|예		|예|예|
+|{{site.data.keyword.mobilepushshort}}		|예		|예		|예|예|
+|{{site.data.keyword.retrieveandrankshort}}	|예  		|예  		|예|아니오|
+|{{site.data.keyword.SecureGateway}}		|예		|예		|예|예|
+|{{site.data.keyword.ssofull}}			|예		|아니오		|아니오| 아니오|
+|{{site.data.keyword.speechtotextshort}}	|예  		|예	  |예|예|
+|{{site.data.keyword.streaminganalyticsshort}}	|예		|예		|예|아니오|
+|{{site.data.keyword.texttospeechshort}} 	|예  		|예	  |예|예|
+|{{site.data.keyword.toneanalyzershort}} 	|예  		|예  		|예|예|
+|{{site.data.keyword.visualrecognitionshort}}	|예  		|예	  |예|아니오|
+|{{site.data.keyword.weather_short}}		|예		|예		|예|아니오|
+|{{site.data.keyword.workloadscheduler}}	|예		|예		|예|예|
 {: caption="표 4. 지역별 {{site.data.keyword.Bluemix_notm}} 퍼블릭에서 신디케이션에 사용 가능한 서비스" caption-side="top"}
 {: #table04}
 
@@ -154,7 +146,7 @@ IBM®은 환경의 맨 위에서 실행되는 앱과 서비스를 빌드하는 �
 </dd>
 <dt>{{site.data.keyword.Bluemix_notm}} 퍼블릭</dt>
 <dd>
-{{site.data.keyword.Bluemix_local_notm}} 환경에는 {{site.data.keyword.Bluemix_notm}} 퍼블릭 지역에 대한 아웃바운드 연결이 있을 수 있습니다. 퍼블릭에 연결하면 공용 서비스를 로컬 카탈로그에 신디케이션을 적용할 수 있습니다. {{site.data.keyword.Bluemix_notm}} 퍼블릭 서비스 신디케이션은 개발자가 엔터프라이즈의 {{site.data.keyword.Bluemix_local_notm}} 환경에서 호스팅되는 애플리케이션을 빌드할 수 있는 편리한 방법을 제공하며 {{site.data.keyword.Bluemix_notm}} 퍼블릭에서 실행되는 서비스에 대한 액세스도 제공합니다. [신디케이트된(각 클라우드 형태 간 동일하게 연동된) 카탈로그](#cataloglocal) 절의 {{site.data.keyword.Bluemix_notm}} 퍼블릭에서 신디케이트할 수 있는 {{site.data.keyword.IBM_notm}} 서비스 목록을 참조하십시오.
+{{site.data.keyword.Bluemix_local_notm}} 환경에는 {{site.data.keyword.Bluemix_notm}} 퍼블릭 지역에 대한 아웃바운드 연결이 있을 수 있습니다. 퍼블릭에 연결하면 공용 서비스를 로컬 카탈로그에 신디케이션을 적용할 수 있습니다. {{site.data.keyword.Bluemix_notm}} 퍼블릭 서비스 신디케이션은 개발자가 엔터프라이즈의 {{site.data.keyword.Bluemix_local_notm}} 환경에서 호스팅되는 애플리케이션을 빌드할 수 있는 편리한 방법을 제공하며 {{site.data.keyword.Bluemix_notm}} 퍼블릭에서 실행되는 서비스에 대한 액세스도 제공합니다. [신디케이트된 카탈로그](#cataloglocal) 절의 {{site.data.keyword.Bluemix_notm}} 퍼블릭에서 신디케이트할 수 있는 {{site.data.keyword.IBM_notm}} 서비스 목록을 참조하십시오.
 </dd>
 <dt>{{site.data.keyword.IBM_notm}} 운영 센터</dt>
 <dd>
@@ -489,7 +481,7 @@ ESXi는 실제 서버에서 실행되고 프로세서, 메모리, 스토리지 �
 
 <dl>
 <dt>**지원되는 VMware 버전**</dt>
-<dd>vCenter 및 ESXi 5.1, 5.5 및 6.0</dd>
+<dd>vCenter 및 ESXi 5.1, 5.5, 6.0 및 6.5</dd>
 <dt>**지원되는 VMware 유형**</dt>
 <dd>vSphere Enterprise<br />
 분산 가상 스위치를 사용하려는 경우 vSphere Enterprise 플러스</dd>

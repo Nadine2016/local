@@ -6,7 +6,7 @@ copyright:
 
   years: 2015, 2017
 
-lastupdated: "2017-05-23"
+lastupdated: "2017-08-08"
 
 
 ---
@@ -76,56 +76,48 @@ IBM® 使用雲端作業作為服務來監視及維護您的環境，因此您�
 
 如果有適用於您本端環境的 {{site.data.keyword.Bluemix_notm}} 服務專用實例，您會在型錄管理視圖中看到服務名稱有「本端」標籤。同樣地，如果它是自訂服務（表示您已使用服務分配管理系統來建立它），則會看到服務名稱列有「自訂」。透過從「{{site.data.keyword.Bluemix_notm}} 公用」進行聯合，可以使用已列出且沒有「本端」或「自訂」標籤的所有其他服務。聯合服務提供建立包含公用及專用服務之混合式應用程式的功能。
 
-|服務	|可在美國南部地區使用|可在歐洲英國地區使用|可在澳洲雪梨地區使用|
-|:----------|:------------------------------|:------------------|:------------------|
-|{{site.data.keyword.alchemyapishort}} 		|是	   	|是  		|是|
-|{{site.data.keyword.alertnotificationshort}}	|是		|是		|是	|
-|{{site.data.keyword.apiconnect_short}}         |是|是|是|
-|{{site.data.keyword.appseccloudshort}}		|是		|是		|是|
-|{{site.data.keyword.apiconnect_short}} 	|是   	 	|是  	 	|是|
-|Automated Accessibility Checker|是|是|是|
-|{{site.data.keyword.rules_short}}		|是		|是		|是|
-|{{site.data.keyword.iotmapinsights_short}}    |是|是|是|
-|{{site.data.keyword.conversationshort}}  |是|是|是|
-|{{site.data.keyword.dashdbshort}}		|是		|是		|是|
-|{{site.data.keyword.dataworks_short}}		|是		|是		|否|
-|{{site.data.keyword.DB2OnCloud_short}}		|是		|是		|是|
-|Digital Content Checker|是|是|是|
-|{{site.data.keyword.documentconversionshort}}	|是		|是		|是|
-|{{site.data.keyword.iotdriverinsights_short}}  |是|是|是|
-|{{site.data.keyword.geospatialshort_Geospatial}}	|是	|是		|是|
-|{{site.data.keyword.GlobalizationPipeline_short}}	|是		| 是		| 是|
-|{{site.data.keyword.identitymixershort}}		|是		|是		|是|
-|{{site.data.keyword.iot4auto_short}} |是|是|是|
-|{{site.data.keyword.iotelectronics}}  |是|是|否|
-|{{site.data.keyword.iotinsurance_short}} |否|否|是|
-|{{site.data.keyword.twittershort}}		|是		|是		|是|
-|{{site.data.keyword.languagetranslationshort}}	|是		|是		|是|
-|{{site.data.keyword.languagetranslatorshort}} |是|是|是|
-|{{site.data.keyword.dwl_short}}  |是|是|否|
-|{{site.data.keyword.eventhubshort}}		|是		|否		|否|
-|{{site.data.keyword.messagehub}}		|是		|是		|否|
-|{{site.data.keyword.manda}}			|是		|是		|是|
-|{{site.data.keyword.amashort}}			|是		|是		|是|
-|{{site.data.keyword.mqa}}			|是		|是		|是|
-|{{site.data.keyword.mql}}			|否		|否		|是|
-|{{site.data.keyword.nlclassifierlshort}} 	|是 		|是 		|是|
-|{{site.data.keyword.personalityinsightsshort}}	|是		|是		|是|
-|{{site.data.keyword.pm_short}}			|是		|是		|否|
-|{{site.data.keyword.mobilepush}}		|是		|是		|是|
-|{{site.data.keyword.retrieveandrankshort}}	|是 		|是 		|是|
-|{{site.data.keyword.runbook_short}}		|是		|是		|是|
-|{{site.data.keyword.SecureGateway}}		|是		|是		|是|
-|{{site.data.keyword.ssofull}}			|是		|否		|否|
-|{{site.data.keyword.speechtotextshort}}	|是 		|是	 	|是|
-|{{site.data.keyword.streaminganalyticsshort}}	|是		|是		|是|
-|{{site.data.keyword.texttospeechshort}} 	|是 		|是	 	|是|
-|{{site.data.keyword.toneanalyzershort}} 	|是 		|是 		|是|
-|{{site.data.keyword.tradeoffanalyticsshort}}	|是		|是		|是|
-|{{site.data.keyword.visualrecognitionshort}}	|是 		|是	 	|是|
-|{{site.data.keyword.iot_short}}		|是		|是		|否|
-|{{site.data.keyword.weather_short}}		|是		|是		|是|
-|{{site.data.keyword.workloadscheduler}}	|是		|是		|是|
+|服務	|可在美國南部地區使用|可在歐洲英國地區使用|可在澳洲雪梨地區使用|可在德國地區使用|
+|:----------|:------------------------------|:------------------|:------------------|:------------------|
+|{{site.data.keyword.alertnotificationshort}} | 是| 是| 是| 否|
+|{{site.data.keyword.appseccloudshort}}		|是		|是		|是|否|
+|Automated Accessibility Checker|是|是|是|是|否|
+|{{site.data.keyword.cloudant}}			|是		|是		|是|是|
+|{{site.data.keyword.evtmgt_short}} | 是| 是| 是| 否|
+|{{site.data.keyword.iotmapinsights_short}}    |是|是|是|否|
+|{{site.data.keyword.uccr_short}} | 是| 否| 否| 否|
+|{{site.data.keyword.conversationshort}}  |是|是|是|是|
+|{{site.data.keyword.dataworks_short}}		|是		|是		|否|否|
+|Db2 Hosted | 是| 是| 是| 是|
+|{{site.data.keyword.DB2OnCloud_short}}		|是		|是		|是|是|
+|{{site.data.keyword.dashdbshort_notm}} | 是| 是| 是| 是|
+|Digital Content Checker|是|是|是|否|
+|{{site.data.keyword.servicediscoveryshort}} | 是| 是| 是| 否|
+|{{site.data.keyword.documentconversionshort}}	|是		|是		|是|否|
+|{{site.data.keyword.iotdriverinsights_short}}  |是|是|是|否|
+|{{site.data.keyword.geospatialshort_Geospatial}}	|是	|是		|是|否|
+|{{site.data.keyword.GlobalizationPipeline_short}}	|是		| 是		| 是|是|
+|{{site.data.keyword.identitymixershort}}		|是		|是		|是|否|
+|{{site.data.keyword.iot4auto_short}} |是|是|是|否|
+|{{site.data.keyword.iotelectronics}}  |是|是|否| 否|
+|{{site.data.keyword.languagetranslatorshort}} |是|是|是|是|
+|{{site.data.keyword.dwl_short}}  |是|是|否|否|
+|{{site.data.keyword.pm_short}} | 是| 是| 否| 否|
+|{{site.data.keyword.messagehub}}		|是		|是		|是| 是|
+|{{site.data.keyword.manda}}			|是		|是		|是|否|
+|{{site.data.keyword.nlclassifiershort}} 	|是 		|是 		|是|否|
+|{{site.data.keyword.nlushort}} | 是| 是| 是| 否|
+|{{site.data.keyword.personalityinsightsshort}}	|是		|是		|是|是|
+|{{site.data.keyword.mobilepushshort}}		|是		|是		|是|是|
+|{{site.data.keyword.retrieveandrankshort}}	|是 		|是 		|是|否|
+|{{site.data.keyword.SecureGateway}}		|是		|是		|是|是|
+|{{site.data.keyword.ssofull}}			|是		|否		|否| 否|
+|{{site.data.keyword.speechtotextshort}}	|是 		|是	 	|是|是|
+|{{site.data.keyword.streaminganalyticsshort}}	|是		|是		|是|否|
+|{{site.data.keyword.texttospeechshort}} 	|是 		|是	 	|是|是|
+|{{site.data.keyword.toneanalyzershort}} 	|是 		|是 		|是|是|
+|{{site.data.keyword.visualrecognitionshort}}	|是 		|是	 	|是|否|
+|{{site.data.keyword.weather_short}}		|是		|是		|是|否|
+|{{site.data.keyword.workloadscheduler}}	|是		|是		|是|是|
 {: caption="表 4. 依地區可從「{{site.data.keyword.Bluemix_notm}} 公用」聯合的服務" caption-side="top"}
 {: #table04}
 
@@ -148,7 +140,7 @@ IBM® 使用雲端作業作為服務來監視及維護您的環境，因此您�
 
 <dl>
 <dt>平台</dt>
-<dd>平台至少必須是 Cloud Foundry 元件及某些本端應用程式服務。{{site.data.keyword.Bluemix_notm}} 同時提供 Cloud Foundry 及 {{site.data.keyword.containerlong}} 型運算環境。企業可能已配置這兩個運算環境的其中一個或兩者。<br>
+<dd>平台至少必須是 Cloud Foundry 元件及某些本端應用程式服務。{{site.data.keyword.Bluemix_notm}} 同時提供 Cloud Foundry 及以 {{site.data.keyword.containerlong}} 為基礎的運算環境。企業可能已配置這兩個運算環境的其中一個或兩者。<br>
 企業也可以新增其他本端應用程式服務。<br>
 <p>如需可以新增的其他服務及運算功能，請參閱[選購元件：服務附加程式](#table02)及[選購元件：平台附加程式](#table03)。</p>
 </dd>
@@ -485,7 +477,7 @@ ESXi 是一種在實體伺服器上執行的虛擬化層級，它會將處理器
 
 <dl>
 <dt>**支援的 VMware 版本**</dt>
-<dd>vCenter 及 ESXi 5.1、5.5 和 6.0</dd>
+<dd>vCenter 及 ESXi 5.1、5.5、6.0 及 6.5</dd>
 <dt>**支援的 VMware 類型**</dt>
 <dd>vSphere Enterprise<br />
 vSphere Enterprise plus（如果您計劃使用分散式虛擬交換器）</dd>

@@ -6,7 +6,7 @@ copyright:
 
   years: 2015, 2017
 
-lastupdated: "2017-05-23"
+lastupdated: "2017-08-08"
 
 
 ---
@@ -76,56 +76,48 @@ L'environnement {{site.data.keyword.Bluemix_local_notm}} inclut un catalogue pri
 
 Si vous disposez d'une instance privée d'un service {{site.data.keyword.Bluemix_notm}} pour votre environnement local, l'étiquette "Local" est associée aux noms de service dans votre vue d'administration du catalogue. De même, si le service est personnalisé (créé avec un courtier de services), l'étiquette "Personnalisé" est associée à son nom. Tous les autres services répertoriés sans l'étiquette "Local" ou "Personnalisé" sont disponibles via la syndication depuis l'environnement {{site.data.keyword.Bluemix_notm}} public. Les services syndiqués permettent la création d'applications hybrides composées de services publics et privés.
 
-|Service	|Disponible dans la région Sud des Etats-Unis	|Disponible dans la région Europe-Royaume-Uni |Disponible dans la région Australie-Sydney|
-|:----------|:------------------------------|:------------------|:------------------|
-|{{site.data.keyword.alchemyapishort}} 		|Oui	   	|Oui  		|Oui|
-|{{site.data.keyword.alertnotificationshort}}	|Oui		|Oui		|Oui	|
-|{{site.data.keyword.apiconnect_short}}         |Oui            |Oui            |Oui  |
-|{{site.data.keyword.appseccloudshort}}		|Oui		|Oui		|Oui |
-|{{site.data.keyword.apiconnect_short}} 	|Oui   	 	|Oui  	 	|Oui   |
-|Automated Accessibility Checker |Oui       |Oui    |Oui   |
-|{{site.data.keyword.rules_short}}		|Oui		|Oui		|Oui |
-|{{site.data.keyword.iotmapinsights_short}}    |Oui  |Oui  |Oui  |
-|{{site.data.keyword.conversationshort}}  |Oui  |Oui  |Oui  |
-|{{site.data.keyword.dashdbshort}}		|Oui		|Oui		|Oui |
-|{{site.data.keyword.dataworks_short}}		|Oui		|Oui		|Non|
-|{{site.data.keyword.DB2OnCloud_short}}		|Oui		|Oui		|Oui |
-|Digital Content Checker |Oui  |Oui  |Oui  |
-|{{site.data.keyword.documentconversionshort}}	|Oui		|Oui		|Oui|
-|{{site.data.keyword.iotdriverinsights_short}}  |Oui |Oui  |Oui  |
-|{{site.data.keyword.geospatialshort_Geospatial}}	|Oui	|Oui		|Oui |
-|{{site.data.keyword.GlobalizationPipeline_short}}	|Oui		| Oui		| Oui |
-|{{site.data.keyword.identitymixershort}}		|Oui		|Oui		|Oui|
-|{{site.data.keyword.iot4auto_short}} |Oui   |Oui  |Oui  |
-|{{site.data.keyword.iotelectronics}}  |Oui  |Oui  |Non |
-|{{site.data.keyword.iotinsurance_short}} |Non   |Non   |Oui  |
-|{{site.data.keyword.twittershort}}		|Oui		|Oui		|Oui|
-|{{site.data.keyword.languagetranslationshort}}	|Oui		|Oui		|Oui |
-|{{site.data.keyword.languagetranslatorshort}} |Oui  |Oui  |Oui  |
-|{{site.data.keyword.dwl_short}}  |Oui  |Oui  |Non  |
-|{{site.data.keyword.eventhubshort}}		|Oui		|Non		|Non|
-|{{site.data.keyword.messagehub}}		|Oui		|Oui		|Non|
-|{{site.data.keyword.manda}}			|Oui		|Oui		|Oui |
-|{{site.data.keyword.amashort}}			|Oui		|Oui		|Oui |
-|{{site.data.keyword.mqa}}			|Oui		|Oui		|Oui |
-|{{site.data.keyword.mql}}			|Non		|Non		|Oui |
-|{{site.data.keyword.nlclassifierlshort}} 	|Oui 		|Oui 		|Oui|
-|{{site.data.keyword.personalityinsightsshort}}	|Oui		|Oui		|Oui|
-|{{site.data.keyword.pm_short}}			|Oui		|Oui		|Non |
-|{{site.data.keyword.mobilepush}}		|Oui		|Oui		|Oui |
-|{{site.data.keyword.retrieveandrankshort}}	|Oui 		|Oui 		|Oui|
-|{{site.data.keyword.runbook_short}}		|Oui		|Oui		|Oui|
-|{{site.data.keyword.SecureGateway}}		|Oui		|Oui		|Oui |
-|{{site.data.keyword.ssofull}}			|Oui		|Non		|Non|
-|{{site.data.keyword.speechtotextshort}}	|Oui 		|Oui	 	|Oui|
-|{{site.data.keyword.streaminganalyticsshort}}	|Oui		|Oui		|Oui |
-|{{site.data.keyword.texttospeechshort}} 	|Oui 		|Oui	 	|Oui|
-|{{site.data.keyword.toneanalyzershort}} 	|Oui 		|Oui 		|Oui|
-|{{site.data.keyword.tradeoffanalyticsshort}}	|Oui		|Oui		|Oui|
-|{{site.data.keyword.visualrecognitionshort}}	|Oui 		|Oui	 	|Oui|
-|{{site.data.keyword.iot_short}}		|Oui		|Oui		|Non|
-|{{site.data.keyword.weather_short}}		|Oui		|Oui		|Oui|
-|{{site.data.keyword.workloadscheduler}}	|Oui		|Oui		|Oui |
+|Service	|Disponible dans la région Sud des Etats-Unis	|Disponible dans la région Europe-Royaume-Uni |Disponible dans la région Australie-Sydney|Disponible dans la région Allemagne|
+|:----------|:------------------------------|:------------------|:------------------|:------------------|
+|{{site.data.keyword.alertnotificationshort}} | Oui | Oui | Oui | Non |
+|{{site.data.keyword.appseccloudshort}}		|Oui		|Oui		|Oui |Non  |
+|Automated Accessibility Checker |Oui       |Oui    |Oui   |Oui  |Non |
+|{{site.data.keyword.cloudant}}			|Oui		|Oui		|Oui |Oui  |
+|{{site.data.keyword.evtmgt_short}} | Oui | Oui | Oui | Non |
+|{{site.data.keyword.iotmapinsights_short}}    |Oui  |Oui  |Oui  |Non  |
+|{{site.data.keyword.uccr_short}} | Oui | Non | Non | Non |
+|{{site.data.keyword.conversationshort}}  |Oui  |Oui  |Oui  |Oui  |
+|{{site.data.keyword.dataworks_short}}		|Oui		|Oui		|Non|Non|
+|Hébergée sous Db2 | Oui | Oui | Oui | Oui |
+|{{site.data.keyword.DB2OnCloud_short}}		|Oui		|Oui		|Oui |Oui  |
+|{{site.data.keyword.dashdbshort_notm}} | Oui | Oui | Oui | Oui |
+|Digital Content Checker |Oui  |Oui  |Oui  |Non  |
+|{{site.data.keyword.servicediscoveryshort}} | Oui | Oui | Oui | Non |
+|{{site.data.keyword.documentconversionshort}}	|Oui		|Oui		|Oui|Non  |
+|{{site.data.keyword.iotdriverinsights_short}}  |Oui |Oui  |Oui  |Non  |
+|{{site.data.keyword.geospatialshort_Geospatial}}	|Oui	|Oui		|Oui |Non  |
+|{{site.data.keyword.GlobalizationPipeline_short}}	|Oui		| Oui		| Oui |Oui  |
+|{{site.data.keyword.identitymixershort}}		|Oui		|Oui		|Oui|Non  |
+|{{site.data.keyword.iot4auto_short}} |Oui   |Oui  |Oui  |Non  |
+|{{site.data.keyword.iotelectronics}}  |Oui  |Oui  |Non | Non|
+|{{site.data.keyword.languagetranslatorshort}} |Oui  |Oui  |Oui  |Oui  |
+|{{site.data.keyword.dwl_short}}  |Oui  |Oui  |Non  |Non|
+|{{site.data.keyword.pm_short}} | Oui | Oui | Non | Non |
+|{{site.data.keyword.messagehub}}		|Oui		|Oui		|Oui | Oui|
+|{{site.data.keyword.manda}}			|Oui		|Oui		|Oui |Non  |
+|{{site.data.keyword.nlclassifiershort}} 	|Oui 		|Oui 		|Oui |Non  |
+|{{site.data.keyword.nlushort}} | Oui | Oui | Oui | Non |
+|{{site.data.keyword.personalityinsightsshort}}	|Oui		|Oui		|Oui|Oui  |
+|{{site.data.keyword.mobilepushshort}}		|Oui		|Oui		|Oui |Oui  |
+|{{site.data.keyword.retrieveandrankshort}}	|Oui 		|Oui 		|Oui|Non  |
+|{{site.data.keyword.SecureGateway}}		|Oui		|Oui		|Oui |Oui  |
+|{{site.data.keyword.ssofull}}			|Oui		|Non		|Non| Non|
+|{{site.data.keyword.speechtotextshort}}	|Oui 		|Oui	 	|Oui|Oui  |
+|{{site.data.keyword.streaminganalyticsshort}}	|Oui		|Oui		|Oui |Non  |
+|{{site.data.keyword.texttospeechshort}} 	|Oui 		|Oui	 	|Oui|Oui  |
+|{{site.data.keyword.toneanalyzershort}} 	|Oui 		|Oui 		|Oui|Oui  |
+|{{site.data.keyword.visualrecognitionshort}}	|Oui 		|Oui	 	|Oui|Non  |
+|{{site.data.keyword.weather_short}}		|Oui		|Oui		|Oui|Non  |
+|{{site.data.keyword.workloadscheduler}}	|Oui		|Oui		|Oui |Oui  |
 {: caption="Tableau 4. Services disponibles par région pour la syndication depuis {{site.data.keyword.Bluemix_notm}} Public" caption-side="top"}
 {: #table04}
 
@@ -513,7 +505,7 @@ Passez en revue les exigences liées à la version, au centre de données, au po
 
 <dl>
 <dt>**Versions VMware prises en charge**</dt>
-<dd>vCenter et ESXi 5.1, 5.5 et 6.0</dd>
+<dd>vCenter et ESXi 5.1, 5.5, 6.0 et 6.5</dd>
 <dt>**Types VMware pris en charge**</dt>
 <dd>vSphere Enterprise<br />
 vSphere Enterprise Plus, si vous prévoyez d'utiliser des commutateurs virtuels distribués.</dd>

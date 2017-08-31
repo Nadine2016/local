@@ -6,7 +6,7 @@ copyright:
 
   years: 2015, 2017
 
-Lastupdated: "2017-05-23"
+lastupdated: "2017-08-08"
 
 
 ---
@@ -44,7 +44,7 @@ Além disso, há um conjunto de serviços que estão disponíveis como serviços
 {: #table01}
 
 
-Há componentes opcionais que estão disponíveis para você comprar para escalar e ampliar a capacidade de seus recursos e serviços. É possível comprar qualquer um desses componentes entrando em contato com a equipe de vendas; acesse [Contate-nos](https://console.ng.bluemix.net/?direct=classic/#/contactUs/cloudOEPaneId=contactUs) para obter informações sobre como contatar um representante de vendas. Para aumentar seu plano para um serviço, é possível selecionar o plano a partir do ladrilho do serviço em seu catálogo.
+Há componentes opcionais que estão disponíveis para você comprar para escalar e ampliar a capacidade de seus recursos e serviços. É possível comprar qualquer um desses componentes entrando em contato com a equipe de vendas; acesse [Contate-nos](https://console.ng.bluemix.net/?direct=classic/#/contactUs/cloudOEPaneId=contactUs) para obter informações sobre como contatar um representante de vendas. Para aumentar seu plano para um serviço, é possível selecionar o plano a partir do tile do serviço em seu catálogo.
 
 | **Nome** | **Descrição** |
 |----------|-----------------|
@@ -76,56 +76,48 @@ O {{site.data.keyword.Bluemix_local_notm}} inclui um catálogo privado que reún
 
 Se você tiver uma instância privada de um serviço do {{site.data.keyword.Bluemix_notm}} para seu ambiente local, verá uma tag "Local" com os nomes do serviço em sua visualização de administração do catálogo. Da mesma forma, se ela for um serviço customizado, significando que você usou um broker de serviço para criá-la, você verá "Customizado" listado com o nome do serviço. Todos os outros serviços listados que não possuem uma tag "local" ou "customizado" estão disponíveis usando a organização do {{site.data.keyword.Bluemix_notm}} Public. Serviços organizados fornecem a função para criar aplicativos híbridos que consistem em serviços públicos e privados.
 
-|Serviço |Disponível na região sul dos EUA	|Disponível na região do Reino Unido na Europa |Disponível na região de Sydney, na Austrália|
-|:----------|:------------------------------|:------------------|:------------------|
-|{{site.data.keyword.alchemyapishort}} 		|Sim	   	|Sim  		|Sim|
-|{{site.data.keyword.alertnotificationshort}}	|Sim		|Sim		|Sim	|
-|{{site.data.keyword.apiconnect_short}}         |Sim            |Sim            |Sim  |
-|{{site.data.keyword.appseccloudshort}}		|Sim		|Sim		|Sim |
-|{{site.data.keyword.apiconnect_short}} 	|Sim   	 	|Sim   	 	|Sim   |
-|Verificador de acessibilidade automatizado |Sim       |Sim    |Sim   |
-|{{site.data.keyword.rules_short}}		|Sim		|Sim		|Sim |
-|{{site.data.keyword.iotmapinsights_short}}    |Sim  |Sim  |Sim  |
-|{{site.data.keyword.conversationshort}}  |Sim  |Sim  |Sim  |
-|{{site.data.keyword.dashdbshort}}		|Sim		|Sim		|Sim |
-|{{site.data.keyword.dataworks_short}}		|Sim		|Sim		|Não|
-|{{site.data.keyword.DB2OnCloud_short}}		|Sim		|Sim		|Sim |
-|Verificador de conteúdo digital |Sim  |Sim  |Sim  |
-|{{site.data.keyword.documentconversionshort}}	|Sim		|Sim		|Sim|
-|{{site.data.keyword.iotdriverinsights_short}}  |Sim |Sim  |Sim  |
-|{{site.data.keyword.geospatialshort_Geospatial}}	|Sim	|Sim		|Sim |
-|{{site.data.keyword.GlobalizationPipeline_short}}	|Sim		| Sim		| Sim |
-|{{site.data.keyword.identitymixershort}}		|Sim		|Sim		|Sim|
-|{{site.data.keyword.iot4auto_short}} |Sim   |Sim  |Sim  |
-|{{site.data.keyword.iotelectronics}}  |Sim  |Sim  |Não |
-|{{site.data.keyword.iotinsurance_short}} |Não   |Não   |Sim  |
-|{{site.data.keyword.twittershort}}		|Sim		|Sim		|Sim|
-|{{site.data.keyword.languagetranslationshort}}	|Sim		|Sim		|Sim |
-|{{site.data.keyword.languagetranslatorshort}} |Sim  |Sim  |Sim  |
-|{{site.data.keyword.dwl_short}}  |Sim  |Sim  |Não  |
-|{{site.data.keyword.eventhubshort}}		|Sim		|Não		|Não|
-|{{site.data.keyword.messagehub}}		|Sim		|Sim		|Não|
-|{{site.data.keyword.manda}}			|Sim		|Sim		|Sim |
-|{{site.data.keyword.amashort}}			|Sim		|Sim		|Sim |
-|{{site.data.keyword.mqa}}			|Sim		|Sim		|Sim |
-|{{site.data.keyword.mql}}			|Não		|Não		|Sim |
-|{{site.data.keyword.nlclassifierlshort}} 	|Sim 		|Sim 		|Sim|
-|{{site.data.keyword.personalityinsightsshort}}	|Sim		|Sim		|Sim|
-|{{site.data.keyword.pm_short}}			|Sim		|Sim		|Não |
-|{{site.data.keyword.mobilepush}}		|Sim		|Sim		|Sim |
-|{{site.data.keyword.retrieveandrankshort}}	|Sim 		|Sim 		|Sim|
-|{{site.data.keyword.runbook_short}}		|Sim		|Sim		|Sim|
-|{{site.data.keyword.SecureGateway}}		|Sim		|Sim		|Sim |
-|{{site.data.keyword.ssofull}}			|Sim		|Não		|Não|
-|{{site.data.keyword.speechtotextshort}}	|Sim 		|Sim	   	|Sim|
-|{{site.data.keyword.streaminganalyticsshort}}	|Sim		|Sim		|Sim |
-|{{site.data.keyword.texttospeechshort}} 	|Sim 		|Sim	   	|Sim|
-|{{site.data.keyword.toneanalyzershort}} 	|Sim 		|Sim 		|Sim|
-|{{site.data.keyword.tradeoffanalyticsshort}}	|Sim		|Sim		|Sim|
-|{{site.data.keyword.visualrecognitionshort}}	|Sim 		|Sim	 	|Sim|
-|{{site.data.keyword.iot_short}}		|Sim		|Sim		|Não|
-|{{site.data.keyword.weather_short}}		|Sim		|Sim		|Sim|
-|{{site.data.keyword.workloadscheduler}}	|Sim		|Sim		|Sim |
+|Serviço	|Disponível na região sul dos EUA	|Disponível na região do Reino Unido na Europa |Disponível na região de Sydney, na Austrália|Disponível na região da Alemanha|
+|:----------|:------------------------------|:------------------|:------------------|:------------------|
+|{{site.data.keyword.alertnotificationshort}} | Sim | Sim | Sim | Não |
+|{{site.data.keyword.appseccloudshort}}		|Sim		|Sim		|Sim |Não  |
+|Verificador de acessibilidade automatizado |Sim       |Sim    |Sim   |Sim  |Não |
+|{{site.data.keyword.cloudant}}			|Sim		|Sim		|Sim |Sim  |
+|{{site.data.keyword.evtmgt_short}} | Sim | Sim | Sim | Não |
+|{{site.data.keyword.iotmapinsights_short}}    |Sim  |Sim  |Sim  |Não  |
+|{{site.data.keyword.uccr_short}} | Sim | Não | Não | Não |
+|{{site.data.keyword.conversationshort}}  |Sim  |Sim  |Sim  |Sim  |
+|{{site.data.keyword.dataworks_short}}		|Sim		|Sim		|Não|Não|
+|Db2 hospedado | Sim | Sim | Sim | Sim |
+|{{site.data.keyword.DB2OnCloud_short}}		|Sim		|Sim		|Sim |Sim  |
+|{{site.data.keyword.dashdbshort_notm}} | Sim | Sim | Sim | Sim |
+|Verificador de conteúdo digital |Sim  |Sim  |Sim  |Não  |
+|{{site.data.keyword.servicediscoveryshort}} | Sim | Sim | Sim | Não |
+|{{site.data.keyword.documentconversionshort}}	|Sim		|Sim		|Sim|Não  |
+|{{site.data.keyword.iotdriverinsights_short}}  |Sim |Sim  |Sim  |Não  |
+|{{site.data.keyword.geospatialshort_Geospatial}}	|Sim	|Sim		|Sim |Não  |
+|{{site.data.keyword.GlobalizationPipeline_short}}	|Sim		| Sim		| Sim |Sim  |
+|{{site.data.keyword.identitymixershort}}		|Sim		|Sim		|Sim|Não  |
+|{{site.data.keyword.iot4auto_short}} |Sim   |Sim  |Sim  |Não  |
+|{{site.data.keyword.iotelectronics}}  |Sim  |Sim  |Não | Não|
+|{{site.data.keyword.languagetranslatorshort}} |Sim  |Sim  |Sim  |Sim  |
+|{{site.data.keyword.dwl_short}}  |Sim  |Sim  |Não  |Não|
+|{{site.data.keyword.pm_short}} | Sim | Sim | Não | Não |
+|{{site.data.keyword.messagehub}}		|Sim		|Sim		|Sim | Sim|
+|{{site.data.keyword.manda}}			|Sim		|Sim		|Sim |Não  |
+|{{site.data.keyword.nlclassifiershort}} 	|Sim 		|Sim 		|Sim |Não  |
+|{{site.data.keyword.nlushort}} | Sim | Sim | Sim | Não |
+|{{site.data.keyword.personalityinsightsshort}}	|Sim		|Sim		|Sim|Sim  |
+|{{site.data.keyword.mobilepushshort}}		|Sim		|Sim		|Sim |Sim  |
+|{{site.data.keyword.retrieveandrankshort}}	|Sim 		|Sim 		|Sim|Não  |
+|{{site.data.keyword.SecureGateway}}		|Sim		|Sim		|Sim |Sim  |
+|{{site.data.keyword.ssofull}}			|Sim		|Não		|Não| Não|
+|{{site.data.keyword.speechtotextshort}}	|Sim 		|Sim	 	|Sim|Sim  |
+|{{site.data.keyword.streaminganalyticsshort}}	|Sim		|Sim		|Sim |Não  |
+|{{site.data.keyword.texttospeechshort}} 	|Sim 		|Sim	 	|Sim|Sim  |
+|{{site.data.keyword.toneanalyzershort}} 	|Sim 		|Sim 		|Sim|Sim  |
+|{{site.data.keyword.visualrecognitionshort}}	|Sim 		|Sim	 	|Sim|Não  |
+|{{site.data.keyword.weather_short}}		|Sim		|Sim		|Sim|Não  |
+|{{site.data.keyword.workloadscheduler}}	|Sim		|Sim		|Sim |Sim  |
 {: caption="Tabela 4. Serviços disponíveis para organização do {{site.data.keyword.Bluemix_notm}} Public por região" caption-side="top"}
 {: #table04}
 
@@ -489,7 +481,7 @@ Revise os requisitos a seguir de versão, de datacenter, de conjunto de recursos
 
 <dl>
 <dt>**Versões suportadas de VMware**</dt>
-<dd>vCenter e ESXi 5.1, 5.5 e 6.0</dd>
+<dd>vCenter e ESXi 5.1, 5.5, 6.0 e 6.5</dd>
 <dt>**Tipos de VMware suportados**</dt>
 <dd>vSphere Enterprise<br />
 Enterprise vSphere plus, se você planeja usar os comutadores virtuais distribuídos</dd>
