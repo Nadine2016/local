@@ -249,7 +249,7 @@ con los datos de sucesos de la plataforma más recientes de QRadar. </p>
 
 Cloud Foundry y las aplicaciones de {{site.data.keyword.Bluemix_notm}} pueden trabajar con certificados de inspección SSL cuando acceden a fuentes de datos externas al entorno local. Dispone de inspección de contenido SSL para el entorno si proporciona un certificado raíz que se utiliza para firmar las secuencias SSL inspeccionadas. 
 
-El equipo de despliegue de {{site.data.keyword.Bluemix_notm}} carga los certificados raíz para permitir la inspección SSL en el entorno durante el proceso de despliegue para el entorno local. El hecho de habilitar la inspección SSL durante el proceso de configuración del entorno no prolonga el tiempo de despliegue. Si esta función no se habilita durante el despliegue inicial, puede solicitar que se habilite; sin embargo, es posible que haya un coste asociado y se puede tardar entre dos y cuatro días en llevar a cabo, en función de sus ventanas de mantenimiento disponibles.
+El equipo de despliegue de {{site.data.keyword.Bluemix_notm}} carga los certificados raíz para permitir la inspección SSL en el entorno durante el proceso de despliegue para el entorno local. El hecho de habilitar la inspección SSL durante el proceso de configuración del entorno no prolonga el tiempo de despliegue. Si esta función no se habilita durante el despliegue inicial, puede solicitar que se habilite; sin embargo, es posible que haya un coste asociado y se puede tardar entre dos y cuatro días en llevar a cabo, en función de sus períodos de mantenimiento disponibles.
 
 
 ## Configuración de la instancia de {{site.data.keyword.Bluemix_local_notm}}
@@ -534,7 +534,7 @@ para la subred privada, que es más segura y puede ayudar a evitar problemas de 
 
 El rendimiento recomendado es de 5 Mbps de subida y de 5 Mbps de bajada; puede esperar
 un uso de datos mensual de 10 GB. {{site.data.keyword.IBM_notm}} establece
-ventanas acordadas cuando se entregan paquetes de datos grandes, que pueden tener un tamaño de 4 GB.
+períodos acordados cuando se entregan paquetes de datos grandes, que pueden tener un tamaño de 4 GB.
 
 ### Permisos de VMware
 
@@ -589,7 +589,7 @@ Si elige hacer un pedido del hardware PureApplication a través de {{site.data.k
 ## Mantenimiento de la instancia local
 {: #maintainlocal}
 
-{{site.data.keyword.IBM_notm}} mantiene e instala actualizaciones y arreglos en los tiempos de ejecución y servicios de {{site.data.keyword.Bluemix_notm}}, como {{site.data.keyword.IBM_notm}} considere adecuado. Es posible que los servicios no estén disponibles durante las ventanas de mantenimiento. Además, {{site.data.keyword.IBM_notm}} trabaja con usted para planificar actualizaciones de mantenimiento para la plataforma {{site.data.keyword.Bluemix_notm}}.
+{{site.data.keyword.IBM_notm}} mantiene e instala actualizaciones y arreglos en los tiempos de ejecución y servicios de {{site.data.keyword.Bluemix_notm}}, como {{site.data.keyword.IBM_notm}} considere adecuado. Es posible que los servicios no estén disponibles durante los períodos de mantenimiento. Además, {{site.data.keyword.IBM_notm}} trabaja con usted para planificar actualizaciones de mantenimiento para la plataforma {{site.data.keyword.Bluemix_notm}}.
 
 ### Mantenimiento de {{site.data.keyword.Bluemix_notm}}
 
@@ -597,15 +597,15 @@ Se requieren los siguientes tipos de mantenimiento para {{site.data.keyword.Blue
 
 <dl>
 <dt>**Mantenimiento estándar para servicios**</dt>
-<dd>Los servicios utilizan ventanas de mantenimiento estándar y predefinidas, lo cual podría hacer que los servicios no estén disponibles. {{site.data.keyword.IBM_notm}} no requiere aprobación del cliente para realizar el mantenimiento de servicios, aunque intenta minimizar el impacto en los servicios.<br />
+<dd>Los servicios utilizan períodos de mantenimiento estándar y predefinidos, lo cual podría hacer que los servicios no estén disponibles. {{site.data.keyword.IBM_notm}} no requiere aprobación del cliente para realizar el mantenimiento de servicios, aunque intenta minimizar el impacto en los servicios.<br />
 <br />
-{{site.data.keyword.IBM_notm}} envía mensajes de difusión general detallando los cambios planificados para cada ventana de mantenimiento en la página Estado.<br />
+{{site.data.keyword.IBM_notm}} envía mensajes de difusión general detallando los cambios planificados para cada período de mantenimiento en la página Estado.<br />
 <br />
 **Importante**: algunos servicios pueden no estar disponible durante el periodo de mantenimiento.</dd>
 
 <dt>**Mantenimiento estándar para la plataforma de {{site.data.keyword.Bluemix_notm}}**</dt>
-<dd>Las actualizaciones de mantenimiento se aplican en función de la coordinación entre el usuario e {{site.data.keyword.IBM_notm}} dentro de un periodo de 21 días. Usted proporciona a {{site.data.keyword.IBM_notm}} ventanas de mantenimiento y fechas u horas específicas aprobadas previamente que pueden no funcionar para usted, e {{site.data.keyword.IBM_notm}} trabaja para planificar actualizaciones durante o alrededor de las fechas seleccionadas.<br />
-<p>Vaya a **ADMINISTRACIÓN > INFORMACIÓN DEL SISTEMA** para ver las actualizaciones de mantenimiento planificadas y pendientes. Para obtener más información sobre cómo establecer las ventanas aprobadas previamente y las fechas no disponibles y para visualizar o aprobar actualizaciones de mantenimiento planificadas, consulte <a href="../admin/index.html#oc_schedulemaintenance">Actualizaciones de mantenimiento</a>.</p></dd>
+<dd>Las actualizaciones de mantenimiento se aplican en función de la coordinación entre el usuario e {{site.data.keyword.IBM_notm}} dentro de un periodo de 21 días. Usted proporciona a {{site.data.keyword.IBM_notm}} períodos de mantenimiento y fechas u horas específicas preaprobadas que pueden no funcionar para usted, e {{site.data.keyword.IBM_notm}} trabaja para planificar actualizaciones durante o alrededor de las fechas seleccionadas.<br />
+<p>Vaya a **ADMINISTRACIÓN > INFORMACIÓN DEL SISTEMA** para ver las actualizaciones de mantenimiento planificadas y pendientes. Para obtener más información sobre cómo establecer los períodos preaprobados y las fechas de no disponibilidad y para visualizar o aprobar actualizaciones de mantenimiento planificadas, consulte <a href="../admin/index.html#oc_schedulemaintenance">Actualizaciones de mantenimiento</a>.</p></dd>
 </dl>
 
 **Importante**: {{site.data.keyword.IBM_notm}} se reserva el derecho de interrumpir servicios para aplicar mantenimiento emergencia si es necesario. {{site.data.keyword.IBM_notm}} puede modificar las horas de mantenimiento planificadas, pero le notificará de cualquier cambio, así como la información de mantenimiento de emergencia.
