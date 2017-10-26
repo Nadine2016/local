@@ -35,10 +35,8 @@ IBM®은 환경의 맨 위에서 실행되는 앱과 서비스를 빌드하는 �
 |포함| [{{site.data.keyword.autoscaling}}](/docs/services/Auto-Scaling/index.html)| 정책에 따라 애플리케이션의 컴퓨팅 용량을 동적으로 늘리거나 줄입니다. 이 서비스를 사용하면 {{site.data.keyword.Bluemix}} 로컬 환경에서 무제한 사용이 가능합니다.|
 |선택사항| [{{site.data.keyword.apiconnect_short}}](/docs/services/apiconnect/index.html) | {{site.data.keyword.apiconnect_long}}는 {{site.data.keyword.APIM}}와 IBM StrongLoop를 API 및 마이크로서비스를 작성, 실행, 관리 및 적용하기 위한 포괄적 솔루션을 제공하는 단일 오퍼링으로 통합합니다.|
 |선택사항| [{{site.data.keyword.containershort}}](/docs/containers/container_index.html) | {{site.data.keyword.Bluemix_notm}} 로컬에서 Docker 컨테이너를 실행합니다. 컨테이너는 앱에서 실행해야 하는 모든 요소를 포함하는 가상 소프트웨어 오브젝트입니다. 컨테이너는 리소스 격리와 할당의 이점이 있으며 가상 머신 등보다 휴대가 간편하고 효율적입니다. 하드웨어 요구사항에 대한 정보는 [IBM {{site.data.keyword.containershort}}를 {{site.data.keyword.Bluemix_notm}} 데디케이티드 및 Bluemix 로컬](/docs/containers/container_ov.html#container_dl)에서 참조하십시오.|
-|선택사항| [{{site.data.keyword.datacshort}}](/docs/services/DataCache/index.html#data_cache) | 이 서비스는 앱에 대한 분산 캐싱 시나리오를 지원하는 인메모리 데이터 그리드를 제공합니다. 50GB의 인메모리 캐시가 포함됩니다.|
 | 선택사항(베타)| [로깅](/docs/monitoringandlogging/cfapps_ml_logs_dedicated_ov.html#container_ml_logs_dedicated_ov) | Kibana의 검색 가능한 로그 및 대시보드와 {{site.data.keyword.Bluemix_notm}} 사용자 인터페이스의 Cloud Foundry 앱에 대한 로그를 제공합니다.|
 |선택사항| [{{site.data.keyword.mobilepush}}](/docs/services/mobilepush/index.html) | {{site.data.keyword.mobilepush}}는 iOS 및 Android 디바이스에 알림을 보내는 데 사용할 수 있는 서비스입니다. 알림은 모든 애플리케이션 사용자와 태그를 사용하는 특정 디바이스 및 사용자 세트를 대상으로 할 수 있습니다. 디바이스, 태그 및 구독을 관리할 수 있습니다. SDK(Software Development Kit) 및 REST(Representational State Transfer) API(Application Program Interface)를 사용하여 클라이언트 애플리케이션을 추가적으로 개발할 수도 있습니다.|
-|선택사항| [{{site.data.keyword.sescashort}}](/docs/services/SessionCache/index.html#session_cache) | 증가된 중복성을 위해 {{site.data.keyword.sescashort}}에서는 캐시에 저장된 세션의 복제본을 제공합니다. 따라서 등화 관제 또는 가동 중단의 상황에서도 클라이언트 애플리케이션은 캐시의 세션에 계속 액세스할 수 있습니다. 이 서비스는 웹 및 모바일 애플리케이션에 대한 세션 캐싱 시나리오를 지원합니다.|
 |선택사항| [{{site.data.keyword.iot_short}}](/docs/services/IoT/index.html) | 이 서비스를 사용하여 앱은 연결된 디바이스, 센서 및 게이트웨이와 통신하고 여기서 수집한 데이터를 이용할 수 있습니다. 로컬 기본 오퍼링에는 1.6TB의 데이터 교환과 100,000개의 동시 연결된 디바이스 또는 애플리케이션의 용량을 지닌 전용 환경 내에서 IBM {{site.data.keyword.iot_short}}의 개인용 버전 실행을 허용하는 초기 환경이 포함됩니다.|
 {: caption="표 1. 로컬 서비스 및 런타임" caption-side="top"}
 {: #table01}
@@ -52,7 +50,6 @@ IBM®은 환경의 맨 위에서 실행되는 앱과 서비스를 빌드하는 �
 |{{site.data.keyword.Bluemix_notm}} 로컬 {{site.data.keyword.apiconnect_short}} Professional 10만 API 호출 증가| 매월 10만 API 호출의 추가 용량을 제공하는 {{site.data.keyword.apiconnect_short}} Professional 환경의 확장입니다. |
 |{{site.data.keyword.Bluemix_notm}} 로컬 {{site.data.keyword.apiconnect_short}} Enterprise 2,500만 API 호출| 엔터프라이즈 전체 API 프로젝트 방향으로 대상 지정된 월간 2,500만 API 호출의 용량을 지닌 {{site.data.keyword.apiconnect_short}}의 개인용 버전 실행을 허용하는 환경입니다. |
 |{{site.data.keyword.Bluemix_notm}} 로컬 {{site.data.keyword.apiconnect_short}} Enterprise 10만 API 호출 증가| 매월 10만 API 호출의 추가 용량을 제공하는 {{site.data.keyword.apiconnect_short}} Enterprise 환경의 확장입니다. |
-|{{site.data.keyword.Bluemix_notm}} 데이터 & 세션 캐시 50GB 용량 증가| 최대 50GB 누적 용량까지 데이터 캐시 및 세션 캐시 인스턴스의 배치 및 실행을 허용하는 환경입니다.|
 |{{site.data.keyword.Bluemix_notm}} {{site.data.keyword.iot_short}} 로컬 증분 증가| 0.5TB 데이터 교환과 100,000개의 동시 연결된 디바이스 또는 애플리케이션의 용량을 지닌 로컬 환경 내에서 {{site.data.keyword.iot_short}}의 개인용 버전 실행을 허용하는 {{site.data.keyword.iot_short}} 로컬 기본 서비스 오퍼링에 대한 추가 환경입니다.|
 |{{site.data.keyword.IBM_notm}} {{site.data.keyword.mobilepush}} 로컬 추가 기능 인스턴스| 초당 300개의 추가 요청을 승인할 수 있는 능력이 있는 {{site.data.keyword.mobilepush}} 인스턴스를 배치하고 실행할 수 있는 환경입니다. |
 {: caption="표 2. 구매할 수 있는 선택적 서비스 컴포넌트" caption-side="top"}
