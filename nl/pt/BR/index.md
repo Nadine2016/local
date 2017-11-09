@@ -42,7 +42,7 @@ Além disso, há um conjunto de serviços que estão disponíveis como serviços
 {: #table01}
 
 
-Há componentes opcionais que estão disponíveis para você comprar para escalar e ampliar a capacidade de seus recursos e serviços. É possível comprar qualquer um desses componentes entrando em contato com a equipe de vendas; acesse [Contate-nos](https://console.ng.bluemix.net/?direct=classic/#/contactUs/cloudOEPaneId=contactUs) para obter informações sobre como contatar um representante de vendas. Para aumentar seu plano para um serviço, é possível selecionar o plano a partir do tile do serviço em seu catálogo.
+Há componentes opcionais que estão disponíveis para você comprar para escalar e ampliar a capacidade de seus recursos e serviços. É possível comprar qualquer um desses componentes entrando em contato com a equipe de vendas; acesse [Contate-nos](https://console.ng.bluemix.net/?direct=classic/#/contactUs/cloudOEPaneId=contactUs) para obter informações sobre como contatar um representante de vendas. Para aumentar seu plano para um serviço, é possível selecionar o plano a partir do ladrilho do serviço em seu catálogo.
 
 | **Nome** | **Descrição** |
 |----------|-----------------|
@@ -156,7 +156,8 @@ O ambiente de rede corporativa tem um link de rede bidirecional para o {{site.da
 <dt>Serviços Locais</dt>
 <dd>Um conjunto de serviços está disponível para ser usado privativamente no ambiente do {{site.data.keyword.Bluemix_local_notm}}. Geralmente, você decide quais serviços deseja para seu ambiente antes da implementação pela equipe do {{site.data.keyword.IBM_notm}}. Para obter uma lista de serviços disponíveis, acesse [Serviços e tempos de execução locais](#table01).
 </dd>
-<dt>DataPower Gateway</dt>
+<dt>DataPower
+Gateway</dt>
 <dd>
 Os dispositivos do {{site.data.keyword.IBM_notm}} DataPower Gateway fornecem acesso a domínios de aplicativos do {{site.data.keyword.Bluemix_notm}}. Esses dispositivos se conectam à sua rede intranet e à rede privada do {{site.data.keyword.Bluemix_notm}}, fornecendo um gateway seguro para a implementação do {{site.data.keyword.Bluemix_notm}}. Os desenvolvedores, que estão implementando apps e serviços, obtêm acesso de sua intranet por meio desse gateway. Os usuários dos aplicativos obterão acesso por meio dos dispositivos DataPower, bem como seus administradores.
 </dd>
@@ -249,8 +250,7 @@ Para configurar sua versão privada do {{site.data.keyword.Bluemix_notm}}:
 
 <ol>
 <li>Revise os <a href="index.html#localinfra" title="Abre em uma nova janela">{{site.data.keyword.Bluemix_local_notm}}requisitos de infraestrutura</a> para configurar sua instância local.</li>
-<li>Entre em contato com o representante de conta designado da {{site.data.keyword.IBM_notm}} ou <a href="https://console.ng.bluemix.net/?direct=classic/#/contactUs/cloudOEPaneId=contactUs" target="_blank">entre em contato com o {{site.data.keyword.Bluemix_notm}} <img src="../icons/launch-glyph.svg" alt="Ícone de link externo">
-</a> para iniciar.</li>
+<li>Entre em contato com o representante de conta designado da {{site.data.keyword.IBM_notm}} ou <a href="https://console.ng.bluemix.net/?direct=classic/#/contactUs/cloudOEPaneId=contactUs" target="_blank">entre em contato com o {{site.data.keyword.Bluemix_notm}} <img src="../icons/launch-glyph.svg" alt="Ícone de link externo"> </a> para iniciar.</li>
 <li>Estabeleça seu contrato do {{site.data.keyword.Bluemix_local_notm}} com a {{site.data.keyword.IBM_notm}} que inclui datas de acontecimento para entrega.
 	<ol type="a">
 	<li>Trabalhe com a IBM em sua configuração única e taxas mensais recorrentes para sua instância do {{site.data.keyword.Bluemix_notm}} Local. A taxa de recorrência mensal baseia-se nos serviços locais que você deseja usar, mais uma assinatura para todos os serviços públicos do {{site.data.keyword.Bluemix_notm}}. Em seguida, você receberá uma fatura para tudo o que usar além desse contrato de assinatura.</li>
