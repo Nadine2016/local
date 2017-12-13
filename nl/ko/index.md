@@ -6,7 +6,7 @@ copyright:
 
   years: 2015, 2017
 
-lastupdated: "2017-08-08"
+lastupdated: "2017-11-16"
 
 
 ---
@@ -31,11 +31,11 @@ IBM®은 환경의 맨 위에서 실행되는 앱과 서비스를 빌드하는 �
 
 | **유형** | **이름** | **설명** |
 |----------|----------|-----------------|
-|포함| [{{site.data.keyword.Bluemix_notm}} 런타임](/docs/cfapps/runtimes.html) | 시스템 및 운영 체제를 설정하고 관리할 필요 없이 신속하게 앱을 시작하고 실행하려면 런타임을 사용하십시오. 모든 {{site.data.keyword.Bluemix_notm}} 런타임은 {{site.data.keyword.Bluemix_notm}} 로컬 인스턴스에서 사용자에게 사용 가능합니다.|
-|포함| [{{site.data.keyword.autoscaling}}](/docs/services/Auto-Scaling/index.html)| 정책에 따라 애플리케이션의 컴퓨팅 용량을 동적으로 늘리거나 줄입니다. 이 서비스를 사용하면 {{site.data.keyword.Bluemix}} 로컬 환경에서 무제한 사용이 가능합니다.|
+|포함| {{site.data.keyword.Bluemix_notm}} 런타임 | 시스템 및 운영 체제를 설정하고 관리할 필요 없이 신속하게 앱을 시작하고 실행하려면 런타임을 사용하십시오. 모든 {{site.data.keyword.Bluemix_notm}} 런타임은 {{site.data.keyword.Bluemix_local_notm}} 인스턴스에서 사용 가능합니다.|
+|포함| [{{site.data.keyword.autoscaling}}](/docs/services/Auto-Scaling/index.html)| 정책에 따라 애플리케이션의 컴퓨팅 용량을 동적으로 늘리거나 줄입니다. 이 서비스를 사용하면 {{site.data.keyword.Bluemix_local_notm}} 환경에서 무제한 사용이 가능합니다.|
 |선택사항| [{{site.data.keyword.apiconnect_short}}](/docs/services/apiconnect/index.html) | {{site.data.keyword.apiconnect_long}}는 {{site.data.keyword.APIM}}와 IBM StrongLoop를 API 및 마이크로서비스를 작성, 실행, 관리 및 적용하기 위한 포괄적 솔루션을 제공하는 단일 오퍼링으로 통합합니다.|
-|선택사항| [{{site.data.keyword.containershort}}](/docs/containers/container_index.html) | {{site.data.keyword.Bluemix_notm}} 로컬에서 Docker 컨테이너를 실행합니다. 컨테이너는 앱에서 실행해야 하는 모든 요소를 포함하는 가상 소프트웨어 오브젝트입니다. 컨테이너는 리소스 격리와 할당의 이점이 있으며 가상 머신 등보다 휴대가 간편하고 효율적입니다. 하드웨어 요구사항에 대한 정보는 [IBM {{site.data.keyword.containershort}}를 {{site.data.keyword.Bluemix_notm}} 데디케이티드 및 Bluemix 로컬](/docs/containers/container_ov.html#container_dl)에서 참조하십시오.|
-| 선택사항(베타)| [로깅](/docs/monitoringandlogging/cfapps_ml_logs_dedicated_ov.html#container_ml_logs_dedicated_ov) | Kibana의 검색 가능한 로그 및 대시보드와 {{site.data.keyword.Bluemix_notm}} 사용자 인터페이스의 Cloud Foundry 앱에 대한 로그를 제공합니다.|
+|선택사항| [{{site.data.keyword.containershort}}](/docs/containers/container_index.html) | {{site.data.keyword.Bluemix_local_notm}}에서 Docker 컨테이너를 실행합니다. 컨테이너는 앱에서 실행해야 하는 모든 요소를 포함하는 가상 소프트웨어 오브젝트입니다. 컨테이너는 리소스 격리와 할당의 이점이 있으며 가상 머신 등보다 휴대가 간편하고 효율적입니다. 하드웨어 요구사항에 대한 정보는 [{{site.data.keyword.Bluemix_dedicated_notm}} 및 {{site.data.keyword.Bluemix_local_notm}}의 IBM {{site.data.keyword.containershort}}](/docs/containers/container_ov.html#container_dl)를 참조하십시오. |
+| 선택사항(베타)| [로깅](/docs/monitor_log/logging/dedicated/logging_local_dedicated.html#hybrid_apps_logs_dash) | Kibana의 검색 가능한 로그 및 대시보드와 {{site.data.keyword.Bluemix_notm}} 사용자 인터페이스의 Cloud Foundry 앱에 대한 로그를 제공합니다.|
 |선택사항| [{{site.data.keyword.mobilepush}}](/docs/services/mobilepush/index.html) | {{site.data.keyword.mobilepush}}는 iOS 및 Android 디바이스에 알림을 보내는 데 사용할 수 있는 서비스입니다. 알림은 모든 애플리케이션 사용자와 태그를 사용하는 특정 디바이스 및 사용자 세트를 대상으로 할 수 있습니다. 디바이스, 태그 및 구독을 관리할 수 있습니다. SDK(Software Development Kit) 및 REST(Representational State Transfer) API(Application Program Interface)를 사용하여 클라이언트 애플리케이션을 추가적으로 개발할 수도 있습니다.|
 |선택사항| [{{site.data.keyword.iot_short}}](/docs/services/IoT/index.html) | 이 서비스를 사용하여 앱은 연결된 디바이스, 센서 및 게이트웨이와 통신하고 여기서 수집한 데이터를 이용할 수 있습니다. 로컬 기본 오퍼링에는 1.6TB의 데이터 교환과 100,000개의 동시 연결된 디바이스 또는 애플리케이션의 용량을 지닌 전용 환경 내에서 IBM {{site.data.keyword.iot_short}}의 개인용 버전 실행을 허용하는 초기 환경이 포함됩니다.|
 {: caption="표 1. 로컬 서비스 및 런타임" caption-side="top"}
@@ -46,12 +46,12 @@ IBM®은 환경의 맨 위에서 실행되는 앱과 서비스를 빌드하는 �
 
 | **이름** | **설명** |
 |----------|-----------------|
-|{{site.data.keyword.Bluemix_notm}} 로컬 {{site.data.keyword.apiconnect_short}} Professional 500만 API 호출| 부서별 API 프로젝트 방향으로 대상 지정된 월간 500만 API 호출의 용량을 지닌 {{site.data.keyword.apiconnect_short}}의 개인용 버전 실행을 허용하는 환경입니다. |
-|{{site.data.keyword.Bluemix_notm}} 로컬 {{site.data.keyword.apiconnect_short}} Professional 10만 API 호출 증가| 매월 10만 API 호출의 추가 용량을 제공하는 {{site.data.keyword.apiconnect_short}} Professional 환경의 확장입니다. |
-|{{site.data.keyword.Bluemix_notm}} 로컬 {{site.data.keyword.apiconnect_short}} Enterprise 2,500만 API 호출| 엔터프라이즈 전체 API 프로젝트 방향으로 대상 지정된 월간 2,500만 API 호출의 용량을 지닌 {{site.data.keyword.apiconnect_short}}의 개인용 버전 실행을 허용하는 환경입니다. |
-|{{site.data.keyword.Bluemix_notm}} 로컬 {{site.data.keyword.apiconnect_short}} Enterprise 10만 API 호출 증가| 매월 10만 API 호출의 추가 용량을 제공하는 {{site.data.keyword.apiconnect_short}} Enterprise 환경의 확장입니다. |
-|{{site.data.keyword.Bluemix_notm}} {{site.data.keyword.iot_short}} 로컬 증분 증가| 0.5TB 데이터 교환과 100,000개의 동시 연결된 디바이스 또는 애플리케이션의 용량을 지닌 로컬 환경 내에서 {{site.data.keyword.iot_short}}의 개인용 버전 실행을 허용하는 {{site.data.keyword.iot_short}} 로컬 기본 서비스 오퍼링에 대한 추가 환경입니다.|
-|{{site.data.keyword.IBM_notm}} {{site.data.keyword.mobilepush}} 로컬 추가 기능 인스턴스| 초당 300개의 추가 요청을 승인할 수 있는 능력이 있는 {{site.data.keyword.mobilepush}} 인스턴스를 배치하고 실행할 수 있는 환경입니다. |
+|{{site.data.keyword.Bluemix_local_notm}} {{site.data.keyword.apiconnect_short}} Professional 500만 API 호출 | 부서별 API 프로젝트 방향으로 대상 지정된 월간 500만 API 호출의 용량을 지닌 {{site.data.keyword.apiconnect_short}}의 개인용 버전 실행을 허용하는 환경입니다. |
+|{{site.data.keyword.Bluemix_local_notm}} {{site.data.keyword.apiconnect_short}} Professional 10만 API 호출 증가 | 매월 10만 API 호출의 추가 용량을 제공하는 {{site.data.keyword.apiconnect_short}} Professional 환경의 확장입니다. |
+|{{site.data.keyword.Bluemix_local_notm}} {{site.data.keyword.apiconnect_short}} Enterprise 2,500만 API 호출 | 엔터프라이즈 전체 API 프로젝트 방향으로 대상 지정된 월간 2,500만 API 호출의 용량을 지닌 {{site.data.keyword.apiconnect_short}}의 개인용 버전 실행을 허용하는 환경입니다. |
+|{{site.data.keyword.Bluemix_local_notm}} {{site.data.keyword.apiconnect_short}} Enterprise 10만 API 호출 증가 | 매월 10만 API 호출의 추가 용량을 제공하는 {{site.data.keyword.apiconnect_short}} Enterprise 환경의 확장입니다. |
+|{{site.data.keyword.Bluemix_notm}} {{site.data.keyword.iot_short}} 로컬 증분 증가 | 0.5TB 데이터 교환과 100,000개의 동시 연결된 디바이스 또는 애플리케이션의 용량을 지닌 로컬 환경 내에서 {{site.data.keyword.iot_short}}의 개인용 버전 실행을 허용하는 {{site.data.keyword.iot_short}} 로컬 기본 서비스 오퍼링에 추가되는 환경입니다. |
+|{{site.data.keyword.IBM_notm}} {{site.data.keyword.mobilepush}} 로컬 추가 기능 인스턴스 | 초당 300개의 추가 요청을 승인할 수 있는 능력이 있는 {{site.data.keyword.mobilepush}} 인스턴스를 배치하고 실행할 수 있는 환경입니다. |
 {: caption="표 2. 구매할 수 있는 선택적 서비스 컴포넌트" caption-side="top"}
 {: #table02}
 
@@ -64,7 +64,7 @@ IBM®은 환경의 맨 위에서 실행되는 앱과 서비스를 빌드하는 �
 {: caption="표 3. 구매할 수 있는 선택적 플랫폼 추가 기능 컴포넌트" caption-side="top"}
 {: #table03}
 
-**참고**: {{site.data.keyword.Bluemix_notm}} 로컬 컴포넌트는 특정 구성 용량(예: 기가바이트 또는 초당 트랜잭션)을 표시할 수 있습니다. 클라우드 서비스의 구성에 대한 사실상의 실제 용량이 수많은 요인에 따라 다양하므로, 사실상의 실제 용량은 구성된 용량보다 크거나 작을 수 있습니다.
+**참고**: {{site.data.keyword.Bluemix_local_notm}} 컴포넌트는 특정 구성 용량(예: 기가바이트 또는 초당 트랜잭션)을 표시할 수 있습니다. 클라우드 서비스의 구성에 대한 사실상의 실제 용량이 수많은 요인에 따라 다양하므로, 사실상의 실제 용량은 구성된 용량보다 크거나 작을 수 있습니다.
 
 ## 신디케이트된(각 클라우드 형태 간 동일하게 연동된) 카탈로그
 {: #cataloglocal}
@@ -72,6 +72,7 @@ IBM®은 환경의 맨 위에서 실행되는 앱과 서비스를 빌드하는 �
 {{site.data.keyword.Bluemix_local_notm}}에는 퍼블릭 및 로컬 배치의 승인된 서비스를 한데 모으는 개인용 카탈로그가 있습니다. 이 {{site.data.keyword.Bluemix_notm}} 카탈로그를 통해 사용자 소유의 서비스를 공개하고 서비스에 대한 액세스를 관리할 수도 있습니다. 데이터에 대한 개인정보 보호정책 및 보안 기준에 따라 사용자 비즈니스의 요구사항을 충족해야 하는 공용 서비스를 결정하는 옵션이 있습니다. 
 
 로컬 환경에 대한 {{site.data.keyword.Bluemix_notm}} 서비스의 개인용 인스턴스가 있으면 카탈로그 관리 보기에 서비스 이름과 함께 "로컬" 태그가 표시됩니다. 마찬가지로, 사용자 정의 서비스인 경우(즉, 서비스 브로커를 사용하여 작성한 경우)에는 서비스 이름과 함께 "사용자 정의"가 나열됩니다. "로컬" 또는 "사용자 정의" 태그 없이 나열된 기타 모든 서비스는 {{site.data.keyword.Bluemix_notm}} 퍼블릭에서 신디케이션을 사용하여 사용할 수 있습니다. 신디케이트된(각 클라우드 형태 간 동일하게 연동된) 카탈로그는 공용 및 개인 서비스로 구성되는 하이브리드 애플리케이션을 작성하는 기능을 제공합니다. 
+
 
 |서비스	|미국 남부 지역에서 사용 가능|유럽 영국 지역에서 사용 가능|오스트레일리아 시드니 지역에서 사용 가능|독일 지역에서 사용 가능|
 |:----------|:------------------------------|:------------------|:------------------|:------------------|
@@ -126,7 +127,7 @@ IBM®은 환경의 맨 위에서 실행되는 앱과 서비스를 빌드하는 �
 
 {{site.data.keyword.Bluemix_local_notm}}은 엔터프라이즈 방화벽 뒤에 있는 가상화 인프라에 설치되며 최고 성능의 가장 안전한 클라우드 인프라를 제공합니다. {{site.data.keyword.IBM_notm}}은 {{site.data.keyword.IBM_notm}}의 [릴레이](#localrelay) 기술을 통해 데이터 센터에 {{site.data.keyword.Bluemix_local_notm}}을 설치하고 원격으로 모니터링하며 관리합니다. [그림 1](#figure01)의 논리적 아키텍처는 로컬 환경에서 {{site.data.keyword.Bluemix_notm}}를 설정하는 방법과 {{site.data.keyword.IBM_notm}}이 로컬 인스턴스를 유지보수하는 방법에 대해 설명합니다.
 
-![{{site.data.keyword.Bluemix_local_notm}} 아키텍처](images/bmlocal_arch.png "Bluemix 로컬 아키텍처 다이어그램") 
+![{{site.data.keyword.Bluemix_local_notm}} 아키텍처](images/bmlocal_arch.png "Bluemix 로컬 아키텍처 다이어그램")
 
 그림 1. {{site.data.keyword.Bluemix_local_notm}} 아키텍처
 {: #figure01}
@@ -219,7 +220,7 @@ IBM®은 환경의 맨 위에서 실행되는 앱과 서비스를 빌드하는 �
 </dt>
 <dd>
 {{site.data.keyword.IBM_notm}}은 사용자 환경에 액세스할 수 있는 {{site.data.keyword.IBM_notm}} 운영 센터에서 승인된 사용자 및 ID 목록을 제공합니다. {{site.data.keyword.Bluemix_local_notm}} 환경의 관리 페이지를 통해 사용자 환경에 대한 액세스를 감사할 수 있습니다. <br>
-<p>{{site.data.keyword.IBM_notm}} 운영 센터 사용자는 플랫폼 상태를 더 잘 파악할 수 있도록 {{site.data.keyword.Bluemix_local_notm}} 환경에만 액세스합니다. 운영 팀은 애플리케이션 코드 또는 데이터에 액세스할 수 없으므로, 자동화되지 않은 작업을 수행하는 비상 상황에서 구성 또는 매개변수를 확인하기 위해 문제점 판별에 필요한 명령만 실행합니다. 이러한 명령은 릴레이를 통해 민감한 데이터를 전송하지 않습니다. </p>
+<p>{{site.data.keyword.IBM_notm}} 운영 센터 사용자는 플랫폼 상태를 더 잘 파악할 수 있도록 {{site.data.keyword.Bluemix_local_notm}} 환경에만 액세스합니다. 운영 팀은 애플리케이션 코드 또는 데이터에 액세스할 수 없으며, 자동화되지 않은 작업을 수행할 수 있도록 비상 상황에서 구성 또는 매개변수를 확인하기 위해 문제점 판별에 필요한 명령만 실행합니다. 이러한 명령은 릴레이를 통해 민감한 데이터를 전송하지 않습니다. </p>
 <p>로컬 환경에 대한 액세스는 연결 프로세스의 여러 단계 중에 이중 인증으로 보안 처리됩니다. 보안 보고서를 생성하면 환경에 액세스한 사용자와 환경에 액세스한 시점 및 이유를 확인할 수 있습니다. </p>
 <p>문제점 판별 및 비상 유지보수용 릴레이를 통한 트래픽은 {{site.data.keyword.IBM_notm}} 사용자를 인증하는 데 사용되는 LDAP 및 Kerberos 트래픽과 마찬가지로 SSH 트래픽입니다. <br>
 관리자는 인시던트, 문제점, 변경, 용량 및 보안 관리를 위해 환경과 관련한 일체를 볼 수 있습니다. 관리 페이지를 사용하여 환경에 대한 정보에 액세스할 수 있습니다. 릴레이 기술은 QRadar의 최신 플랫폼 이벤트 데이터를 사용하여 관리 페이지를 최신 상태로 유지합니다. </p>
@@ -229,7 +230,7 @@ IBM®은 환경의 맨 위에서 실행되는 앱과 서비스를 빌드하는 �
 ### SSL 검사
 {: #sslinspection}
 
-Cloud Foundry 및 {{site.data.keyword.Bluemix_notm}} 애플리케이션은 로컬 환경 외부에 있는 소스에 액세스하는 경우 SSL 검사 인증서를 사용하여 작업할 수 있습니다. 검사된 SSL 스트림을 서명하는 데 사용되는 루트 인증서를 제공하는 경우 환경에 대해 SSL 컨텐츠 검사를 사용할 수 있습니다.  
+Cloud Foundry 및 {{site.data.keyword.Bluemix_notm}} 애플리케이션은 로컬 환경 외부에 있는 소스에 액세스하는 경우 SSL 검사 인증서를 사용하여 작업할 수 있습니다. 검사된 SSL 스트림을 서명하는 데 사용되는 루트 인증서를 제공하는 경우 환경에 대해 SSL 컨텐츠 검사를 사용할 수 있습니다. 
 
 {{site.data.keyword.Bluemix_notm}} 개발 팀은 로컬 환경에 대한 배치 프로세스 중에 환경에서 SSL 검사를 사용 가능하도록 루트 인증서를 로드합니다. 환경 설정 프로세스 동안 SSL 검사를 사용하면 배치를 위한 추가 시간이 필요하지 않습니다. 이 기능이 초기 배치 동안 사용으로 설정되지 않는 경우 사용할 수 있도록 요청할 수 있습니다. 그러나, 추가 비용이 발생할 수 있으며 사용 가능한 유지보수 기간에 따라 완료하는 데 2일에서 4일이 소요될 수 있습니다. 
 
@@ -239,11 +240,11 @@ Cloud Foundry 및 {{site.data.keyword.Bluemix_notm}} 애플리케이션은 로�
 
 {{site.data.keyword.Bluemix_local_notm}}은 선택한 하드웨어에 호스팅되는 {{site.data.keyword.Bluemix_notm}} 퍼블릭 오퍼링의 프라이빗 버전을 제공합니다. 공통적으로 지원되는 두 가지 옵션은 다음과 같습니다.
 * VMware 하드웨어를 제공합니다.
-* {{site.data.keyword.Bluemix_notm}} 로컬 시스템을 주문합니다. 이는 {{site.data.keyword.IBM_notm}}을 통해 주문할 수 있는 사전 구성된 PureApplication 어플라이언스를 기반으로 빌드됩니다. PureApplication 어플라이언스 옵션에 대한 자세한 정보는 [IBM {{site.data.keyword.Bluemix_notm}} Local System W3500 and W3550 models run cloud native services, enabled middleware, and open pattern workloads concurrently ![외부 링크 아이콘](../icons/launch-glyph.svg)](https://www-01.ibm.com/common/ssi/rep_ca/5/897/ENUS216-325/){: new_window}를 참조하십시오. 
+* {{site.data.keyword.IBM_notm}}을 통해 주문할 수 있는 사전 구성된 PureApplication 어플라이언스를 기반으로 빌드된 {{site.data.keyword.Bluemix_local_notm}} 시스템을 주문합니다. PureApplication 어플라이언스 옵션에 대한 자세한 정보는 [IBM {{site.data.keyword.Bluemix_notm}} Local System W3500 and W3550 models run cloud native services, enabled middleware, and open pattern workloads concurrently ![외부 링크 아이콘](../icons/launch-glyph.svg)](https://www-01.ibm.com/common/ssi/rep_ca/5/897/ENUS216-325/){: new_window}를 참조하십시오. 
 
 {{site.data.keyword.Bluemix_local_notm}}의 경우 {{site.data.keyword.Bluemix_notm}} 서비스 및 런타임을 사용하여 고객이 호스팅 및 관리하는 안전한 클라우드 환경의 컴퓨팅 요구사항을 지원할 수 있습니다. {{site.data.keyword.IBM_notm}}은 비밀번호 보안 로그인을 사용하여 {{site.data.keyword.Bluemix_local_notm}}에 대한 액세스를 제공합니다. 서비스, 런타임 및 연관된 리소스에 액세스하고 {{site.data.keyword.Bluemix_notm}} 앱을 배치 및 제거할 수 있습니다. {{site.data.keyword.IBM_notm}} 담당자와 협력하여 {{site.data.keyword.Bluemix_notm}}의 로컬 인스턴스를 설정하려면 다음 단계를 검토하십시오. 
 
-**참고**: {{site.data.keyword.Bluemix_notm}} 로컬 시스템 하드웨어에서 {{site.data.keyword.Bluemix_local_notm}}을 호스팅하는 경우 IBM 담당자에게 많은 정보를 제공할 필요가 없다는 점에서 설정 프로세스가 다를 수 있습니다. 또한 고객 소유 VMware 사용에 필요한 관리 모델과 비교해 PureApplication 어플라이언스의 "콜홈" 유지보수 모델로 인해 도입/인식(Inception) 및 진행 단계 동안 역할 및 책임의 범위가 감소될 수 있습니다.
+**참고**: {{site.data.keyword.Bluemix_local_notm}} 시스템 하드웨어에서 {{site.data.keyword.Bluemix_local_notm}}을 호스팅하는 경우에는 설정 프로세스가 다를 수 있습니다. IBM 담당자에게는 보다 적은 정보를 제공해야 합니다. 또한 고객 소유 VMware 사용에 필요한 관리 모델과 비교해 PureApplication 어플라이언스의 "콜홈" 유지보수 모델로 인해 도입/인식(Inception) 및 진행 단계 동안 역할 및 책임의 범위가 감소될 수 있습니다.
 
 {{site.data.keyword.Bluemix_notm}}의 개인용 버전 설정:
 
@@ -253,11 +254,11 @@ Cloud Foundry 및 {{site.data.keyword.Bluemix_notm}} 애플리케이션은 로�
 <a href="https://console.ng.bluemix.net/?direct=classic/#/contactUs/cloudOEPaneId=contactUs" target="_blank">{{site.data.keyword.Bluemix_notm}}에 문의 <img src="../icons/launch-glyph.svg" alt="외부 링크 아이콘"></a>하십시오. </li>
 <li>{{site.data.keyword.IBM_notm}}과 제공을 위한 마일스톤 날짜가 포함된 {{site.data.keyword.Bluemix_local_notm}} 계약을 체결하십시오.
 	<ol type="a">
-	<li>{{site.data.keyword.Bluemix_notm}} 로컬 인스턴스의 일회성 설정 및 월간 정기 사용료로 IBM과 함께 작업하십시오. 매월 발생하는 요금은 사용하고자 하는 로컬 서비스 및 모든 {{site.data.keyword.Bluemix_notm}} 퍼블릭 서비스에 대한 구독을 기반으로 합니다. 그런 다음 해당 구독 계약과 더불어 사용하는 모든 항목에 대한 송장을 수령하십시오.</li>
+	<li>{{site.data.keyword.Bluemix_local_notm}} 인스턴스에 대한 일회성 설정 및 매월 발생하는 요금에 대해 IBM과 협의하십시오. 매월 발생하는 요금은 사용하고자 하는 로컬 서비스 및 모든 {{site.data.keyword.Bluemix_notm}} 퍼블릭 서비스에 대한 구독을 기반으로 합니다. 그런 다음 해당 구독 계약과 더불어 사용하는 모든 항목에 대한 송장을 수령하십시오.</li>
 	<li>{{site.data.keyword.Bluemix_local_notm}} 인스턴스 설정의 각 단계(Phase)마다 최종 기한을 식별하십시오.</li>
 	</ol>
 	</li>
-<li>플랫폼 및 계정을 작성한 후 로컬 인스턴스를 시작하고 실행하기 위해 필요한 역할을 담당할 조직의 직원을 식별하십시오. 사용자가 지정하는 역할에 대한 자세한 정보는 <a href="/docs/local/index.html#rolesresponsibilities">{{site.data.keyword.Bluemix_notm}} 로컬 역할 및 책임</a>을 참조하십시오.
+<li>플랫폼 및 계정을 작성한 후 로컬 인스턴스를 시작하고 실행하기 위해 필요한 역할을 담당할 조직의 직원을 식별하십시오. 지정하는 역할에 대한 자세한 정보는 <a href="/docs/local/index.html#rolesresponsibilities">{{site.data.keyword.Bluemix_local_notm}} 역할 및 책임</a>을 참조하십시오.
 </li>
 <li>하드웨어를 제공하면, {{site.data.keyword.IBM_notm}}은 회사 네트워크와 {{site.data.keyword.Bluemix_local_notm}} 인스턴스 간의 네트워크 연결을 정의하고 설정하는 데 도움을 줍니다. 인프라 요구사항에 대한 자세한 정보는 <a href="index.html#localinfra">{{site.data.keyword.Bluemix_local_notm}} 인프라 요구사항</a>을 참조하십시오.
  <ol type="a">
@@ -270,10 +271,10 @@ Cloud Foundry 및 {{site.data.keyword.Bluemix_notm}} 애플리케이션은 로�
 
 사용자 환경에 처음 배치하고 구성하기 위해서는 다음 목록과 비슷하게 프로세스가 진행되어야 합니다. 각 태스크를 책임지는 담당자에 대한 자세한 정보는 [역할 및 책임](/docs/local/index.html#rolesresponsibilities)을 참조하십시오.
 
-**참고**: {{site.data.keyword.Bluemix_notm}} 로컬 시스템 하드웨어 옵션에서 로컬 인스턴스를 호스팅하도록 선택하는 경우 아래 목록의 1단계에서 3단계까지 건너뛸 수 있습니다. 
+**참고**: {{site.data.keyword.Bluemix_local_notm}} 시스템 하드웨어 옵션에서 로컬 인스턴스를 호스팅하도록 선택하는 경우에는 아래 목록의 1 - 3단계를 건너뛸 수 있습니다. 
 
 <ol>
-<li>컴퓨팅 리소스, 네트워킹 및 스토리지에 대한 스펙에 부합하는 VMware 구성을 제공합니다. 인프라 요구사항에 대한 자세한 정보는 <a href="/docs/local/index.html#localinfra">{{site.data.keyword.Bluemix_notm}} 로컬 인프라 요구사항</a>을 참조하십시오.</li>
+<li>컴퓨팅 리소스, 네트워킹 및 스토리지에 대한 스펙에 부합하는 VMware 구성을 제공합니다. 인프라 요구사항에 대한 자세한 정보는 <a href="/docs/local/index.html#localinfra">{{site.data.keyword.Bluemix_local_notm}} 인프라 요구사항</a>을 참조하십시오. </li>
 <li>도입/인식(Inception) 가상 머신에 사용되는 vCenter 클러스터 신임 정보를 제공합니다. 다음 정보를 제공해야 합니다.
 <ul>
 <li>VMware 클러스터의 이름</li>
@@ -295,7 +296,7 @@ Cloud Foundry 및 {{site.data.keyword.Bluemix_notm}} 애플리케이션은 로�
 <br />
 사용자 정의 도메인에 대한 인증서를 제공하는 동안은 애플리케이션에 대해 원하는 만큼의 사용자 정의 도메인을 선택할 수 있습니다. 사용자 정의 도메인 작성에 대한 자세한 정보는 <a href="../manageapps/updapps.html#domain">사용자 정의 도메인 작성 및 사용</a>을 참조하십시오.</li>
 <li>{{site.data.keyword.IBM_notm}} 운영 센터에 다시 연결하도록 릴레이를 구성하는 데 사용할 기술을 IPSec 또는 OpenVPN 터널 중에서 선택합니다.</li>
-<li>{{site.data.keyword.IBM_notm}}이 {{site.data.keyword.Bluemix_notm}} 클러스터 내에 도입/인식(Inception) 가상 머신을 설치하고 시작합니다. 고유 VMware를 제공하는 경우, 고객 담당자가 이 태스크를 완료할 수 있도록 {{site.data.keyword.IBM_notm}} 담당자가 돕습니다. {{site.data.keyword.Bluemix_notm}} 로컬 시스템 하드웨어 옵션을 주문한 경우 IBM 담당자가 이 태스크를 완료합니다. </li>
+<li>{{site.data.keyword.IBM_notm}}이 {{site.data.keyword.Bluemix_notm}} 클러스터 내에 도입/인식(Inception) 가상 머신을 설치하고 시작합니다. 고유 VMware를 제공하는 경우, 고객 담당자가 이 태스크를 완료할 수 있도록 {{site.data.keyword.IBM_notm}} 담당자가 돕습니다. {{site.data.keyword.Bluemix_local_notm}} 시스템 하드웨어 옵션을 주문한 경우에는 IBM 담당자가 이 태스크를 완료합니다. </li>
 <li>{{site.data.keyword.IBM_notm}}이 {{site.data.keyword.IBM_notm}} 운영 센터와 다시 통신하도록 릴레이를 구성합니다.</li>
 <li>도입/인식(Inception) 가상 머신 저장소는 업데이트된 빌드 아티팩트를 가져옵니다.</li>
 <li>회사 LDAP 디렉토리 인스턴스에 연결하기 위해 {{site.data.keyword.IBM_notm}} 신임 정보를 제공합니다.</li>
@@ -306,7 +307,7 @@ Cloud Foundry 및 {{site.data.keyword.Bluemix_notm}} 애플리케이션은 로�
 <li>경보에 대응하기 위해 {{site.data.keyword.IBM_notm}} 운영 팀에서 모니터링하는 로컬 인스턴스의 사용을 시작할 수 있습니다.</li>
 </ol>
 
-{{site.data.keyword.Bluemix_notm}} 인스턴스를 설정하고 나면 관리 페이지를 사용하여 {{site.data.keyword.Bluemix_notm}} 인스턴스를 모니터링하고 관리할 수 있습니다. 자세한 정보는 [{{site.data.keyword.Bluemix_local_notm}} 및 데디케이티드 관리](../admin/index.html#mng)를 참조하십시오. 업그레이드 및 유지보수에 대한 자세한 정보는 [로컬 인스턴스 유지보수](index.html#maintainlocal)를 참조하십시오.
+{{site.data.keyword.Bluemix_notm}} 인스턴스를 설정하고 나면 관리 페이지를 사용하여 {{site.data.keyword.Bluemix_notm}} 인스턴스를 모니터링하고 관리할 수 있습니다. 자세한 정보는 [{{site.data.keyword.Bluemix_local_notm}} 및 {{site.data.keyword.Bluemix_dedicated_notm}} 관리](../admin/index.html#mng)를 참조하십시오. 업그레이드 및 유지보수에 대한 자세한 정보는 [로컬 인스턴스 유지보수](index.html#maintainlocal)를 참조하십시오.
 
 ##역할 및 책임
 {: #rolesresponsibilities}
@@ -428,7 +429,7 @@ Cloud Foundry 및 {{site.data.keyword.Bluemix_notm}} 애플리케이션은 로�
 ## {{site.data.keyword.Bluemix_local_notm}} 인프라 요구사항
 {: #localinfra}
 
-{{site.data.keyword.Bluemix_local_notm}}에 대해 사용자는 로컬 인스턴스를 호스팅하기 위한 실제 보안 및 인프라를 소유합니다. 인프라 요구사항은 사용자 고유의 VMware를 사용하고 관리하도록 선택하거나 IBM에서 주문한 PureApp 어플라이언스를 포함하는 {{site.data.keyword.Bluemix_local_notm}} 시스템을 구매하도록 선택하는 경우 모두 동일합니다. 그러나 주문 시 선택할 수 있는 두 가지 PureApp 어플라이언스 옵션이 있으며 환경 스케일링 프로세스는 VMware와 {{site.data.keyword.Bluemix_local_notm}} 시스템에 대해 다릅니다. PureApp 어플라이언스 옵션에 대한 자세한 정보는 [IBM {{site.data.keyword.Bluemix_notm}} Local System W3500 and W3550 models run cloud native services, enabled middleware, and open pattern workloads concurrently ![외부 링크 아이콘](../icons/launch-glyph.svg)](https://www-01.ibm.com/common/ssi/rep_ca/5/897/ENUS216-325/){: new_window}를 참조하십시오. 
+{{site.data.keyword.Bluemix_local_notm}}에 대해 사용자는 로컬 인스턴스를 호스팅하기 위한 실제 보안 및 인프라를 소유합니다. 인프라 요구사항은 자체 VMware 사용 및 관리를 선택하는지 또는 IBM에서 주문한 PureApp 어플라이언스가 포함된 {{site.data.keyword.Bluemix_local_notm}} 시스템의 구매를 선택하는지와 무관하게 모두 동일합니다. 그러나 주문 시에는 두 개의 PureApp 어플라이언스 옵션 중에서 선택할 수 있으며, 환경을 스케일링하는 프로세스는 VMware 및 {{site.data.keyword.Bluemix_local_notm}} 시스템의 경우에 서로 다릅니다. PureApp 어플라이언스 옵션에 대한 자세한 정보는 [IBM {{site.data.keyword.Bluemix_local_notm}} System W3500 및 W3550 모델이 클라우드 고유 서비스, 작동되는 미들웨어 및 오픈 패턴 워크로드를 동시에 실행함 ![외부 링크 아이콘](../icons/launch-glyph.svg)](https://www-01.ibm.com/common/ssi/rep_ca/5/897/ENUS216-325/){: new_window}을 참조하십시오. 
 
 {{site.data.keyword.IBM_notm}}은 {{site.data.keyword.Bluemix_local_notm}}을 설정하기 위해 다음과 같은 최소 요구사항을 설정합니다.
 
@@ -490,13 +491,12 @@ ESXi는 실제 서버에서 실행되고 프로세서, 메모리, 스토리지 �
 <dd>특히 {{site.data.keyword.Bluemix_local_notm}} 사용을 위해 클러스터를 작성하십시오. 클러스터 이름의 예는 `bluemix`입니다.</dd>
 <dt>**리소스 풀**</dt>
 <dd>{{site.data.keyword.Bluemix_local_notm}} 클러스터 아래에 리소스 풀을 작성하십시오. 리소스 풀 이름의 예는 `local`입니다.</dd>
-</dt>**데이터 저장소**</dt>
+<dt>**데이터 저장소**</dt>
 <dd>{{site.data.keyword.Bluemix_notm}}의 초기 배치에는 7.5TB가 필요합니다.<br />
 <br />
 **참고**: 둘 이상의 데이터 저장소를 사용하는 경우 각 데이터 저장소는 동일한 접두부로 시작해야 합니다. 접두부가 동일한 여러 데이터 저장소 이름의 예는 `bluemix_datastore_01` 및 `bluemix_datastore_02`입니다.</dd>
 <dt>**네트워크**</dt>
-<dd>고객이 액세스할 수 있고 아웃바운드 인터넷 기능이 있는 하나의 네트워크가 있어야 합니다. VLAN은 Bluemix 로컬 컴포넌트가 실행되는 사설 서브넷을 호스트합니다. 모든 트래픽은 사설 서브넷에서 고객 서브넷으로 라우트됩니다. 고객 서브넷 IP는 Bluemix 로컬에 대한 모든 액세스에 사용됩니다. Bluemix 로컬에 사용되는 ESXi들 사이에서만 사용되는 또 하나의 사설 VLAN을 정의할 수 있습니다. 이 VLAN은 VMware에서 포트 그룹으로 표시됩니다. Bluemix 로컬은 이를 더 안전하고 라우팅 문제를 피하는 데 도움이 되는 사설 서브넷으로 사용합니다.
-<p>vSphere 분배 스위치(vDS)를 사용하는 경우, vDS를 보유하는 폴더를 작성하여 이 폴더에 vDS를 배치하십시오.</p>
+<dd>고객이 액세스할 수 있고 아웃바운드 인터넷 기능이 있는 하나의 네트워크가 있어야 합니다. VLAN은 {{site.data.keyword.Bluemix_local_notm}} 컴포넌트가 실행되는 사설 서브넷을 호스트합니다. 모든 트래픽은 사설 서브넷에서 고객 서브넷으로 라우트됩니다. 고객 서브넷 IP는 {{site.data.keyword.Bluemix_local_notm}}에 대한 모든 액세스에 사용됩니다. 그리고 {{site.data.keyword.Bluemix_local_notm}}에 사용되는 ESXi 간에만 두 번째 사설 VLAN을 정의할 수 있습니다. 이 VLAN은 VMware에서 포트 그룹으로 표시됩니다. {{site.data.keyword.Bluemix_local_notm}}은 이를 더 안전하고 라우팅 문제를 방지하는 데 도움이 되는 사설 서브넷으로 사용합니다. <p>vSphere 분배 스위치(vDS)를 사용하는 경우, vDS를 보유하는 폴더를 작성하여 이 폴더에 vDS를 배치하십시오.</p>
 </dl>
 
 ### 릴레이의 네트워크 대역폭
@@ -548,9 +548,9 @@ DEA 풀을 늘리기 위해 각 DEA가 다음으로 구성됩니다.
 예를 들어, ESXi 호스트 크기가 256GB의 메모리와 16x 코어인 경우, 8개의 DEA가 추가됩니다. ESXi 호스트 크기가 64GB의 메모리와 8x 코어인 경우, 두 개의 ESXi와 네 개의 DEA를 추가해야 합니다. 4개의 DEA마다 추가로 1.5TB의 스토리지가 필요합니다. 이 예제는 32GB의 RAM, 4x vCPU 및 300GB의 스토리지로 구성된 DEA를 기반으로 합니다.
 
 
-#### Bluemix 로컬 시스템 옵션
+#### {{site.data.keyword.Bluemix_local_notm}} 시스템 옵션
 
-{{site.data.keyword.Bluemix_notm}} 로컬 인스턴스를 호스팅하기 위해 {{site.data.keyword.IBM_notm}}을 통해 PureApplication 하드웨어를 주문하도록 선택하는 경우 이전에 구매한 스펙 크기의 다른 컴퓨팅 노드를 또 하나 주문해야 합니다. 업데이트된 하드웨어가 사용자에게 직접 운송되게 하기 위해 IBM 팀과 공동으로 작업하는 CSM(Client Success Manager)을 통해 다른 노드를 주문할 수 있습니다. 일단 하드웨어가 전달되고 설치되면, IBM에 해당 내용이 공지되며 배치 팀에서 64GB를 추가합니다. 주문한 컴퓨팅 노드 크기에 따라 향후 업그레이드에 사용 가능한 추가 용량이 있을 수 있습니다. 이 경우에는 간단하게 IBM에 연락만 하면 해당 팀에서 필요에 따라 사용 가능한 컴퓨팅 메모리 용량을 64GB 단위로 늘려줄 수 있습니다. 
+{{site.data.keyword.Bluemix_local_notm}} 인스턴스를 호스팅하기 위해 {{site.data.keyword.IBM_notm}}을 통한 PureApplication 하드웨어 주문을 경우에는 이전에 구매한 스펙 크기로 다른 컴퓨팅 노드를 주문해야 합니다. 업데이트된 하드웨어가 사용자에게 직접 운송되게 하기 위해 IBM 팀과 공동으로 작업하는 CSM(Client Success Manager)을 통해 다른 노드를 주문할 수 있습니다. 일단 하드웨어가 전달되고 설치되면, IBM에 해당 내용이 공지되며 배치 팀에서 64GB를 추가합니다. 주문한 컴퓨팅 노드 크기에 따라 향후 업그레이드에 사용 가능한 추가 용량이 있을 수 있습니다. 이 경우에는 간단하게 IBM에 연락만 하면 해당 팀에서 필요에 따라 사용 가능한 컴퓨팅 메모리 용량을 64GB 단위로 늘려줄 수 있습니다. 
 
 ## 로컬 인스턴스 유지보수
 {: #maintainlocal}
@@ -571,7 +571,7 @@ DEA 풀을 늘리기 위해 각 DEA가 다음으로 구성됩니다.
 
 <dt>**{{site.data.keyword.Bluemix_notm}} 플랫폼의 표준 유지보수**</dt>
 <dd>유지보수 업데이트는 21일 기간 내에서 사용자와 {{site.data.keyword.IBM_notm}} 간의 조정을 기반으로 적용됩니다. 사용자는 {{site.data.keyword.IBM_notm}}에 사전 승인된 유지보수 기간 및 작업이 없는 특정 날짜 또는 시간을 제공하고, {{site.data.keyword.IBM_notm}}은 사용자가 선택한 날짜 동안이나 날짜에 맞춰 업데이트를 스케줄링합니다. <br />
-<p>**관리 > 시스템 정보**로 이동하여 스케줄 및 보류 중인 유지보수 업데이트를 확인하십시오. 사전 승인된 기간 설정, 사용 불가능한 날짜, 유지보수 업데이트 보기 또는 승인에 대한 자세한 정보는 <a href="../admin/index.html#oc_schedulemaintenance">유지보수 업데이트</a>를 참조하십시오.</p></dd>
+<p>**관리 > 시스템 정보**로 이동하여 스케줄 및 보류 중인 유지보수 업데이트를 확인하십시오. 사전 승인된 기간 설정, 사용 불가능한 날짜, 스케줄된 유지보수 업데이트 보기 또는 승인에 대한 자세한 정보는 <a href="../admin/index.html#oc_schedulemaintenance">유지보수 업데이트</a>를 참조하십시오. </p></dd>
 </dl>
 
 **중요**: {{site.data.keyword.IBM_notm}}은 필요에 따라 비상 유지보수를 적용하기 위해 서비스를 인터럽트할 수 있는 권한을 보유합니다. {{site.data.keyword.IBM_notm}}은 스케줄된 유지보수 시간을 변경할 수 있습니다. 하지만 이러한 변경은 물론 비상 유지보수 정보에 대해서도 사용자에게 알려드립니다.
@@ -585,7 +585,7 @@ DEA 풀을 늘리기 위해 각 DEA가 다음으로 구성됩니다.
 
 **중요사항**: {{site.data.keyword.Bluemix_local_notm}}이 ESXi 하이퍼바이저로 배치된 경우, ESXi에 대한 업그레이드 및 패치는 환경 내에서 실행 중인 모든 애플리케이션 및 서비스를 포함하여 로컬 환경의 가용성에 지장을 초래할 수 있습니다. 중단 때문에 오류의 운영 팀에 경보하지 않도록 보장하려면, 업그레이드 또는 패치를 완료하기 전에 지원 티켓을 사용하여 {{site.data.keyword.Bluemix_notm}}에 알려야 합니다. 지정된 CSM(Client Success Manager)이 있는 경우, CSM과 공동 작업으로 업그레이드 스케줄을 교환할 수 있습니다. 
 
-로컬 인스턴스가 최신 지원 버전과 호환 가능함을 보장하기 위해, {{site.data.keyword.Bluemix_notm}} 운영 팀은 최신 {{site.data.keyword.Bluemix_notm}} 로컬 환경 업데이트와 일치하지 않을 수 있는 미지원 버전의 환경을 모니터합니다. 일부 {{site.data.keyword.Bluemix_notm}} 업데이트(예: Cloud Foundry 버전 업데이트)는 ESXi 또는 vCenter 소프트웨어의 업데이트를 필요로 합니다. {{site.data.keyword.Bluemix_notm}} 지원에서는 업데이트가 필요한 사항과 시점과 관련하여 사용자에게 경보를 제공합니다. 사용자에게는 이 업데이트를 완료하기 위한 시간 창이 제공됩니다. 
+로컬 인스턴스가 최신 지원 버전과 호환될 수 있도록 {{site.data.keyword.Bluemix_notm}} 운영 팀은 최신 {{site.data.keyword.Bluemix_local_notm}} 환경 업데이트와 일치하지 않을 수 있는 미지원 버전과 관련하여 환경을 모니터합니다. 일부 {{site.data.keyword.Bluemix_notm}} 업데이트(예: Cloud Foundry 버전 업데이트)는 ESXi 또는 vCenter 소프트웨어의 업데이트를 필요로 합니다. {{site.data.keyword.Bluemix_notm}} 지원에서는 업데이트가 필요한 사항과 시점과 관련하여 사용자에게 경보를 제공합니다. 사용자에게는 이 업데이트를 완료하기 위한 시간 창이 제공됩니다. 
 
 {{site.data.keyword.Bluemix_notm}}에서는 로컬 환경이 최신 ESXi 및 vCenter 버전과 호환성을 유지하도록 모든 노력을 기울이고 있습니다. 그러나 대부분의 최신 ESXi 및 vCenter 버전이 지원되지 않는 순간이 있을 수 있습니다. 업데이트를 적용하기 전에 최신 호환 가능 버전에 대해 [로컬 인프라 요구사항](/docs/local/index.html#localinfra) 문서를 참조하십시오. 
 
@@ -595,7 +595,7 @@ DEA 풀을 늘리기 위해 각 DEA가 다음으로 구성됩니다.
 
 ### 고객이 발견한 문제
 
-{{site.data.keyword.IBM_notm}} 지원 센터 및 운영 센터의 주의가 필요한 문제를 식별하는 경우 몇 가지 다양한 방법을 사용하여 지원 센터에 문의할 수 있습니다. 지원 센터에 문의하는 방법에 대한 정보는 [지원 센터에 문의](../support/index.html#contacting-bluemix-support-local)를 참조하십시오. 문제에 따라 사용자 본인이나 IBM이 또는 사용자와 IBM이 협력하여 문제를 수정합니다.
+{{site.data.keyword.IBM_notm}} 지원 센터 및 운영 센터의 주의가 필요한 문제를 식별하는 경우 몇 가지 다양한 방법을 사용하여 지원 센터에 문의할 수 있습니다. 지원 센터에 문의하는 방법에 대한 정보는 [지원 센터에 문의](../support/index.html#contacting-bluemix-support-dedicated-local)를 참조하십시오. 문제에 따라 사용자 본인이나 IBM이 또는 사용자와 IBM이 협력하여 문제를 수정합니다.
 
 ### IBM이 발견한 중요 인시던트
 
@@ -607,17 +607,17 @@ DEA 풀을 늘리기 위해 각 DEA가 다음으로 구성됩니다.
 
 그림 2. 인시던트 응답 프로세스
 
-문제에 따라 사용자 본인이나 IBM이 또는 사용자와 IBM이 협력하여 문제를 수정합니다. 인시던트에 관한 질문이 있거나 문제를 해결하는 데 {{site.data.keyword.IBM_notm}} 담당자의 도움이 필요한 경우 지원 티켓을 열 수 있습니다. 지원 센터에 문의하는 방법에 대한 정보는 [지원 센터에 문의](../support/index.html#contacting-bluemix-support-local)를 참조하십시오. 
+문제에 따라 사용자 본인이나 IBM이 또는 사용자와 IBM이 협력하여 문제를 수정합니다. 인시던트에 관한 질문이 있거나 문제를 해결하는 데 {{site.data.keyword.IBM_notm}} 담당자의 도움이 필요한 경우 지원 티켓을 열 수 있습니다. 지원 센터에 문의하는 방법에 대한 정보는 [지원 센터에 문의](../support/index.html#contacting-bluemix-support-dedicated-local)를 참조하십시오. 
 
-**참고**: 심각도 1 지원 티켓은 연중 무휴로 모니터링됩니다. 기타 티켓은 일요일 GMT 오후 10:00부터 토요일 GMT 오전 12:00까지 처리됩니다. 지원 티켓의 심각도와 지원 관련 작업에 대한 자세한 정보는 <a href="/docs/support/index.html#contacting-bluemix-support-local">지원 센터에 문의</a>를 참조하십시오.
+**참고**: 심각도 1 지원 티켓은 연중 무휴로 모니터링됩니다. 기타 티켓은 일요일 GMT 오후 10:00부터 토요일 GMT 오전 12:00까지 처리됩니다. 지원 티켓의 심각도와 지원 관련 작업에 대한 자세한 정보는 <a href="/docs/support/index.html#contacting-bluemix-support-dedicated-local">지원 센터에 문의</a>를 참조하십시오.
 
 ## {{site.data.keyword.Bluemix_local_notm}}의 재해 복구
 {: #dr}
 
-{{site.data.keyword.Bluemix_short}} 로컬의 재해 복구는 {{site.data.keyword.Bluemix_short}} 퍼블릭을 사용할 때 작동하는 방식과 유사하게 설정할 수 있습니다. {{site.data.keyword.Bluemix_short}} 퍼블릭은 다중 고장 안전 조치로 지속적으로 혁신 가능한 플랫폼을 제공하여 사용자 조직, 영역 및 앱이 항상 사용 가능하도록 합니다. 지리적으로 여러 위치에 앱을 배치하면 불시의 동시 다발성 하드웨어 또는 소프트웨어 컴포넌트 유실, 전체 데이터 센터의 유실로부터 보호되어 지속적으로 가용성이 보장되므로, 지리적으로 한 위치에서 자연 재해가 발생하여도 대체 위치의 Distributed {{site.data.keyword.Bluemix_notm}} 퍼블릭 앱 인스턴스는 사용 가능합니다.
+{{site.data.keyword.Bluemix_local_notm}}에 대한 재해 복구는 {{site.data.keyword.Bluemix_short}} 퍼블릭을 사용할 때 작동하는 방식과 유사하게 설정될 수 있습니다. {{site.data.keyword.Bluemix_short}} 퍼블릭은 다중 고장 안전 조치로 지속적으로 혁신 가능한 플랫폼을 제공하여 사용자 조직, 영역 및 앱이 항상 사용 가능하도록 합니다. 지리적으로 여러 위치에 앱을 배치하면 불시의 동시 다발성 하드웨어 또는 소프트웨어 컴포넌트 유실, 전체 데이터 센터의 유실로부터 보호되어 지속적으로 가용성이 보장되므로, 지리적으로 한 위치에서 자연 재해가 발생하여도 대체 위치의 Distributed {{site.data.keyword.Bluemix_notm}} 퍼블릭 앱 인스턴스는 사용 가능합니다.
 {: shortdesc}
 
-{{site.data.keyword.Bluemix_short}} 로컬의 재해 복구는 사용자 앱의 지속적 가용성, 플랫폼의 내재적 고가용성, 장애 시 인스턴스 복구 능력 등을 통해 가능해집니다. 여러 지역에 앱을 배치하여 앱의 지속적 가용성을 보장하는 것은 사용자의 책임입니다. 고가용성은 Cloud Foundry 및 기타 컴포넌트에 포함된 기술을 통해 플랫폼 레벨에서 빌드됩니다. 또한 {{site.data.keyword.IBM_notm}}과 협력하여 언제든 인스턴스 복원이 필요한 경우에 데이터를 적절히 백업할 수 있습니다.
+{{site.data.keyword.Bluemix_local_notm}}에 대한 재해 복구는 앱의 지속적 가용성, 플랫폼의 내재적 고가용성, 장애 시 인스턴스의 복구 기능을 통해 가능합니다. 여러 지역에 앱을 배치하여 앱의 지속적 가용성을 보장하는 것은 사용자의 책임입니다. 고가용성은 Cloud Foundry 및 기타 컴포넌트에 포함된 기술을 통해 플랫폼 레벨에서 빌드됩니다. 또한 {{site.data.keyword.IBM_notm}}과 협력하여 언제든 인스턴스 복원이 필요한 경우에 데이터를 적절히 백업할 수 있습니다.
 
 ### {{site.data.keyword.Bluemix_local_notm}}에 대한 지속적인 가용성 사용
 {: #enabling}
@@ -693,4 +693,3 @@ Akamai 또는 Dyn과 같은 글로벌 로드 밸런서를 선택할 수 있습�
 <li>관리하는 다른 백업 데이터에 하듯이 암호화된 백업 데이터 사본을 오프사이트로 이동합니다.</li>
 <li>복원이 필요한 경우 백업 파일을 {{site.data.keyword.IBM_notm}} 관리자에게 제공합니다.</li>
 </ul>
-
