@@ -6,7 +6,7 @@ copyright:
 
   years: 2015, 2017
 
-lastupdated: "2017-11-16"
+lastupdated: "2017-12-15"
 
 
 ---
@@ -74,48 +74,48 @@ There are optional components that are available for you to purchase to scale an
 If you have a private instance of a {{site.data.keyword.Bluemix_notm}} service for your local environment, you see a "Local" tag with the service names in your catalog administration view. Similarly, if it is a custom service, meaning you used a service broker to create it, you see "Custom" listed with the service name. All other services listed that do not have a "local" or "custom" tag are available by using syndication from {{site.data.keyword.Bluemix_notm}} Public. Syndicated services provide the function to create hybrid applications that consist of public and private services.
 
 
-|Service	|Available in US South region	|Available in Europe United Kingdom region |Available in Australian Sydney region|Available in Germany region|
-|:----------|:------------------------------|:------------------|:------------------|:------------------|
-|{{site.data.keyword.alertnotificationshort}} | Yes | Yes | Yes | No |
-|{{site.data.keyword.appseccloudshort}}		|Yes		|Yes		|Yes |No  |
-|Automated Accessibility Checker |Yes       |Yes    |Yes   |Yes  |No |
-|{{site.data.keyword.cloudant}}			|Yes		|Yes		|Yes |Yes  |
-|{{site.data.keyword.evtmgt_short}} | Yes | Yes | Yes | No |
-|{{site.data.keyword.iotmapinsights_short}}    |Yes  |Yes  |Yes  |No  |
-|{{site.data.keyword.uccr_short}} | Yes | No | No | No |
-|{{site.data.keyword.conversationshort}}  |Yes  |Yes  |Yes  |Yes  |
-|{{site.data.keyword.dataworks_short}}		|Yes		|Yes		|No|No|
-|Db2 hosted | Yes | Yes | Yes | Yes |
-|{{site.data.keyword.DB2OnCloud_short}}		|Yes		|Yes		|Yes |Yes  |
-|{{site.data.keyword.dashdbshort_notm}} | Yes | Yes | Yes | Yes |
-|Digital Content Checker |Yes  |Yes  |Yes  |No  |
-|{{site.data.keyword.servicediscoveryshort}} | Yes | Yes | Yes | No |
-|{{site.data.keyword.documentconversionshort}}	|Yes		|Yes		|Yes|No  |
-|{{site.data.keyword.iotdriverinsights_short}}  |Yes |Yes  |Yes  |No  |
-|{{site.data.keyword.geospatialshort_Geospatial}}	|Yes	|Yes		|Yes |No  |
-|{{site.data.keyword.GlobalizationPipeline_short}}	|Yes		| Yes		| Yes |Yes  |
-|{{site.data.keyword.identitymixershort}}		|Yes		|Yes		|Yes|No  |
-|{{site.data.keyword.iot4auto_short}} |Yes   |Yes  |Yes  |No  |
-|{{site.data.keyword.iotelectronics}}  |Yes  |Yes  |No | No|
-|{{site.data.keyword.languagetranslatorshort}} |Yes  |Yes  |Yes  |Yes  |
-|{{site.data.keyword.dwl_short}}  |Yes  |Yes  |No  |No|
-|{{site.data.keyword.pm_short}} | Yes | Yes | No | No |
-|{{site.data.keyword.messagehub}}		|Yes		|Yes		|Yes | Yes|
-|{{site.data.keyword.manda}}			|Yes		|Yes		|Yes |No  |
-|{{site.data.keyword.nlclassifiershort}} 	|Yes 		|Yes 		|Yes |No  |
-|{{site.data.keyword.nlushort}} | Yes | Yes | Yes | No |
-|{{site.data.keyword.personalityinsightsshort}}	|Yes		|Yes		|Yes|Yes  |
-|{{site.data.keyword.mobilepushshort}}		|Yes		|Yes		|Yes |Yes  |
-|{{site.data.keyword.retrieveandrankshort}}	|Yes 		|Yes 		|Yes|No  |
-|{{site.data.keyword.SecureGateway}}		|Yes		|Yes		|Yes |Yes  |
-|{{site.data.keyword.ssofull}}			|Yes		|No		|No| No|
-|{{site.data.keyword.speechtotextshort}}	|Yes 		|Yes	 	|Yes|Yes  |
-|{{site.data.keyword.streaminganalyticsshort}}	|Yes		|Yes		|Yes |No  |
-|{{site.data.keyword.texttospeechshort}} 	|Yes 		|Yes	 	|Yes|Yes  |
-|{{site.data.keyword.toneanalyzershort}} 	|Yes 		|Yes 		|Yes|Yes  |
-|{{site.data.keyword.visualrecognitionshort}}	|Yes 		|Yes	 	|Yes|No  |
-|{{site.data.keyword.weather_short}}		|Yes		|Yes		|Yes|No  |
-|{{site.data.keyword.workloadscheduler}}	|Yes		|Yes		|Yes |Yes  |
+|Service	|Available in US South region	|Available in Europe United Kingdom region |Available in Germany region|Available in US East region|Available in Australian Sydney region|
+|:----------|:------------------------------|:------------------|:------------------|:------------------|:--------------|
+|{{site.data.keyword.alertnotificationshort}} | Yes | Yes | No | No | Yes |
+|{{site.data.keyword.appseccloudshort}}		| Yes		| Yes		| No | No | Yes |
+|Automated Accessibility Checker | Yes       | Yes    | Yes   | No  | Yes |
+|{{site.data.keyword.cloudant}}			| Yes		| Yes		| Yes | Yes | Yes |
+|{{site.data.keyword.evtmgt_short}} | Yes | Yes | No | No | Yes |
+|{{site.data.keyword.iotmapinsights_short}}    | Yes | Yes | No | No | Yes |
+|{{site.data.keyword.uccr_short}} | Yes | No | No | No | No |
+|{{site.data.keyword.conversationshort}}  | Yes | Yes | Yes | No | Yes |
+|{{site.data.keyword.dataworks_short}}		| Yes		| Yes		| No | No | No |
+|Db2 hosted | Yes | Yes | Yes | No | Yes |
+|{{site.data.keyword.DB2OnCloud_short}}		| Yes		| Yes		| Yes | No | Yes |
+|{{site.data.keyword.dashdbshort_notm}} | Yes | Yes | Yes | No | Yes |
+|Digital Content Checker | Yes | Yes | No | No | Yes |
+|{{site.data.keyword.servicediscoveryshort}} | Yes | Yes | No | No | Yes |
+|{{site.data.keyword.documentconversionshort}}	| Yes		| Yes		| No | No | Yes |
+|{{site.data.keyword.iotdriverinsights_short}}  | Yes | Yes | No | No | Yes |
+|{{site.data.keyword.geospatialshort_Geospatial}}	| Yes	| Yes		| No | No | Yes |
+|{{site.data.keyword.GlobalizationPipeline_short}}	| Yes		| Yes		| Yes | No | Yes |
+|{{site.data.keyword.identitymixershort}}		| Yes		| Yes		| No | No | Yes |
+|{{site.data.keyword.iot4auto_short}} | Yes | Yes | No | No | Yes |
+|{{site.data.keyword.iotelectronics}}  | Yes  | Yes  | No | No | No |
+|{{site.data.keyword.languagetranslatorshort}} | Yes | Yes | Yes | No | Yes |
+|{{site.data.keyword.dwl_short}}  | Yes | Yes | No | No | No |
+|{{site.data.keyword.pm_short}} | Yes | Yes | No | No | No |
+|{{site.data.keyword.messagehub}}		| Yes		| Yes		| Yes | No | Yes |
+|{{site.data.keyword.manda}}			| Yes		| Yes		| No | No | Yes |
+|{{site.data.keyword.nlclassifiershort}} 	| Yes 		| Yes 		| No | No | Yes |
+|{{site.data.keyword.nlushort}} | Yes | Yes | No | No | Yes |
+|{{site.data.keyword.personalityinsightsshort}}	| Yes		| Yes		| Yes| No | Yes |
+|{{site.data.keyword.mobilepushshort}}		| Yes		| Yes		| Yes | No | Yes |
+|{{site.data.keyword.retrieveandrankshort}}	| Yes 		| Yes 		| No| No | Yes |
+|{{site.data.keyword.SecureGateway}}		| Yes		| Yes		| Yes | Yes | Yes |
+|{{site.data.keyword.ssofull}}			| Yes		| No		| No| No | No |
+|{{site.data.keyword.speechtotextshort}}	| Yes 		| Yes	 	| Yes| No | Yes |
+|{{site.data.keyword.streaminganalyticsshort}}	| Yes		| Yes		| No | No | Yes |
+|{{site.data.keyword.texttospeechshort}} 	| Yes 		| Yes	 	| Yes| No | Yes |
+|{{site.data.keyword.toneanalyzershort}} 	| Yes 		| Yes 		| Yes| No | Yes |
+|{{site.data.keyword.visualrecognitionshort}}	| Yes 		| Yes	 	| No | No | Yes |
+|{{site.data.keyword.weather_short}}		| Yes		| Yes		| No | No | Yes |
+|{{site.data.keyword.workloadscheduler}}	| Yes		| Yes		| Yes | No | Yes |
 {: caption="Table 4. Services available for syndication from {{site.data.keyword.Bluemix_notm}} Public by region" caption-side="top"}
 {: #table04}
 
