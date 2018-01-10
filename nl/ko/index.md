@@ -6,7 +6,7 @@ copyright:
 
   years: 2015, 2017
 
-lastupdated: "2017-11-16"
+lastupdated: "2017-12-15"
 
 
 ---
@@ -74,48 +74,48 @@ IBM®은 환경의 맨 위에서 실행되는 앱과 서비스를 빌드하는 �
 로컬 환경에 대한 {{site.data.keyword.Bluemix_notm}} 서비스의 개인용 인스턴스가 있으면 카탈로그 관리 보기에 서비스 이름과 함께 "로컬" 태그가 표시됩니다. 마찬가지로, 사용자 정의 서비스인 경우(즉, 서비스 브로커를 사용하여 작성한 경우)에는 서비스 이름과 함께 "사용자 정의"가 나열됩니다. "로컬" 또는 "사용자 정의" 태그 없이 나열된 기타 모든 서비스는 {{site.data.keyword.Bluemix_notm}} 퍼블릭에서 신디케이션을 사용하여 사용할 수 있습니다. 신디케이트된(각 클라우드 형태 간 동일하게 연동된) 카탈로그는 공용 및 개인 서비스로 구성되는 하이브리드 애플리케이션을 작성하는 기능을 제공합니다. 
 
 
-|서비스	|미국 남부 지역에서 사용 가능|유럽 영국 지역에서 사용 가능|오스트레일리아 시드니 지역에서 사용 가능|독일 지역에서 사용 가능|
-|:----------|:------------------------------|:------------------|:------------------|:------------------|
-|{{site.data.keyword.alertnotificationshort}} | 예| 예| 예| 아니오|
-|{{site.data.keyword.appseccloudshort}}		|예		|예		|예|아니오|
-|Automated Accessibility Checker|예|예|예|예|아니오|
-|{{site.data.keyword.cloudant}}			|예		|예		|예|예|
-|{{site.data.keyword.evtmgt_short}} | 예| 예| 예| 아니오|
-|{{site.data.keyword.iotmapinsights_short}}    |예|예|예|아니오|
-|{{site.data.keyword.uccr_short}} | 예| 아니오| 아니오| 아니오|
-|{{site.data.keyword.conversationshort}}  |예|예|예|예|
-|{{site.data.keyword.dataworks_short}}		|예		|예		|아니오|아니오|
-|Db2 호스팅 | 예| 예| 예| 예|
-|{{site.data.keyword.DB2OnCloud_short}}		|예		|예		|예|예|
-|{{site.data.keyword.dashdbshort_notm}} | 예| 예| 예| 예|
-|Digital Content Checker|예|예|예|아니오|
-|{{site.data.keyword.servicediscoveryshort}} | 예| 예| 예| 아니오|
-|{{site.data.keyword.documentconversionshort}}	|예		|예		|예|아니오|
-|{{site.data.keyword.iotdriverinsights_short}}  |예|예|예|아니오|
-|{{site.data.keyword.geospatialshort_Geospatial}}	|예	|예		|예|아니오|
-|{{site.data.keyword.GlobalizationPipeline_short}}	|예		| 예		| 예|예|
-|{{site.data.keyword.identitymixershort}}		|예		|예		|예|아니오|
-|{{site.data.keyword.iot4auto_short}} |예|예|예|아니오|
-|{{site.data.keyword.iotelectronics}}  |예|예|아니오| 아니오|
-|{{site.data.keyword.languagetranslatorshort}} |예|예|예|예|
-|{{site.data.keyword.dwl_short}}  |예|예|아니오|아니오|
-|{{site.data.keyword.pm_short}} | 예| 예| 아니오| 아니오|
-|{{site.data.keyword.messagehub}}		|예		|예		|예| 예|
-|{{site.data.keyword.manda}}			|예		|예		|예|아니오|
-|{{site.data.keyword.nlclassifiershort}} 	|예  		|예  		|예|아니오|
-|{{site.data.keyword.nlushort}} | 예| 예| 예| 아니오|
-|{{site.data.keyword.personalityinsightsshort}}	|예		|예		|예|예|
-|{{site.data.keyword.mobilepushshort}}		|예		|예		|예|예|
-|{{site.data.keyword.retrieveandrankshort}}	|예  		|예  		|예|아니오|
-|{{site.data.keyword.SecureGateway}}		|예		|예		|예|예|
-|{{site.data.keyword.ssofull}}			|예		|아니오		|아니오| 아니오|
-|{{site.data.keyword.speechtotextshort}}	|예  		|예	  |예|예|
-|{{site.data.keyword.streaminganalyticsshort}}	|예		|예		|예|아니오|
-|{{site.data.keyword.texttospeechshort}} 	|예  		|예	  |예|예|
-|{{site.data.keyword.toneanalyzershort}} 	|예  		|예  		|예|예|
-|{{site.data.keyword.visualrecognitionshort}}	|예  		|예	  |예|아니오|
-|{{site.data.keyword.weather_short}}		|예		|예		|예|아니오|
-|{{site.data.keyword.workloadscheduler}}	|예		|예		|예|예|
+|서비스	|미국 남부 지역에서 사용 가능|유럽 영국 지역에서 사용 가능|독일 지역에서 사용 가능|미국 동부 지역에서 사용 가능|오스트레일리아 시드니 지역에서 사용 가능|
+|:----------|:------------------------------|:------------------|:------------------|:------------------|:--------------|
+|{{site.data.keyword.alertnotificationshort}} | 예| 예| 아니오| 아니오| 예|
+|{{site.data.keyword.appseccloudshort}}		| 예		| 예		| 아니오| 아니오| 예|
+|Automated Accessibility Checker| 예| 예| 예| 아니오| 예|
+|{{site.data.keyword.cloudant}}			| 예		| 예		| 예| 예| 예|
+|{{site.data.keyword.evtmgt_short}} | 예| 예| 아니오| 아니오| 예|
+|{{site.data.keyword.iotmapinsights_short}}    | 예| 예| 아니오| 아니오| 예|
+|{{site.data.keyword.uccr_short}} | 예| 아니오| 아니오| 아니오| 아니오|
+|{{site.data.keyword.conversationshort}}  | 예| 예| 예| 아니오| 예|
+|{{site.data.keyword.dataworks_short}}		| 예		| 예		| 아니오| 아니오| 아니오|
+|Db2 호스팅 | 예| 예| 예| 아니오| 예|
+|{{site.data.keyword.DB2OnCloud_short}}		| 예		| 예		| 예| 아니오| 예|
+|{{site.data.keyword.dashdbshort_notm}} | 예| 예| 예| 아니오| 예|
+|Digital Content Checker| 예| 예| 아니오| 아니오| 예|
+|{{site.data.keyword.servicediscoveryshort}} | 예| 예| 아니오| 아니오| 예|
+|{{site.data.keyword.documentconversionshort}}	| 예		| 예		| 아니오| 아니오| 예|
+|{{site.data.keyword.iotdriverinsights_short}}  | 예| 예| 아니오| 아니오| 예|
+|{{site.data.keyword.geospatialshort_Geospatial}}	| 예	| 예		| 아니오| 아니오| 예|
+|{{site.data.keyword.GlobalizationPipeline_short}}	| 예		| 예		| 예| 아니오| 예|
+|{{site.data.keyword.identitymixershort}}		| 예		| 예		| 아니오| 아니오| 예|
+|{{site.data.keyword.iot4auto_short}} | 예| 예| 아니오| 아니오| 예|
+|{{site.data.keyword.iotelectronics}}  | 예| 예| 아니오| 아니오| 아니오|
+|{{site.data.keyword.languagetranslatorshort}} | 예| 예| 예| 아니오| 예|
+|{{site.data.keyword.dwl_short}}  | 예| 예| 아니오| 아니오| 아니오|
+|{{site.data.keyword.pm_short}} | 예| 예| 아니오| 아니오| 아니오|
+|{{site.data.keyword.messagehub}}		| 예		| 예		| 예| 아니오| 예|
+|{{site.data.keyword.manda}}			| 예		| 예		| 아니오| 아니오| 예|
+|{{site.data.keyword.nlclassifiershort}} 	| 예  		| 예  		| 아니오| 아니오| 예|
+|{{site.data.keyword.nlushort}} | 예| 예| 아니오| 아니오| 예|
+|{{site.data.keyword.personalityinsightsshort}}	| 예		| 예		| 예| 아니오| 예|
+|{{site.data.keyword.mobilepushshort}}		| 예		| 예		| 예| 아니오| 예|
+|{{site.data.keyword.retrieveandrankshort}}	| 예  		| 예  		| 아니오| 아니오| 예|
+|{{site.data.keyword.SecureGateway}}		| 예		| 예		| 예| 예| 예|
+|{{site.data.keyword.ssofull}}			| 예		| 아니오		| 아니오| 아니오| 아니오|
+|{{site.data.keyword.speechtotextshort}}	| 예  		| 예	  | 예| 아니오| 예|
+|{{site.data.keyword.streaminganalyticsshort}}	| 예		| 예		| 아니오| 아니오| 예|
+|{{site.data.keyword.texttospeechshort}} 	| 예  		| 예	  | 예| 아니오| 예|
+|{{site.data.keyword.toneanalyzershort}} 	| 예  		| 예  		| 예| 아니오| 예|
+|{{site.data.keyword.visualrecognitionshort}}	| 예  		| 예	  | 아니오| 아니오| 예|
+|{{site.data.keyword.weather_short}}		| 예		| 예		| 아니오| 아니오| 예|
+|{{site.data.keyword.workloadscheduler}}	| 예		| 예		| 예| 아니오| 예|
 {: caption="표 4. 지역별 {{site.data.keyword.Bluemix_notm}} 퍼블릭에서 신디케이션에 사용 가능한 서비스" caption-side="top"}
 {: #table04}
 

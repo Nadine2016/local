@@ -6,7 +6,7 @@ copyright:
 
   years: 2015, 2017
 
-lastupdated: "2017-11-16"
+lastupdated: "2017-12-15"
 
 
 ---
@@ -74,48 +74,48 @@ Hay componentes opcionales que se pueden adquirir para escalar y ampliar la capa
 Si es una instancia privada de un servicio de {{site.data.keyword.Bluemix_notm}} para el entorno local, verá una etiqueta "Local" con los nombres del servicio en la vista de administración del catálogo. De forma parecida, si es un servicio personalizado (es decir, para cuya creación se ha utilizado un intermediario de servicio) verá "Personalizado" listado con el nombre del servicio. El resto de servicios listados que no incluyen la etiqueta "local" o "personalizado" están disponibles mediante la sindicación desde {{site.data.keyword.Bluemix_notm}} público. Los servicios sindicados proporcionan la función para crear aplicaciones híbridas que constan de servicios públicos o privados.
 
 
-|Servicio	|Disponible en la región EE.UU. sur	|Disponible en la región Europa Reino Unido |Disponible en la región Australiana Sídney|Disponible en la región Alemania|
-|:----------|:------------------------------|:------------------|:------------------|:------------------|
-|{{site.data.keyword.alertnotificationshort}} | Sí | Sí | Sí | No |
-|{{site.data.keyword.appseccloudshort}}		|Sí		|Sí		|Sí |No  |
-|Comprobador de accesibilidad automatizado |Sí       |Sí    |Sí   |Sí  |No |
-|{{site.data.keyword.cloudant}}			|Sí		|Sí		|Sí |Sí  |
-|{{site.data.keyword.evtmgt_short}} | Sí | Sí | Sí | No |
-|{{site.data.keyword.iotmapinsights_short}}    |Sí  |Sí  |Sí  |No  |
-|{{site.data.keyword.uccr_short}} | Sí | No | No | No |
-|{{site.data.keyword.conversationshort}}  |Sí  |Sí  |Sí  |Sí  |
-|{{site.data.keyword.dataworks_short}}		|Sí		|Sí		|No|No|
-|Db2 alojado | Sí | Sí | Sí | Sí |
-|{{site.data.keyword.DB2OnCloud_short}}		|Sí		|Sí		|Sí |Sí  |
-|{{site.data.keyword.dashdbshort_notm}} | Sí | Sí | Sí | Sí |
-|Comprobador de contenido digital |Sí  |Sí  |Sí  |No  |
-|{{site.data.keyword.servicediscoveryshort}} | Sí | Sí | Sí | No |
-|{{site.data.keyword.documentconversionshort}}	|Sí		|Sí		|Sí|No  |
-|{{site.data.keyword.iotdriverinsights_short}}  |Sí |Sí  |Sí  |No  |
-|{{site.data.keyword.geospatialshort_Geospatial}}	|Sí	|Sí		|Sí |No  |
-|{{site.data.keyword.GlobalizationPipeline_short}}	|Sí		| Sí		| Sí |Sí  |
-|{{site.data.keyword.identitymixershort}}		|Sí		|Sí		|Sí|No  |
-|{{site.data.keyword.iot4auto_short}} |Sí   |Sí  |Sí  |No  |
-|{{site.data.keyword.iotelectronics}}  |Sí  |Sí  |No | No|
-|{{site.data.keyword.languagetranslatorshort}} |Sí  |Sí  |Sí  |Sí  |
-|{{site.data.keyword.dwl_short}}  |Sí  |Sí  |No  |No|
-|{{site.data.keyword.pm_short}} | Sí | Sí | No | No |
-|{{site.data.keyword.messagehub}}		|Sí		|Sí		|Sí | Sí|
-|{{site.data.keyword.manda}}			|Sí		|Sí		|Sí |No  |
-|{{site.data.keyword.nlclassifiershort}} 	|Sí 		|Sí 		|Sí |No  |
-|{{site.data.keyword.nlushort}} | Sí | Sí | Sí | No |
-|{{site.data.keyword.personalityinsightsshort}}	|Sí		|Sí		|Sí|Sí  |
-|{{site.data.keyword.mobilepushshort}}		|Sí		|Sí		|Sí |Sí  |
-|{{site.data.keyword.retrieveandrankshort}}	|Sí 		|Sí 		|Sí|No  |
-|{{site.data.keyword.SecureGateway}}		|Sí		|Sí		|Sí |Sí  |
-|{{site.data.keyword.ssofull}}			|Sí		|No		|No| No|
-|{{site.data.keyword.speechtotextshort}}	|Sí 		|Sí	 	|Sí|Sí  |
-|{{site.data.keyword.streaminganalyticsshort}}	|Sí		|Sí		|Sí |No  |
-|{{site.data.keyword.texttospeechshort}} 	|Sí 		|Sí	 	|Sí|Sí  |
-|{{site.data.keyword.toneanalyzershort}} 	|Sí 		|Sí 		|Sí|Sí  |
-|{{site.data.keyword.visualrecognitionshort}}	|Sí 		|Sí	 	|Sí|No  |
-|{{site.data.keyword.weather_short}}		|Sí		|Sí		|Sí|No  |
-|{{site.data.keyword.workloadscheduler}}	|Sí		|Sí		|Sí |Sí  |
+|Servicio	|Disponible en la región EE.UU. sur	|Disponible en la región Europa Reino Unido |Disponible en la región Alemania|Disponible en la región EE.UU. este|Disponible en la región Australiana Sídney|
+|:----------|:------------------------------|:------------------|:------------------|:------------------|:--------------|
+|{{site.data.keyword.alertnotificationshort}} | Sí | Sí | No | No | Sí |
+|{{site.data.keyword.appseccloudshort}}		| Sí		| Sí		| No | No | Sí |
+|Comprobador de accesibilidad automatizado | Sí       | Sí    | Sí   | No  | Sí |
+|{{site.data.keyword.cloudant}}			| Sí		| Sí		| Sí | Sí | Sí |
+|{{site.data.keyword.evtmgt_short}} | Sí | Sí | No | No | Sí |
+|{{site.data.keyword.iotmapinsights_short}}    | Sí | Sí | No | No | Sí |
+|{{site.data.keyword.uccr_short}} | Sí | No | No | No | No |
+|{{site.data.keyword.conversationshort}}  | Sí | Sí | Sí | No | Sí |
+|{{site.data.keyword.dataworks_short}}		| Sí		| Sí		| No | No | No |
+|Db2 alojado | Sí | Sí | Sí | No | Sí |
+|{{site.data.keyword.DB2OnCloud_short}}		| Sí		| Sí		| Sí | No | Sí |
+|{{site.data.keyword.dashdbshort_notm}} | Sí | Sí | Sí | No | Sí |
+|Comprobador de contenido digital | Sí | Sí | No | No | Sí |
+|{{site.data.keyword.servicediscoveryshort}} | Sí | Sí | No | No | Sí |
+|{{site.data.keyword.documentconversionshort}}	| Sí		| Sí		| No | No | Sí |
+|{{site.data.keyword.iotdriverinsights_short}}  | Sí | Sí | No | No | Sí |
+|{{site.data.keyword.geospatialshort_Geospatial}}	| Sí	| Sí		| No | No | Sí |
+|{{site.data.keyword.GlobalizationPipeline_short}}	| Sí		| Sí		| Sí | No | Sí |
+|{{site.data.keyword.identitymixershort}}		| Sí		| Sí		| No | No | Sí |
+|{{site.data.keyword.iot4auto_short}} | Sí | Sí | No | No | Sí |
+|{{site.data.keyword.iotelectronics}}  | Sí  | Sí  | No | No | No |
+|{{site.data.keyword.languagetranslatorshort}} | Sí | Sí | Sí | No | Sí |
+|{{site.data.keyword.dwl_short}}  | Sí | Sí | No | No | No |
+|{{site.data.keyword.pm_short}} | Sí | Sí | No | No | No |
+|{{site.data.keyword.messagehub}}		| Sí		| Sí		| Sí | No | Sí |
+|{{site.data.keyword.manda}}			| Sí		| Sí		| No | No | Sí |
+|{{site.data.keyword.nlclassifiershort}} 	| Sí 		| Sí 		| No | No | Sí |
+|{{site.data.keyword.nlushort}} | Sí | Sí | No | No | Sí |
+|{{site.data.keyword.personalityinsightsshort}}	| Sí		| Sí		| Sí| No | Sí |
+|{{site.data.keyword.mobilepushshort}}		| Sí		| Sí		| Sí | No | Sí |
+|{{site.data.keyword.retrieveandrankshort}}	| Sí 		| Sí 		| No| No | Sí |
+|{{site.data.keyword.SecureGateway}}		| Sí		| Sí		| Sí | Sí | Sí |
+|{{site.data.keyword.ssofull}}			| Sí		| No		| No| No | No |
+|{{site.data.keyword.speechtotextshort}}	| Sí 		| Sí	 	| Sí| No | Sí |
+|{{site.data.keyword.streaminganalyticsshort}}	| Sí		| Sí		| No | No | Sí |
+|{{site.data.keyword.texttospeechshort}} 	| Sí 		| Sí	 	| Sí| No | Sí |
+|{{site.data.keyword.toneanalyzershort}} 	| Sí 		| Sí 		| Sí| No | Sí |
+|{{site.data.keyword.visualrecognitionshort}}	| Sí 		| Sí	 	| No | No | Sí |
+|{{site.data.keyword.weather_short}}		| Sí		| Sí		| No | No | Sí |
+|{{site.data.keyword.workloadscheduler}}	| Sí		| Sí		| Sí | No | Sí |
 {: caption="Tabla 4. Servicios disponibles para su sindicación desde {{site.data.keyword.Bluemix_notm}} Public por región" caption-side="top"}
 {: #table04}
 

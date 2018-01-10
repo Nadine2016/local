@@ -6,7 +6,7 @@ copyright:
 
   years: 2015, 2017
 
-lastupdated: "2017-11-16"
+lastupdated: "2017-12-15"
 
 
 ---
@@ -74,48 +74,48 @@ L'environnement {{site.data.keyword.Bluemix_local_notm}} inclut un catalogue pri
 Si vous disposez d'une instance privée d'un service {{site.data.keyword.Bluemix_notm}} pour votre environnement local, l'étiquette "Local" est associée aux noms de service dans votre vue d'administration du catalogue. De même, si le service est personnalisé (créé avec un courtier de services), l'étiquette "Personnalisé" est associée à son nom. Tous les autres services répertoriés sans l'étiquette "Local" ou "Personnalisé" sont disponibles via la syndication depuis l'environnement {{site.data.keyword.Bluemix_notm}} public. Les services syndiqués permettent la création d'applications hybrides composées de services publics et privés.
 
 
-|Service	|Disponible dans la région Sud des Etats-Unis	|Disponible dans la région Europe-Royaume-Uni |Disponible dans la région Australie-Sydney|Disponible dans la région Allemagne|
-|:----------|:------------------------------|:------------------|:------------------|:------------------|
-|{{site.data.keyword.alertnotificationshort}} | Oui | Oui | Oui | Non |
-|{{site.data.keyword.appseccloudshort}}		|Oui		|Oui		|Oui |Non  |
-|Automated Accessibility Checker |Oui       |Oui    |Oui   |Oui  |Non |
-|{{site.data.keyword.cloudant}}			|Oui		|Oui		|Oui |Oui  |
-|{{site.data.keyword.evtmgt_short}} | Oui | Oui | Oui | Non |
-|{{site.data.keyword.iotmapinsights_short}}    |Oui  |Oui  |Oui  |Non  |
-|{{site.data.keyword.uccr_short}} | Oui | Non | Non | Non |
-|{{site.data.keyword.conversationshort}}  |Oui  |Oui  |Oui  |Oui  |
-|{{site.data.keyword.dataworks_short}}		|Oui		|Oui		|Non|Non|
-|Hébergée sous Db2 | Oui | Oui | Oui | Oui |
-|{{site.data.keyword.DB2OnCloud_short}}		|Oui		|Oui		|Oui |Oui  |
-|{{site.data.keyword.dashdbshort_notm}} | Oui | Oui | Oui | Oui |
-|Digital Content Checker |Oui  |Oui  |Oui  |Non  |
-|{{site.data.keyword.servicediscoveryshort}} | Oui | Oui | Oui | Non |
-|{{site.data.keyword.documentconversionshort}}	|Oui		|Oui		|Oui|Non  |
-|{{site.data.keyword.iotdriverinsights_short}}  |Oui |Oui  |Oui  |Non  |
-|{{site.data.keyword.geospatialshort_Geospatial}}	|Oui	|Oui		|Oui |Non  |
-|{{site.data.keyword.GlobalizationPipeline_short}}	|Oui		| Oui		| Oui |Oui  |
-|{{site.data.keyword.identitymixershort}}		|Oui		|Oui		|Oui|Non  |
-|{{site.data.keyword.iot4auto_short}} |Oui   |Oui  |Oui  |Non  |
-|{{site.data.keyword.iotelectronics}}  |Oui  |Oui  |Non | Non|
-|{{site.data.keyword.languagetranslatorshort}} |Oui  |Oui  |Oui  |Oui  |
-|{{site.data.keyword.dwl_short}}  |Oui  |Oui  |Non  |Non|
-|{{site.data.keyword.pm_short}} | Oui | Oui | Non | Non |
-|{{site.data.keyword.messagehub}}		|Oui		|Oui		|Oui | Oui|
-|{{site.data.keyword.manda}}			|Oui		|Oui		|Oui |Non  |
-|{{site.data.keyword.nlclassifiershort}} 	|Oui 		|Oui 		|Oui |Non  |
-|{{site.data.keyword.nlushort}} | Oui | Oui | Oui | Non |
-|{{site.data.keyword.personalityinsightsshort}}	|Oui		|Oui		|Oui|Oui  |
-|{{site.data.keyword.mobilepushshort}}		|Oui		|Oui		|Oui |Oui  |
-|{{site.data.keyword.retrieveandrankshort}}	|Oui 		|Oui 		|Oui|Non  |
-|{{site.data.keyword.SecureGateway}}		|Oui		|Oui		|Oui |Oui  |
-|{{site.data.keyword.ssofull}}			|Oui		|Non		|Non| Non|
-|{{site.data.keyword.speechtotextshort}}	|Oui 		|Oui	 	|Oui|Oui  |
-|{{site.data.keyword.streaminganalyticsshort}}	|Oui		|Oui		|Oui |Non  |
-|{{site.data.keyword.texttospeechshort}} 	|Oui 		|Oui	 	|Oui|Oui  |
-|{{site.data.keyword.toneanalyzershort}} 	|Oui 		|Oui 		|Oui|Oui  |
-|{{site.data.keyword.visualrecognitionshort}}	|Oui 		|Oui	 	|Oui|Non  |
-|{{site.data.keyword.weather_short}}		|Oui		|Oui		|Oui|Non  |
-|{{site.data.keyword.workloadscheduler}}	|Oui		|Oui		|Oui |Oui  |
+|Service	|Disponible dans la région Sud des Etats-Unis	|Disponible dans la région Europe-Royaume-Uni |Disponible dans la région Allemagne|Disponible dans la région Est des Etats-Unis|Disponible dans la région Australie-Sydney|
+|:----------|:------------------------------|:------------------|:------------------|:------------------|:--------------|
+|{{site.data.keyword.alertnotificationshort}} | Oui | Oui | Non | Non | Oui |
+|{{site.data.keyword.appseccloudshort}}		| Oui		| Oui		| Non | Non | Oui |
+|Automated Accessibility Checker | Oui       | Oui    | Oui   | Non  | Oui |
+|{{site.data.keyword.cloudant}}			| Oui		| Oui		| Oui | Oui | Oui |
+|{{site.data.keyword.evtmgt_short}} | Oui | Oui | Non | Non | Oui |
+|{{site.data.keyword.iotmapinsights_short}}    | Oui | Oui | Non | Non | Oui |
+|{{site.data.keyword.uccr_short}} | Oui | Non | Non | Non | Non |
+|{{site.data.keyword.conversationshort}}  | Oui | Oui | Oui | Non | Oui |
+|{{site.data.keyword.dataworks_short}}		| Oui		| Oui		| Non | Non | Non |
+|Hébergée sous Db2 | Oui | Oui | Oui | Non | Oui |
+|{{site.data.keyword.DB2OnCloud_short}}		| Oui		| Oui		| Oui | Non | Oui |
+|{{site.data.keyword.dashdbshort_notm}} | Oui | Oui | Oui | Non | Oui |
+|Digital Content Checker | Oui | Oui | Non | Non | Oui |
+|{{site.data.keyword.servicediscoveryshort}} | Oui | Oui | Non | Non | Oui |
+|{{site.data.keyword.documentconversionshort}}	| Oui		| Oui		| Non | Non | Oui |
+|{{site.data.keyword.iotdriverinsights_short}}  | Oui | Oui | Non | Non | Oui |
+|{{site.data.keyword.geospatialshort_Geospatial}}	| Oui	| Oui		| Non | Non | Oui |
+|{{site.data.keyword.GlobalizationPipeline_short}}	| Oui		| Oui		| Oui | Non | Oui |
+|{{site.data.keyword.identitymixershort}}		| Oui		| Oui		| Non | Non | Oui |
+|{{site.data.keyword.iot4auto_short}} | Oui | Oui | Non | Non | Oui |
+|{{site.data.keyword.iotelectronics}}  | Oui  | Oui  | Non | Non | Non |
+|{{site.data.keyword.languagetranslatorshort}} | Oui | Oui | Oui | Non | Oui |
+|{{site.data.keyword.dwl_short}}  | Oui | Oui | Non | Non | Non |
+|{{site.data.keyword.pm_short}} | Oui | Oui | Non | Non | Non |
+|{{site.data.keyword.messagehub}}		| Oui		| Oui		| Oui | Non | Oui |
+|{{site.data.keyword.manda}}			| Oui		| Oui		| Non | Non | Oui |
+|{{site.data.keyword.nlclassifiershort}} 	| Oui 		| Oui 		| Non | Non | Oui |
+|{{site.data.keyword.nlushort}} | Oui | Oui | Non | Non | Oui |
+|{{site.data.keyword.personalityinsightsshort}}	| Oui		| Oui		| Oui| Non | Oui |
+|{{site.data.keyword.mobilepushshort}}		| Oui		| Oui		| Oui | Non | Oui |
+|{{site.data.keyword.retrieveandrankshort}}	| Oui 		| Oui 		| Non| Non | Oui |
+|{{site.data.keyword.SecureGateway}}		| Oui		| Oui		| Oui | Oui | Oui |
+|{{site.data.keyword.ssofull}}			| Oui		| Non		| Non| Non | Non |
+|{{site.data.keyword.speechtotextshort}}	| Oui 		| Oui	 	| Oui| Non | Oui |
+|{{site.data.keyword.streaminganalyticsshort}}	| Oui		| Oui		| Non | Non | Oui |
+|{{site.data.keyword.texttospeechshort}} 	| Oui 		| Oui	 	| Oui| Non | Oui |
+|{{site.data.keyword.toneanalyzershort}} 	| Oui 		| Oui 		| Oui| Non | Oui |
+|{{site.data.keyword.visualrecognitionshort}}	| Oui 		| Oui	 	| Non | Non | Oui |
+|{{site.data.keyword.weather_short}}		| Oui		| Oui		| Non | Non | Oui |
+|{{site.data.keyword.workloadscheduler}}	| Oui		| Oui		| Oui | Non | Oui |
 {: caption="Tableau 4. Services disponibles par région pour la syndication depuis {{site.data.keyword.Bluemix_notm}} Public" caption-side="top"}
 {: #table04}
 
@@ -641,7 +641,7 @@ avec les versions ESXi et vCenter les plus récentes. Cependant, les versions ES
 
 ### Problèmes détectés par le client
 
-Si vous identifiez un problème nécessitant l'attention du centre des opérations et du support {{site.data.keyword.IBM_notm}}, vous pouvez prendre contact avec le support de plusieurs façons. Pour des informations sur la façon de contacter le support, voir [Contacter le service de support](../support/index.html#contacting-bluemix-support-dedicated-local).Selon le problème, vous et IBM travaillerez ensemble ou individuellement pour le résoudre.
+Si vous identifiez un problème nécessitant l'attention du centre des opérations et du support {{site.data.keyword.IBM_notm}}, vous pouvez prendre contact avec le support de plusieurs façons. Pour des informations sur la façon de contacter le support, voir [Contacter le service de support](../support/index.html#contacting-bluemix-support-dedicated-local). Selon le problème, vous et IBM travaillerez ensemble ou individuellement pour le résoudre.
 
 ### Incidents critiques détectés par IBM
 
