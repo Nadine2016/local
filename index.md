@@ -6,7 +6,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2017-12-15"
+lastupdated: "2018-01-10"
 
 
 ---
@@ -23,7 +23,7 @@ lastupdated: "2017-12-15"
 
 IBM® uses cloud operations as a service to monitor and maintain your environment, so that you can focus on building apps and services that run on top of the environment. {{site.data.keyword.IBM_notm}} also handles platform updates, so that you can focus on the business.
 
-{{site.data.keyword.Bluemix_local_notm}} environments have the same security standards as the public {{site.data.keyword.Bluemix_notm}} in terms of operational security. You provide the hardware and infrastructure, which gives you control over infrastructure and physical [security](/docs/security/index.html#localplatformsecurity). Developer access to the local {{site.data.keyword.Bluemix_notm}} environment is controlled by your LDAP policies, which can be configured by the {{site.data.keyword.Bluemix_notm}} team when they set up your environment. Within the local environment, using the Administration page, you can [manage users and permissions](/docs/admin/index.html#oc_useradmin).
+{{site.data.keyword.Bluemix_local_notm}} environments have the same security standards as the public {{site.data.keyword.Bluemix_notm}} in terms of operational security. You provide the hardware and infrastructure, which gives you control over infrastructure and physical [security](/docs/security/index.html#localplatformsecurity). Developer access to the local {{site.data.keyword.Bluemix_notm}} environment is controlled by your LDAP policies, which can be configured by the {{site.data.keyword.Bluemix_notm}} team when they set up your environment. Within the local environment, using the Administration page, you can [manage users and permissions](/docs/hybrid/index.html#oc_useradmin).
 
 {{site.data.keyword.Bluemix_local_notm}} comes with all included {{site.data.keyword.Bluemix_notm}} runtimes and 64 GB of compute memory.
 
@@ -162,7 +162,7 @@ The enterprise network environment has a bi-directional network link to {{site.d
 {{site.data.keyword.IBM_notm}} DataPower Gateway appliances provide access to {{site.data.keyword.Bluemix_notm}} application domains. These appliances connect to your intranet network and to the {{site.data.keyword.Bluemix_notm}} private network, providing a secure gateway to the {{site.data.keyword.Bluemix_notm}} deployment. Your developers, who are deploying apps and services, get access from your intranet through this gateway. The users of the applications will get access through the DataPower appliances as well as your administrators.
 </dd>
 <dt>Security intelligence</dt>
-<dd><p>{{site.data.keyword.IBM_notm}} uses QRadar Security Intelligence Platform to provide a unified architecture for integrating several key components. These components include security information and event management, log management, anomaly detection, incident forensics, and configuration and vulnerability management. {{site.data.keyword.Bluemix_notm}} also uses {{site.data.keyword.IBM_notm}} QRadar security information and event management (SIEM) to monitor privileged user actions and successful and unsuccessful login attempts of application developers. QRadar reports provide the customer with visibility on by using the Reports and Logs section on the Administration page. For information about security reports, see [Viewing reports](/docs/admin/index.html#oc_report).</p>
+<dd><p>{{site.data.keyword.IBM_notm}} uses QRadar Security Intelligence Platform to provide a unified architecture for integrating several key components. These components include security information and event management, log management, anomaly detection, incident forensics, and configuration and vulnerability management. {{site.data.keyword.Bluemix_notm}} also uses {{site.data.keyword.IBM_notm}} QRadar security information and event management (SIEM) to monitor privileged user actions and successful and unsuccessful login attempts of application developers. QRadar reports provide the customer with visibility on by using the Reports and Logs section on the Administration page. For information about security reports, see [Viewing reports](/docs/hybrid/index.html#oc_report).</p>
 <p>{{site.data.keyword.IBM_notm}} BigFix ensures that fixes for operating systems are applied at appropriate frequencies. The patching process is automated, and the schedule is agreed upon between you and IBM. For information about maintenance and upgrades, see [Maintaining your local instance](index.html#maintainlocal).</p>
 </dd>
 </dl>
