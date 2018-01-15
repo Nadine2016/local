@@ -6,7 +6,7 @@ copyright:
 
   years: 2015, 2017
 
-lastupdated: "2017-11-16"
+lastupdated: "2017-12-15"
 
 
 ---
@@ -74,48 +74,48 @@ IBM® 使用云操作即服务来监视和维护您的环境，让您可以专�
 如果您的本地环境有私有的 {{site.data.keyword.Bluemix_notm}} 服务实例，那么您将在目录管理视图中看到服务名称带有“本地”标记。与此类似，如果这是定制服务（即您使用的是服务代理程序创建的服务），那么您将看到列出服务名称时有“定制”字样。通过从 {{site.data.keyword.Bluemix_notm}} Public 使用联合，即可使用列出的不带“本地”或“定制”标记的其他所有服务。联合服务提供了用于创建混合应用程序的功能，混合应用程序由公共服务和私有服务组成。
 
 
-|服务|在美国南部区域中可用|在欧洲英国区域中可用|在澳洲悉尼区域中可用|在德国区域中可用|
-|:----------|:------------------------------|:------------------|:------------------|:------------------|
-|{{site.data.keyword.alertnotificationshort}} | 是| 是| 是| 否|
-|{{site.data.keyword.appseccloudshort}}		|是|是|是|否|
-|Automated Accessibility Checker|是|是|是|是|否|
-|{{site.data.keyword.cloudant}}			|是|是|是|是|
-|{{site.data.keyword.evtmgt_short}} | 是| 是| 是| 否|
-|{{site.data.keyword.iotmapinsights_short}}    |是|是|是|否|
-|{{site.data.keyword.uccr_short}} | 是| 否| 否| 否|
-|{{site.data.keyword.conversationshort}}  |是|是|是|是|
-|{{site.data.keyword.dataworks_short}}		|是|是|否|否|
-|Db2 hosted | 是| 是| 是| 是|
-|{{site.data.keyword.DB2OnCloud_short}}		|是|是|是|是|
-|{{site.data.keyword.dashdbshort_notm}} | 是| 是| 是| 是|
-|Digital Content Checker|是|是|是|否|
-|{{site.data.keyword.servicediscoveryshort}} | 是| 是| 是| 否|
-|{{site.data.keyword.documentconversionshort}}	|是|是|是|否|
-|{{site.data.keyword.iotdriverinsights_short}}  |是|是|是|否|
-|{{site.data.keyword.geospatialshort_Geospatial}}	|是|是|是|否|
-|{{site.data.keyword.GlobalizationPipeline_short}}	|是| 是| 是|是|
-|{{site.data.keyword.identitymixershort}}		|是|是|是|否|
-|{{site.data.keyword.iot4auto_short}} |是|是|是|否|
-|{{site.data.keyword.iotelectronics}}  |是|是|否| 否|
-|{{site.data.keyword.languagetranslatorshort}} |是|是|是|是|
-|{{site.data.keyword.dwl_short}}  |是|是|否|否|
-|{{site.data.keyword.pm_short}} | 是| 是| 否| 否|
-|{{site.data.keyword.messagehub}}		|是|是|是| 是|
-|{{site.data.keyword.manda}}			|是|是|是|否|
-|{{site.data.keyword.nlclassifiershort}} 	|是|是|是|否|
-|{{site.data.keyword.nlushort}} | 是| 是| 是| 否|
-|{{site.data.keyword.personalityinsightsshort}}	|是|是|是|是|
-|{{site.data.keyword.mobilepushshort}}		|是|是|是|是|
-|{{site.data.keyword.retrieveandrankshort}}	|是|是|是|否|
-|{{site.data.keyword.SecureGateway}}		|是|是|是|是|
-|{{site.data.keyword.ssofull}}			|是|否|否| 否|
-|{{site.data.keyword.speechtotextshort}}	|是|是|是|是|
-|{{site.data.keyword.streaminganalyticsshort}}	|是|是|是|否|
-|{{site.data.keyword.texttospeechshort}} 	|是|是|是|是|
-|{{site.data.keyword.toneanalyzershort}} 	|是|是|是|是|
-|{{site.data.keyword.visualrecognitionshort}}	|是|是|是|否|
-|{{site.data.keyword.weather_short}}		|是|是|是|否|
-|{{site.data.keyword.workloadscheduler}}	|是|是|是|是|
+|服务|在美国南部区域中可用|在欧洲英国区域中可用|在德国区域中可用|在美国东部地区中可用|在澳洲悉尼区域中可用|
+|:----------|:------------------------------|:------------------|:------------------|:------------------|:--------------|
+|{{site.data.keyword.alertnotificationshort}} | 是| 是| 否| 否| 是|
+|{{site.data.keyword.appseccloudshort}}		| 是| 是| 否| 否| 是|
+|Automated Accessibility Checker| 是| 是| 是| 否| 是|
+|{{site.data.keyword.cloudant}}			| 是| 是| 是| 是| 是|
+|{{site.data.keyword.evtmgt_short}} | 是| 是| 否| 否| 是|
+|{{site.data.keyword.iotmapinsights_short}}    | 是| 是| 否| 否| 是|
+|{{site.data.keyword.uccr_short}} | 是| 否| 否| 否| 否|
+|{{site.data.keyword.conversationshort}}  | 是| 是| 是| 否| 是|
+|{{site.data.keyword.dataworks_short}}		| 是| 是| 否| 否| 否|
+|Db2 hosted | 是| 是| 是| 否| 是|
+|{{site.data.keyword.DB2OnCloud_short}}		| 是| 是| 是| 否| 是|
+|{{site.data.keyword.dashdbshort_notm}} | 是| 是| 是| 否| 是|
+|Digital Content Checker| 是| 是| 否| 否| 是|
+|{{site.data.keyword.servicediscoveryshort}} | 是| 是| 否| 否| 是|
+|{{site.data.keyword.documentconversionshort}}	| 是| 是| 否| 否| 是|
+|{{site.data.keyword.iotdriverinsights_short}}  | 是| 是| 否| 否| 是|
+|{{site.data.keyword.geospatialshort_Geospatial}}	| 是| 是| 否| 否| 是|
+|{{site.data.keyword.GlobalizationPipeline_short}}	| 是| 是| 是| 否| 是|
+|{{site.data.keyword.identitymixershort}}		| 是| 是| 否| 否| 是|
+|{{site.data.keyword.iot4auto_short}} | 是| 是| 否| 否| 是|
+|{{site.data.keyword.iotelectronics}}  | 是| 是| 否| 否| 否|
+|{{site.data.keyword.languagetranslatorshort}} | 是| 是| 是| 否| 是|
+|{{site.data.keyword.dwl_short}}  | 是| 是| 否| 否| 否|
+|{{site.data.keyword.pm_short}} | 是| 是| 否| 否| 否|
+|{{site.data.keyword.messagehub}}		| 是| 是| 是| 否| 是|
+|{{site.data.keyword.manda}}			| 是| 是| 否| 否| 是|
+|{{site.data.keyword.nlclassifiershort}} 	| 是| 是| 否| 否| 是|
+|{{site.data.keyword.nlushort}} | 是| 是| 否| 否| 是|
+|{{site.data.keyword.personalityinsightsshort}}	| 是| 是| 是| 否| 是|
+|{{site.data.keyword.mobilepushshort}}		| 是| 是| 是| 否| 是|
+|{{site.data.keyword.retrieveandrankshort}}	| 是| 是| 否| 否| 是|
+|{{site.data.keyword.SecureGateway}}		| 是| 是| 是| 是| 是|
+|{{site.data.keyword.ssofull}}			| 是| 否| 否| 否| 否|
+|{{site.data.keyword.speechtotextshort}}	| 是| 是| 是| 否| 是|
+|{{site.data.keyword.streaminganalyticsshort}}	| 是| 是| 否| 否| 是|
+|{{site.data.keyword.texttospeechshort}} 	| 是| 是| 是| 否| 是|
+|{{site.data.keyword.toneanalyzershort}} 	| 是| 是| 是| 否| 是|
+|{{site.data.keyword.visualrecognitionshort}}	| 是| 是| 否| 否| 是|
+|{{site.data.keyword.weather_short}}		| 是| 是| 否| 否| 是|
+|{{site.data.keyword.workloadscheduler}}	| 是| 是| 是| 否| 是|
 {: caption="表 4. 按区域为 {{site.data.keyword.Bluemix_notm}} Public 联合提供的服务" caption-side="top"}
 {: #table04}
 

@@ -6,7 +6,7 @@ copyright:
 
   years: 2015, 2017
 
-lastupdated: "2017-11-16"
+lastupdated: "2017-12-15"
 
 
 ---
@@ -74,48 +74,48 @@ IBM® 使用雲端作業作為服務來監視及維護您的環境，因此您�
 如果有適用於您本端環境的 {{site.data.keyword.Bluemix_notm}} 服務專用實例，您會在型錄管理視圖中看到服務名稱有「本端」標籤。同樣地，如果它是自訂服務（表示您已使用服務分配管理系統來建立它），則會看到服務名稱列有「自訂」。透過從「{{site.data.keyword.Bluemix_notm}} 公用」進行聯合，可以使用已列出且沒有「本端」或「自訂」標籤的所有其他服務。聯合服務提供建立包含公用及專用服務之混合式應用程式的功能。
 
 
-|服務	|可在美國南部地區使用|可在歐洲英國地區使用|可在澳洲雪梨地區使用|可在德國地區使用|
-|:----------|:------------------------------|:------------------|:------------------|:------------------|
-|{{site.data.keyword.alertnotificationshort}} | 是| 是| 是| 否|
-|{{site.data.keyword.appseccloudshort}}		|是		|是		|是|否|
-|Automated Accessibility Checker|是|是|是|是|否|
-|{{site.data.keyword.cloudant}}			|是		|是		|是|是|
-|{{site.data.keyword.evtmgt_short}} | 是| 是| 是| 否|
-|{{site.data.keyword.iotmapinsights_short}}    |是|是|是|否|
-|{{site.data.keyword.uccr_short}} | 是| 否| 否| 否|
-|{{site.data.keyword.conversationshort}}  |是|是|是|是|
-|{{site.data.keyword.dataworks_short}}		|是		|是		|否|否|
-|Db2 Hosted | 是| 是| 是| 是|
-|{{site.data.keyword.DB2OnCloud_short}}		|是		|是		|是|是|
-|{{site.data.keyword.dashdbshort_notm}} | 是| 是| 是| 是|
-|Digital Content Checker|是|是|是|否|
-|{{site.data.keyword.servicediscoveryshort}} | 是| 是| 是| 否|
-|{{site.data.keyword.documentconversionshort}}	|是		|是		|是|否|
-|{{site.data.keyword.iotdriverinsights_short}}  |是|是|是|否|
-|{{site.data.keyword.geospatialshort_Geospatial}}	|是	|是		|是|否|
-|{{site.data.keyword.GlobalizationPipeline_short}}	|是		| 是		| 是|是|
-|{{site.data.keyword.identitymixershort}}		|是		|是		|是|否|
-|{{site.data.keyword.iot4auto_short}} |是|是|是|否|
-|{{site.data.keyword.iotelectronics}}  |是|是|否| 否|
-|{{site.data.keyword.languagetranslatorshort}} |是|是|是|是|
-|{{site.data.keyword.dwl_short}}  |是|是|否|否|
-|{{site.data.keyword.pm_short}} | 是| 是| 否| 否|
-|{{site.data.keyword.messagehub}}		|是		|是		|是| 是|
-|{{site.data.keyword.manda}}			|是		|是		|是|否|
-|{{site.data.keyword.nlclassifiershort}} 	|是 		|是 		|是|否|
-|{{site.data.keyword.nlushort}} | 是| 是| 是| 否|
-|{{site.data.keyword.personalityinsightsshort}}	|是		|是		|是|是|
-|{{site.data.keyword.mobilepushshort}}		|是		|是		|是|是|
-|{{site.data.keyword.retrieveandrankshort}}	|是 		|是 		|是|否|
-|{{site.data.keyword.SecureGateway}}		|是		|是		|是|是|
-|{{site.data.keyword.ssofull}}			|是		|否		|否| 否|
-|{{site.data.keyword.speechtotextshort}}	|是 		|是	 	|是|是|
-|{{site.data.keyword.streaminganalyticsshort}}	|是		|是		|是|否|
-|{{site.data.keyword.texttospeechshort}} 	|是 		|是	 	|是|是|
-|{{site.data.keyword.toneanalyzershort}} 	|是 		|是 		|是|是|
-|{{site.data.keyword.visualrecognitionshort}}	|是 		|是	 	|是|否|
-|{{site.data.keyword.weather_short}}		|是		|是		|是|否|
-|{{site.data.keyword.workloadscheduler}}	|是		|是		|是|是|
+|服務	|可在美國南部地區使用|可在歐洲英國地區使用|可在德國地區使用|可在美國東部地區使用|可在澳洲雪梨地區使用|
+|:----------|:------------------------------|:------------------|:------------------|:------------------|:--------------|
+|{{site.data.keyword.alertnotificationshort}} | 是| 是| 否| 否| 是|
+|{{site.data.keyword.appseccloudshort}}		| 是		| 是		| 否| 否| 是|
+|Automated Accessibility Checker| 是| 是| 是| 否| 是|
+|{{site.data.keyword.cloudant}}			| 是		| 是		| 是| 是| 是|
+|{{site.data.keyword.evtmgt_short}} | 是| 是| 否| 否| 是|
+|{{site.data.keyword.iotmapinsights_short}}    | 是| 是| 否| 否| 是|
+|{{site.data.keyword.uccr_short}} | 是| 否| 否| 否| 否|
+|{{site.data.keyword.conversationshort}}  | 是| 是| 是| 否| 是|
+|{{site.data.keyword.dataworks_short}}		| 是		| 是		| 否| 否| 否|
+|Db2 Hosted | 是| 是| 是| 否| 是|
+|{{site.data.keyword.DB2OnCloud_short}}		| 是		| 是		| 是| 否| 是|
+|{{site.data.keyword.dashdbshort_notm}} | 是| 是| 是| 否| 是|
+|Digital Content Checker| 是| 是| 否| 否| 是|
+|{{site.data.keyword.servicediscoveryshort}} | 是| 是| 否| 否| 是|
+|{{site.data.keyword.documentconversionshort}}	| 是		| 是		| 否| 否| 是|
+|{{site.data.keyword.iotdriverinsights_short}}  | 是| 是| 否| 否| 是|
+|{{site.data.keyword.geospatialshort_Geospatial}}	| 是	| 是		| 否| 否| 是|
+|{{site.data.keyword.GlobalizationPipeline_short}}	| 是		| 是		| 是| 否| 是|
+|{{site.data.keyword.identitymixershort}}		| 是		| 是		| 否| 否| 是|
+|{{site.data.keyword.iot4auto_short}} | 是| 是| 否| 否| 是|
+|{{site.data.keyword.iotelectronics}}  | 是| 是| 否| 否| 否|
+|{{site.data.keyword.languagetranslatorshort}} | 是| 是| 是| 否| 是|
+|{{site.data.keyword.dwl_short}}  | 是| 是| 否| 否| 否|
+|{{site.data.keyword.pm_short}} | 是| 是| 否| 否| 否|
+|{{site.data.keyword.messagehub}}		| 是		| 是		| 是| 否| 是|
+|{{site.data.keyword.manda}}			| 是		| 是		| 否| 否| 是|
+|{{site.data.keyword.nlclassifiershort}} 	| 是 		| 是 		| 否| 否| 是|
+|{{site.data.keyword.nlushort}} | 是| 是| 否| 否| 是|
+|{{site.data.keyword.personalityinsightsshort}}	| 是		| 是		| 是| 否| 是|
+|{{site.data.keyword.mobilepushshort}}		| 是		| 是		| 是| 否| 是|
+|{{site.data.keyword.retrieveandrankshort}}	| 是 		| 是 		| 否| 否| 是|
+|{{site.data.keyword.SecureGateway}}		| 是		| 是		| 是| 是| 是|
+|{{site.data.keyword.ssofull}}			| 是		| 否		| 否| 否| 否|
+|{{site.data.keyword.speechtotextshort}}	| 是 		| 是	 	| 是| 否| 是|
+|{{site.data.keyword.streaminganalyticsshort}}	| 是		| 是		| 否| 否| 是|
+|{{site.data.keyword.texttospeechshort}} 	| 是 		| 是	 	| 是| 否| 是|
+|{{site.data.keyword.toneanalyzershort}} 	| 是 		| 是 		| 是| 否| 是|
+|{{site.data.keyword.visualrecognitionshort}}	| 是 		| 是	 	| 否| 否| 是|
+|{{site.data.keyword.weather_short}}		| 是		| 是		| 否| 否| 是|
+|{{site.data.keyword.workloadscheduler}}	| 是		| 是		| 是| 否| 是|
 {: caption="表 4. 依地區可從「{{site.data.keyword.Bluemix_notm}} 公用」聯合的服務" caption-side="top"}
 {: #table04}
 
@@ -331,7 +331,7 @@ IBM® 使用雲端作業作為服務來監視及維護您的環境，因此您�
 </dd>
 </dl>
 
-您的客戶代表會與其他合作的 {{site.data.keyword.IBM_notm}} 專家一起合作，確保您隨時擁有所需的支援。您可以升級至「進階」支援層，以與您帳戶的專用「客戶成功經理 (CSM)」合作。如需不同支援層的相關資訊，請參閱[與支援中心聯絡](../support/index.html#contacting-support)。CSM 會完成下列類型的作業：
+您的客戶代表會與其他合作的 {{site.data.keyword.IBM_notm}} 專家一起合作，確保您隨時擁有所需的支援。您可以升級至「超值」支援層，以與您帳戶的專用「客戶成功經理 (CSM)」合作。如需不同支援層的相關資訊，請參閱[與支援中心聯絡](../support/index.html#contacting-support)。CSM 會完成下列類型的作業：
 
 <ul>
 <li>提供您與 IBM 之間的技術協調。</li>
