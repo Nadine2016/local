@@ -6,7 +6,7 @@ copyright:
 
   years: 2015, 2017
 
-última atualização: "16-11-2017"
+lastupdated: "2017-12-15"
 
 
 ---
@@ -74,48 +74,48 @@ O {{site.data.keyword.Bluemix_local_notm}} inclui um catálogo privado que reún
 Se você tiver uma instância privada de um serviço do {{site.data.keyword.Bluemix_notm}} para seu ambiente local, verá uma tag "Local" com os nomes do serviço em sua visualização de administração do catálogo. Da mesma forma, se ela for um serviço customizado, significando que você usou um broker de serviço para criá-la, você verá "Customizado" listado com o nome do serviço. Todos os outros serviços listados que não possuem uma tag "local" ou "customizado" estão disponíveis usando a organização do {{site.data.keyword.Bluemix_notm}} Public. Serviços organizados fornecem a função para criar aplicativos híbridos que consistem em serviços públicos e privados.
 
 
-|Serviço	|Disponível na região sul dos EUA	|Disponível na região do Reino Unido na Europa |Disponível na região de Sydney, na Austrália|Disponível na região da Alemanha|
-|:----------|:------------------------------|:------------------|:------------------|:------------------|
-|{{site.data.keyword.alertnotificationshort}} | Sim | Sim | Sim | Não |
-|{{site.data.keyword.appseccloudshort}}		|Sim		|Sim		|Sim |Não  |
-|Verificador de acessibilidade automatizado |Sim       |Sim    |Sim   |Sim  |Não |
-|{{site.data.keyword.cloudant}}			|Sim		|Sim		|Sim |Sim  |
-|{{site.data.keyword.evtmgt_short}} | Sim | Sim | Sim | Não |
-|{{site.data.keyword.iotmapinsights_short}}    |Sim  |Sim  |Sim  |Não  |
-|{{site.data.keyword.uccr_short}} | Sim | Não | Não | Não |
-|{{site.data.keyword.conversationshort}}  |Sim  |Sim  |Sim  |Sim  |
-|{{site.data.keyword.dataworks_short}}		|Sim		|Sim		|Não|Não|
-|Db2 hospedado | Sim | Sim | Sim | Sim |
-|{{site.data.keyword.DB2OnCloud_short}}		|Sim		|Sim		|Sim |Sim  |
-|{{site.data.keyword.dashdbshort_notm}} | Sim | Sim | Sim | Sim |
-|Verificador de conteúdo digital |Sim  |Sim  |Sim  |Não  |
-|{{site.data.keyword.servicediscoveryshort}} | Sim | Sim | Sim | Não |
-|{{site.data.keyword.documentconversionshort}}	|Sim		|Sim		|Sim|Não  |
-|{{site.data.keyword.iotdriverinsights_short}}  |Sim |Sim  |Sim  |Não  |
-|{{site.data.keyword.geospatialshort_Geospatial}}	|Sim	|Sim		|Sim |Não  |
-|{{site.data.keyword.GlobalizationPipeline_short}}	|Sim		| Sim		| Sim |Sim  |
-|{{site.data.keyword.identitymixershort}}		|Sim		|Sim		|Sim|Não  |
-|{{site.data.keyword.iot4auto_short}} |Sim   |Sim  |Sim  |Não  |
-|{{site.data.keyword.iotelectronics}}  |Sim  |Sim  |Não | Não|
-|{{site.data.keyword.languagetranslatorshort}} |Sim  |Sim  |Sim  |Sim  |
-|{{site.data.keyword.dwl_short}}  |Sim  |Sim  |Não  |Não|
-|{{site.data.keyword.pm_short}} | Sim | Sim | Não | Não |
-|{{site.data.keyword.messagehub}}		|Sim		|Sim		|Sim | Sim|
-|{{site.data.keyword.manda}}			|Sim		|Sim		|Sim |Não  |
-|{{site.data.keyword.nlclassifiershort}} 	|Sim 		|Sim 		|Sim |Não  |
-|{{site.data.keyword.nlushort}} | Sim | Sim | Sim | Não |
-|{{site.data.keyword.personalityinsightsshort}}	|Sim		|Sim		|Sim|Sim  |
-|{{site.data.keyword.mobilepushshort}}		|Sim		|Sim		|Sim |Sim  |
-|{{site.data.keyword.retrieveandrankshort}}	|Sim 		|Sim 		|Sim|Não  |
-|{{site.data.keyword.SecureGateway}}		|Sim		|Sim		|Sim |Sim  |
-|{{site.data.keyword.ssofull}}			|Sim		|Não		|Não| Não|
-|{{site.data.keyword.speechtotextshort}}	|Sim 		|Sim	 	|Sim|Sim  |
-|{{site.data.keyword.streaminganalyticsshort}}	|Sim		|Sim		|Sim |Não  |
-|{{site.data.keyword.texttospeechshort}} 	|Sim 		|Sim	 	|Sim|Sim  |
-|{{site.data.keyword.toneanalyzershort}} 	|Sim 		|Sim 		|Sim|Sim  |
-|{{site.data.keyword.visualrecognitionshort}}	|Sim 		|Sim	 	|Sim|Não  |
-|{{site.data.keyword.weather_short}}		|Sim		|Sim		|Sim|Não  |
-|{{site.data.keyword.workloadscheduler}}	|Sim		|Sim		|Sim |Sim  |
+|Serviço	|Disponível na região sul dos EUA	|Disponível na região do Reino Unido na Europa |Disponível na região da Alemanha|Disponível na região leste dos EUA|Disponível na região de Sydney, na Austrália|
+|:----------|:------------------------------|:------------------|:------------------|:------------------|:--------------|
+|{{site.data.keyword.alertnotificationshort}} | Sim | Sim | Não | Não | Sim |
+|{{site.data.keyword.appseccloudshort}}		| Sim		| Sim		| Não | Não | Sim |
+|Verificador de acessibilidade automatizado | Sim       | Sim    | Sim   | Não  | Sim |
+|{{site.data.keyword.cloudant}}			| Sim		| Sim		| Sim | Sim | Sim |
+|{{site.data.keyword.evtmgt_short}} | Sim | Sim | Não | Não | Sim |
+|{{site.data.keyword.iotmapinsights_short}}    | Sim | Sim | Não | Não | Sim |
+|{{site.data.keyword.uccr_short}} | Sim | Não | Não | Não | Não |
+|{{site.data.keyword.conversationshort}}  | Sim | Sim | Sim | Não | Sim |
+|{{site.data.keyword.dataworks_short}}		| Sim		| Sim		| Não | Não | Não |
+|Db2 hospedado | Sim | Sim | Sim | Não | Sim |
+|{{site.data.keyword.DB2OnCloud_short}}		| Sim		| Sim		| Sim | Não | Sim |
+|{{site.data.keyword.dashdbshort_notm}} | Sim | Sim | Sim | Não | Sim |
+|Verificador de conteúdo digital | Sim | Sim | Não | Não | Sim |
+|{{site.data.keyword.servicediscoveryshort}} | Sim | Sim | Não | Não | Sim |
+|{{site.data.keyword.documentconversionshort}}	| Sim		| Sim		| Não | Não | Sim |
+|{{site.data.keyword.iotdriverinsights_short}}  | Sim | Sim | Não | Não | Sim |
+|{{site.data.keyword.geospatialshort_Geospatial}}	| Sim	| Sim		| Não | Não | Sim |
+|{{site.data.keyword.GlobalizationPipeline_short}}	| Sim		| Sim		| Sim | Não | Sim |
+|{{site.data.keyword.identitymixershort}}		| Sim		| Sim		| Não | Não | Sim |
+|{{site.data.keyword.iot4auto_short}} | Sim | Sim | Não | Não | Sim |
+|{{site.data.keyword.iotelectronics}}  | Sim  | Sim  | Não | Não | Não |
+|{{site.data.keyword.languagetranslatorshort}} | Sim | Sim | Sim | Não | Sim |
+|{{site.data.keyword.dwl_short}}  | Sim | Sim | Não | Não | Não |
+|{{site.data.keyword.pm_short}} | Sim | Sim | Não | Não | Não |
+|{{site.data.keyword.messagehub}}		| Sim		| Sim		| Sim | Não | Sim |
+|{{site.data.keyword.manda}}			| Sim		| Sim		| Não | Não | Sim |
+|{{site.data.keyword.nlclassifiershort}} 	| Sim 		| Sim 		| Não | Não | Sim |
+|{{site.data.keyword.nlushort}} | Sim | Sim | Não | Não | Sim |
+|{{site.data.keyword.personalityinsightsshort}}	| Sim		| Sim		| Sim| Não | Sim |
+|{{site.data.keyword.mobilepushshort}}		| Sim		| Sim		| Sim | Não | Sim |
+|{{site.data.keyword.retrieveandrankshort}}	| Sim 		| Sim 		| Não| Não | Sim |
+|{{site.data.keyword.SecureGateway}}		| Sim		| Sim		| Sim | Sim | Sim |
+|{{site.data.keyword.ssofull}}			| Sim		| Não		| Não| Não | Não |
+|{{site.data.keyword.speechtotextshort}}	| Sim 		| Sim	 	| Sim| Não | Sim |
+|{{site.data.keyword.streaminganalyticsshort}}	| Sim		| Sim		| Não | Não | Sim |
+|{{site.data.keyword.texttospeechshort}} 	| Sim 		| Sim	 	| Sim| Não | Sim |
+|{{site.data.keyword.toneanalyzershort}} 	| Sim 		| Sim 		| Sim| Não | Sim |
+|{{site.data.keyword.visualrecognitionshort}}	| Sim 		| Sim	 	| Não | Não | Sim |
+|{{site.data.keyword.weather_short}}		| Sim		| Sim		| Não | Não | Sim |
+|{{site.data.keyword.workloadscheduler}}	| Sim		| Sim		| Sim | Não | Sim |
 {: caption="Tabela 4. Serviços disponíveis para organização do {{site.data.keyword.Bluemix_notm}} Public por região" caption-side="top"}
 {: #table04}
 
