@@ -6,7 +6,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-01-10"
+lastupdated: "2018-01-16"
 
 
 ---
@@ -74,7 +74,7 @@ There are optional components that are available for you to purchase to scale an
 If you have a private instance of a {{site.data.keyword.Bluemix_notm}} service for your local environment, you see a "Local" tag with the service names in your catalog administration view. Similarly, if it is a custom service, meaning you used a service broker to create it, you see "Custom" listed with the service name. All other services listed that do not have a "local" or "custom" tag are available by using syndication from {{site.data.keyword.Bluemix_notm}} Public. Syndicated services provide the function to create hybrid applications that consist of public and private services.
 
 
-|Service	|Available in US South region	|Available in Europe United Kingdom region |Available in Germany region|Available in US East region|Available in Australian Sydney region|
+|Service	|Available in US South region	|Available in Europe United Kingdom region |Available in Germany region|Available in US East region|Available in Australian Sydney region |
 |:----------|:------------------------------|:------------------|:------------------|:------------------|:--------------|
 |{{site.data.keyword.alertnotificationshort}} | Yes | Yes | No | No | Yes |
 |{{site.data.keyword.appseccloudshort}}		| Yes		| Yes		| No | No | Yes |
@@ -334,7 +334,7 @@ The following list shows the customer roles and responsibilities that you assign
 </dd>
 </dl>
 
-Your customer representatives work with {{site.data.keyword.IBM_notm}} specialists that work together to ensure that you always have the support that you need. You can upgrade to the Premium support tier to work with a dedicated Client Success Manager (CSM) for your account. For more information about the different support tiers, see [Contacting support](../support/index.html#contacting-support).The CSM completes the following types of tasks:
+Your customer representatives work with {{site.data.keyword.IBM_notm}} specialists that work together to ensure that you always have the support that you need. You can upgrade to the Premium support tier to work with a dedicated Client Success Manager (CSM) for your account. For more information about the different support tiers, see [Contacting support](/docs/get-support/howtogetsupport.html#contacting-bluemix-support-dedicated-local).The CSM completes the following types of tasks:
 
 <ul>
 <li>Provides technical coordination between you and IBM.</li>
@@ -596,7 +596,7 @@ To ensure that your local instance is compatible with the latest supported versi
 
 ### Customer-detected issues
 
-If you identify an issue that needs attention from {{site.data.keyword.IBM_notm}} support and operations, you can contact support by using a few different methods. For information about how to contact support, see [Contacting support](../support/index.html#contacting-bluemix-support-dedicated-local). Depending on the issue, you, IBM, or both work together to fix the issue.
+If you identify an issue that needs attention from {{site.data.keyword.IBM_notm}} support and operations, you can contact support by using a few different methods. For information about how to contact support, see [Contacting support](/docs/get-support/howtogetsupport.html#contacting-bluemix-support-dedicated-local). Depending on the issue, you, IBM, or both work together to fix the issue.
 
 ### IBM-detected critical incidents
 
@@ -608,9 +608,9 @@ If you want to integrate your notifications with a web service that supports web
 
 Figure 2. Incident response process
 
-Depending on the issue, you, IBM, or both of you work together to fix the issue. If you have a question regarding the incident, or if you need an {{site.data.keyword.IBM_notm}} representative to help you resolve the issue, then you can open a support ticket. For information about how to contact support, see [Contacting support](../support/index.html#contacting-bluemix-support-dedicated-local).
+Depending on the issue, you, IBM, or both of you work together to fix the issue. If you have a question regarding the incident, or if you need an {{site.data.keyword.IBM_notm}} representative to help you resolve the issue, then you can open a support ticket. For information about how to contact support, see [Contacting support](/docs/get-support/howtogetsupport.html#contacting-bluemix-support-dedicated-local).
 
-**Note**: Severity 1 support tickets are monitored 24 hours a day, 7 days a week. Other tickets are processed from Sunday 10:00 pm GMT through Saturday 12:00 am GMT. For more information about severity of support tickets and working with support, see <a href="/docs/support/index.html#contacting-bluemix-support-dedicated-local">Contacting support</a>.
+**Note**: Severity 1 support tickets are monitored 24 hours a day, 7 days a week. Other tickets are processed from Sunday 10:00 pm GMT through Saturday 12:00 am GMT. For more information about severity of support tickets and working with support, see <a href="/docs/get-support/howtogetsupport.html#contacting-bluemix-support-dedicated-local">Contacting support</a>.
 
 ## Disaster recovery for {{site.data.keyword.Bluemix_local_notm}}
 {: #dr}
