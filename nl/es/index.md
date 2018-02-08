@@ -4,9 +4,9 @@
 
 copyright:
 
-  years: 2015, 2017
+  years: 2015, 2018
 
-lastupdated: "2017-12-15"
+lastupdated: "2018-01-16"
 
 
 ---
@@ -23,7 +23,7 @@ lastupdated: "2017-12-15"
 
 IBM® utiliza operaciones de nube como un servicio para supervisar y mantener el entorno, de modo que puede centrarse en la construcción de apps y servicios que se ejecutan en la parte superior del entorno. {{site.data.keyword.IBM_notm}} también maneja actualizaciones a la plataforma, de modo que puede centrarse en la empresa.
 
-Los entornos de {{site.data.keyword.Bluemix_local_notm}} tienen los mismos estándares de seguridad que {{site.data.keyword.Bluemix_notm}} público en términos de seguridad operativa. Proporcione el hardware y la infraestructura, que le proporciona control sobre la infraestructura y la [seguridad](/docs/security/index.html#localplatformsecurity) física. El acceso de desarrollador al entorno de {{site.data.keyword.Bluemix_notm}} local está controlado por las políticas de LDAP, que puede configurar el equipo de {{site.data.keyword.Bluemix_notm}} al configurar el entorno. En el entorno local, utilizando la página de administración, puede [gestionar usuarios y permisos](/docs/admin/index.html#oc_useradmin).
+Los entornos de {{site.data.keyword.Bluemix_local_notm}} tienen los mismos estándares de seguridad que {{site.data.keyword.Bluemix_notm}} público en términos de seguridad operativa. Proporcione el hardware y la infraestructura, que le proporciona control sobre la infraestructura y la [seguridad](/docs/security/index.html#localplatformsecurity) física. El acceso de desarrollador al entorno de {{site.data.keyword.Bluemix_notm}} local está controlado por las políticas de LDAP, que puede configurar el equipo de {{site.data.keyword.Bluemix_notm}} al configurar el entorno. En el entorno local, utilizando la página de administración, puede [gestionar usuarios y permisos](/docs/hybrid/index.html#oc_useradmin).
 
 {{site.data.keyword.Bluemix_local_notm}} se suministra con todos los tiempos de ejecución de {{site.data.keyword.Bluemix_notm}} incluidos y a los 64 GB de memoria de cálculo.
 
@@ -167,7 +167,7 @@ Los dispositivos {{site.data.keyword.IBM_notm}} DataPower Gateway proporcionan a
 <dd><p>{{site.data.keyword.IBM_notm}} utiliza la plataforma QRadar Security Intelligence para ofrecer una arquitectura unificada para mejorar diversos componentes clave. Estos componentes incluyen información de seguridad y gestión de sucesos,
 gestión de registros, detección de anomalías, actividades forenses de incidencias y gestión de configuración y vulnerabilidades. {{site.data.keyword.Bluemix_notm}} también utiliza la información de seguridad de {{site.data.keyword.IBM_notm}} QRadar y la gestión de sucesos (SIEM) para supervisar acciones de usuarios
 privilegiados y los intentos de inicio de sesión tanto correctos como incorrectos de los desarrolladores de aplicaciones. Los informes de
-QRadar proporcionan al cliente visibilidad a través de la sección Informes y registros de la página Administración. Para obtener información sobre los informes de seguridad, consulte [Visualización de informes](/docs/admin/index.html#oc_report).</p>
+QRadar proporcionan al cliente visibilidad a través de la sección Informes y registros de la página Administración. Para obtener información sobre los informes de seguridad, consulte [Visualización de informes](/docs/hybrid/index.html#oc_report).</p>
 <p>{{site.data.keyword.IBM_notm}} BigFix garantiza que los arreglos de los sistemas operativos se aplican con la frecuencia adecuada. El proceso de aplicación de parches está automatizado, y la planificación se acuerda entre usted e IBM. Para obtener información sobre el mantenimiento y actualizaciones, consulte
 [Mantenimiento de su instancia local](index.html#maintainlocal).</p>
 </dd>
@@ -323,7 +323,7 @@ Puede elegir tantos dominios personalizados para sus aplicaciones como desee, si
 <li>Puede empezar a utilizar la instancia local supervisada por el equipo de operaciones de {{site.data.keyword.IBM_notm}} para responder a las alertas.</li>
 </ol>
 
-Una vez que se configure la instancia de {{site.data.keyword.Bluemix_notm}}, puede supervisar y gestionar la instancia de {{site.data.keyword.Bluemix_notm}} utilizando la página Administración. Para obtener más información, consulte [Gestión de {{site.data.keyword.Bluemix_local_notm}} y {{site.data.keyword.Bluemix_dedicated_notm}} ](../admin/index.html#mng). Para obtener información sobre las actualizaciones y el mantenimiento, consulte [Mantenimiento de la instancia local](index.html#maintainlocal).
+Una vez que se configure la instancia de {{site.data.keyword.Bluemix_notm}}, puede supervisar y gestionar la instancia de {{site.data.keyword.Bluemix_notm}} utilizando la página Administración. Para obtener más información, consulte [Gestión de {{site.data.keyword.Bluemix_local_notm}} y {{site.data.keyword.Bluemix_dedicated_notm}} ](../hybrid/index.html#mng). Para obtener información sobre las actualizaciones y el mantenimiento, consulte [Mantenimiento de la instancia local](index.html#maintainlocal).
 
 ##Roles y responsabilidades
 {: #rolesresponsibilities}
@@ -350,7 +350,7 @@ La lista siguiente muestra los roles y responsabilidades de cliente que se asign
 </dd>
 </dl>
 
-Los representantes de los clientes trabajan con los especialistas de {{site.data.keyword.IBM_notm}} que trabajan conjuntamente para asegurarse de que siempre tenga el soporte que necesita. Puede actualizar al nivel de soporte Premium para trabajar con un CSM (Client Success Manager) dedicado para su cuenta. Para obtener más información sobre los distintos niveles de soporte, consulte [Cómo obtener soporte](../support/index.html#contacting-support). El CSM completa los siguientes tipos de tareas:
+Los representantes de los clientes trabajan con los especialistas de {{site.data.keyword.IBM_notm}} que trabajan conjuntamente para asegurarse de que siempre tenga el soporte que necesita. Puede actualizar al nivel de soporte Premium para trabajar con un CSM (Client Success Manager) dedicado para su cuenta. Para obtener más información sobre los distintos niveles de soporte, consulte [Cómo obtener soporte](/docs/get-support/howtogetsupport.html#contacting-bluemix-support-dedicated-local). El CSM completa los siguientes tipos de tareas:
 
 <ul>
 <li>Ofrece coordinación técnica entre usted e IBM.</li>
@@ -603,7 +603,7 @@ Se requieren los siguientes tipos de mantenimiento para {{site.data.keyword.Blue
 
 <dt>**Mantenimiento estándar para la plataforma de {{site.data.keyword.Bluemix_notm}}**</dt>
 <dd>Las actualizaciones de mantenimiento se aplican en función de la coordinación entre el usuario e {{site.data.keyword.IBM_notm}} dentro de un periodo de 21 días. Usted proporciona a {{site.data.keyword.IBM_notm}} períodos de mantenimiento y fechas u horas específicas preaprobadas que pueden no funcionar para usted, e {{site.data.keyword.IBM_notm}} trabaja para planificar actualizaciones durante o alrededor de las fechas seleccionadas.<br />
-<p>Vaya a **ADMINISTRACIÓN > INFORMACIÓN DEL SISTEMA** para ver las actualizaciones de mantenimiento planificadas y pendientes. Para obtener más información sobre cómo establecer las ventanas aprobadas previamente, las fechas no disponibles y visualizar o aprobar actualizaciones de mantenimiento planificadas, consulte <a href="../admin/index.html#oc_schedulemaintenance">Actualizaciones de mantenimiento</a>.</p></dd>
+<p>Vaya a **ADMINISTRACIÓN > INFORMACIÓN DEL SISTEMA** para ver las actualizaciones de mantenimiento planificadas y pendientes. Para obtener más información sobre cómo establecer las ventanas aprobadas previamente, las fechas no disponibles y visualizar o aprobar actualizaciones de mantenimiento planificadas, consulte <a href="../hybrid/index.html#oc_schedulemaintenance">Actualizaciones de mantenimiento</a>.</p></dd>
 </dl>
 
 **Importante**: {{site.data.keyword.IBM_notm}} se reserva el derecho de interrumpir servicios para aplicar mantenimiento emergencia si es necesario. {{site.data.keyword.IBM_notm}} puede modificar las horas de mantenimiento planificadas, pero le notificará de cualquier cambio, así como la información de mantenimiento de emergencia.
@@ -628,28 +628,28 @@ A fin de garantizar que la instancia local es compatible con las últimas versio
 ### Problemas detectados por el cliente
 
 Si detecta un problema que necesite la atención de operaciones y soporte de {{site.data.keyword.IBM_notm}} puede ponerse en contacto con el soporte mediante diversos
-métodos. Para obtener información sobre cómo contactar con el soporte, consulte [Cómo obtener soporte](../support/index.html#contacting-bluemix-support-dedicated-local). Según la naturaleza del problema, el usuario, IBM o ambos pueden trabajar para solucionarlo.
+métodos. Para obtener información sobre cómo contactar con el soporte, consulte [Cómo obtener soporte](/docs/get-support/howtogetsupport.html#contacting-bluemix-support-dedicated-local). Según la naturaleza del problema, el usuario, IBM o ambos pueden trabajar para solucionarlo.
 
 ### Incidencias críticas detectadas por IBM
 
 Las incidencias críticas son urgentes, cortes de servicio inesperados y problemas de estabilidad que afectan a su
 entorno o sus usuarios. Si {{site.data.keyword.IBM_notm}} detecta una incidencia crítica en su entorno, se le envía una notificación en la página
 **Estado**. También se puede revisar la página Estado para buscar problemas conocidos para la plataforma o
-sus servicios. Para obtener más información sobre la página Estado, consulte [Visualización de estado](../admin/index.html#oc_status).
+sus servicios. Para obtener más información sobre la página Estado, consulte [Visualización de estado](../hybrid/index.html#oc_status).
 
 Si quiere integrar sus notificaciones con un servicio web que admita ganchos (hooks), consulte
-[Notificaciones y suscripciones de sucesos](/docs/admin/index.html#oc_eventsubscription) para obtener información sobre
+[Notificaciones y suscripciones de sucesos](/docs/hybrid/index.html#oc_eventsubscription) para obtener información sobre
 cómo ampliar las funciones de notificación.
 
 ![Proceso de respuesta de incidencias](images/incidentresponseprocess.png "Proceso de respuesta de incidencias")
 
 Figura 2. Proceso de respuesta de incidencias
 
-Según la naturaleza del problema, el usuario, IBM o ambos pueden trabajar para solucionarlo. Si tiene alguna pregunta relativa a la incidencia, o si necesita que un representante de {{site.data.keyword.IBM_notm}} le ayude a resolver el problema, puede abrir una incidencia de soporte. Para obtener información sobre cómo contactar con el soporte, consulte [Cómo obtener soporte](../support/index.html#contacting-bluemix-support-dedicated-local).
+Según la naturaleza del problema, el usuario, IBM o ambos pueden trabajar para solucionarlo. Si tiene alguna pregunta relativa a la incidencia, o si necesita que un representante de {{site.data.keyword.IBM_notm}} le ayude a resolver el problema, puede abrir una incidencia de soporte. Para obtener información sobre cómo contactar con el soporte, consulte [Cómo obtener soporte](/docs/get-support/howtogetsupport.html#contacting-bluemix-support-dedicated-local).
 
 **Nota**: Las incidencias de soporte de gravedad 1 se supervisan 24 horas al día, 7 días por semana. Otras incidencias
 se procesan desde las 22:00 del domingo (GMT) hasta las 00:00 del sábado (GMT). Para obtener más información sobre la gravedad de
-las incidencias de soporte y cómo trabajar con soporte, consulte <a href="/docs/support/index.html#contacting-bluemix-support-dedicated-local">Cómo obtener soporte</a>.
+las incidencias de soporte y cómo trabajar con soporte, consulte <a href="/docs/get-support/howtogetsupport.html#contacting-bluemix-support-dedicated-local">Cómo obtener soporte</a>.
 
 ## Recuperación tras desastre para {{site.data.keyword.Bluemix_local_notm}}
 {: #dr}

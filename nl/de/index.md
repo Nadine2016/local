@@ -4,9 +4,9 @@
 
 copyright:
 
-  years: 2015, 2017
+  years: 2015, 2018
 
-lastupdated: "2017-12-15"
+lastupdated: "2018-01-16"
 
 
 ---
@@ -23,7 +23,7 @@ lastupdated: "2017-12-15"
 
 IBM® verwendet Cloudoperationen als Service zum Überwachen und Verwalten Ihrer Umgebung, damit Sie sich auf das Erstellen von Apps und Services konzentrieren können, die in dieser Umgebung ausgeführt werden. {{site.data.keyword.IBM_notm}} führt zudem Plattformaktualisierungen aus, während Sie sich um Ihre Geschäftsabläufe kümmern.
 
-{{site.data.keyword.Bluemix_local_notm}}-Umgebungen verfügen in Hinblick auf die Betriebssicherheit über dieselben Sicherheitsstandards wie die öffentliche {{site.data.keyword.Bluemix_notm}}-Plattform. Sie stellen die Hardware und Infrastruktur bereit und erhalten so die Kontrolle über die Infrastruktur und physische [Sicherheit](/docs/security/index.html#localplatformsecurity). Der Zugriff von Entwicklern auf die lokale {{site.data.keyword.Bluemix_notm}}-Umgebung wird durch Ihre LDAP-Richtlinien gesteuert, die bei der Einrichtung Ihrer Umgebung durch das {{site.data.keyword.Bluemix_notm}}-Team konfiguriert werden können. Sie können innerhalb der lokalen Umgebung über die Verwaltungsseite [Benutzer und Berechtigungen verwalten](/docs/admin/index.html#oc_useradmin).
+{{site.data.keyword.Bluemix_local_notm}}-Umgebungen verfügen in Hinblick auf die Betriebssicherheit über dieselben Sicherheitsstandards wie die öffentliche {{site.data.keyword.Bluemix_notm}}-Plattform. Sie stellen die Hardware und Infrastruktur bereit und erhalten so die Kontrolle über die Infrastruktur und physische [Sicherheit](/docs/security/index.html#localplatformsecurity). Der Zugriff von Entwicklern auf die lokale {{site.data.keyword.Bluemix_notm}}-Umgebung wird durch Ihre LDAP-Richtlinien gesteuert, die bei der Einrichtung Ihrer Umgebung durch das {{site.data.keyword.Bluemix_notm}}-Team konfiguriert werden können. Sie können innerhalb der lokalen Umgebung über die Verwaltungsseite [Benutzer und Berechtigungen verwalten](/docs/hybrid/index.html#oc_useradmin).
 
 {{site.data.keyword.Bluemix_local_notm}} wird mit integrierten {{site.data.keyword.Bluemix_notm}}-Laufzeiten und 64 GB Rechenspeicher geliefert.
 
@@ -74,7 +74,7 @@ Durch optionale Komponenten, die zusätzlich zum Kauf angeboten werden, können 
 Wenn es sich um eine private Instanz eines {{site.data.keyword.Bluemix_notm}}-Service für Ihre lokale Umgebung handelt, wird bei den Servicenamen in Ihrer Katalog-Verwaltungsansicht das Tag "Lokal" angezeigt. Entsprechend sehen Sie "Angepasst" bei den Servicekacheln (d. h. Sie haben einen Servicebroker für die Erstellung verwendet), wenn es sich um einen benutzerdefinierten Service handelt. Alle anderen aufgelisteten Services ohne das Tag "Lokal" oder "Angepasst" sind über die Syndikation aus {{site.data.keyword.Bluemix_notm}} Public verfügbar. Syndizierte Services bieten die Funktion zum Erstellen von Hybridanwendungen, die aus öffentlichen und privaten Services bestehen.
 
 
-|Service	|Verfügbar in Region 'Vereinigte Staaten (Süden)'	|Verfügbar in Region 'Europa - Vereinigtes Königreich' |Verfügbar in Region 'Deutschland'|Verfügbar in Region 'Vereinigte Staaten (Osten)'|Verfügbar in Region 'Sydney, Australien'|
+|Service	|Verfügbar in Region 'Vereinigte Staaten (Süden)'	|Verfügbar in Region 'Europa - Vereinigtes Königreich' |Verfügbar in Region 'Deutschland'|Verfügbar in Region 'Vereinigte Staaten (Osten)'|Verfügbar in Region 'Sydney, Australien' |
 |:----------|:------------------------------|:------------------|:------------------|:------------------|:--------------|
 |{{site.data.keyword.alertnotificationshort}} | Ja | Ja | Nein | Nein | Ja |
 |{{site.data.keyword.appseccloudshort}}		| Ja		| Ja		| Nein | Nein | Ja |
@@ -162,7 +162,7 @@ Die Unternehmensnetzumgebung besitzt eine bidirektionale Netzverbindung zu {{sit
 {{site.data.keyword.IBM_notm}} DataPower Gateway-Appliances stellen den Zugriff auf {{site.data.keyword.Bluemix_notm}}-Anwendungsdomänen bereit. Diese Appliances stellen eine Verbindung zur Ihrem Intranet und zum privaten Netz von {{site.data.keyword.Bluemix_notm}} her und bieten auf diese Weise ein sicheres Gateway für die {{site.data.keyword.Bluemix_notm}}-Bereitstellung. Ihre Entwickler, die Apps und Services bereitstellen, erhalten durch dieses Gateway Zugriff aus Ihrem Intranet. Die Benutzer der Anwendungen erhalten den Zugriff ebenso durch die DataPower-Appliances wie Ihre Administratoren.
 </dd>
 <dt>Sicherheitsdaten</dt>
-<dd><p>{{site.data.keyword.IBM_notm}} arbeitet mit QRadar Security Intelligence Platform, um eine vereinheitlichte Architektur zur Integration verschiedener Schlüsselkomponenten bereitzustellen. Diese Komponenten umfassen Sicherheitsinformationen und Ereignismanagement, Protokollmanagement, Anomalieerkennung, Vorfallforensik sowie Konfigurations- und Schwachstellenmanagement. {{site.data.keyword.Bluemix_notm}} verwendet außerdem {{site.data.keyword.IBM_notm}} QRadar SIEM (Security Information and Event Management, Sicherheitsinformations- und Ereignismanagement), um Aktionen privilegierter Benutzer sowie erfolgreiche und nicht erfolgreiche Anmeldeversuche von Anwendungsentwicklern zu überwachen. QRadar stellt für den Kunden Informationen im Abschnitt für Berichte und Protokolle der Verwaltungsseite bereit. Informationen zu Sicherheitsberichten finden Sie unter [Berichte anzeigen](/docs/admin/index.html#oc_report).</p>
+<dd><p>{{site.data.keyword.IBM_notm}} arbeitet mit QRadar Security Intelligence Platform, um eine vereinheitlichte Architektur zur Integration verschiedener Schlüsselkomponenten bereitzustellen. Diese Komponenten umfassen Sicherheitsinformationen und Ereignismanagement, Protokollmanagement, Anomalieerkennung, Vorfallforensik sowie Konfigurations- und Schwachstellenmanagement. {{site.data.keyword.Bluemix_notm}} verwendet außerdem {{site.data.keyword.IBM_notm}} QRadar SIEM (Security Information and Event Management, Sicherheitsinformations- und Ereignismanagement), um Aktionen privilegierter Benutzer sowie erfolgreiche und nicht erfolgreiche Anmeldeversuche von Anwendungsentwicklern zu überwachen. QRadar stellt für den Kunden Informationen im Abschnitt für Berichte und Protokolle der Verwaltungsseite bereit. Informationen zu Sicherheitsberichten finden Sie unter [Berichte anzeigen](/docs/hybrid/index.html#oc_report).</p>
 <p>{{site.data.keyword.IBM_notm}} BigFix stellt sicher, dass in angemessenen Abständen Fixes für Betriebssysteme angewendet werden. Der Patchprozess ist automatisiert und der Zeitplan wird zwischen Ihnen und IBM abgestimmt. Informationen zu Wartungen und Upgrades finden Sie unter [Lokale Instanz warten](index.html#maintainlocal).</p>
 </dd>
 </dl>
@@ -307,7 +307,7 @@ Sie können beliebig viele angepasste Domänen für Ihre Anwendungen auswählen,
 <li>Sie können mit der Verwendung Ihrer lokalen Instanz beginnen, die vom {{site.data.keyword.IBM_notm}} Operationsteam überwacht wird, um auf Alerts zu reagieren.</li>
 </ol>
 
-Nach der Einrichtung Ihrer {{site.data.keyword.Bluemix_notm}}-Instanz können Sie die Ihre {{site.data.keyword.Bluemix_notm}}-Instanz über die Verwaltungsseite ('Administration') überwachen und verwalten. Weitere Informationen finden Sie unter [{{site.data.keyword.Bluemix_local_notm}} und {{site.data.keyword.Bluemix_dedicated_notm}} verwalten](../admin/index.html#mng). Weitere Informationen zu Upgrades und Wartung finden Sie unter [Lokale Instanz warten](index.html#maintainlocal).
+Nach der Einrichtung Ihrer {{site.data.keyword.Bluemix_notm}}-Instanz können Sie die Ihre {{site.data.keyword.Bluemix_notm}}-Instanz über die Verwaltungsseite ('Administration') überwachen und verwalten. Weitere Informationen finden Sie unter [{{site.data.keyword.Bluemix_local_notm}} und {{site.data.keyword.Bluemix_dedicated_notm}} verwalten](../hybrid/index.html#mng). Weitere Informationen zu Upgrades und Wartung finden Sie unter [Lokale Instanz warten](index.html#maintainlocal).
 
 ##Rollen und Zuständigkeiten
 {: #rolesresponsibilities}
@@ -330,11 +330,11 @@ In der folgenden Liste sind die Kundenrollen und -zuständigkeiten enthalten, di
 <dt>**IaaS-Spezialist**</dt>
 <dd>Arbeitet mit den {{site.data.keyword.IBM_notm}} Ansprechpartnern an dem Bereitstellungsplan für VMware. Typischerweise handelt es sich hierbei um einen VMware-Administrator im Rechenzentrum. Die Person, die dieser Rolle zugewiesen ist, überprüft die <a href="../local/index.html#localinfra">Infrastrukturanforderungen für {{site.data.keyword.Bluemix_local_notm}}</a> und arbeitet gemeinsam mit {{site.data.keyword.IBM_notm}} an einem Implementierungsplan. Am Ende der Installationsphase prüft die Person, die dieser Rolle zugewiesen ist, dass die Implementierung im Einklang mit den Unternehmensstandards auf der IaaS-Ebene ist.</dd>
 <dt>**Operations-Ansprechpartner**</dt>
-<dd>Arbeitet bei Bedarf mit dem {{site.data.keyword.IBM_notm}} Support-Team zusammen, sobald die Umgebung betriebsbereit ist. Die entsprechende Person besitzt einen **Superuser**-Zugriff auf die Administrationskonsole, kann Wartungsaktualisierungen für die {{site.data.keyword.Bluemix_notm}}-Umgebung genehmigen und planen und steht für den Fall eines kritischen Vorfalls jederzeit zur Verfügung. Die Person, die dieser Rolle zugewiesen ist, muss technisches Wissen über die {{site.data.keyword.Bluemix_notm}}-Umgebung besitzen und in der Lage sein, andere Mitarbeiter des Unternehmens zu erreichen, die Expertenkenntnisse über einen Bereich besitzen, der betroffen sein könnte (z. B. Netzbetrieb oder Sicherheit).
+<dd>Arbeitet bei Bedarf mit dem {{site.data.keyword.IBM_notm}}-Support-Team zusammen, sobald die Umgebung betriebsbereit ist. Die entsprechende Person besitzt einen **Superuser**-Zugriff auf die Administrationskonsole, kann Wartungsaktualisierungen für die {{site.data.keyword.Bluemix_notm}}-Umgebung genehmigen und planen und steht für den Fall eines kritischen Vorfalls jederzeit zur Verfügung. Die Person, die dieser Rolle zugewiesen ist, muss technisches Wissen über die {{site.data.keyword.Bluemix_notm}}-Umgebung besitzen und in der Lage sein, andere Mitarbeiter des Unternehmens zu erreichen, die Expertenkenntnisse über einen Bereich besitzen, der betroffen sein könnte (z. B. Netzbetrieb oder Sicherheit).
 </dd>
 </dl>
 
-Ihre Ansprechpartner beim Kunden arbeiten mit {{site.data.keyword.IBM_notm}} Spezialisten zusammen, um sicherzustellen, dass Sie immer die benötigte Unterstützung erhalten. Sie können ein Upgrade auf die Stufe Premium Support durchführen, um für Ihr Konto mit einem dedizierten Cluster Systems Manager (CSM) zu arbeiten. Weitere Informationen zu den unterschiedlichen Unterstützungskategorien finden Sie unter [Support kontaktieren](../support/index.html#contacting-support). Der CSM führt folgende Typen von Tasks aus:
+Ihre Ansprechpartner beim Kunden arbeiten mit {{site.data.keyword.IBM_notm}} Spezialisten zusammen, um sicherzustellen, dass Sie immer die benötigte Unterstützung erhalten. Sie können ein Upgrade auf die Stufe Premium Support durchführen, um für Ihr Konto mit einem dedizierten Cluster Systems Manager (CSM) zu arbeiten. Weitere Informationen zu den unterschiedlichen Unterstützungskategorien finden Sie unter [Support kontaktieren](/docs/get-support/howtogetsupport.html#contacting-bluemix-support-dedicated-local). Der CSM führt folgende Typen von Tasks aus:
 
 <ul>
 <li>Technische Koordination zwischen Ihnen und IBM.</li>
@@ -598,12 +598,12 @@ Die folgenden Wartungsarten sind für
 
 <dt>**Standardwartung für die {{site.data.keyword.Bluemix_notm}}-Plattform**</dt>
 <dd>Wartungsaktualisierungen werden basierend auf der Koordination zwischen Ihnen und {{site.data.keyword.IBM_notm}} innerhalb eines 21-tägigen Zeitfensters angewendet. Sie geben {{site.data.keyword.IBM_notm}} vorab genehmigte Wartungszeiten und bestimmte Daten oder Uhrzeiten an, zu denen eine Wartung nicht möglich ist. {{site.data.keyword.IBM_notm}} plant die Aktualisierungen dann entsprechend der von Ihnen ausgewählten Wartungs- und Ausschlusszeiten.<br />
-<p>Wechseln Sie zu **Verwaltung > Systeminformationen**, um anstehende und ausstehende Wartungsaktualisierungen anzuzeigen. Weitere Informationen zu Einstellungen Ihrer vorab genehmigten Zeiten, zu nicht verfügbaren Daten und zur Anzeige oder Prüfung der geplanten Wartungsaktualisierungen finden Sie unter <a href="../admin/index.html#oc_schedulemaintenance">Wartungsaktualisierung</a>.</p></dd>
+<p>Wechseln Sie zu **Verwaltung > Systeminformationen**, um anstehende und ausstehende Wartungsaktualisierungen anzuzeigen. Weitere Informationen zu Einstellungen Ihrer vorab genehmigten Zeiten, zu nicht verfügbaren Daten und zur Anzeige oder Prüfung der geplanten Wartungsaktualisierungen finden Sie unter <a href="../hybrid/index.html#oc_schedulemaintenance">Wartungsaktualisierung</a>.</p></dd>
 </dl>
 
 **Wichtig**: {{site.data.keyword.IBM_notm}} behält sich das Recht vor, Services zu unterbrechen, um im Bedarfsfall Notfallwartungen vorzunehmen. {{site.data.keyword.IBM_notm}} kann die geplanten Wartungszeiten ändern, wird Sie aber über solche Änderungen sowie über eventuelle Notfallwartungen benachrichtigen.
 
-Falls nach einer Wartungsaktualisierung ein Problem berichtet wird, entscheiden Sie gemeinsam mit dem {{site.data.keyword.Bluemix_notm}} Support, ob es sinnvoll wäre, dass {{site.data.keyword.IBM_notm}} die Aktualisierung rückgängig macht. Nachdem Sie sich geeinigt haben, macht {{site.data.keyword.IBM_notm}} die Aktualisierung rückgängig und stellt die Umgebung in ihrem ursprünglichen Zustand wieder her.
+Falls nach einer Wartungsaktualisierung ein Problem berichtet wird, entscheiden Sie gemeinsam mit dem {{site.data.keyword.Bluemix_notm}}-Support, ob es sinnvoll wäre, dass {{site.data.keyword.IBM_notm}} die Aktualisierung rückgängig macht. Nachdem Sie sich geeinigt haben, macht {{site.data.keyword.IBM_notm}} die Aktualisierung rückgängig und stellt die Umgebung in ihrem ursprünglichen Zustand wieder her.
 
 ### Wartung der Kundeninfrastruktur
 {: #inframaintenance}
@@ -623,21 +623,21 @@ Das {{site.data.keyword.Bluemix_notm}}-Operationsteam überwacht die Umgebung au
 
 ### Von Kunden erkannte Probleme
 
-Wenn Sie ein Problem feststellen, das durch den {{site.data.keyword.IBM_notm}} Support und durch IBM Operationen behandelt werden muss, können Sie mit verschiedenen Methoden Kontakt mit dem Support aufnehmen. Informationen zur Kontaktaufnahme mit dem Support finden Sie unter [Support kontaktieren](../support/index.html#contacting-bluemix-support-dedicated-local). Die Behebung des Problems erfolgt je nach Problem entweder durch Sie selbst, durch IBM oder in Zusammenarbeit von Ihnen und IBM.
+Wenn Sie ein Problem feststellen, das durch den {{site.data.keyword.IBM_notm}}-Support und durch IBM Operationen behandelt werden muss, können Sie mit verschiedenen Methoden Kontakt mit dem Support aufnehmen. Informationen zur Kontaktaufnahme mit dem Support finden Sie unter [Support kontaktieren](/docs/get-support/howtogetsupport.html#contacting-bluemix-support-dedicated-local). Die Behebung des Problems erfolgt je nach Problem entweder durch Sie selbst, durch IBM oder in Zusammenarbeit von Ihnen und IBM.
 
 ### Von IBM erkannte kritische Probleme
 
-Kritische Probleme (Vorfälle) sind dringende, nicht erwartete Serviceausfälle und Stabilitätsprobleme, die sich auf Ihre Umgebung oder Ihre Benutzer auswirken. Wenn {{site.data.keyword.IBM_notm}} ein kritisches Problem in Ihrer Umgebung erkennt, werden Sie durch eine Benachrichtigung auf der Seite **Status** darüber informiert. Auf der Statusseite finden Sie außerdem bekannte Probleme mit Ihrer Plattform oder Ihren Services. Weitere Informationen zur Seite 'Status' finden Sie in [Status anzeigen](../admin/index.html#oc_status).
+Kritische Probleme (Vorfälle) sind dringende, nicht erwartete Serviceausfälle und Stabilitätsprobleme, die sich auf Ihre Umgebung oder Ihre Benutzer auswirken. Wenn {{site.data.keyword.IBM_notm}} ein kritisches Problem in Ihrer Umgebung erkennt, werden Sie durch eine Benachrichtigung auf der Seite **Status** darüber informiert. Auf der Statusseite finden Sie außerdem bekannte Probleme mit Ihrer Plattform oder Ihren Services. Weitere Informationen zur Seite 'Status' finden Sie in [Status anzeigen](../hybrid/index.html#oc_status).
 
-Wenn Sie Ihre Benachrichtigungen in einen Web-Service, der Web-Hooks unterstützt, integrieren wollen, finden Sie Informationen zur Erweiterung der Benachrichtigungsfunktionalität unter [Benachrichtigungen und Ereignisabonnements](/docs/admin/index.html#oc_eventsubscription).
+Wenn Sie Ihre Benachrichtigungen in einen Web-Service, der Web-Hooks unterstützt, integrieren wollen, finden Sie Informationen zur Erweiterung der Benachrichtigungsfunktionalität unter [Benachrichtigungen und Ereignisabonnements](/docs/hybrid/index.html#oc_eventsubscription).
 
 ![Problembehebungsprozess](images/incidentresponseprocess.png "Problembehebungsprozess")
 
 Abbildung 2. Problembehebungsprozess
 
-Die Behebung des Problems erfolgt je nach Problem entweder durch Sie selbst, durch IBM oder in Zusammenarbeit von Ihnen und IBM. Wenn Sie eine Frage in Bezug auf das Problem haben oder wenn Sie Hilfe durch einen {{site.data.keyword.IBM_notm}} Ansprechpartner bei der Lösung des Problems benötigen, können Sie ein Support-Ticket öffnen. Informationen zur Kontaktaufnahme mit dem Support finden Sie unter [Support kontaktieren](../support/index.html#contacting-bluemix-support-dedicated-local).
+Die Behebung des Problems erfolgt je nach Problem entweder durch Sie selbst, durch IBM oder in Zusammenarbeit von Ihnen und IBM. Wenn Sie eine Frage in Bezug auf das Problem haben oder wenn Sie Hilfe durch einen {{site.data.keyword.IBM_notm}} Ansprechpartner bei der Lösung des Problems benötigen, können Sie ein Support-Ticket öffnen. Informationen zur Kontaktaufnahme mit dem Support finden Sie unter [Support kontaktieren](/docs/get-support/howtogetsupport.html#contacting-bluemix-support-dedicated-local).
 
-**Hinweis:** Support-Tickets der Priorität 1 werden 24 Stunden täglich und 7 Tage die Woche überwacht. Andere Ticket werden in der Zeit zwischen Sonntag 22:00 Uhr GMT und Samstag 12:00 GMT bearbeitet. Weitere Informationen zu Prioritätsstufen von Support-Tickets sowie zur Zusammenarbeit mit dem Support finden Sie unter <a href="/docs/support/index.html#contacting-bluemix-support-dedicated-local">Support kontaktieren</a>.
+**Hinweis:** Support-Tickets der Priorität 1 werden 24 Stunden täglich und 7 Tage die Woche überwacht. Andere Ticket werden in der Zeit zwischen Sonntag 22:00 Uhr GMT und Samstag 12:00 GMT bearbeitet. Weitere Informationen zu Prioritätsstufen von Support-Tickets sowie zur Zusammenarbeit mit dem Support finden Sie unter <a href="/docs/get-support/howtogetsupport.html#contacting-bluemix-support-dedicated-local">Support kontaktieren</a>.
 
 ## Disaster-Recovery für {{site.data.keyword.Bluemix_local_notm}}
 {: #dr}

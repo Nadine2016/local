@@ -4,9 +4,9 @@
 
 copyright:
 
-  years: 2015, 2017
+  years: 2015, 2018
 
-lastupdated: "2017-12-15"
+lastupdated: "2018-01-16"
 
 
 ---
@@ -23,7 +23,7 @@ lastupdated: "2017-12-15"
 
 IBM® はクラウド操作をサービスとして使用してお客様の環境のモニターと保守を行います。そのため、お客様は、自分の環境上で稼動するアプリやサービスのビルドに注力できます。 また、{{site.data.keyword.IBM_notm}} はプラットフォームの更新にも対応するので、お客様はビジネスに専念できます。
 
-{{site.data.keyword.Bluemix_local_notm}} 環境のセキュリティー標準は、運用上のセキュリティーの観点では、Public  {{site.data.keyword.Bluemix_notm}} と同じです。 お客様はハードウェアとインフラストラクチャーを用意します。これにより、インフラストラクチャーと物理的[セキュリティー](/docs/security/index.html#localplatformsecurity)を制御できるようになります。 ローカルの {{site.data.keyword.Bluemix_notm}} 環境に対する開発者のアクセスは、LDAP ポリシーによって制御されます。このポリシーは、環境のセットアップ時に {{site.data.keyword.Bluemix_notm}} チームが構成することができます。 ローカル環境内では、管理ページを使用して[ユーザーと許可を管理](/docs/admin/index.html#oc_useradmin)できます。
+{{site.data.keyword.Bluemix_local_notm}} 環境のセキュリティー標準は、運用上のセキュリティーの観点では、Public  {{site.data.keyword.Bluemix_notm}} と同じです。 お客様はハードウェアとインフラストラクチャーを用意します。これにより、インフラストラクチャーと物理的[セキュリティー](/docs/security/index.html#localplatformsecurity)を制御できるようになります。 ローカルの {{site.data.keyword.Bluemix_notm}} 環境に対する開発者のアクセスは、LDAP ポリシーによって制御されます。このポリシーは、環境のセットアップ時に {{site.data.keyword.Bluemix_notm}} チームが構成することができます。 ローカル環境内では、管理ページを使用して[ユーザーと許可を管理](/docs/hybrid/index.html#oc_useradmin)できます。
 
 {{site.data.keyword.Bluemix_local_notm}} には、付属しているすべての {{site.data.keyword.Bluemix_notm}} ランタイムおよび 64 GB の計算メモリーが搭載されています。
 
@@ -74,7 +74,7 @@ IBM® はクラウド操作をサービスとして使用してお客様の環�
 ローカル環境用に {{site.data.keyword.Bluemix_notm}} サービスのプライベート・インスタンスを保有している場合、カタログ管理ビュー内でサービス名と共に「ローカル」というタグが示されます。 同様に、カスタム・サービスである場合 (つまり、サービス・ブローカーを使用して作成した場合)、サービス名と共に「カスタム」と表示されます。 「ローカル」というタグも「カスタム」というタグも付いていない、リスト中の他のサービスはすべて、{{site.data.keyword.Bluemix_notm}} Public からシンジケーションを使用して利用可能です。 シンジケートされたサービスは、パブリック・サービスとプライベート・サービスからなるハイブリッド・アプリケーションを作成する機能を提供します。
 
 
-|サービス	|米国南部地域で利用可能	|ヨーロッパ英国地域で利用可能 |ドイツ地域で利用可能|米国東部地域で利用可能|オーストラリア、シドニー地域で利用可能|
+|サービス	|米国南部地域で利用可能	|ヨーロッパ英国地域で利用可能 |ドイツ地域で利用可能|米国東部地域で利用可能|オーストラリア、シドニー地域で利用可能 |
 |:----------|:------------------------------|:------------------|:------------------|:------------------|:--------------|
 |{{site.data.keyword.alertnotificationshort}} | はい | はい | いいえ | いいえ | はい |
 |{{site.data.keyword.appseccloudshort}}		| はい		| はい		| いいえ | いいえ | はい |
@@ -157,12 +157,13 @@ IBM® はクラウド操作をサービスとして使用してお客様の環�
 <dt>ローカル・サービス</dt>
 <dd>{{site.data.keyword.Bluemix_local_notm}} 環境で専用に使用される一連の利用可能なサービスがあります。 一般的に、{{site.data.keyword.IBM_notm}} チームによるデプロイメントの前に、環境に必要なサービスをお客様が決定します。 利用可能なサービスのリストについては、[『Local のサービスとランタイム』](#table01)を参照してください。
 </dd>
-<dt>DataPower ゲートウェイ</dt>
+<dt>DataPower
+ゲートウェイ</dt>
 <dd>
 {{site.data.keyword.IBM_notm}} DataPower Gateway アプライアンスは、{{site.data.keyword.Bluemix_notm}} アプリケーション・ドメインへのアクセスを提供します。 これらのアプライアンスは、イントラネット・ネットワークおよび {{site.data.keyword.Bluemix_notm}} プライベート・ネットワークに接続し、{{site.data.keyword.Bluemix_notm}} デプロイメントへのセキュア・ゲートウェイを提供します。 アプリおよびサービスをデプロイする開発者は、このゲートウェイを通してイントラネットからアクセスします。 アプリケーションのユーザーは、管理者と同様に、DataPower アプライアンスを通してアクセスします。
 </dd>
 <dt>セキュリティー・インテリジェンス</dt>
-<dd><p>{{site.data.keyword.IBM_notm}} は、QRadar Security Intelligence Platform を使用して、いくつかの主要コンポーネントを統合するための統一アーキテクチャーを提供します。 これらのコンポーネントには、セキュリティー情報とイベント管理、ログ管理、異常検出、インシデント・フォレンジック、および構成と脆弱性の管理があります。 また、{{site.data.keyword.Bluemix_notm}} は、{{site.data.keyword.IBM_notm}} QRadar セキュリティー情報とイベント管理 (SIEM) を使用して、特権ユーザーのアクションと、アプリケーション開発者のログイン試行の成功および失敗をモニターします。 お客様は、QRadar レポートの管理ページの「レポートおよびログ」セクションを使用して表示できます。 セキュリティー・レポートについて詳しくは、『[レポートの表示](/docs/admin/index.html#oc_report)』を参照してください。</p>
+<dd><p>{{site.data.keyword.IBM_notm}} は、QRadar Security Intelligence Platform を使用して、いくつかの主要コンポーネントを統合するための統一アーキテクチャーを提供します。 これらのコンポーネントには、セキュリティー情報とイベント管理、ログ管理、異常検出、インシデント・フォレンジック、および構成と脆弱性の管理があります。 また、{{site.data.keyword.Bluemix_notm}} は、{{site.data.keyword.IBM_notm}} QRadar セキュリティー情報とイベント管理 (SIEM) を使用して、特権ユーザーのアクションと、アプリケーション開発者のログイン試行の成功および失敗をモニターします。 お客様は、QRadar レポートの管理ページの「レポートおよびログ」セクションを使用して表示できます。 セキュリティー・レポートについて詳しくは、『[レポートの表示](/docs/hybrid/index.html#oc_report)』を参照してください。</p>
 <p>{{site.data.keyword.IBM_notm}} BigFix は、オペレーティング・システムのフィックスが適切な頻度で確実に適用されるようにします。 パッチ適用処理は自動化され、スケジュールはお客様と IBM との間で同意されます。 保守およびアップグレードについて詳しくは、『[ローカル・インスタンスの保守](index.html#maintainlocal)』を参照してください。</p>
 </dd>
 </dl>
@@ -250,8 +251,7 @@ Cloud Foundry アプリケーションおよび {{site.data.keyword.Bluemix_notm
 
 <ol>
 <li>ローカル・インスタンスをセットアップするための<a href="index.html#localinfra" title="新規ウィンドウで開く">『{{site.data.keyword.Bluemix_local_notm}} のインフラストラクチャー要件』</a>を検討します。</li>
-<li>開始するため、{{site.data.keyword.IBM_notm}} 指定のアカウント担当者に連絡するか、<a href="https://console.ng.bluemix.net/?direct=classic/#/contactUs/cloudOEPaneId=contactUs" target="_blank">{{site.data.keyword.Bluemix_notm}} に連絡 <img src="../icons/launch-glyph.svg" alt="「外部リンク」アイコン">
-</a> します。</li>
+<li>開始するため、{{site.data.keyword.IBM_notm}} 指定のアカウント担当者に連絡するか、<a href="https://console.ng.bluemix.net/?direct=classic/#/contactUs/cloudOEPaneId=contactUs" target="_blank">{{site.data.keyword.Bluemix_notm}} に連絡 <img src="../icons/launch-glyph.svg" alt="「外部リンク」アイコン"></a> します。</li>
 <li>{{site.data.keyword.IBM_notm}} と、納品日のマイルストーンが含まれている {{site.data.keyword.Bluemix_local_notm}} 契約を結びます。
 	<ol type="a">
 	<li>{{site.data.keyword.Bluemix_local_notm}} インスタンスの一回限りのセットアップ料金および毎月繰り返し発生する料金について IBM と連携して決定します。 毎月繰り返し発生する料金は、使用するローカル・サービスと、すべての {{site.data.keyword.Bluemix_notm}} Public サービスのサブスクリプションに基づきます。 さらに、当該サブスクリプション契約を超えて使用したサービスに対する請求書を受け取ります。</li>
@@ -307,7 +307,8 @@ Cloud Foundry アプリケーションおよび {{site.data.keyword.Bluemix_notm
 <li>ローカル・インスタンスの使用を開始できます。このインスタンスは、アラートに対応できるように {{site.data.keyword.IBM_notm}} 運用チームによってモニターされています。</li>
 </ol>
 
-{{site.data.keyword.Bluemix_notm}} インスタンスがセットアップされた後は、「管理」ページを使用して {{site.data.keyword.Bluemix_notm}} インスタンスをモニターおよび管理することができます。 詳しくは、[『{{site.data.keyword.Bluemix_local_notm}} および {{site.data.keyword.Bluemix_dedicated_notm}} の管理』](../admin/index.html#mng)を参照してください。 アップグレードおよび保守については、『[ローカル・インスタンスの保守](index.html#maintainlocal)』を参照してください。
+{{site.data.keyword.Bluemix_notm}} インスタンスがセットアップされた後は、「管理」ページを使用して {{site.data.keyword.Bluemix_notm}} インスタンスをモニターおよび管理することができます。 詳しくは、[
+『{{site.data.keyword.Bluemix_local_notm}} および {{site.data.keyword.Bluemix_dedicated_notm}} の管理』](../hybrid/index.html#mng)を参照してください。 アップグレードおよび保守については、『[ローカル・インスタンスの保守](index.html#maintainlocal)』を参照してください。
 
 ##役割および責任
 {: #rolesresponsibilities}
@@ -334,7 +335,11 @@ Cloud Foundry アプリケーションおよび {{site.data.keyword.Bluemix_notm
 </dd>
 </dl>
 
-お客様の担当者は {{site.data.keyword.IBM_notm}} の専門家と連携して、必要なサポートが常に得られるようにします。 プレミアム・サポート層にアップグレードし、アカウントの専用 Client Success Manager (CSM) と連携できます。 異なるサポート層について詳しくは、[『サポートへのお問い合わせ』](../support/index.html#contacting-support)を参照してください。CSMは次のタイプのタスクを完了します。
+お客様の担当者は {{site.data.keyword.IBM_notm}} の専門家と連携して、必要なサポートが常に得られるようにします。 プレミアム・サポー
+ト層にアップグレードし、アカウントの専用 Client
+Success Manager (CSM) と連携できます。 異なるサポート層について詳しく
+は、[『サポートへのお問い合わせ』](/docs/get-support/howtogetsupport.html#contacting-bluemix-support-dedicated-local)を参照してください。CSM
+は次のタイプのタスクを完了します。
 
 <ul>
 <li>お客様と IBM 間の技術的な調整を行います。</li>
@@ -556,7 +561,9 @@ DEA プールを増やす場合、以下を備えた各 DEA が構成されま�
 ## ローカル・インスタンスの保守
 {: #maintainlocal}
 
-{{site.data.keyword.IBM_notm}} は、{{site.data.keyword.Bluemix_notm}} ランタイムおよびサービスに適切と {{site.data.keyword.IBM_notm}} がみなした更新およびフィックスを保守およびインストールします。 保守期間の間はサービスが利用できない場合があります。 さらに、{{site.data.keyword.IBM_notm}} はお客様と連携して、{{site.data.keyword.Bluemix_notm}} プラットフォームの保守更新をスケジュールに入れます。
+{{site.data.keyword.IBM_notm}} は、{{site.data.keyword.Bluemix_notm}} ランタイムおよびサービスに
+適切と {{site.data.keyword.IBM_notm}} がみなした更新およびフィックスを保守およびインストールします。 保守期間の間はサービスが利用できない場合があります。 さらに、{{site.data.keyword.IBM_notm}} はお客様と連携して、
+{{site.data.keyword.Bluemix_notm}} プラットフォームの保守更新をスケジュールに入れます。
 
 ### {{site.data.keyword.Bluemix_notm}} の保守
 
@@ -573,25 +580,50 @@ DEA プールを増やす場合、以下を備えた各 DEA が構成されま�
 <br />
 **重要**: 保守期間中には、一部のサービスが使用不可になる可能性があります。</dd>
 
-<dt>**{{site.data.keyword.Bluemix_notm}} プラットフォームの標準保守**</dt>
-<dd>保守の更新は、21 日の期間内でお客様と {{site.data.keyword.IBM_notm}} の間の調整に基づいて適用されます。 お客様は {{site.data.keyword.IBM_notm}} に、事前承認された保守期間およびお客様にとって都合が悪い特定の日時を提供し、{{site.data.keyword.IBM_notm}} は、お客様が選択した日付の期間またはその近辺で更新のスケジュールを組みます。<br />
-<p>**「管理」>「システム情報 (SYSTEM INFORMATION)」**へ移動してスケジュールされた保留中の保守更新を表示します。 事前承認された期間の設定、利用不可の日付の設定、および定期保守更新の表示と承認について詳しくは、<a href="../admin/index.html#oc_schedulemaintenance">『保守の更新情報』</a>を参照してください。</p></dd>
+<dt>**{{site.data.keyword.Bluemix_notm}} プラ
+ットフォームの標準保守**</dt>
+<dd>保守の更新は、21 日の期間内でお客様と {{site.data.keyword.IBM_notm}} の間の調整に基づいて適用されます。 お客様は {{site.data.keyword.IBM_notm}} に、事前承
+認された保守期間およびお客様にとって都合が悪い特定の日時を提供し、
+{{site.data.keyword.IBM_notm}} は、お客様が選択した日付の期間またはその近辺で更新のスケジュールを組みます。<br />
+<p>**「管理」>「システム情報 (SYSTEM INFORMATION)」
+**へ移動してスケジュールされた保留中の保守更新を表示します。 事前承認された期間の設定、利用不可の日付の設定、および定期保守更新の表示と承認について詳しくは、<a href="../hybrid/index.html#oc_schedulemaintenance">『保守の更新情報』</a>を参照してください。</p></dd>
 </dl>
 
 **重要**: {{site.data.keyword.IBM_notm}} は、必要に応じて緊急時保守を適用するためにサービスを中断する権利を留保します。 {{site.data.keyword.IBM_notm}} は、定期保守の時間を変更することがありますが、そのような変更および緊急時保守の情報についてはすべてお客様に通知いたします。
 
-保守更新後に報告された問題がある場合、{{site.data.keyword.IBM_notm}} による更新のロールバックを許可するのが最善であるかどうかについて、お客様は {{site.data.keyword.Bluemix_notm}} サポートに合意を示します。 合意した場合、{{site.data.keyword.IBM_notm}} はその更新をロールバックして、環境を前の状態に戻します。
+保守更新後に報告された問題がある場合、
+{{site.data.keyword.IBM_notm}} による更新のロールバックを許可するのが最善であるかどうかについて、お
+客様は {{site.data.keyword.Bluemix_notm}} サポートに合意を示します。 合意した場合、{{site.data.keyword.IBM_notm}} はその更新をロールバックして、環境を前の状態に戻します。
 
 ### カスタマー・インフラストラクチャーの保守
 {: #inframaintenance}
 
-{{site.data.keyword.Bluemix_local_notm}} は ESXi ハイパーバイザー上にデプロイされ、vCenter アプリケーションは、仮想マシンおよび ESXi ホストを中央管理するために使用されます。 {{site.data.keyword.Bluemix_notm}} は、中間アップデートおよびパッチをすべて含む ESXi および vCenter の最新バージョン 3 つをサポートします。 サポートされる最新バージョンは、[『Local のインフラストラクチャー条件 (Local infrastracture requirements)』](../local/index.html#localinfra)資料でいつでも検索することができます。
+{{site.data.keyword.Bluemix_local_notm}} は
+ESXi ハイパーバイザー上にデプロイされ、vCenter アプリケーショ
+ンは、仮想マシンおよび ESXi ホストを中央管理するために使用されます。 {{site.data.keyword.Bluemix_notm}} は、中間アップデートお
+よびパッチをすべて含む ESXi および vCenter の最新バージョン 3 つをサポート
+します。 サポートされる最新バージョンは、
+[『Local のインフラストラ
+クチャー条件 (Local infrastracture requirements)』](../local/index.html#localinfra)資
+料でいつでも検索することができます。
 
-**重要**: ESXi ハイパーバイザー上にデプロイされている {{site.data.keyword.Bluemix_local_notm}} では、ESXi へのアップグレードおよびパッチは、ローカル環境内で実行中のすべてのアプリケーションおよびサービスを含めるローカル環境の可用性を中断する可能性があります。 この中断が過って運用チームに警告されないように、アップグレードまたはパッチを実行する前に、サポート・チケットを使用して{{site.data.keyword.Bluemix_notm}} に通知する必要があります。 クライアント・サクセス・マネージャー (CSM) が割り当てられている場合、CSM と連携してアップグレード・スケジュールを通信することができます。
+**重要**: ESXi ハイパーバイザー上にデプロイ
+されている {{site.data.keyword.Bluemix_local_notm}} では、
+ESXi へのアップグレードおよびパッチは、ローカル環境内で実行中のすべてのアプ
+リケーションおよびサービスを含めるローカル環境の可用性を中断する可能性
+があります。 この中断が過って運用チームに警告されないように、ア
+ップグレードまたはパッチを実行する前に、サポート・チケットを使用して
+{{site.data.keyword.Bluemix_notm}} に通知する必要があります。 クライアント・サクセス・マネージャー (CSM) が割り当てられている場合、CSM と連携してアップグレード・スケジュールを通信することができます。
 
-ローカル・インスタンスと最新のサポート・バージョンとの互換性を保証するために、{{site.data.keyword.Bluemix_notm}} 運用チームは、最新の {{site.data.keyword.Bluemix_local_notm}} 環境の更新と一致しない可能性がある、サポートされないバージョンがないか、環境をモニターします。 Cloud Foundry バージョンの更新など、一部の{{site.data.keyword.Bluemix_notm}} 更新では、ESXi または vCenter ソフトウェアの更新が必要です。 {{site.data.keyword.Bluemix_notm}} サポートは、必要な更新といつまでに更新する必要があるかに関して警告を出します。 この更新を完了するまでに一定の期間が提供されます。
+ローカル・インスタンスと最新のサポート・バージョンとの互換性を保証するために、{{site.data.keyword.Bluemix_notm}} 運用チームは、最新の {{site.data.keyword.Bluemix_local_notm}} 環境の更新と一致しない可能性がある、サポートされないバージョンがないか、環境をモニターします。 Cloud Foundry バージョンの更新など、一部の
+{{site.data.keyword.Bluemix_notm}} 更新では、
+ESXi または vCenter ソフトウェアの更新が必要です。 {{site.data.keyword.Bluemix_notm}} サポートは、必要な更新といつまでに更新する必要があるかに関して警告を出します。 この更新を完了するまでに一定の期間が提供されます。
 
-{{site.data.keyword.Bluemix_notm}} は、ローカル環境が最新の ESXi および vCenter バージョンとの互換性を維持するようにあらゆる取り組みをします。 ただし、最新の ESXi および vCenter バージョンがサポートされない短い期間が発生する可能性があります。 更新を適用する前に、最新の互換バージョンについて、[『Local のインフラストラクチャー要件』](/docs/local/index.html#localinfra)資料を参照してください。
+{{site.data.keyword.Bluemix_notm}} は、ローカル環境が最新の ESXi
+および vCenter バージョンとの互換性を維持するようにあ
+らゆる取り組みをします。 ただし、最新の ESXi および vCenter バージョンがサポートさ
+れない短い期間が発生する可能性があります。 更新を適用する前に、最新の互換バージョンについて、
+[『Local のインフラストラクチャー要件』](/docs/local/index.html#localinfra)資料を参照してください。
 
 
 ## {{site.data.keyword.Bluemix_local_notm}} のインシデント対応およびサポート
@@ -599,26 +631,31 @@ DEA プールを増やす場合、以下を備えた各 DEA が構成されま�
 
 ### お客様が検出した問題
 
-{{site.data.keyword.IBM_notm}} サポートおよび運用チームに知らせる必要のある問題を見つけた場合、サポートに連絡する方法はいくつかあります。 サポートへの連絡方法について詳しくは、[サポートへのお問い合わせ](../support/index.html#contacting-bluemix-support-dedicated-local)を参照してください。 問題に応じて、お客様または IBM が問題を修正するか、または協力して問題を修正します。
+{{site.data.keyword.IBM_notm}} サポートおよび運用チームに知らせる必要のある問題を見つけた場合、サポートに連絡する方法はいくつかあります。 サポートへの連絡方法について詳しくは、[サポートへのお問い合わせ](/docs/get-support/howtogetsupport.html#contacting-bluemix-support-dedicated-local)を参照してください。問題に応じて、お客様または IBM が問題を修正するか、または協力して問題を修正します。
 
 ### IBM が検出した重大インシデント
 
-重大インシデントは、緊急で予期しないサービス障害であり、お客様の環境またはユーザーに影響する安定性の問題です。 {{site.data.keyword.IBM_notm}} がお客様の環境内で重大インシデントを検出した場合、それを通知するためにお客様の「**状況**」ページに通知が表示されます。 「状況」ページでは、プラットフォームまたはサービスに関して既知の問題があるかどうかも確認できます。 「状況」ページについて詳しくは、『[状況の表示](../admin/index.html#oc_status)』を参照してください。
+重大インシデントは、緊急で予期しないサービス障害であり、お客様の環境またはユーザーに影響する安定性の問題です。 {{site.data.keyword.IBM_notm}} がお客様の環境内で重大インシデントを検出した場合、それを通知するためにお客様の「**状況**」ページに通知が表示されます。 「状況」ページでは、プラットフォームまたはサービスに関して既知の問題があるかどうかも確認できます。 「状況」ページについて詳しくは、『[状況の表示](../hybrid/index.html#oc_status)』を参照してください。
 
-通知を、Web フックをサポートする Web サービスと統合したい場合は、[通知およびイベント・サブスクリプション](/docs/admin/index.html#oc_eventsubscription)で、通知機能の拡張方法についての説明を参照してください。
+通知を、Web フックをサポートする Web サービスと統合したい場合は、[通知およびイベント・サブスクリプション](/docs/hybrid/index.html#oc_eventsubscription)で、通知機能の拡張方法についての説明を参照してください。
 
 ![インシデント対応プロセス](images/incidentresponseprocess.png "インシデント対応プロセス")
 
 図 2. インシデント対応プロセス
 
-問題に応じて、お客様または IBM が問題を修正するか、または協力して問題を修正します。 インシデントに関する質問がある場合、または、問題を解決するために {{site.data.keyword.IBM_notm}} 担当員の支援を必要とする場合、サポート・チケットをオープンすることができます。 サポートへの連絡方法について詳しくは、[サポートへのお問い合わせ](../support/index.html#contacting-bluemix-support-dedicated-local)を参照してください。
+問題に応じて、お客様または IBM が問題を修正するか、または協力して問題を修正します。 インシデントに関する質問がある場合、または、問題を解決するために {{site.data.keyword.IBM_notm}} 担当員の支援を必要とする場合、サポート・チケットをオープンすることができます。 サポートへの連絡方法について詳しくは、[サポートへのお問い合わせ](/docs/get-support/howtogetsupport.html#contacting-bluemix-support-dedicated-local)を参照してください。
 
-**注**: 重大度 1 のサポート・チケットは、1 日 24 時間、週に 7 日間モニターされます。 その他のチケットは、日曜 10:00 pm GMT から土曜 12:00 am GMT まで処理されます。 サポート・チケットの重大度とサポートとの協力について詳しくは、<a href="/docs/support/index.html#contacting-bluemix-support-dedicated-local">サポートへのお問い合わせ</a>を参照してください。
+**注**: 重大度 1 のサポート・チケットは、1 日 24 時間、週に 7 日間モニターされます。 その他のチケットは、日曜 10:00 pm GMT から土曜 12:00 am GMT まで処理されます。 サポート・チケットの重大度とサポートとの協力について詳しくは、<a href="/docs/get-support/howtogetsupport.html#contacting-bluemix-support-dedicated-local">サポートへのお問い合わせ</a>を参照してください。
 
 ## {{site.data.keyword.Bluemix_local_notm}} の災害復旧
 {: #dr}
 
-{{site.data.keyword.Bluemix_local_notm}} の災害復旧は、{{site.data.keyword.Bluemix_short}} Public の使用時の災害復旧方法と同様にセットアップすることができます。 {{site.data.keyword.Bluemix_short}} Public は、組織、スペース、およびアプリが常に使用可能であるようにする複数のフェイルセーフ動作手法により、イノベーションのために継続的に使用可能なプラットフォームを提供します。 アプリを複数の地域にデプロイすることで連続可用性が実現し、複数のハードウェアやソフトウェアのコンポーネントが計画外で同時に失われたり、データ・センター全体が失われたりしないように保護されます。これにより、ある地理的場所で自然災害が発生した場合でも、代替の地理的場所にある分散 {{site.data.keyword.Bluemix_notm}} Public アプリ・インスタンスが使用可能になります。
+{{site.data.keyword.Bluemix_local_notm}} の災害復旧は、
+{{site.data.keyword.Bluemix_short}} Public の使用時の災害復
+旧方法と同様にセットアップすることができます。 {{site.data.keyword.Bluemix_short}}
+Public は、組織、スペース、およびアプリが常に使用可能であるようにする
+複数のフェイルセーフ動作手法により、イノベーションのために継続的に使
+用可能なプラットフォームを提供します。 アプリを複数の地域にデプロイすることで連続可用性が実現し、複数のハードウェアやソフトウェアのコンポーネントが計画外で同時に失われたり、データ・センター全体が失われたりしないように保護されます。これにより、ある地理的場所で自然災害が発生した場合でも、代替の地理的場所にある分散 {{site.data.keyword.Bluemix_notm}} Public アプリ・インスタンスが使用可能になります。
 {: shortdesc}
 
 {{site.data.keyword.Bluemix_local_notm}} の災害復旧は、アプリの連続可用性、プラットフォームの固有の高可用性、および障害発生時におけるインスタンス復元機能によって可能になります。 お客様は、複数の地域にデプロイすることで、アプリの連続可用性を実現する責任を持ちます。 高可用性は、Cloud Foundry およびその他のコンポーネントに含まれているテクノロジーによって、プラットフォーム・レベルで組み込まれています。 また、{{site.data.keyword.IBM_notm}} と連携して、いつでもインスタンスをリストアする必要性が生じたときに備えて、データが適切にバックアップされるようにします。
