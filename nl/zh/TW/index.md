@@ -4,9 +4,9 @@
 
 copyright:
 
-  years: 2015, 2017
+  years: 2015, 2018
 
-lastupdated: "2017-12-15"
+lastupdated: "2018-01-16"
 
 
 ---
@@ -23,7 +23,7 @@ lastupdated: "2017-12-15"
 
 IBM® 使用雲端作業作為服務來監視及維護您的環境，因此您可以專注於建置在環境之上執行的應用程式及服務。{{site.data.keyword.IBM_notm}} 也會處理平台更新，讓您可以專注於業務。
 
-就作業安全而言，{{site.data.keyword.Bluemix_local_notm}} 環境的安全標準與公用 {{site.data.keyword.Bluemix_notm}} 相同。您提供的硬體及基礎架構可讓您控制基礎架構及實體[安全](/docs/security/index.html#localplatformsecurity)。開發人員對本端 {{site.data.keyword.Bluemix_notm}} 環境的存取是透過 LDAP 原則所控制，而 {{site.data.keyword.Bluemix_notm}} 團隊可以在設定環境時配置 LDAP 原則。在本端環境內，您可以使用「管理」頁面來[管理使用者及許可權](/docs/admin/index.html#oc_useradmin)。
+就作業安全而言，{{site.data.keyword.Bluemix_local_notm}} 環境的安全標準與公用 {{site.data.keyword.Bluemix_notm}} 相同。您提供的硬體及基礎架構可讓您控制基礎架構及實體[安全](/docs/security/index.html#localplatformsecurity)。開發人員對本端 {{site.data.keyword.Bluemix_notm}} 環境的存取是透過 LDAP 原則所控制，而 {{site.data.keyword.Bluemix_notm}} 團隊可以在設定環境時配置 LDAP 原則。在本端環境內，您可以使用「管理」頁面來[管理使用者及許可權](/docs/hybrid/index.html#oc_useradmin)。
 
 {{site.data.keyword.Bluemix_local_notm}} 包含所有內含的 {{site.data.keyword.Bluemix_notm}} 運行環境，以及 64 GB 的運算記憶體。
 
@@ -162,7 +162,7 @@ IBM® 使用雲端作業作為服務來監視及維護您的環境，因此您�
 「{{site.data.keyword.IBM_notm}} DataPower 閘道」應用裝置提供對 {{site.data.keyword.Bluemix_notm}} 應用程式網域的存取。這些應用裝置會連接至您的內部網路及 {{site.data.keyword.Bluemix_notm}} 專用網路，以提供安全閘道進行 {{site.data.keyword.Bluemix_notm}} 部署。部署應用程式及服務的開發人員可透過此閘道從您的內部網路進行存取。應用程式的使用者以及管理者將透過 DataPower 應用裝置進行存取。
 </dd>
 <dt>安全智慧</dt>
-<dd><p>{{site.data.keyword.IBM_notm}} 使用 QRadar Security Intelligence Platform 來提供用於整合數個主要元件的統一架構。這些元件包括安全資訊及事件管理、日誌管理、異常偵測、突發事件鑑識，以及配置和漏洞管理。{{site.data.keyword.Bluemix_notm}} 也會使用 {{site.data.keyword.IBM_notm}} QRadar 安全資訊及事件管理 (SIEM)，來監視特許使用者動作以及應用程式開發人員的成功和失敗登入嘗試。QRadar 報告可讓客戶使用「管理」頁面上「報告及日誌」區段來查看報告及日誌。如需安全報告的相關資訊，請參閱[檢視報告](/docs/admin/index.html#oc_report)。</p>
+<dd><p>{{site.data.keyword.IBM_notm}} 使用 QRadar Security Intelligence Platform 來提供用於整合數個主要元件的統一架構。這些元件包括安全資訊及事件管理、日誌管理、異常偵測、突發事件鑑識，以及配置和漏洞管理。{{site.data.keyword.Bluemix_notm}} 也會使用 {{site.data.keyword.IBM_notm}} QRadar 安全資訊及事件管理 (SIEM)，來監視特許使用者動作以及應用程式開發人員的成功和失敗登入嘗試。QRadar 報告可讓客戶使用「管理」頁面上「報告及日誌」區段來查看報告及日誌。如需安全報告的相關資訊，請參閱[檢視報告](/docs/hybrid/index.html#oc_report)。</p>
 <p>{{site.data.keyword.IBM_notm}} BigFix 確保依適當的頻率套用作業系統的修正程式。修補程序是自動化程序，而且您與 IBM 都同意排程。如需維護及升級的相關資訊，請參閱[維護本端實例](index.html#maintainlocal)。</p>
 </dd>
 </dl>
@@ -304,7 +304,7 @@ IBM® 使用雲端作業作為服務來監視及維護您的環境，因此您�
 <li>您可以開始使用您的本端實例來回應警示，該實例由 {{site.data.keyword.IBM_notm}} 作業團隊進行監視。</li>
 </ol>
 
-在設定 {{site.data.keyword.Bluemix_notm}} 實例之後，您可以使用「管理」頁面來監視和管理 {{site.data.keyword.Bluemix_notm}} 實例。如需相關資訊，請參閱[管理 {{site.data.keyword.Bluemix_local_notm}} 及 {{site.data.keyword.Bluemix_dedicated_notm}} ](../admin/index.html#mng)。如需升級和維護的相關資訊，請參閱[維護本端實例](index.html#maintainlocal)。
+在設定 {{site.data.keyword.Bluemix_notm}} 實例之後，您可以使用「管理」頁面來監視和管理 {{site.data.keyword.Bluemix_notm}} 實例。如需相關資訊，請參閱[管理 {{site.data.keyword.Bluemix_local_notm}} 及 {{site.data.keyword.Bluemix_dedicated_notm}} ](../hybrid/index.html#mng)。如需升級和維護的相關資訊，請參閱[維護本端實例](index.html#maintainlocal)。
 
 ##角色及責任
 {: #rolesresponsibilities}
@@ -331,7 +331,7 @@ IBM® 使用雲端作業作為服務來監視及維護您的環境，因此您�
 </dd>
 </dl>
 
-您的客戶代表會與其他合作的 {{site.data.keyword.IBM_notm}} 專家一起合作，確保您隨時擁有所需的支援。您可以升級至「超值」支援層，以與您帳戶的專用「客戶成功經理 (CSM)」合作。如需不同支援層的相關資訊，請參閱[與支援中心聯絡](../support/index.html#contacting-support)。CSM 會完成下列類型的作業：
+您的客戶代表會與其他合作的 {{site.data.keyword.IBM_notm}} 專家一起合作，確保您隨時擁有所需的支援。您可以升級至「超值」支援層，以與您帳戶的專用「客戶成功經理 (CSM)」合作。如需不同支援層的相關資訊，請參閱[與支援中心聯絡](/docs/get-support/howtogetsupport.html#contacting-bluemix-support-dedicated-local)。CSM 會完成下列類型的作業：
 
 <ul>
 <li>提供您與 IBM 之間的技術協調。</li>
@@ -569,7 +569,7 @@ vSphere Enterprise plus（如果您計劃使用分散式虛擬交換器）</dd>
 <dt>**{{site.data.keyword.Bluemix_notm}} 平台的標準維護**</dt>
 <dd>維護更新是根據 21 天的時間範圍內，您與 {{site.data.keyword.IBM_notm}} 之間的協調來套用。您將您不適用但 {{site.data.keyword.IBM_notm}} 適用的預先核准維護時間範圍及特定日期或時間提供給 {{site.data.keyword.IBM_notm}}，來排定在所選取日期期間或大約時間進行更新。
 <br />
-<p>移至**管理 > 系統資訊**，以檢視已排定及擱置維護更新。如需設定預先核准時間範圍、設定無法使用日期，以及檢視或核准排定之維護更新的相關資訊，請參閱<a href="../admin/index.html#oc_schedulemaintenance">維護更新</a>。</p></dd>
+<p>移至**管理 > 系統資訊**，以檢視已排定及擱置維護更新。如需設定預先核准時間範圍、設定無法使用日期，以及檢視或核准排定之維護更新的相關資訊，請參閱<a href="../hybrid/index.html#oc_schedulemaintenance">維護更新</a>。</p></dd>
 </dl>
 
 **重要事項**：{{site.data.keyword.IBM_notm}} 保留視需要岔斷服務以套用緊急維護的權利。{{site.data.keyword.IBM_notm}} 可能會變更排定的維護時間，但是一旦有這樣的變更以及任何緊急維護資訊時，就會通知您。
@@ -593,21 +593,21 @@ vSphere Enterprise plus（如果您計劃使用分散式虛擬交換器）</dd>
 
 ### 客戶偵測到的問題
 
-如果您識別到需要 {{site.data.keyword.IBM_notm}} 支援中心及作業中心注意的問題，則可以使用數種不同的方法來與支援中心聯絡。如需如何與支援中心聯絡的相關資訊，請參閱[與支援中心聯絡](../support/index.html#contacting-bluemix-support-dedicated-local)。視問題而定，您及（或）IBM 會一起合作來修正問題。
+如果您識別到需要 {{site.data.keyword.IBM_notm}} 支援中心及作業中心注意的問題，則可以使用數種不同的方法來與支援中心聯絡。如需如何與支援中心聯絡的相關資訊，請參閱[與支援中心聯絡](/docs/get-support/howtogetsupport.html#contacting-bluemix-support-dedicated-local)。視問題而定，您及（或）IBM 會一起合作來修正問題。
 
 ### IBM 偵測到的重要突發事件
 
-重要突發事件包含緊急、非預期的服務中斷，以及影響環境或使用者的穩定性問題。如果 {{site.data.keyword.IBM_notm}} 在您的環境內偵測到重要突發事件，則會透過**狀態**頁面上的通知來通知您。您也可以檢查「狀態」頁面，以尋找平台或您服務的任何已知問題。如需「狀態」頁面的相關資訊，請參閱[檢視狀態](../admin/index.html#oc_status)。
+重要突發事件包含緊急、非預期的服務中斷，以及影響環境或使用者的穩定性問題。如果 {{site.data.keyword.IBM_notm}} 在您的環境內偵測到重要突發事件，則會透過**狀態**頁面上的通知來通知您。您也可以檢查「狀態」頁面，以尋找平台或您服務的任何已知問題。如需「狀態」頁面的相關資訊，請參閱[檢視狀態](../hybrid/index.html#oc_status)。
 
-如果您要整合您的通知與支援 Webhook 的 Web 服務，請參閱[通知及事件訂閱](/docs/admin/index.html#oc_eventsubscription)，以取得如何延伸通知功能的相關資訊。
+如果您要整合您的通知與支援 Webhook 的 Web 服務，請參閱[通知及事件訂閱](/docs/hybrid/index.html#oc_eventsubscription)，以取得如何延伸通知功能的相關資訊。
 
 ![突發事件回應程序](images/incidentresponseprocess.png "突發事件回應程序")
 
 圖 2. 突發事件回應程序
 
-視問題而定，您及（或）IBM 會一起合作來修正問題。如果您有關於突發事件的問題，或者需要 {{site.data.keyword.IBM_notm}} 業務代表來協助您解決問題，則可以開立支援問題單。如需如何與支援中心聯絡的相關資訊，請參閱[與支援中心聯絡](../support/index.html#contacting-bluemix-support-dedicated-local)。
+視問題而定，您及（或）IBM 會一起合作來修正問題。如果您有關於突發事件的問題，或者需要 {{site.data.keyword.IBM_notm}} 業務代表來協助您解決問題，則可以開立支援問題單。如需如何與支援中心聯絡的相關資訊，請參閱[與支援中心聯絡](/docs/get-support/howtogetsupport.html#contacting-bluemix-support-dedicated-local)。
 
-**附註**：我們會 24 小時全年無休地監視嚴重性 1 支援問題單。其他問題單的處理時間是從星期日晚上 10:00 GMT 到星期六凌晨 12:00 GMT。如需支援問題單嚴重性以及與支援中心合作的相關資訊，請參閱<a href="/docs/support/index.html#contacting-bluemix-support-dedicated-local">與支援中心聯絡</a>。
+**附註**：我們會 24 小時全年無休地監視嚴重性 1 支援問題單。其他問題單的處理時間是從星期日晚上 10:00 GMT 到星期六凌晨 12:00 GMT。如需支援問題單嚴重性以及與支援中心合作的相關資訊，請參閱<a href="/docs/get-support/howtogetsupport.html#contacting-bluemix-support-dedicated-local">與支援中心聯絡</a>。
 
 ## {{site.data.keyword.Bluemix_local_notm}} 的災難回復
 {: #dr}

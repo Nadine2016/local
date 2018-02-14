@@ -4,9 +4,9 @@
 
 copyright:
 
-  years: 2015, 2017
+  years: 2015, 2018
 
-lastupdated: "2017-12-15"
+lastupdated: "2018-01-16"
 
 
 ---
@@ -23,7 +23,7 @@ lastupdated: "2017-12-15"
 
 IBM® 使用云操作即服务来监视和维护您的环境，让您可以专注于构建基于该环境运行的应用程序和服务。{{site.data.keyword.IBM_notm}} 还可以处理平台更新，让您可以专注于业务。
 
-{{site.data.keyword.Bluemix_local_notm}} 环境在操作安全方面所采用的安全标准与公共 {{site.data.keyword.Bluemix_notm}} 相同。您需要提供硬件和基础架构，这样就能对基础架构和物理[安全](/docs/security/index.html#localplatformsecurity)进行控制。开发者对本地 {{site.data.keyword.Bluemix_notm}} 环境的访问由 LDAP 策略进行控制，这些策略可以由 {{site.data.keyword.Bluemix_notm}} 团队在设置您的环境时进行配置。在本地环境中，您可以使用“管理”页面来[管理用户和许可权](/docs/admin/index.html#oc_useradmin)。
+{{site.data.keyword.Bluemix_local_notm}} 环境在操作安全方面所采用的安全标准与公共 {{site.data.keyword.Bluemix_notm}} 相同。您需要提供硬件和基础架构，这样就能对基础架构和物理[安全](/docs/security/index.html#localplatformsecurity)进行控制。开发者对本地 {{site.data.keyword.Bluemix_notm}} 环境的访问由 LDAP 策略进行控制，这些策略可以由 {{site.data.keyword.Bluemix_notm}} 团队在设置您的环境时进行配置。在本地环境中，您可以使用“管理”页面来[管理用户和许可权](/docs/hybrid/index.html#oc_useradmin)。
 
 {{site.data.keyword.Bluemix_local_notm}} 随附所有包含的 {{site.data.keyword.Bluemix_notm}} 运行时和 64 GB 计算内存。
 
@@ -163,7 +163,7 @@ IBM® 使用云操作即服务来监视和维护您的环境，让您可以专�
 通过 {{site.data.keyword.IBM_notm}} DataPower Gateway 设备，可访问 {{site.data.keyword.Bluemix_notm}} 应用程序域。这些设备会连接到您的内部网网络和 {{site.data.keyword.Bluemix_notm}} 专用网络，从而为 {{site.data.keyword.Bluemix_notm}} 部署提供安全网关。要部署应用程序和服务的开发者将获得通过此网关从内部网进行访问的权限。而应用程序的用户将获得通过 DataPower 设备进行访问的权限，管理员亦是如此。
 </dd>
 <dt>安全情报</dt>
-<dd><p>{{site.data.keyword.IBM_notm}} 使用 QRadar 安全情报平台提供了用于集成多个关键组件的统一体系结构。这些组件包括安全信息和事件管理、日志管理、异常检测、事件取证以及配置和漏洞管理。{{site.data.keyword.Bluemix_notm}} 还使用 {{site.data.keyword.IBM_notm}} QRadar 安全信息和事件管理 (SIEM) 来监视特权用户操作以及应用程序开发者的成功和不成功登录尝试。QRadar 报告使用“管理”页面的“报告和日志”部分，让客户了解这些情况。有关安全报告的信息，请参阅[查看报告](/docs/admin/index.html#oc_report)。</p>
+<dd><p>{{site.data.keyword.IBM_notm}} 使用 QRadar 安全情报平台提供了用于集成多个关键组件的统一体系结构。这些组件包括安全信息和事件管理、日志管理、异常检测、事件取证以及配置和漏洞管理。{{site.data.keyword.Bluemix_notm}} 还使用 {{site.data.keyword.IBM_notm}} QRadar 安全信息和事件管理 (SIEM) 来监视特权用户操作以及应用程序开发者的成功和不成功登录尝试。QRadar 报告使用“管理”页面的“报告和日志”部分，让客户了解这些情况。有关安全报告的信息，请参阅[查看报告](/docs/hybrid/index.html#oc_report)。</p>
 <p>{{site.data.keyword.IBM_notm}} BigFix 会确保以适当的频率应用操作系统的修订。打补丁进程会自动执行，并遵循您与 IBM 约定的日程安排。有关维护和升级的信息，请参阅[维护本地实例](index.html#maintainlocal)。</p>
 </dd>
 </dl>
@@ -304,7 +304,7 @@ Cloud Foundry 和 {{site.data.keyword.Bluemix_notm}} 应用程序访问本地环
 <li>您可以开始使用您的本地实例来响应警报，该实例由 {{site.data.keyword.IBM_notm}} 运营团队进行监视。</li>
 </ol>
 
-{{site.data.keyword.Bluemix_notm}} 实例设置完成后，您可以使用“管理”页面来监视和管理 {{site.data.keyword.Bluemix_notm}} 实例。有关更多信息，请参阅[管理 {{site.data.keyword.Bluemix_local_notm}} 和 {{site.data.keyword.Bluemix_dedicated_notm}}](../admin/index.html#mng)。有关升级和维护的信息，请参阅[维护本地实例](index.html#maintainlocal)。
+{{site.data.keyword.Bluemix_notm}} 实例设置完成后，您可以使用“管理”页面来监视和管理 {{site.data.keyword.Bluemix_notm}} 实例。有关更多信息，请参阅[管理 {{site.data.keyword.Bluemix_local_notm}} 和 {{site.data.keyword.Bluemix_dedicated_notm}}](../hybrid/index.html#mng)。有关升级和维护的信息，请参阅[维护本地实例](index.html#maintainlocal)。
 
 ##角色和责任
 {: #rolesresponsibilities}
@@ -331,7 +331,7 @@ Cloud Foundry 和 {{site.data.keyword.Bluemix_notm}} 应用程序访问本地环
 </dd>
 </dl>
 
-您的客户代表会与 {{site.data.keyword.IBM_notm}} 专家进行合作，共同来确保您始终拥有所需的支持。对于您的帐户，您可以升级到“高级”支持层，以便与专用客户成功经理 (CSM) 进行合作。有关不同支持层的更多信息，请参阅[联系支持](../support/index.html#contacting-support)。CSM 会完成以下类型的任务：
+您的客户代表会与 {{site.data.keyword.IBM_notm}} 专家进行合作，共同来确保您始终拥有所需的支持。对于您的帐户，您可以升级到“高级”支持层，以便与专用客户成功经理 (CSM) 进行合作。有关不同支持层的更多信息，请参阅[联系支持](/docs/get-support/howtogetsupport.html#contacting-bluemix-support-dedicated-local)。CSM 会完成以下类型的任务：
 
 <ul>
 <li>在您与 IBM 之间进行技术协调。</li>
@@ -566,7 +566,7 @@ vSphere Enterprise plus（如果计划使用分布式虚拟交换机）</dd>
 
 <dt>**{{site.data.keyword.Bluemix_notm}} 平台标准维护**</dt>
 <dd>将根据您与 {{site.data.keyword.IBM_notm}} 的协商在 21 天时段中应用维护更新。您为 {{site.data.keyword.IBM_notm}} 提供预先批准的维护时段以及可能不适用于您的特定日期或时间，{{site.data.keyword.IBM_notm}} 会尽量将更新安排在您选择的日期内或相邻日期执行。<br />
-<p>转至**管理 > 系统信息**以查看安排的和暂挂的维护更新。有关设置预先批准的时段、不可用的日期以及查看或批准安排的维护更新的更多信息，请参阅<a href="../admin/index.html#oc_schedulemaintenance">维护更新</a>。</p></dd>
+<p>转至**管理 > 系统信息**以查看安排的和暂挂的维护更新。有关设置预先批准的时段、不可用的日期以及查看或批准安排的维护更新的更多信息，请参阅<a href="../hybrid/index.html#oc_schedulemaintenance">维护更新</a>。</p></dd>
 </dl>
 
 **重要信息**：{{site.data.keyword.IBM_notm}} 保留在必要时中断服务来实施紧急维护的权利。{{site.data.keyword.IBM_notm}} 可能会更改所安排的维护时间，但会通知您任何此类更改以及任何紧急维护信息。
@@ -590,21 +590,21 @@ vSphere Enterprise plus（如果计划使用分布式虚拟交换机）</dd>
 
 ### 客户检测到的问题
 
-如果识别到需要 {{site.data.keyword.IBM_notm}} 支持和运营人员关注的问题，您可以使用多种不同的方法来联系支持人员。有关如何联系支持人员的信息，请参阅[联系支持人员](../support/index.html#contacting-bluemix-support-dedicated-local)。根据问题情况，您和/或 IBM 可合作解决问题。
+如果识别到需要 {{site.data.keyword.IBM_notm}} 支持和运营人员关注的问题，您可以使用多种不同的方法来联系支持人员。有关如何联系支持人员的信息，请参阅[联系支持人员](/docs/get-support/howtogetsupport.html#contacting-bluemix-support-dedicated-local)。根据问题情况，您和/或 IBM 可合作解决问题。
 
 ### IBM 检测到的严重事件
 
-严重事件是指紧迫的意外服务中断以及影响您的环境或用户的稳定性问题。如果 {{site.data.keyword.IBM_notm}} 检测到您的环境内有严重事件，那么会在**状态**页面上借助通知来告知您。您还可以检查“状态”页面来获取平台或服务的任何已知问题。有关“状态”页面的更多信息，请参阅[查看状态](../admin/index.html#oc_status)。
+严重事件是指紧迫的意外服务中断以及影响您的环境或用户的稳定性问题。如果 {{site.data.keyword.IBM_notm}} 检测到您的环境内有严重事件，那么会在**状态**页面上借助通知来告知您。您还可以检查“状态”页面来获取平台或服务的任何已知问题。有关“状态”页面的更多信息，请参阅[查看状态](../hybrid/index.html#oc_status)。
 
-如果要将通知与支持 Web Hook 的 Web Service 集成在一起，请参阅[通知和事件预订](/docs/admin/index.html#oc_eventsubscription)，以获取有关如何扩展通知功能的信息。
+如果要将通知与支持 Web Hook 的 Web Service 集成在一起，请参阅[通知和事件预订](/docs/hybrid/index.html#oc_eventsubscription)，以获取有关如何扩展通知功能的信息。
 
 ![事件响应过程](images/incidentresponseprocess.png "事件响应过程")
 
 图 2. 事件响应过程
 
-根据问题情况，您和/或 IBM 可合作解决问题。如果您有与事件相关的疑问，或者需要 {{site.data.keyword.IBM_notm}} 代表帮助您解决问题，那么可以提交支持凭单。有关如何联系支持人员的信息，请参阅[联系支持人员](../support/index.html#contacting-bluemix-support-dedicated-local)。
+根据问题情况，您和/或 IBM 可合作解决问题。如果您有与事件相关的疑问，或者需要 {{site.data.keyword.IBM_notm}} 代表帮助您解决问题，那么可以提交支持凭单。有关如何联系支持人员的信息，请参阅[联系支持人员](/docs/get-support/howtogetsupport.html#contacting-bluemix-support-dedicated-local)。
 
-**注**：将全天候监视严重性为 1 的支持凭单。其他凭单的处理时间是周日晚上 10:00 GMT 到周六凌晨 12:00 GMT。有关支持凭单严重性和使用支持的更多信息，请参阅<a href="/docs/support/index.html#contacting-bluemix-support-dedicated-local">联系支持人员</a>。
+**注**：将全天候监视严重性为 1 的支持凭单。其他凭单的处理时间是周日晚上 10:00 GMT 到周六凌晨 12:00 GMT。有关支持凭单严重性和使用支持的更多信息，请参阅<a href="/docs/get-support/howtogetsupport.html#contacting-bluemix-support-dedicated-local">联系支持人员</a>。
 
 ## {{site.data.keyword.Bluemix_local_notm}} 的灾难恢复
 {: #dr}
