@@ -631,7 +631,7 @@ ESXi または vCenter ソフトウェアの更新が必要です。 {{site.data
 
 ### お客様が検出した問題
 
-{{site.data.keyword.IBM_notm}} サポートおよび運用チームに知らせる必要のある問題を見つけた場合、サポートに連絡する方法はいくつかあります。 サポートへの連絡方法について詳しくは、[サポートへのお問い合わせ](/docs/get-support/howtogetsupport.html#contacting-bluemix-support-dedicated-local)を参照してください。問題に応じて、お客様または IBM が問題を修正するか、または協力して問題を修正します。
+{{site.data.keyword.IBM_notm}} サポートおよび運用チームに知らせる必要のある問題を見つけた場合、サポートに連絡する方法はいくつかあります。 サポートへの連絡方法について詳しくは、[サポートへのお問い合わせ](/docs/get-support/howtogetsupport.html#contacting-bluemix-support-dedicated-local)を参照してください。 問題に応じて、お客様または IBM が問題を修正するか、または協力して問題を修正します。
 
 ### IBM が検出した重大インシデント
 
