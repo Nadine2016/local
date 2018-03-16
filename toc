@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc}
+{: .toc subcollection="bluemix-local" audience="platform" href="/docs/local/index.html"}
 Bluemix Local
 
     {: .navgroup id="howto"}
