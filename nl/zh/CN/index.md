@@ -331,7 +331,7 @@ Cloud Foundry 和 {{site.data.keyword.Bluemix_notm}} 应用程序访问本地环
 </dd>
 </dl>
 
-您的客户代表会与 {{site.data.keyword.IBM_notm}} 专家进行合作，共同来确保您始终拥有所需的支持。对于您的帐户，您可以升级到“高级”支持层，以便与专用客户成功经理 (CSM) 进行合作。有关不同支持层的更多信息，请参阅[联系支持](/docs/get-support/howtogetsupport.html#contacting-bluemix-support-dedicated-local)。CSM 会完成以下类型的任务：
+您的客户代表会与 {{site.data.keyword.IBM_notm}} 专家进行合作，共同来确保您始终拥有所需的支持。对于您的帐户，您可以升级到“高端”支持层，以便与专用客户成功经理 (CSM) 进行合作。有关不同支持层的更多信息，请参阅[联系支持](/docs/get-support/howtogetsupport.html#contacting-bluemix-support-dedicated-local)。CSM 会完成以下类型的任务：
 
 <ul>
 <li>在您与 IBM 之间进行技术协调。</li>
