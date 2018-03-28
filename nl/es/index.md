@@ -74,7 +74,7 @@ Hay componentes opcionales que se pueden adquirir para escalar y ampliar la capa
 Si es una instancia privada de un servicio de {{site.data.keyword.Bluemix_notm}} para el entorno local, verá una etiqueta "Local" con los nombres del servicio en la vista de administración del catálogo. De forma parecida, si es un servicio personalizado (es decir, para cuya creación se ha utilizado un intermediario de servicio) verá "Personalizado" listado con el nombre del servicio. El resto de servicios listados que no incluyen la etiqueta "local" o "personalizado" están disponibles mediante la sindicación desde {{site.data.keyword.Bluemix_notm}} público. Los servicios sindicados proporcionan la función para crear aplicaciones híbridas que constan de servicios públicos o privados.
 
 
-|Servicio	|Disponible en la región EE.UU. sur	|Disponible en la región Europa Reino Unido |Disponible en la región Alemania|Disponible en la región EE.UU. este|Disponible en la región Australiana Sídney|
+|Servicio	|Disponible en la región EE.UU. sur	|Disponible en la región Europa Reino Unido |Disponible en la región Alemania|Disponible en la región EE.UU. este|Disponible en la región Australiana Sídney |
 |:----------|:------------------------------|:------------------|:------------------|:------------------|:--------------|
 |{{site.data.keyword.alertnotificationshort}} | Sí | Sí | No | No | Sí |
 |{{site.data.keyword.appseccloudshort}}		| Sí		| Sí		| No | No | Sí |
