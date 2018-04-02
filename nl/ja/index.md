@@ -241,7 +241,7 @@ Cloud Foundry アプリケーションおよび {{site.data.keyword.Bluemix_notm
 
 {{site.data.keyword.Bluemix_local_notm}} は、お客様が選択したハードウェアでホストされる、{{site.data.keyword.Bluemix_notm}} Public オファリングの専用バージョンを提供します。 一般的にサポートされる 2 つのオプションは、以下のとおりです。
 * お客様が VMware ハードウェアを提供します。
-* {{site.data.keyword.IBM_notm}} を通して注文できる事前定義済みの PureApplication アプライアンス上でビルドされる {{site.data.keyword.Bluemix_local_notm}} システムをお客様が注文します。 PureApplication アプライアンスのオプションについて詳しくは、[IBM {{site.data.keyword.Bluemix_notm}} Local System W3500 and W3550 models run cloud native services, enabled middleware, and open pattern workloads concurrently ![「外部リンク」アイコン](../icons/launch-glyph.svg)](https://www-01.ibm.com/common/ssi/rep_ca/5/897/ENUS216-325/){: new_window} を参照してください。
+* {{site.data.keyword.IBM_notm}} を通して注文できる事前定義済みの PureApplication アプライアンス上でビルドされる {{site.data.keyword.Bluemix_local_notm}} システムをお客様が注文します。 PureApplication アプライアンスのオプションについて詳しくは、[IBM {{site.data.keyword.Bluemix_notm}} Local System W3500 and W3550 models run cloud native services, enabled middleware, and open pattern workloads concurrently ![外部リンク・アイコン](../icons/launch-glyph.svg)](https://www-01.ibm.com/common/ssi/rep_ca/5/897/ENUS216-325/){: new_window} を参照してください。
 
 {{site.data.keyword.Bluemix_local_notm}} では、{{site.data.keyword.Bluemix_notm}} のサービスおよびランタイムを使用して、お客様がホストし管理しているセキュアなクラウド環境でコンピューティング・ニーズをサポートすることができます。 {{site.data.keyword.IBM_notm}} は、お客様がパスワードで保護されたログインを使用して {{site.data.keyword.Bluemix_local_notm}} にアクセスできるようにします。 サービス、ランタイム、および関連リソースにアクセスしたり、{{site.data.keyword.Bluemix_notm}} アプリをデプロイおよび削除したりすることができます。 {{site.data.keyword.Bluemix_notm}} のローカル・インスタンスをセットアップするため {{site.data.keyword.IBM_notm}} 担当員と連携するには、以下のステップを検討してください。
 
@@ -251,7 +251,7 @@ Cloud Foundry アプリケーションおよび {{site.data.keyword.Bluemix_notm
 
 <ol>
 <li>ローカル・インスタンスをセットアップするための<a href="index.html#localinfra" title="新規ウィンドウで開く">『{{site.data.keyword.Bluemix_local_notm}} のインフラストラクチャー要件』</a>を検討します。</li>
-<li>開始するため、{{site.data.keyword.IBM_notm}} 指定のアカウント担当者に連絡するか、<a href="https://console.ng.bluemix.net/?direct=classic/#/contactUs/cloudOEPaneId=contactUs" target="_blank">{{site.data.keyword.Bluemix_notm}} に連絡 <img src="../icons/launch-glyph.svg" alt="「外部リンク」アイコン"></a> します。</li>
+<li>開始するため、{{site.data.keyword.IBM_notm}} 指定のアカウント担当者に連絡するか、<a href="https://console.ng.bluemix.net/?direct=classic/#/contactUs/cloudOEPaneId=contactUs" target="_blank">{{site.data.keyword.Bluemix_notm}} に連絡 <img src="../icons/launch-glyph.svg" alt="外部リンク・アイコン"></a> します。</li>
 <li>{{site.data.keyword.IBM_notm}} と、納品日のマイルストーンが含まれている {{site.data.keyword.Bluemix_local_notm}} 契約を結びます。
 	<ol type="a">
 	<li>{{site.data.keyword.Bluemix_local_notm}} インスタンスの一回限りのセットアップ料金および毎月繰り返し発生する料金について IBM と連携して決定します。 毎月繰り返し発生する料金は、使用するローカル・サービスと、すべての {{site.data.keyword.Bluemix_notm}} Public サービスのサブスクリプションに基づきます。 さらに、当該サブスクリプション契約を超えて使用したサービスに対する請求書を受け取ります。</li>
@@ -434,7 +434,7 @@ Success Manager (CSM) と連携できます。 異なるサポート層につい
 ## {{site.data.keyword.Bluemix_local_notm}} のインフラストラクチャー要件
 {: #localinfra}
 
-{{site.data.keyword.Bluemix_local_notm}} では、物理的セキュリティー、およびローカル・インスタンスをホストするためのインフラストラクチャーをお客様が所有します。 インフラストラクチャー要件は、お客様独自の VMware を使用して管理することを選択したのか、IBM から注文した PureApp アプライアンスを含む {{site.data.keyword.Bluemix_local_notm}} システムを購入することを選択したのかにかかわらず同じです。 ただし、PureApp アプライアンスについては注文時に選択できる 2 つのオプションがあり、環境を拡大縮小するプロセスは VMware と {{site.data.keyword.Bluemix_local_notm}} システムとで異なります。 PureApp アプライアンスのオプションについて詳しくは、[IBM {{site.data.keyword.Bluemix_local_notm}} System W3500 and W3550 models run cloud native services, enabled middleware, and open pattern workloads concurrently ![「外部リンク」アイコン](../icons/launch-glyph.svg)](https://www-01.ibm.com/common/ssi/rep_ca/5/897/ENUS216-325/){: new_window} を参照してください。
+{{site.data.keyword.Bluemix_local_notm}} では、物理的セキュリティー、およびローカル・インスタンスをホストするためのインフラストラクチャーをお客様が所有します。 インフラストラクチャー要件は、お客様独自の VMware を使用して管理することを選択したのか、IBM から注文した PureApp アプライアンスを含む {{site.data.keyword.Bluemix_local_notm}} システムを購入することを選択したのかにかかわらず同じです。 ただし、PureApp アプライアンスについては注文時に選択できる 2 つのオプションがあり、環境を拡大縮小するプロセスは VMware と {{site.data.keyword.Bluemix_local_notm}} システムとで異なります。 PureApp アプライアンスのオプションについて詳しくは、[IBM {{site.data.keyword.Bluemix_local_notm}} System W3500 and W3550 models run cloud native services, enabled middleware, and open pattern workloads concurrently ![外部リンク・アイコン](../icons/launch-glyph.svg)](https://www-01.ibm.com/common/ssi/rep_ca/5/897/ENUS216-325/){: new_window} を参照してください。
 
 {{site.data.keyword.IBM_notm}} では、{{site.data.keyword.Bluemix_local_notm}} をセットアップするための最小要件を以下のように設定しています。
 
@@ -692,7 +692,7 @@ Public は、組織、スペース、およびアプリが常に使用可能で�
 * アプリケーション・ヘルス・チェックに基づいてサイト・フェイルオーバーを提供する
 * 複数のエンドポイント間で重み付きルーティングを使用する
 
-Akamai や Dyn などのグローバル・ロード・バランサーを選択できます。 グローバル・ロード・バランサーとしての Akamai の使用について詳しくは、[Global traffic management ![「外部リンク」アイコン](../icons/launch-glyph.svg)](https://www.akamai.com/us/en/solutions/products/web-performance/global-traffic-management.jsp){: new_window} を参照してください。 グローバル・ロード・バランサーとしての Dyn の使用について詳しくは、[4 Reasons Businesses Are Taking Global Load Balancing to the Cloud ![「外部リンク」アイコン](../icons/launch-glyph.svg)](http://dyn.com/blog/4-reasons-businesses-are-taking-global-load-balancing-to-the-cloud/){: new_window} を参照してください。
+Akamai や Dyn などのグローバル・ロード・バランサーを選択できます。 グローバル・ロード・バランサーとしての Akamai の使用について詳しくは、[Global traffic management ![外部リンク・アイコン](../icons/launch-glyph.svg)](https://www.akamai.com/us/en/solutions/products/web-performance/global-traffic-management.jsp){: new_window} を参照してください。 グローバル・ロード・バランサーとしての Dyn の使用について詳しくは、[4 Reasons Businesses Are Taking Global Load Balancing to the Cloud ![外部リンク・アイコン](../icons/launch-glyph.svg)](http://dyn.com/blog/4-reasons-businesses-are-taking-global-load-balancing-to-the-cloud/){: new_window} を参照してください。
 
 ### 高可用性
 {: #ha}
@@ -703,8 +703,8 @@ Akamai や Dyn などのグローバル・ロード・バランサーを選択�
 
 <dl>
 <dt>Cloud Foundry での DEA スケーラビリティー</dt>
-<dd>Cloud Foundry <a href="https://docs.cloudfoundry.org/concepts/architecture/execution-agent.html" target="_blank">Droplet Execution Agent (DEA) <img src="../icons/launch-glyph.svg" alt="「外部リンク」アイコン">
-</a> は、その内部で実行しているアプリに対するヘルス・チェックを実行します。 アプリまたは DEA 自体に問題が生じた場合、代替 DEA にアプリの追加インスタンスがデプロイされ、問題が解決されます。 詳しくは、<a href="https://docs.cloudfoundry.org/concepts/high-availability.html" target="_blank">Configuring CF for High Availability with Redundancy <img src="../icons/launch-glyph.svg" alt="「外部リンク」アイコン">
+<dd>Cloud Foundry <a href="https://docs.cloudfoundry.org/concepts/architecture/execution-agent.html" target="_blank">Droplet Execution Agent (DEA) <img src="../icons/launch-glyph.svg" alt="外部リンク・アイコン">
+</a> は、その内部で実行しているアプリに対するヘルス・チェックを実行します。 アプリまたは DEA 自体に問題が生じた場合、代替 DEA にアプリの追加インスタンスがデプロイされ、問題が解決されます。 詳しくは、<a href="https://docs.cloudfoundry.org/concepts/high-availability.html" target="_blank">Configuring CF for High Availability with Redundancy <img src="../icons/launch-glyph.svg" alt="外部リンク・アイコン">
 </a> を参照してください。
 <p>アプリケーションの高可用性を確保するには、負荷のバランスを取るための十分な計算リソースが必要であり、さらに、起こりうる障害に対応するために追加の計算リソースが必要になる場合もあります。 障害に備えて、あるいはアプリ・インスタンスの負荷のスパイクに対処できるように、DEA プールを増やすことで環境を拡張する必要がある場合は、IBM 担当者と連携して、追加の DEA を発注し、追加されたリソースに対応できる適切なハードウェアを用意することができます。
 </p>
