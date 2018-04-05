@@ -78,7 +78,7 @@ Wenn es sich um eine private Instanz eines {{site.data.keyword.Bluemix_notm}}-Se
 |:----------|:------------------------------|:------------------|:------------------|:------------------|:--------------|
 |{{site.data.keyword.alertnotificationshort}} | Ja | Ja | Nein | Nein | Ja |
 |{{site.data.keyword.appseccloudshort}}		| Ja		| Ja		| Nein | Nein | Ja |
-|Automatisches Prüfprogramm für Eingabehilfen | Ja       | Ja    | Ja   | Nein  | Ja |
+|Automated Accessibility Checker | Ja       | Ja    | Ja   | Nein  | Ja |
 |{{site.data.keyword.cloudant}}			| Ja		| Ja		| Ja | Ja | Ja |
 |{{site.data.keyword.evtmgt_short}} | Ja | Ja | Nein | Nein | Ja |
 |{{site.data.keyword.iotmapinsights_short}}    | Ja | Ja | Nein | Nein | Ja |
@@ -88,7 +88,7 @@ Wenn es sich um eine private Instanz eines {{site.data.keyword.Bluemix_notm}}-Se
 |Db2-gehostet | Ja | Ja | Ja | Nein | Ja |
 |{{site.data.keyword.DB2OnCloud_short}}		| Ja		| Ja		| Ja | Nein | Ja |
 |{{site.data.keyword.dashdbshort_notm}} | Ja | Ja | Ja | Nein | Ja |
-|Prüfprogramm für digitalen Inhalt | Ja | Ja | Nein | Nein | Ja |
+|Digital Content Checker | Ja | Ja | Nein | Nein | Ja |
 |{{site.data.keyword.servicediscoveryshort}} | Ja | Ja | Nein | Nein | Ja |
 |{{site.data.keyword.documentconversionshort}}	| Ja		| Ja		| Nein | Nein | Ja |
 |{{site.data.keyword.iotdriverinsights_short}}  | Ja | Ja | Nein | Nein | Ja |
