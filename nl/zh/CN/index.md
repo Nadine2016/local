@@ -309,7 +309,7 @@ Cloud Foundry 和 {{site.data.keyword.Bluemix_notm}} 应用程序访问本地环
 ##角色和责任
 {: #rolesresponsibilities}
 
-如果设置了 {{site.data.keyword.Bluemix_local_notm}} 帐户，请为组织中需要启动并运行实例的人员分配必要的角色。
+如果设置了 {{site.data.keyword.Bluemix_local_notm}} 帐户，应确定由组织中的哪些人来承担启动和运行实例所需的角色。
 
 ###角色
 
