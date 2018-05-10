@@ -426,7 +426,7 @@ IBM® 使用雲端作業作為服務來監視及維護您的環境，因此您�
 ## {{site.data.keyword.Bluemix_local_notm}} 基礎架構需求
 {: #localinfra}
 
-若為 {{site.data.keyword.Bluemix_local_notm}}，您掌控了管理本端實例的實體安全及基礎架構。不論您選擇使用及管理自己的 VMware，還是購買內含向 IBM 訂購之 PureApp 應用裝置的 {{site.data.keyword.Bluemix_local_notm}} 系統，基礎架構需求都相同。不過，在訂購時有兩個 PureApp 應用裝置選項可供選擇，而 VMware 及 {{site.data.keyword.Bluemix_local_notm}} 系統的環境擴充程序確實會有不同。如需 PureApp 應用裝置選項的相關資訊，請參閱 [IBM {{site.data.keyword.Bluemix_local_notm}} System W3500 及 W3550 模型同時執行雲端原生服務、已啟用的中介軟體及開放式型樣工作負載 ![外部鏈結圖示](../icons/launch-glyph.svg)](https://www-01.ibm.com/common/ssi/rep_ca/5/897/ENUS216-325/){: new_window}。
+若為 {{site.data.keyword.Bluemix_local_notm}}，您掌控了管理本端實例的實體安全及基礎架構。不論您選擇使用及管理自己的 VMware，還是購買內含向 IBM 訂購之 PureApp 應用裝置的 {{site.data.keyword.Bluemix_local_notm}} 系統，基礎架構需求都相同。不過，在訂購時有兩個 PureApp 應用裝置選項可供選擇，而 VMware 及 {{site.data.keyword.Bluemix_local_notm}} 系統的環境擴充程序確實會有不同。如需 PureApp 應用裝置選項的相關資訊，請參閱 [IBM {{site.data.keyword.Bluemix_local_notm}} System W3500 及 W3550 模型同時執行雲端原生服務、已啟用的中介軟體及開放模式工作負載 ![外部鏈結圖示](../icons/launch-glyph.svg)](https://www-01.ibm.com/common/ssi/rep_ca/5/897/ENUS216-325/){: new_window}。
 
 {{site.data.keyword.IBM_notm}} 針對設定 {{site.data.keyword.Bluemix_local_notm}}，設定了下列最低需求。
 
