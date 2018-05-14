@@ -69,7 +69,7 @@ IBM®은 환경의 맨 위에서 실행되는 앱과 서비스를 빌드하는 �
 ## 신디케이트된(각 클라우드 형태 간 동일하게 연동된) 카탈로그
 {: #cataloglocal}
 
-{{site.data.keyword.Bluemix_local_notm}}에는 퍼블릭 및 로컬 배치의 승인된 서비스를 한데 모으는 개인용 카탈로그가 있습니다. 이 {{site.data.keyword.Bluemix_notm}} 카탈로그를 통해 사용자 소유의 서비스를 공개하고 서비스에 대한 액세스를 관리할 수도 있습니다. 데이터에 대한 개인정보 보호정책 및 보안 기준에 따라 사용자 비즈니스의 요구사항을 충족해야 하는 퍼블릭 서비스를 결정하는 옵션이 있습니다.
+{{site.data.keyword.Bluemix_local_notm}}에는 퍼블릭 및 로컬 배치의 승인된 서비스를 한데 모으는 개인용 카탈로그가 있습니다. 이 {{site.data.keyword.Bluemix_notm}} 카탈로그를 통해 사용자 소유의 서비스를 공개하고 서비스에 대한 액세스를 관리할 수도 있습니다. 데이터 개인정보 보호 및 보안 기준에 따라 사용자 비즈니스의 요구사항을 충족해야 하는 퍼블릭 서비스를 결정하는 옵션이 있습니다.
 
 로컬 환경에 대한 {{site.data.keyword.Bluemix_notm}} 서비스의 개인용 인스턴스가 있으면 카탈로그 관리 보기에 서비스 이름과 함께 "로컬" 태그가 표시됩니다. 마찬가지로, 사용자 정의 서비스인 경우(즉, 서비스 브로커를 사용하여 작성한 경우)에는 서비스 이름과 함께 "사용자 정의"가 나열됩니다. "로컬" 또는 "사용자 정의" 태그 없이 나열된 기타 모든 서비스는 {{site.data.keyword.Bluemix_notm}} 퍼블릭에서 신디케이션을 사용하여 사용할 수 있습니다. 신디케이트된(각 클라우드 형태 간 동일하게 연동된) 카탈로그는 공용 및 개인 서비스로 구성되는 하이브리드 애플리케이션을 작성하는 기능을 제공합니다.
 
@@ -85,7 +85,7 @@ IBM®은 환경의 맨 위에서 실행되는 앱과 서비스를 빌드하는 �
 |{{site.data.keyword.uccr_short}} | 예 | 아니오 | 아니오 | 아니오 | 아니오 |
 |{{site.data.keyword.conversationshort}}  | 예 | 예 | 예 | 아니오 | 예 |
 |{{site.data.keyword.dataworks_short}}		| 예		| 예		| 아니오 | 아니오 | 아니오 |
-|Db2 호스팅 | 예 | 예 | 예 | 아니오 | 예 |
+|Db2 hosted | 예 | 예 | 예 | 아니오 | 예 |
 |{{site.data.keyword.DB2OnCloud_short}}		| 예		| 예		| 예 | 아니오 | 예 |
 |{{site.data.keyword.dashdbshort_notm}} | 예 | 예 | 예 | 아니오 | 예 |
 |Digital Content Checker | 예 | 예 | 아니오 | 아니오 | 예 |
@@ -657,7 +657,7 @@ Akamai 또는 Dyn과 같은 글로벌 로드 밸런서를 선택할 수 있습�
 ### 고가용성
 {: #ha}
 
-지속적 가용성을 사용함을 물론, {{site.data.keyword.Bluemix_notm}}에서는 Cloud Foundry 및 기타 컴포넌트에 빌드된 기술을 사용하여 플랫폼에서 고가용성도 제공합니다.
+지속적 가용성을 사용함은 물론, {{site.data.keyword.Bluemix_notm}}에서는 Cloud Foundry 및 기타 컴포넌트에 빌드된 기술을 사용하여 플랫폼에서 고가용성도 제공합니다.
 
 이 기술에는 다음이 포함됩니다.
 
