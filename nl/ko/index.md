@@ -174,7 +174,7 @@ IBM®은 환경의 맨 위에서 실행되는 앱과 서비스를 빌드하는 �
 ### 릴레이
 {: #localrelay}
 
-릴레이는 엔터프라이즈 네트워크와 {{site.data.keyword.IBM_notm}} 클라우드 조작 사이의 보안 링크입니다. 릴레이 연결을 통한 트래픽은 인스턴스의 {{site.data.keyword.Bluemix_local_notm}} 플랫폼, 컴퓨팅 리소스 및 서비스를 제공하고 유지보수하기 위한 자동화된 활동입니다. 릴레이 연결을 통한 트래픽은 다음과 같이 분류할 수 있습니다.
+릴레이는 엔터프라이즈 네트워크와 {{site.data.keyword.IBM_notm}} Cloud Operations 사이의 보안 링크입니다. 릴레이 연결을 통한 트래픽은 인스턴스의 {{site.data.keyword.Bluemix_local_notm}} 플랫폼, 컴퓨팅 리소스 및 서비스를 제공하고 유지보수하기 위한 자동화된 활동입니다. 릴레이 연결을 통한 트래픽은 다음과 같이 분류할 수 있습니다.
 
 * 모니터링 및 이벤트
 * 보안 인텔리전스
@@ -604,7 +604,7 @@ DEA 풀을 늘리기 위해 각 DEA가 다음으로 구성됩니다.
 
 웹 훅을 지원하는 웹 서비스와 알림을 통합하려면 [알림 및 이벤트 구독](/docs/hybrid/index.html#oc_eventsubscription)에서 알림 기능 확장 방법에 대한 정보를 참조하십시오.
 
-![인시던트 대응 프로세스](images/incidentresponseprocess.png "인시던트 대응 프로세스")
+![인시던트 대응 프로세스](images/incidentresponseprocess.svg "인시던트 대응 프로세스")
 
 그림 2. 인시던트 응답 프로세스
 

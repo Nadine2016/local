@@ -69,7 +69,7 @@ IBM® 使用云操作即服务来监视和维护您的环境，让您可以专�
 ## 联合目录
 {: #cataloglocal}
 
-{{site.data.keyword.Bluemix_local_notm}} 包含一个私有目录，用于将公共部署和本地部署中已批准的服务集中在一起。您甚至可以通过 {{site.data.keyword.Bluemix_notm}} 目录来发布您自己的服务并管理对这些服务的访问权。您可以选择根据自己的数据隐私和安全标准来确定哪些公共服务满足您的业务需求。
+{{site.data.keyword.Bluemix_local_notm}} 包含一个私有目录，用于将公共部署和本地部署中已批准的服务集中在一起。您甚至可以通过 {{site.data.keyword.Bluemix_notm}}“目录”来发布您自己的服务并管理对这些服务的访问权。您可以选择根据自己的数据隐私和安全标准来确定哪些公共服务满足您的业务需求。
 
 如果您的本地环境有私有的 {{site.data.keyword.Bluemix_notm}} 服务实例，那么您将在目录管理视图中看到服务名称带有“本地”标记。与此类似，如果这是定制服务（即您使用的是服务代理程序创建的服务），那么您将看到列出服务名称时有“定制”字样。通过从 {{site.data.keyword.Bluemix_notm}} Public 使用联合，即可使用列出的不带“本地”或“定制”标记的其他所有服务。联合服务提供了用于创建混合应用程序的功能，混合应用程序由公共服务和私有服务组成。
 
@@ -327,11 +327,11 @@ Cloud Foundry 和 {{site.data.keyword.Bluemix_notm}} 应用程序访问本地环
 <dt>**IaaS 专家**</dt>
 <dd>与 {{site.data.keyword.IBM_notm}} 代表一起制定 VMware 部署计划。通常，此人为数据中心的 VMware 管理员。被分配了此角色的人员负责审查 <a href="../local/index.html#localinfra">{{site.data.keyword.Bluemix_local_notm}} 基础架构需求</a>，并与 {{site.data.keyword.IBM_notm}} 一起制定实施计划。部署结束后，分配有此角色的人员可对部署是否符合 IaaS 层的公司标准进行审批。</dd>
 <dt>**运营联系人**</dt>
-<dd>环境启动并运行后，可根据需要与 {{site.data.keyword.IBM_notm}} 支持团队一起工作。此人员对管理控制台具有**超级用户**访问权，可以批准和安排 {{site.data.keyword.Bluemix_notm}} 环境的维护更新，并可在发生关键事件时随时与之取得联系。例如，被分配了此角色的人员必须具备 {{site.data.keyword.Bluemix_notm}} 环境的技术知识，并且必须在公司中承担一定职位，能够联系到可能受影响的具有某一领域（包括联网或安全性）专家技能的其他人员。
+<dd>环境启动并运行后，可根据需要与 {{site.data.keyword.IBM_notm}} 支持团队一起工作。此人员对管理控制台具有 **Superuser** 访问权，可以批准和安排 {{site.data.keyword.Bluemix_notm}} 环境的维护更新，并且在发生关键事件时可随时与此人员取得联系。例如，被分配了此角色的人员必须具备 {{site.data.keyword.Bluemix_notm}} 环境的技术知识，并且必须在公司中承担一定职位，能够联系到可能受影响的具有某一领域（包括联网或安全性）专家技能的其他人员。
 </dd>
 </dl>
 
-您的客户代表会与 {{site.data.keyword.IBM_notm}} 专家进行合作，共同来确保您始终拥有所需的支持。对于您的帐户，您可以升级到“高端”支持层，以便与专用客户成功经理 (CSM) 进行合作。有关不同支持层的更多信息，请参阅[联系支持](/docs/get-support/howtogetsupport.html#contacting-bluemix-support-dedicated-local)。CSM 会完成以下类型的任务：
+您的客户代表会与 {{site.data.keyword.IBM_notm}} 专家进行合作，共同来确保您始终拥有所需的支持。对于您的帐户，您可以升级到“高端”支持层，以便与专用客户成功经理 (CSM) 进行合作。有关不同支持层的更多信息，请参阅[联系支持人员](/docs/get-support/howtogetsupport.html#contacting-bluemix-support-dedicated-local)。CSM 会完成以下类型的任务：
 
 <ul>
 <li>在您与 IBM 之间进行技术协调。</li>
@@ -598,7 +598,7 @@ vSphere Enterprise plus（如果计划使用分布式虚拟交换机）</dd>
 
 如果要将通知与支持 Web Hook 的 Web Service 集成在一起，请参阅[通知和事件预订](/docs/hybrid/index.html#oc_eventsubscription)，以获取有关如何扩展通知功能的信息。
 
-![事件响应过程](images/incidentresponseprocess.png "事件响应过程")
+![事件响应过程](images/incidentresponseprocess.svg "事件响应过程")
 
 图 2. 事件响应过程
 
@@ -612,7 +612,7 @@ vSphere Enterprise plus（如果计划使用分布式虚拟交换机）</dd>
 {{site.data.keyword.Bluemix_local_notm}} 灾难恢复可按照与使用 {{site.data.keyword.Bluemix_short}} Public 时类似的方式进行设置。{{site.data.keyword.Bluemix_short}} Public 提供了持续可用的创新平台，具有多种自动防故障措施，可确保您的组织、空间和应用程序始终可用。将应用程序部署到多个地理区域可实现持续可用性，避免多个硬件或软件组件同时发生意外故障，或者整个数据中心发生故障。这样，即使一个地理位置发生自然灾害，分布在其他地理位置中的 {{site.data.keyword.Bluemix_notm}} Public 应用程序实例也会可用。
 {: shortdesc}
 
-{{site.data.keyword.Bluemix_local_notm}} 灾难恢复是通过应用程序的持续可用性、平台固有的高可用性以及发生故障时复原实例的能力来实现的。您负责通过将应用程序部署到多个区域来实现应用程序的持续可用性。高可用性是通过 Cloud Foundry 和其他组件中包含的各种技术在平台级别构建的。此外，您可以与 {{site.data.keyword.IBM_notm}} 合作，共同来确保数据已正确备份，可随时满足您的实例复原需求。
+{{site.data.keyword.Bluemix_local_notm}} 的灾难恢复是通过应用程序的持续可用性、平台固有的高可用性以及发生故障时复原实例的能力来实现的。您负责通过将应用程序部署到多个区域来实现应用程序的持续可用性。高可用性是通过 Cloud Foundry 和其他组件中包含的各种技术在平台级别构建的。此外，您可以与 {{site.data.keyword.IBM_notm}} 合作，共同来确保数据已正确备份，可随时满足您的实例复原需求。
 
 ### 实现 {{site.data.keyword.Bluemix_local_notm}} 的持续可用性
 {: #enabling}

@@ -18,7 +18,7 @@ lastupdated: "2018-01-16"
 {: #local}
 
 
-{{site.data.keyword.Bluemix_local}} 將 {{site.data.keyword.Bluemix_notm}} 雲端型平台的功能及靈活性帶給資料中心。使用 {{site.data.keyword.Bluemix_local_notm}}，您可以利用公司防火牆來保護最機密的工作負載，同時安全地連接至「{{site.data.keyword.Bluemix_notm}} 公用」並與它同步。
+{{site.data.keyword.Bluemix_local}} 將 {{site.data.keyword.Bluemix_notm}} 雲端型平台的功能及靈活性帶給資料中心。使用 {{site.data.keyword.Bluemix_local_notm}}，您可以利用公司防火牆來保護最機密的工作負載，同時安全地連接至 {{site.data.keyword.Bluemix_notm}} Public 並與它同步。
 {:shortdesc}
 
 IBM® 使用雲端作業作為服務來監視及維護您的環境，因此您可以專注於建置在環境之上執行的應用程式及服務。{{site.data.keyword.IBM_notm}} 也會處理平台更新，讓您可以專注於業務。
@@ -71,7 +71,7 @@ IBM® 使用雲端作業作為服務來監視及維護您的環境，因此您�
 
 {{site.data.keyword.Bluemix_local_notm}} 包括一份專用型錄，將公用及本端部署的核准服務組織在一起。您甚至可以透過 {{site.data.keyword.Bluemix_notm}} 型錄發佈及管理專屬服務的存取權。您可以選擇根據資料隱私及安全準則來決定符合您商業需求的公用服務。
 
-如果有適用於您本端環境的 {{site.data.keyword.Bluemix_notm}} 服務專用實例，您會在型錄管理視圖中看到服務名稱有「本端」標籤。同樣地，如果它是自訂服務（表示您已使用服務分配管理系統來建立它），則會看到服務名稱列有「自訂」。透過從「{{site.data.keyword.Bluemix_notm}} 公用」進行聯合，可以使用已列出且沒有「本端」或「自訂」標籤的所有其他服務。聯合服務提供建立包含公用及專用服務之混合式應用程式的功能。
+如果有適用於您本端環境的 {{site.data.keyword.Bluemix_notm}} 服務專用實例，您會在型錄管理視圖中看到服務名稱有「本端」標籤。同樣地，如果它是自訂服務（表示您已使用服務分配管理系統來建立它），則會看到服務名稱列有「自訂」。透過從 {{site.data.keyword.Bluemix_notm}} Public 進行聯合，可以使用已列出且沒有「本端」或「自訂」標籤的所有其他服務。聯合服務提供建立包含公用及專用服務之混合式應用程式的功能。
 
 
 |服務	|可在美國南部地區使用|可在歐洲英國地區使用|可在德國地區使用|可在美國東部地區使用|可在澳洲雪梨地區使用|
@@ -116,7 +116,7 @@ IBM® 使用雲端作業作為服務來監視及維護您的環境，因此您�
 |{{site.data.keyword.visualrecognitionshort}}	| 是 		| 是	 	| 否| 否| 是|
 |{{site.data.keyword.weather_short}}		| 是		| 是		| 否| 否| 是|
 |{{site.data.keyword.workloadscheduler}}	| 是		| 是		| 是| 否| 是|
-{: caption="表 4. 依地區可從「{{site.data.keyword.Bluemix_notm}} 公用」聯合的服務" caption-side="top"}
+{: caption="表 4. 依地區可從 {{site.data.keyword.Bluemix_notm}} Public 聯合的服務" caption-side="top"}
 {: #table04}
 
 **附註**：此表格不包括協力廠商服務。請檢查協力廠商服務選項的型錄。
@@ -127,7 +127,7 @@ IBM® 使用雲端作業作為服務來監視及維護您的環境，因此您�
 
 {{site.data.keyword.Bluemix_local_notm}} 位在受企業防火牆保護的虛擬化基礎架構上，以提供您最高效能且最安全的雲端基礎架構。{{site.data.keyword.IBM_notm}} 透過 {{site.data.keyword.IBM_notm}} 的[轉遞](#localrelay)技術來安裝、遠端監視及管理資料中心中的 {{site.data.keyword.Bluemix_local_notm}}。[圖 1](#figure01) 中的邏輯架構說明如何在本端環境中設定 {{site.data.keyword.Bluemix_notm}}，以及 {{site.data.keyword.IBM_notm}} 如何維護本端實例：
 
-![{{site.data.keyword.Bluemix_local_notm}} 架構。](images/bmlocal_arch.png "Bluemix 本端架構圖")
+![{{site.data.keyword.Bluemix_local_notm}} 架構。](images/bmlocal_arch.png "Bluemix Local 架構圖")
 
 圖 1. {{site.data.keyword.Bluemix_local_notm}} 架構
 {: #figure01}
@@ -142,9 +142,9 @@ IBM® 使用雲端作業作為服務來監視及維護您的環境，因此您�
 企業也可以新增其他本端應用程式服務。<br>
 <p>如需可以新增的其他服務及運算功能，請參閱[選購元件：服務附加程式](#table02)及[選購元件：平台附加程式](#table03)。</p>
 </dd>
-<dt>{{site.data.keyword.Bluemix_notm}} 公用</dt>
+<dt>{{site.data.keyword.Bluemix_notm}} Public</dt>
 <dd>
-{{site.data.keyword.Bluemix_local_notm}} 環境可能具有「{{site.data.keyword.Bluemix_notm}} 公用」地區的出埠連線。連線至公用可將公用服務聯合至本端型錄。「{{site.data.keyword.Bluemix_notm}} 公用」服務聯合提供一種便利方法，讓開發人員可以建置在企業的 {{site.data.keyword.Bluemix_local_notm}} 環境上管理的應用程式，以及存取「{{site.data.keyword.Bluemix_notm}} 公用」中執行的服務。請在[聯合型錄](#cataloglocal)一節中查看可從「{{site.data.keyword.Bluemix_notm}} 公用」聯合之 {{site.data.keyword.IBM_notm}} 服務的清單。
+{{site.data.keyword.Bluemix_local_notm}} 環境可能具有 {{site.data.keyword.Bluemix_notm}} Public 地區的出埠連線。連線至公用可將公用服務聯合至本端型錄。{{site.data.keyword.Bluemix_notm}} Public 服務聯合提供一種便利方法，讓開發人員可以建置在企業的 {{site.data.keyword.Bluemix_local_notm}} 環境上管理的應用程式，以及存取 {{site.data.keyword.Bluemix_notm}} Public 中執行的服務。請在[聯合型錄](#cataloglocal)一節中查看可從 {{site.data.keyword.Bluemix_notm}} Public 聯合之 {{site.data.keyword.IBM_notm}} 服務的清單。
 </dd>
 <dt>{{site.data.keyword.IBM_notm}} 作業</dt>
 <dd>
@@ -237,7 +237,7 @@ IBM® 使用雲端作業作為服務來監視及維護您的環境，因此您�
 ## 設定您的 {{site.data.keyword.Bluemix_local_notm}} 實例
 {: #setuplocal}
 
-{{site.data.keyword.Bluemix_local_notm}} 提供「{{site.data.keyword.Bluemix_notm}} 公用」供應項目的專用版本，這裝載在您選擇的硬體上。兩個經常支援的選項，如下所示：
+{{site.data.keyword.Bluemix_local_notm}} 提供 {{site.data.keyword.Bluemix_notm}} Public 供應項目的專用版本，這裝載在您選擇的硬體上。兩個經常支援的選項，如下所示：
 * 您提供 VMware 硬體。
 * 您訂購 {{site.data.keyword.Bluemix_local_notm}} 系統，它是以可透過 {{site.data.keyword.IBM_notm}} 訂購之預先配置的 PureApplication 應用裝置為建置基礎。如需 PureApplication 應用裝置選項的相關資訊，請參閱 [IBM {{site.data.keyword.Bluemix_notm}} Local System W3500 and W3550 models run cloud native services, enabled middleware, and open pattern workloads concurrently ![外部鏈結圖示](../icons/launch-glyph.svg)](https://www-01.ibm.com/common/ssi/rep_ca/5/897/ENUS216-325/){: new_window}。
 
@@ -601,7 +601,7 @@ vSphere Enterprise plus（如果您計劃使用分散式虛擬交換器）</dd>
 
 如果您要整合您的通知與支援 Webhook 的 Web 服務，請參閱[通知及事件訂閱](/docs/hybrid/index.html#oc_eventsubscription)，以取得如何延伸通知功能的相關資訊。
 
-![突發事件回應程序](images/incidentresponseprocess.png "突發事件回應程序")
+![突發事件回應程序](images/incidentresponseprocess.svg "突發事件回應程序")
 
 圖 2. 突發事件回應程序
 
@@ -612,7 +612,7 @@ vSphere Enterprise plus（如果您計劃使用分散式虛擬交換器）</dd>
 ## {{site.data.keyword.Bluemix_local_notm}} 的災難回復
 {: #dr}
 
-{{site.data.keyword.Bluemix_local_notm}} 災難回復的設定方式與使用「{{site.data.keyword.Bluemix_short}} 公用」類似。「{{site.data.keyword.Bluemix_short}} 公用」提供一個連續可用的平台，以使用多種失敗安全的措施來進行創新，確保您的組織、空間及應用程式隨時可用。將應用程式部署至多個地理區域會啟用持續可用性，以免於非計劃性地同時損失多個硬體或軟體元件，或損失整個資料中心，以便即使在某個地理位置發生自然災難時，仍將可以使用替代地理位置中的分散式「{{site.data.keyword.Bluemix_notm}} 公用」應用程式實例。
+{{site.data.keyword.Bluemix_local_notm}} 災難回復的設定方式與使用 {{site.data.keyword.Bluemix_short}} Public 類似。{{site.data.keyword.Bluemix_short}} Public 提供一個連續可用的平台，以使用多種失敗安全的措施來進行創新，確保您的組織、空間及應用程式隨時可用。將應用程式部署至多個地理區域會啟用持續可用性，以免於非計劃性地同時損失多個硬體或軟體元件，或損失整個資料中心，以便即使在某個地理位置發生自然災難時，仍將可以使用替代地理位置中的分散式 {{site.data.keyword.Bluemix_notm}} Public 應用程式實例。
 {: shortdesc}
 
 透過應用程式的持續可用性、固有的平台高可用性以及發生失敗時還原實例的能力，可以達成 {{site.data.keyword.Bluemix_local_notm}} 的災難回復。您需要負責透過部署至多個地區，來啟用應用程式的持續可用性。高可用性是透過 Cloud Foundry 及其他元件中所含的技術建置於平台層次。而且，您可以與 {{site.data.keyword.IBM_notm}} 合作，確保已適當地備份資料，以便隨時應付需要還原實例的情況。
@@ -620,7 +620,7 @@ vSphere Enterprise plus（如果您計劃使用分散式虛擬交換器）</dd>
 ### 啟用 {{site.data.keyword.Bluemix_local_notm}} 的持續可用性
 {: #enabling}
 
-依預設，「{{site.data.keyword.Bluemix_notm}} 公用」會部署至多個地理位置。不過，您必須執行下列動作，才能啟用分散在全球的 {{site.data.keyword.Bluemix_local_notm}} 實例：
+依預設，{{site.data.keyword.Bluemix_notm}} Public 會部署至多個地理位置。不過，您必須執行下列動作，才能啟用分散在全球的 {{site.data.keyword.Bluemix_local_notm}} 實例：
 
 * 確定您的開發人員將應用程式部署至多個地區（透過手動或自動化處理程序）。選取的地區應該彼此相隔 200 公里以上，確保自然災難不會同時影響這兩個地理位置。
 * 配置廣域負載平衡器（例如 Akamai 或 Dyn），使其指向至少兩個不同地區中的應用程式。
