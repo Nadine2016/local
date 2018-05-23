@@ -652,7 +652,7 @@ plateforme ou vos services. Pour plus d'informations sur la page Statut, voir [A
 
 Si vous voulez intégrer vos notifications à un service Web qui prend en charge les webhooks, voir [Notifications et abonnements à des événements](/docs/hybrid/index.html#oc_eventsubscription) pour des informations sur l'extension de vos fonctions de notification.
 
-![Processus de réponse à un incident](images/incidentresponseprocess.png "Processus de réponse à un incident")
+![Processus de réponse à un incident](images/incidentresponseprocess.svg "Processus de réponse à un incident")
 
 Figure 2. Processus de réponse à un incident
 
