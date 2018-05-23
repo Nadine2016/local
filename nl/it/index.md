@@ -177,7 +177,7 @@ Per informazioni sulle specifiche di rete e i requisiti dell'infrastruttura, vai
 
 Relay è il collegamento sicuro tra la tua rete aziendale e le operazioni cloud di {{site.data.keyword.IBM_notm}}. Il traffico sulla connessione relay è l'attività automatica utilizzata per servire e gestire la piattaforma {{site.data.keyword.Bluemix_local_notm}} le risorse di calcolo e i servizi per le tue istanze. Il traffico sulla connessione relay può essere categorizzato nel seguente modo:
 
-* monitoraggio degli eventi
+* monitoraggio ed eventi
 * intelligence di sicurezza
 * distribuzioni e aggiornamenti
 * determinazione del problema e correzioni
@@ -390,7 +390,7 @@ La fase di inizio è utilizzata per organizzare l'ambiente {{site.data.keyword.B
 |Configurare il server di accesso | Configurare il server di accesso per l'utilizzo del LDAP aziendale. | {{site.data.keyword.IBM_notm}} |
 |Installare e configurare i componenti personalizzati |  	Installare e configurare i componenti personalizzati che si trovano al di fuori del campo di applicazione del prodotto e dei servizi {{site.data.keyword.Bluemix_notm}}. | Cliente |
 |Connettere la pipeline {{site.data.keyword.Bluemix_notm}} | Connettere la pipeline di fornitura e di integrazione continua {{site.data.keyword.Bluemix_notm}} ai repository {{site.data.keyword.IBM_notm}}. | {{site.data.keyword.IBM_notm}} |
-|Personalizzare i componenti della soluzione esterni | Personalizzare i servizi di bilanciamento del carico per gli scenari di ripristino di emergenza. | Cliente |
+|Personalizzare i componenti della soluzione esterni | Personalizzare i programmi di bilanciamento del carico per gli scenari di ripristino di emergenza. | Cliente |
 |Tracciare lo stato per le verifiche di sicurezza, conformità e controllo  | Tracciare lo stato fino al punto in cui vengono osservati tutti gli strumenti e processi per raggiungere la conformità identificata. | Cliente |
 |Controllare l'infrastruttura fisica | Controllare le sedi fisiche che ospitano i componenti della soluzione per individuare eventuali minacce e riesaminare i controlli di sicurezza per proteggere il data center. | Cliente |
 |Ispezionare il software di monitoraggio | Ispezionare i componenti di monitoraggio e gestione, come definito nel piano di escalation e determinazione dei problemi. | Cliente |
@@ -613,7 +613,7 @@ Gli incidenti critici sono interruzioni dei servizi impreviste con carattere d'u
 
 Se desideri integrare le tue notifiche con un servizio Web che supporti gli hook Web, vedi [Notifiche e sottoscrizioni di eventi](/docs/hybrid/index.html#oc_eventsubscription) per informazioni su come estendere le funzioni di notifica.
 
-![Processo di risposta agli eventi incidenti](images/incidentresponseprocess.png "Processo di risposta agli incidenti")
+![Processo di risposta agli eventi incidenti](images/incidentresponseprocess.svg "Processo di risposta agli incidenti")
 
 Figura 2. Processo di risposta agli incidenti
 
