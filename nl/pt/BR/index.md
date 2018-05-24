@@ -605,7 +605,7 @@ Os incidentes críticos são indisponibilidades de serviço urgentes e inesperad
 
 Se deseja integrar suas notificações a um serviço da web que suporta o ganchos da web, consulte [Notificações e inscrições de eventos](/docs/hybrid/index.html#oc_eventsubscription) para obter informações sobre como estender seus recursos de notificação.
 
-![Processo de resposta de incidente](images/incidentresponseprocess.png "Processo de resposta de incidente")
+![Processo de resposta de incidente](images/incidentresponseprocess.svg "Processo de resposta de incidente")
 
 Figura 2. Processo de resposta de incidente
 
