@@ -641,7 +641,7 @@ Si quiere integrar sus notificaciones con un servicio web que admita ganchos (ho
 [Notificaciones y suscripciones de sucesos](/docs/hybrid/index.html#oc_eventsubscription) para obtener información sobre
 cómo ampliar las funciones de notificación.
 
-![Proceso de respuesta de incidencias](images/incidentresponseprocess.png "Proceso de respuesta de incidencias")
+![Proceso de respuesta de incidencias](images/incidentresponseprocess.svg "Proceso de respuesta de incidencias")
 
 Figura 2. Proceso de respuesta de incidencias
 
