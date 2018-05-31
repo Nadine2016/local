@@ -6,7 +6,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-01-16"
+lastupdated: "2018-05-22"
 
 
 ---
@@ -334,7 +334,7 @@ The following list shows the customer roles and responsibilities that you assign
 </dd>
 </dl>
 
-Your customer representatives work with {{site.data.keyword.IBM_notm}} specialists that work together to ensure that you always have the support that you need. You can upgrade to the Premium support tier to work with a dedicated Client Success Manager (CSM) for your account. For more information about the different support tiers, see [Contacting support](/docs/get-support/howtogetsupport.html#contacting-bluemix-support-dedicated-local).The CSM completes the following types of tasks:
+Your customer representatives work with {{site.data.keyword.IBM_notm}} specialists that work together to ensure that you always have the support that you need. You can upgrade to the Premium support tier to work with a dedicated Technical Account Manager (TAM) for your account. For more information about the different support tiers, see [Contacting support](/docs/get-support/howtogetsupport.html#contacting-bluemix-support-dedicated-local).The TAM completes the following types of tasks:
 
 <ul>
 <li>Provides technical coordination between you and IBM.</li>
@@ -538,7 +538,7 @@ Set the following roles and permissions. Propagation is set for each permission.
 
 #### VMware option
 
-If you have chosen the provide your own VMware hardware option based on the minimum specifications, you are set up with 64 GB of available memory. If you want to add 16 or 32 GB, then you must work with your hardware team to provide the available memory or add an ESXi server, if needed as described in the following example. When the hardware capacity is available, work with your client success manager who can work with the IBM team to manage the compute memory increase.
+If you have chosen the provide your own VMware hardware option based on the minimum specifications, you are set up with 64 GB of available memory. If you want to add 16 or 32 GB, then you must work with your hardware team to provide the available memory or add an ESXi server, if needed as described in the following example. When the hardware capacity is available, work with your technical account manager who can work with the IBM team to manage the compute memory increase.
 
 For increasing the DEA pool, each DEA is configured with:
 
@@ -551,7 +551,7 @@ For example, if the ESXi host size is 256 GB of memory with 16x cores, then eigh
 
 #### {{site.data.keyword.Bluemix_local_notm}} system option
 
-If you choose to order the PureApplication hardware through {{site.data.keyword.IBM_notm}} to host your {{site.data.keyword.Bluemix_local_notm}} instance, you must order another compute node in the specification size that you previously purchased. You can order another node through your client success manager who works with the IBM team to get the updated hardware shipped directly to you. Once the hardware is delivered and installed, IBM is notified and the deployment team adds an additional 64 GB. Depending on the compute node size that you ordered, you might have additional capacity available for future upgrades. In that case, you will simply need to contact IBM, and the team can add additional 64 GB increments of available compute memory as needed.
+If you choose to order the PureApplication hardware through {{site.data.keyword.IBM_notm}} to host your {{site.data.keyword.Bluemix_local_notm}} instance, you must order another compute node in the specification size that you previously purchased. You can order another node through your technical account manager who works with the IBM team to get the updated hardware shipped directly to you. Once the hardware is delivered and installed, IBM is notified and the deployment team adds an additional 64 GB. Depending on the compute node size that you ordered, you might have additional capacity available for future upgrades. In that case, you will simply need to contact IBM, and the team can add additional 64 GB increments of available compute memory as needed.
 
 ## Maintaining your local instance
 {: #maintainlocal}
@@ -584,7 +584,7 @@ If there is a reported issue following a maintenance update, you agree with {{si
 
 {{site.data.keyword.Bluemix_local_notm}} is deployed onto the ESXi hypervisor, and the vCenter application is used to centrally manage virtual machines and ESXi hosts. {{site.data.keyword.Bluemix_notm}} supports the latest three versions of ESXi and vCenter, including all intermediate updates and patches. You can always find the latest supported versions in the [Local infrastructure requirements](../local/index.html#localinfra) documentation.
 
-**Important**: With {{site.data.keyword.Bluemix_local_notm}} being deployed onto the ESXi hypervisor, upgrades and patches to ESXi can disrupt the availability of the local environment, including all applications and services running within environment. You must notify {{site.data.keyword.Bluemix_notm}} by using a support ticket prior to completing an upgrade or patch to ensure that the disruption does not alert the operations team in error. If you have an assigned client success manager (CSM), you can work with the CSM to communicate the upgrade schedule.
+**Important**: With {{site.data.keyword.Bluemix_local_notm}} being deployed onto the ESXi hypervisor, upgrades and patches to ESXi can disrupt the availability of the local environment, including all applications and services running within environment. You must notify {{site.data.keyword.Bluemix_notm}} by using a support ticket prior to completing an upgrade or patch to ensure that the disruption does not alert the operations team in error. If you have an assigned technical account manager (TAM), you can work with the TAM to communicate the upgrade schedule.
 
 To ensure that your local instance is compatible with the latest supported versions, the {{site.data.keyword.Bluemix_notm}} Operations team monitors the environment for unsupported versions that might not match the latest {{site.data.keyword.Bluemix_local_notm}} environment updates. Some {{site.data.keyword.Bluemix_notm}} updates, such as Cloud Foundry version updates, require you to update the ESXi or vCenter software. {{site.data.keyword.Bluemix_notm}} support will alert you regarding what must be updated and by when. You are provided a window of time to complete this update.
 
