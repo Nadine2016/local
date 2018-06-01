@@ -104,15 +104,15 @@ IBM® はクラウド操作をサービスとして使用してお客様の環�
 |{{site.data.keyword.manda}}			| はい		| はい		| いいえ | いいえ | はい |
 |{{site.data.keyword.nlclassifiershort}} 	| はい 		| はい 		| いいえ | いいえ | はい |
 |{{site.data.keyword.nlushort}} | はい | はい | いいえ | いいえ | はい |
-|{{site.data.keyword.personalityinsightsshort}}	| はい		| はい		| はい| いいえ | はい |
+|{{site.data.keyword.personalityinsightsshort}}	| はい		| はい		| はい | いいえ | はい |
 |{{site.data.keyword.mobilepushshort}}		| はい		| はい		| はい | いいえ | はい |
 |{{site.data.keyword.retrieveandrankshort}}	| はい 		| はい 		| いいえ| いいえ | はい |
 |{{site.data.keyword.SecureGateway}}		| はい		| はい		| はい | はい | はい |
 |{{site.data.keyword.ssofull}}			| はい		| いいえ		| いいえ| いいえ | いいえ |
-|{{site.data.keyword.speechtotextshort}}	| はい 		| はい	 	| はい| いいえ | はい |
+|{{site.data.keyword.speechtotextshort}}	| はい 		| はい	 	| はい | いいえ | はい |
 |{{site.data.keyword.streaminganalyticsshort}}	| はい		| はい		| いいえ | いいえ | はい |
-|{{site.data.keyword.texttospeechshort}} 	| はい 		| はい	 	| はい| いいえ | はい |
-|{{site.data.keyword.toneanalyzershort}} 	| はい 		| はい 		| はい| いいえ | はい |
+|{{site.data.keyword.texttospeechshort}} 	| はい 		| はい	 	| はい | いいえ | はい |
+|{{site.data.keyword.toneanalyzershort}} 	| はい 		| はい 		| はい | いいえ | はい |
 |{{site.data.keyword.visualrecognitionshort}}	| はい 		| はい	 	| いいえ | いいえ | はい |
 |{{site.data.keyword.weather_short}}		| はい		| はい		| いいえ | いいえ | はい |
 |{{site.data.keyword.workloadscheduler}}	| はい		| はい		| はい | いいえ | はい |
