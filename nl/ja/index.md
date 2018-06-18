@@ -6,7 +6,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-01-16"
+lastupdated: "2018-05-31"
 
 
 ---
@@ -104,15 +104,15 @@ IBM® はクラウド操作をサービスとして使用してお客様の環�
 |{{site.data.keyword.manda}}			| はい		| はい		| いいえ | いいえ | はい |
 |{{site.data.keyword.nlclassifiershort}} 	| はい 		| はい 		| いいえ | いいえ | はい |
 |{{site.data.keyword.nlushort}} | はい | はい | いいえ | いいえ | はい |
-|{{site.data.keyword.personalityinsightsshort}}	| はい		| はい		| はい | いいえ | はい |
+|{{site.data.keyword.personalityinsightsshort}}	| はい		| はい		| はい| いいえ | はい |
 |{{site.data.keyword.mobilepushshort}}		| はい		| はい		| はい | いいえ | はい |
 |{{site.data.keyword.retrieveandrankshort}}	| はい 		| はい 		| いいえ| いいえ | はい |
 |{{site.data.keyword.SecureGateway}}		| はい		| はい		| はい | はい | はい |
 |{{site.data.keyword.ssofull}}			| はい		| いいえ		| いいえ| いいえ | いいえ |
-|{{site.data.keyword.speechtotextshort}}	| はい 		| はい	 	| はい | いいえ | はい |
+|{{site.data.keyword.speechtotextshort}}	| はい 		| はい	 	| はい| いいえ | はい |
 |{{site.data.keyword.streaminganalyticsshort}}	| はい		| はい		| いいえ | いいえ | はい |
-|{{site.data.keyword.texttospeechshort}} 	| はい 		| はい	 	| はい | いいえ | はい |
-|{{site.data.keyword.toneanalyzershort}} 	| はい 		| はい 		| はい | いいえ | はい |
+|{{site.data.keyword.texttospeechshort}} 	| はい 		| はい	 	| はい| いいえ | はい |
+|{{site.data.keyword.toneanalyzershort}} 	| はい 		| はい 		| はい| いいえ | はい |
 |{{site.data.keyword.visualrecognitionshort}}	| はい 		| はい	 	| いいえ | いいえ | はい |
 |{{site.data.keyword.weather_short}}		| はい		| はい		| いいえ | いいえ | はい |
 |{{site.data.keyword.workloadscheduler}}	| はい		| はい		| はい | いいえ | はい |
@@ -335,10 +335,8 @@ Cloud Foundry アプリケーションおよび {{site.data.keyword.Bluemix_notm
 </dd>
 </dl>
 
-お客様の担当者は {{site.data.keyword.IBM_notm}} の専門家と連携して、必要なサポートが常に得られるようにします。 プレミアム・サポー
-ト層にアップグレードし、アカウントの専用 Client
-Success Manager (CSM) と連携できます。 異なるサポート層について詳しく
-は、[『サポートへのお問い合わせ』](/docs/get-support/howtogetsupport.html#contacting-bluemix-support-dedicated-local)を参照してください。CSM
+お客様の担当者は {{site.data.keyword.IBM_notm}} の専門家と連携して、必要なサポートが常に得られるようにします。 プレミアム・サポート層にアップグレードすると、ご使用のアカウントに関して専用テクニカル・アカウント・マネージャー (TAM) と連携できます。異なるサポート層について詳しく
+は、[『サポートへのお問い合わせ』](/docs/get-support/howtogetsupport.html#contacting-bluemix-support-dedicated-local)を参照してください。TAM
 は次のタイプのタスクを完了します。
 
 <ul>
@@ -543,7 +541,7 @@ ESXi は、物理サーバーで実行され、プロセッサー、メモリー
 
 #### VMware オプション
 
-最低限の仕様に基づいて独自の VMware ハードウェアを用意するというオプションを選択した場合、64 GB の使用可能メモリーがセットアップされます。 16 GB または 32 GB を追加したい場合、以下の例に示すように、ハードウェア・チームと協力して、必要に応じて使用可能メモリーを用意するか ESXi サーバーを追加します。 ハードウェア容量が使用可能である場合、IBM チームと連携できるお客様事例管理者と協力して、計算メモリー増加を管理します。
+最低限の仕様に基づいて独自の VMware ハードウェアを用意するというオプションを選択した場合、64 GB の使用可能メモリーがセットアップされます。 16 GB または 32 GB を追加したい場合、以下の例に示すように、ハードウェア・チームと協力して、必要に応じて使用可能メモリーを用意するか ESXi サーバーを追加します。 ハードウェア容量が使用可能である場合、IBM チームと連携できるテクニカル・アカウント・マネージャーと協力して、計算メモリー増加を管理します。
 
 DEA プールを増やす場合、以下を備えた各 DEA が構成されます。
 
@@ -556,7 +554,7 @@ DEA プールを増やす場合、以下を備えた各 DEA が構成されま�
 
 #### {{site.data.keyword.Bluemix_local_notm}} システム・オプション
 
-{{site.data.keyword.Bluemix_local_notm}} インスタンスをホストするために {{site.data.keyword.IBM_notm}} を通して PureApplication ハードウェアを注文することを選択する場合、前に購入した仕様サイズの別の計算ノードを注文する必要があります。 別ノードの注文は、お客様事例管理者がIBM チームと協力して行って、更新済みのハードウェアが直接配送されるようにできます。 ハードウェアが配送されてインストールされると、IBM に通知され、デプロイメント・チームが 64 GB を追加します。 注文した計算ノードのサイズによっては、将来のアップグレード用に容量を追加できる場合があります。 その場合、単に IBM に連絡するだけでよく、チームは使用可能な計算メモリーの追加 64 GB 増分を必要に応じて追加できます。
+{{site.data.keyword.Bluemix_local_notm}} インスタンスをホストするために {{site.data.keyword.IBM_notm}} を通して PureApplication ハードウェアを注文することを選択する場合、前に購入した仕様サイズの別の計算ノードを注文する必要があります。 IBM チームと連携するテクニカル・アカウント・マネージャーを通して別ノードを注文して、更新済みのハードウェアが直接配送されるようにできます。 ハードウェアが配送されてインストールされると、IBM に通知され、デプロイメント・チームが 64 GB を追加します。 注文した計算ノードのサイズによっては、将来のアップグレード用に容量を追加できる場合があります。 その場合、単に IBM に連絡するだけでよく、チームは使用可能な計算メモリーの追加 64 GB 増分を必要に応じて追加できます。
 
 ## ローカル・インスタンスの保守
 {: #maintainlocal}
@@ -613,7 +611,7 @@ ESXi へのアップグレードおよびパッチは、ローカル環境内で
 リケーションおよびサービスを含めるローカル環境の可用性を中断する可能性
 があります。 この中断が過って運用チームに警告されないように、ア
 ップグレードまたはパッチを実行する前に、サポート・チケットを使用して
-{{site.data.keyword.Bluemix_notm}} に通知する必要があります。 クライアント・サクセス・マネージャー (CSM) が割り当てられている場合、CSM と連携してアップグレード・スケジュールを通信することができます。
+{{site.data.keyword.Bluemix_notm}} に通知する必要があります。 テクニカル・アカウント・マネージャー (TAM) が割り当てられている場合、その TAM と連携してアップグレード・スケジュールについて連絡することができます。
 
 ローカル・インスタンスと最新のサポート・バージョンとの互換性を保証するために、{{site.data.keyword.Bluemix_notm}} 運用チームは、最新の {{site.data.keyword.Bluemix_local_notm}} 環境の更新と一致しない可能性がある、サポートされないバージョンがないか、環境をモニターします。 Cloud Foundry バージョンの更新など、一部の
 {{site.data.keyword.Bluemix_notm}} 更新では、
