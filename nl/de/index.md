@@ -6,7 +6,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-01-16"
+lastupdated: "2018-05-31"
 
 
 ---
@@ -334,7 +334,7 @@ In der folgenden Liste sind die Kundenrollen und -zuständigkeiten enthalten, di
 </dd>
 </dl>
 
-Ihre Ansprechpartner beim Kunden arbeiten mit {{site.data.keyword.IBM_notm}} Spezialisten zusammen, um sicherzustellen, dass Sie immer die benötigte Unterstützung erhalten. Sie können ein Upgrade auf die Stufe Premium Support durchführen, um für Ihr Konto mit einem dedizierten Cluster Systems Manager (CSM) zu arbeiten. Weitere Informationen zu den unterschiedlichen Unterstützungskategorien finden Sie unter [Support kontaktieren](/docs/get-support/howtogetsupport.html#contacting-bluemix-support-dedicated-local). Der CSM führt folgende Typen von Tasks aus:
+Ihre Ansprechpartner beim Kunden arbeiten mit {{site.data.keyword.IBM_notm}} Spezialisten zusammen, um sicherzustellen, dass Sie immer die benötigte Unterstützung erhalten. Sie können ein Upgrade auf die Stufe Premium Support durchführen, um für Ihr Konto mit einem dedizierten Technical Account Manager (TAM) zu arbeiten. Weitere Informationen zu den unterschiedlichen Unterstützungskategorien finden Sie unter [Support kontaktieren](/docs/get-support/howtogetsupport.html#contacting-bluemix-support-dedicated-local). Der TAM führt folgende Typen von Tasks aus:
 
 <ul>
 <li>Technische Koordination zwischen Ihnen und IBM.</li>
@@ -563,7 +563,7 @@ Legen Sie die im Folgenden beschriebenen Rollen und Berechtigungen fest. Für al
 
 #### VMware-Option
 
-Wenn Sie basierend auf den Mindestspezifikationen Ihre eigene VMware-Hardwareoption bereitstellen möchten, stehen Ihnen 64 GB verfügbarer Speicher zur Verfügung. Wenn Sie 16 oder 32 GB hinzufügen möchten, müssen Sie mit Ihrem Hardwareteam zusammenarbeiten, um den verfügbaren Speicher bereitzustellen oder bei Bedarf einen ESXi-Server hinzuzufügen, wie im folgenden Beispiel beschrieben. Wenn die Hardwarekapazität verfügbar ist, arbeiten Sie mit Ihrem Kundenerfolgsmanager zusammen, der wiederum mit dem IBM Team zusammenarbeiten kann, um die Vergrößerung des Rechenspeichers vorzunehmen.
+Wenn Sie basierend auf den Mindestspezifikationen Ihre eigene VMware-Hardwareoption bereitstellen möchten, stehen Ihnen 64 GB verfügbarer Speicher zur Verfügung. Wenn Sie 16 oder 32 GB hinzufügen möchten, müssen Sie mit Ihrem Hardwareteam zusammenarbeiten, um den verfügbaren Speicher bereitzustellen oder bei Bedarf einen ESXi-Server hinzuzufügen, wie im folgenden Beispiel beschrieben. Wenn die Hardwarekapazität verfügbar ist, arbeiten Sie mit Ihrem Technical Account Manager (TAM) zusammen, der wiederum mit dem IBM Team zusammenarbeiten kann, um die Vergrößerung des Rechenspeichers vorzunehmen.
 
 Zur Vergrößerung des DEA-Pools ist jeder DEA (Droplet Execution Agent) wie folgt konfiguriert:
 
@@ -576,7 +576,7 @@ Ist z. B. der ESXi-Host mit 256 GB Hauptspeicher und 16 Kernen ausgestattet, wer
 
 #### {{site.data.keyword.Bluemix_local_notm}}-Systemoption
 
-Wenn Sie die PureApplication-Hardware über {{site.data.keyword.IBM_notm}} bestellen, um Ihre {{site.data.keyword.Bluemix_local_notm}}-Instanz zu hosten, müssen Sie einen weiteren Rechenknoten in der Spezifikationsgröße bestellen, die Sie bereits zuvor gekauft haben. Sie können einen weiteren Knoten über Ihren Kundenerfolgsmanager bestellen, der mit dem IBM Team zusammenarbeitet, um die aktualisierte Hardware direkt zu Ihnen liefern zu lassen. Nachdem die Hardware zugestellt und installiert wurde, wird IBM benachrichtigt und das Bereitstellungsteam fügt weitere 64 GB hinzu. Abhängig von der Größe des bestellten Rechenknotens steht Ihnen möglicherweise weitere Kapazität für zukünftige Upgrades zur Verfügung. Wenden Sie sich in diesem Fall einfach an IBM, damit das Team bei Bedarf weiteren verfügbaren Speicher in 64-GB-Schritten hinzufügen kann.
+Wenn Sie die PureApplication-Hardware über {{site.data.keyword.IBM_notm}} bestellen, um Ihre {{site.data.keyword.Bluemix_local_notm}}-Instanz zu hosten, müssen Sie einen weiteren Rechenknoten in der Spezifikationsgröße bestellen, die Sie bereits zuvor gekauft haben. Sie können einen weiteren Knoten über Ihren Technical Account Manager (TAM) bestellen, der mit dem IBM Team zusammenarbeitet, um die aktualisierte Hardware direkt zu Ihnen liefern zu lassen. Nachdem die Hardware zugestellt und installiert wurde, wird IBM benachrichtigt und das Bereitstellungsteam fügt weitere 64 GB hinzu. Abhängig von der Größe des bestellten Rechenknotens steht Ihnen möglicherweise weitere Kapazität für zukünftige Upgrades zur Verfügung. Wenden Sie sich in diesem Fall einfach an IBM, damit das Team bei Bedarf weiteren verfügbaren Speicher in 64-GB-Schritten hinzufügen kann.
 
 ## Lokale Instanz warten
 {: #maintainlocal}
@@ -610,7 +610,7 @@ Falls nach einer Wartungsaktualisierung ein Problem berichtet wird, entscheiden 
 
 {{site.data.keyword.Bluemix_local_notm}} wird auf dem ESXi-Hypervisor bereitgestellt. Die vCenter-Anwendung ermöglicht die zentrale Verwaltung virtueller Maschinen und ESXi-Hosts. {{site.data.keyword.Bluemix_notm}} unterstützt die drei letzten Versionen von ESXi und vCenter, einschließlich aller temporären Updates und Patches. Die neuesten unterstützten Versionen finden Sie immer in der Dokumentation zu den [Anforderungen an die lokale Infrastruktur](../local/index.html#localinfra).
 
-**Wichtig**: Wenn {{site.data.keyword.Bluemix_local_notm}} auf dem ESXi-Hypervisor bereitgestellt wird, können Upgrades und Patches für ESXi die Verfügbarkeit der lokalen Umgebung unterbrechen, einschließlich aller in der Umgebung ausgeführten Anwendungen und Services. Vor der Durchführung von Upgrades oder der Anwendung von Patches müssen Sie {{site.data.keyword.Bluemix_notm}} unter Verwendung eines Support-Tickets kontaktieren, um sicherzustellen, dass die Unterbrechung das Operationsteam nicht irrtümlich benachrichtigt. Wenn ein CSM (Client Success Manager) zugeordnet ist, können Sie mithilfe des CSM den Zeitplan für das Upgrade kommunizieren.
+**Wichtig**: Wenn {{site.data.keyword.Bluemix_local_notm}} auf dem ESXi-Hypervisor bereitgestellt wird, können Upgrades und Patches für ESXi die Verfügbarkeit der lokalen Umgebung unterbrechen, einschließlich aller in der Umgebung ausgeführten Anwendungen und Services. Vor der Durchführung von Upgrades oder der Anwendung von Patches müssen Sie {{site.data.keyword.Bluemix_notm}} unter Verwendung eines Support-Tickets kontaktieren, um sicherzustellen, dass die Unterbrechung das Operationsteam nicht irrtümlich benachrichtigt. Wenn ein Technical Account Manager (TAM) zugeordnet ist, können Sie mithilfe des TAM den Zeitplan für das Upgrade kommunizieren.
 
 Das {{site.data.keyword.Bluemix_notm}}-Operationsteam überwacht die Umgebung auf nicht unterstützte Versionen, die möglicherweise nicht mit den neuesten Aktualisierungen der {{site.data.keyword.Bluemix_local_notm}}-Umgebung übereinstimmen, um sicherzustellen, dass die lokale Instanz mit den neuesten unterstützten Versionen kompatibel ist. Für einige {{site.data.keyword.Bluemix_notm}}-Aktualisierungen, wie beispielsweise Cloud Foundry-Versionsaktualisierungen, muss die ESXi- oder vCenter-Software aktualisiert werden. Der {{site.data.keyword.Bluemix_notm}}-Support informiert Sie darüber, was zu welchem Zeitpunkt aktualisiert werden muss. Diese Aktualisierung muss in einem bestimmten Zeitfenster durchgeführt werden.
 
