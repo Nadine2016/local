@@ -6,7 +6,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-01-16"
+lastupdated: "2018-05-31"
 
 
 ---
@@ -350,7 +350,7 @@ La lista siguiente muestra los roles y responsabilidades de cliente que se asign
 </dd>
 </dl>
 
-Los representantes de los clientes trabajan con los especialistas de {{site.data.keyword.IBM_notm}} que trabajan conjuntamente para asegurarse de que siempre tenga el soporte que necesita. Puede actualizar al nivel de soporte Premium para trabajar con un CSM (Client Success Manager) dedicado para su cuenta. Para obtener más información sobre los distintos niveles de soporte, consulte [Cómo obtener soporte](/docs/get-support/howtogetsupport.html#contacting-bluemix-support-dedicated-local). El CSM completa los siguientes tipos de tareas:
+Los representantes de los clientes trabajan con los especialistas de {{site.data.keyword.IBM_notm}} que trabajan conjuntamente para asegurarse de que siempre tenga el soporte que necesita. Puede actualizar al nivel de soporte Premium para trabajar con un TAM (Technical Account Manager) dedicado para su cuenta. Para obtener más información sobre los distintos niveles de soporte, consulte [Cómo obtener soporte](/docs/get-support/howtogetsupport.html#contacting-bluemix-support-dedicated-local). El TAM completa los siguientes tipos de tareas:
 
 <ul>
 <li>Ofrece coordinación técnica entre usted e IBM.</li>
@@ -569,7 +569,7 @@ para cada permiso. Si el permiso se propaga, pasa por la jerarquía de objetos. 
 
 #### Opción VMware
 
-Si ha elegido la opción de proporcionar su propio hardware en función de las especificaciones mínimas, se configura el entorno con 64 GB de memoria disponible. Si desea añadir 16 o 32 GB, debe ponerse en contacto con el equipo de hardware para que proporcione la memoria disponible o añada un servidor ESXi, si es necesario según se describe en el siguiente ejemplo. Si la capacidad de hardware está disponible, trabaje con su gestor de cliente, quien, junto con el equipo de IBM, gestionará el aumento de memoria de su equipo.
+Si ha elegido la opción de proporcionar su propio hardware en función de las especificaciones mínimas, se configura el entorno con 64 GB de memoria disponible. Si desea añadir 16 o 32 GB, debe ponerse en contacto con el equipo de hardware para que proporcione la memoria disponible o añada un servidor ESXi, si es necesario según se describe en el siguiente ejemplo. Si la capacidad de hardware está disponible, trabaje con su gestor de cuentas técnicas, quien, junto con el equipo de IBM, gestionará el aumento de memoria de su equipo.
 
 Para aumentar la agrupación de DEA, cada DEA está configurado con:
 
@@ -582,7 +582,7 @@ Por ejemplo, si el tamaño de host ESXi es de 256 GB de memoria con 16x núcleos
 
 #### Opción de {{site.data.keyword.Bluemix_local_notm}} system
 
-Si elige hacer un pedido del hardware PureApplication a través de {{site.data.keyword.IBM_notm}} para alojar la instancia de {{site.data.keyword.Bluemix_local_notm}}, debe solicitar otro nodo del sistema con el tamaño de especificación que haya adquirido previamente. Puede solicitar otro nodo a través de su gestor de cliente, quien trabajará con el equipo de IBM para enviarle directamente el hardware actualizado. Cuando reciba y haya instalado el hardware, se envía una notificación a IBM y el equipo de despliegue añade 64 GB adicionales. En función del tamaño de nodo de sistema que haya solicitado, es posible que disponga de capacidad adicional disponible para futuras actualizaciones. En este caso, simplemente deberá ponerse en contacto con IBM y el equipo puede añadir incrementos adicionales de 64 GB de memoria de sistema disponible cuando sea necesario.
+Si elige hacer un pedido del hardware PureApplication a través de {{site.data.keyword.IBM_notm}} para alojar la instancia de {{site.data.keyword.Bluemix_local_notm}}, debe solicitar otro nodo del sistema con el tamaño de especificación que haya adquirido previamente. Puede solicitar otro nodo a través de su gestor de cuentas técnicas, quien trabajará con el equipo de IBM para enviarle directamente el hardware actualizada. Cuando reciba y haya instalado el hardware, se envía una notificación a IBM y el equipo de despliegue añade 64 GB adicionales. En función del tamaño de nodo de sistema que haya solicitado, es posible que disponga de capacidad adicional disponible para futuras actualizaciones. En este caso, simplemente deberá ponerse en contacto con IBM y el equipo puede añadir incrementos adicionales de 64 GB de memoria de sistema disponible cuando sea necesario.
 
 ## Mantenimiento de la instancia local
 {: #maintainlocal}
@@ -615,7 +615,7 @@ Si hay un problema después de una actualización de mantenimiento, acuerda con 
 
 {{site.data.keyword.Bluemix_local_notm}} se despliega en el hipervisor ESXi, y la aplicación vCenter se utiliza para gestionar de forma centralizada las máquinas virtuales y los hosts ESXi. {{site.data.keyword.Bluemix_notm}} admite las tres últimas versiones de ESXi y vCenter, incluidas todas las actualizaciones y los parches intermedios. Siempre encontrará las últimas versiones admitidas en la documentación de [Requisitos de infraestructura local](../local/index.html#localinfra).
 
-**Importante**: si despliega {{site.data.keyword.Bluemix_local_notm}} en el hipervisor ESXi, las actualizaciones y los parches de ESXi pueden interferir en la disponibilidad del entorno local, incluidas todas las aplicaciones y servicios que se ejecuten en el entorno. Debe notificarlo a {{site.data.keyword.Bluemix_notm}} mediante una incidencia de soporte antes de completar o una actualización y parche para garantizar que la interrupción no alerte por error al equipo de operaciones. Si tiene asignado un CSM (client success manager), pueden trabajar conjuntamente para comunicar la programación de la actualización.
+**Importante**: si despliega {{site.data.keyword.Bluemix_local_notm}} en el hipervisor ESXi, las actualizaciones y los parches de ESXi pueden interferir en la disponibilidad del entorno local, incluidas todas las aplicaciones y servicios que se ejecuten en el entorno. Debe notificarlo a {{site.data.keyword.Bluemix_notm}} mediante una incidencia de soporte antes de completar o una actualización y parche para garantizar que la interrupción no alerte por error al equipo de operaciones. Si tiene asignado un TAM (technical account manager) asignado, pueden trabajar conjuntamente para comunicar la programación de la actualización.
 
 A fin de garantizar que la instancia local es compatible con las últimas versiones admitidas, el equipo de operaciones de {{site.data.keyword.Bluemix_notm}} supervisa el entorno para determinar que versiones no admitidas pueden no coincidir con las últimas actualizaciones del entorno de {{site.data.keyword.Bluemix_local_notm}}. Algunas actualizaciones de {{site.data.keyword.Bluemix_notm}}, como las actualizaciones de la versión de Cloud Foundry, requieren actualizar el software de ESXi o vCenter. El equipo de soporte de {{site.data.keyword.Bluemix_notm}} le indicará qué actualizaciones debe hacer y cuándo debe hacerlas. Se le asignará un periodo determinado de tiempo para realizar la actualización.
 
