@@ -6,7 +6,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-01-16"
+lastupdated: "2018-05-31"
 
 
 ---
@@ -356,7 +356,7 @@ La liste suivante répertorie les rôles et les responsabilités des clients que
 </dd>
 </dl>
 
-Vos ingénieurs commerciaux collaborent avec des spécialistes {{site.data.keyword.IBM_notm}} pour garantir que vous disposiez toujours du support dont vous avez besoin. Vous pouvez procéder à la mise à niveau vers le niveau de support Premium afin d'utiliser un responsable Client Success (CSM) dédié pour votre compte. Pour plus d'informations sur les différents niveaux de support, voir [Contacter le service de support](/docs/get-support/howtogetsupport.html#contacting-bluemix-support-dedicated-local). Le responsable Client Success (CSM) effectue les types de tâche suivants :
+Vos ingénieurs commerciaux collaborent avec des spécialistes {{site.data.keyword.IBM_notm}} pour garantir que vous disposiez toujours du support dont vous avez besoin. Vous pouvez procéder à la mise à niveau vers le niveau de support Premium afin de collaborer avec un chargé de compte technique (TAM) dédié à votre compte. Pour plus d'informations sur les différents niveaux de support, voir [Contacter le service de support](/docs/get-support/howtogetsupport.html#contacting-bluemix-support-dedicated-local). Le chargé de compte technique (TAM) effectue les types de tâche suivants :
 
 <ul>
 <li>Il assure la coordination technique entre vous et IBM.</li>
@@ -566,8 +566,8 @@ des spécifications minimales, vous disposez de 64 Go de mémoire disponible. Si
 vous voulez ajouter 16 ou 32 Go, vous devez travailler avec votre équipe
 matériel pour fournir la mémoire disponible ou ajouter un serveur ESXi si
 nécessaire, comme décrit dans l'exemple qui suit. Lorsque la capacité
-matérielle est disponible, discutez avec votre responsable Client Success qui
-peut travailler avec l'équipe IBM pour gérer l'augmentation de la mémoire de
+matérielle est disponible, discutez avec votre chargé de compte technique qui
+peut collaborer avec l'équipe IBM pour gérer l'augmentation de la mémoire de
 calcul.
 
 Dans le but d'accroître le pool DEA, chaque agent DEA est configuré avec :
@@ -583,7 +583,7 @@ Par exemple, si la taille de l'hôte ESXi est de 256 Go de mémoire avec 16x coe
 
 Si vous choisissez de commander le matériel PureApplication auprès d'{{site.data.keyword.IBM_notm}} pour héberger votre instance {{site.data.keyword.Bluemix_local_notm}}, vous devez commander un autre noeud de
 traitement dans la taille de spécification que vous avez précédemment achetée. Vous pouvez commander un autre noeud via votre
-responsable Client Success qui travaille avec l'équipe IBM afin que le matériel
+chargé de compte technique qui collabore avec l'équipe IBM afin que le matériel
 mis à jour vous soit directement livré. Une fois le matériel livré et
 installé, IBM est notifié et l'équipe de déploiement ajoute 64 Go
 supplémentaires. En fonction de la taille du noeud de traitement que
@@ -623,7 +623,8 @@ Si un problème est signalé suite à une mise à jour de maintenance, détermin
 
 {{site.data.keyword.Bluemix_local_notm}} est déployé sur l'hyperviseur ESXi et l'application vCenter est utilisée pour une gestion centralisée des machines virtuelles et des hôtes ESXi. {{site.data.keyword.Bluemix_notm}} prend en charge les trois versions les plus récentes d'ESXi et de vCenter, y-compris leurs mises à jour et correctifs intermédiaires. Les versions les plus récentes prises en charge sont toujours indiquées dans la section Exigences de l'infrastructure [Local](../local/index.html#localinfra).
 
-**Important **: une fois {{site.data.keyword.Bluemix_local_notm}} déployé sur l'hyperviseur ESXi, les mises à jour et les correctifs ESXi peuvent perturber la disponibilité de l'environnement local, notamment de toutes les applications et de tous les services opérant dans cet environnement. Vous devez aviser {{site.data.keyword.Bluemix_notm}} via un ticket de demande de service avant d'appliquer une mise à niveau ou un correctif afin que l'interruption n'alerte pas par erreur l'équipe chargée des opérations. Si un responsable CSM vous a été affecté (CSM), vous pouvez communiquer le planning de mise à niveau via cet intermédiaire.
+**Important **: une fois {{site.data.keyword.Bluemix_local_notm}} déployé sur l'hyperviseur ESXi, les mises à jour et les correctifs ESXi peuvent perturber la disponibilité de l'environnement local, notamment de toutes les applications et de tous les services opérant dans cet environnement. Vous devez aviser {{site.data.keyword.Bluemix_notm}} via un ticket de demande de service avant d'appliquer une mise à niveau ou un correctif afin que l'interruption n'alerte pas par erreur l'équipe chargée des opérations. Si un chargé de compte technique (TAM) vous
+a été affecté, vous pouvez collaborer avec ce dernier pour communiquer le planning de mise à niveau.
 
 Pour garantir que votre instance locale soit compatible avec les dernières versions prises en charge, l'équipe chargée des opérations {{site.data.keyword.Bluemix_notm}} surveille l'environnement pour détecter
 des versions non prises en charge qui pourraient ne pas convenir aux dernières mises à jour de l'environnement {{site.data.keyword.Bluemix_local_notm}}. Certaines mises à jour de
