@@ -6,7 +6,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-01-16"
+lastupdated: "2018-05-31"
 
 
 ---
@@ -331,7 +331,7 @@ Cloud Foundry 和 {{site.data.keyword.Bluemix_notm}} 应用程序访问本地环
 </dd>
 </dl>
 
-您的客户代表会与 {{site.data.keyword.IBM_notm}} 专家进行合作，共同来确保您始终拥有所需的支持。对于您的帐户，您可以升级到“高端”支持层，以便与专用客户成功经理 (CSM) 进行合作。有关不同支持层的更多信息，请参阅[联系支持人员](/docs/get-support/howtogetsupport.html#contacting-bluemix-support-dedicated-local)。CSM 会完成以下类型的任务：
+您的客户代表会与 {{site.data.keyword.IBM_notm}} 专家进行合作，共同来确保您始终拥有所需的支持。您可以升级到“高端”支持层，以便与帐户的专用技术客户经理 (TAM) 合作。有关不同支持层的更多信息，请参阅[联系支持人员](/docs/get-support/howtogetsupport.html#contacting-bluemix-support-dedicated-local)。TAM 会完成以下类型的任务：
 
 <ul>
 <li>在您与 IBM 之间进行技术协调。</li>
@@ -532,7 +532,7 @@ vSphere Enterprise plus（如果计划使用分布式虚拟交换机）</dd>
 
 #### VMware 选项
 
-如果选择基于最低规范提供自己的 VMware 硬件选项，那么会为您设置 64 GB 可用内存。如果要增加 16 或 32 GB，您必须根据需要与硬件团队合作提供可用内存或添加 ESXi 服务器，如以下示例中所述。硬件容量可用时，请与您的客户成功经理（此人可以与 IBM 团队一起工作）一起管理计算内存的增加情况。
+如果选择基于最低规范提供自己的 VMware 硬件选项，那么会为您设置 64 GB 可用内存。如果要增加 16 或 32 GB，您必须根据需要与硬件团队合作提供可用内存或添加 ESXi 服务器，如以下示例中所述。硬件容量可用时，请与您的技术客户经理合作，此人可以与 IBM 团队合作来管理计算内存的增加情况。
 
 为了增大 DEA 池，每个 DEA 都会配置有：
 
@@ -545,7 +545,7 @@ vSphere Enterprise plus（如果计划使用分布式虚拟交换机）</dd>
 
 #### {{site.data.keyword.Bluemix_local_notm}} System 选项
 
-如果选择通过 {{site.data.keyword.IBM_notm}} 订购 PureApplication 硬件来托管 {{site.data.keyword.Bluemix_local_notm}} 实例，那么必须再订购一个计算节点，此节点的规范大小与先前购买的节点相同。可以通过客户成功经理（此人与 IBM 团队一起工作）再订购一个节点，以便更新的硬件可直接配送给您。一旦交付并安装了硬件，IBM 即会收到通知，接着部署团队将另外添加 64 GB。根据订购的计算节点的大小，可能有额外的容量可用于未来升级。在这种情况下，您只需要联系 IBM，随后团队就可根据需要另外添加 64 GB 可用计算内存。
+如果选择通过 {{site.data.keyword.IBM_notm}} 订购 PureApplication 硬件来托管 {{site.data.keyword.Bluemix_local_notm}} 实例，那么必须再订购一个计算节点，此节点的规范大小与先前购买的节点相同。可以通过与 IBM 团队合作的技术客户经理再订购一个节点，以便更新的硬件可直接配送给您。一旦交付并安装了硬件，IBM 即会收到通知，接着部署团队将另外添加 64 GB。根据订购的计算节点的大小，可能有额外的容量可用于未来升级。在这种情况下，您只需要联系 IBM，随后团队就可根据需要另外添加 64 GB 可用计算内存。
 
 ## 维护本地实例
 {: #maintainlocal}
@@ -578,7 +578,7 @@ vSphere Enterprise plus（如果计划使用分布式虚拟交换机）</dd>
 
 {{site.data.keyword.Bluemix_local_notm}} 部署到 ESXi 管理程序，vCenter 应用程序用于集中管理虚拟机和 ESXi 主机。{{site.data.keyword.Bluemix_notm}} 支持 ESXi 和 vCenter 最新的三个版本，包括所有中间更新和补丁。您始终可以在 [Local 基础架构需求](../local/index.html#localinfra)文档中查找最新的受支持版本。
 
-**重要信息**：当 {{site.data.keyword.Bluemix_local_notm}} 部署到 ESXi 管理程序时，ESXi 的升级和修补可能会中断本地环境的可用性，包括在该环境中运行的所有应用程序和服务。您必须使用支持凭单通知 {{site.data.keyword.Bluemix_notm}}，然后才能完成升级和修补，以确保中断不会错误地向操作团队发出警报。如果您具有已分配的客户成功经理 (CSM)，那么您可以与该 CSM 一起工作，就升级安排进行沟通。
+**重要信息**：当 {{site.data.keyword.Bluemix_local_notm}} 部署到 ESXi 管理程序时，ESXi 的升级和修补可能会中断本地环境的可用性，包括在该环境中运行的所有应用程序和服务。您必须使用支持凭单通知 {{site.data.keyword.Bluemix_notm}}，然后才能完成升级和修补，以确保中断不会错误地向操作团队发出警报。如果为您分配了技术客户经理 (TAM)，那么您可以与该 TAM 合作，就升级安排进行沟通。
 
 为了确保您的本地实例与最新的受支持版本兼容，{{site.data.keyword.Bluemix_notm}} 运营团队会监视环境是否存在可能与最新 {{site.data.keyword.Bluemix_local_notm}} 环境更新不匹配的不受支持版本。一些 {{site.data.keyword.Bluemix_notm}} 更新（如 Cloud Foundry 版本更新）需要您更新 ESXi 或 vCenter 软件。{{site.data.keyword.Bluemix_notm}} 支持将就必须更新的内容和更新截止时间向您发出警报。您将收到完成此更新的时间范围。
 

@@ -6,7 +6,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-01-16"
+lastupdated: "2018-05-31"
 
 
 ---
@@ -331,7 +331,7 @@ IBM® 使用雲端作業作為服務來監視及維護您的環境，因此您�
 </dd>
 </dl>
 
-您的客戶代表會與其他合作的 {{site.data.keyword.IBM_notm}} 專家一起合作，確保您隨時擁有所需的支援。您可以升級至「超值」支援層，以與您帳戶的專用「客戶成功經理 (CSM)」合作。如需不同支援層的相關資訊，請參閱[與支援中心聯絡](/docs/get-support/howtogetsupport.html#contacting-bluemix-support-dedicated-local)。CSM 會完成下列類型的作業：
+您的客戶代表會與其他合作的 {{site.data.keyword.IBM_notm}} 專家一起合作，確保您隨時擁有所需的支援。您可以升級至「超值」支援層，針對您的帳戶與專用的「技術帳戶管理員 (TAM)」合作。如需不同支援層的相關資訊，請參閱[與支援中心聯絡](/docs/get-support/howtogetsupport.html#contacting-bluemix-support-dedicated-local)。TAM 會完成下列類型的作業：
 
 <ul>
 <li>提供您與 IBM 之間的技術協調。</li>
@@ -534,7 +534,7 @@ vSphere Enterprise plus（如果您計劃使用分散式虛擬交換器）</dd>
 
 #### VMware 選項
 
-如果您已根據最小規格選擇提供自己的 VMware 硬體選項，則會為您設定 64 GB 的可用記憶體。如果您要新增 16 或 32 GB，則必須與硬體團隊合作以提供可用記憶體或新增 ESXi 伺服器（必要的話，如下列範例所述）。有可用的硬體容量時，請與可與 IBM 團隊合作的客戶成功經理合作，來管理運算記憶體增加。
+如果您已根據最小規格選擇提供自己的 VMware 硬體選項，則會為您設定 64 GB 的可用記憶體。如果您要新增 16 或 32 GB，則必須與硬體團隊合作以提供可用記憶體或新增 ESXi 伺服器（必要的話，如下列範例所述）。有可用的硬體容量時，請與可與 IBM 團隊合作的技術帳戶管理員合作，來管理運算記憶體增加。
 
 若要增加 DEA 儲存區，每一個 DEA 都要配置：
 
@@ -547,7 +547,7 @@ vSphere Enterprise plus（如果您計劃使用分散式虛擬交換器）</dd>
 
 #### {{site.data.keyword.Bluemix_local_notm}} 系統選項
 
-如果您選擇透過 {{site.data.keyword.IBM_notm}} 訂購 PureApplication 硬體來管理 {{site.data.keyword.Bluemix_local_notm}} 實例，則必須依照先前購買之規格大小來訂購另一個運算節點。您可以透過與 IBM 團隊合作的客戶成功經理訂購另一個節點，直接將更新的硬體出貨給您。交付並安裝硬體之後，IBM 會收到通知，部署團隊則會新增額外的 64 GB。視訂購的運算節點大小而定，您可能會有額外的容量，可用於未來升級。在該情況下，您只需要聯絡 IBM，團隊就可以視需要新增額外 64 GB 增量的可用運算記憶體。
+如果您選擇透過 {{site.data.keyword.IBM_notm}} 訂購 PureApplication 硬體來管理 {{site.data.keyword.Bluemix_local_notm}} 實例，則必須依照先前購買之規格大小來訂購另一個運算節點。您可以透過與 IBM 團隊合作的技術帳戶管理員訂購另一個節點，直接將更新的硬體出貨給您。交付並安裝硬體之後，IBM 會收到通知，部署團隊則會新增額外的 64 GB。視訂購的運算節點大小而定，您可能會有額外的容量，可用於未來升級。在該情況下，您只需要聯絡 IBM，團隊就可以視需要新增額外 64 GB 增量的可用運算記憶體。
 
 ## 維護您的本端實例
 {: #maintainlocal}
@@ -581,7 +581,7 @@ vSphere Enterprise plus（如果您計劃使用分散式虛擬交換器）</dd>
 
 {{site.data.keyword.Bluemix_local_notm}} 部署在 ESXi Hypervisor 上，而 vCenter 應用程式可用來集中管理虛擬機器和 ESXi 主機。{{site.data.keyword.Bluemix_notm}} 支援最新三版的 ESXi 和 vCenter，包括所有中繼更新項目和修補程式。您可以隨時在[本端基礎架構需求](../local/index.html#localinfra)文件中找到最新支援的版本。
 
-**重要事項**：{{site.data.keyword.Bluemix_local_notm}} 部署在 ESXi Hypervisor 上的情況下，ESXi 的升級和修補會中斷本端環境的可用性，包括在環境中執行的所有應用程式和服務。您必須在完成升級或修補之前，使用支援問題單通知 {{site.data.keyword.Bluemix_notm}}，以確保不會錯誤地警示作業團隊此中斷狀況。如果您有已指派的客戶成功經理 (CSM)，則可以和 CSM 一起溝通升級排程。
+**重要事項**：{{site.data.keyword.Bluemix_local_notm}} 部署在 ESXi Hypervisor 上的情況下，ESXi 的升級和修補會中斷本端環境的可用性，包括在環境中執行的所有應用程式和服務。您必須在完成升級或修補之前，使用支援問題單通知 {{site.data.keyword.Bluemix_notm}}，以確保不會錯誤地警示作業團隊此中斷狀況。如果您有已指派的技術帳戶管理員 (TAM)，則可以和 TAM 一起溝通升級排程。
 
 為確保您的本端實例與最新支援的版本相容，{{site.data.keyword.Bluemix_notm}} 作業團隊會針對可能不符合最新 {{site.data.keyword.Bluemix_local_notm}} 環境更新項目的不受支援版本來監視環境。有些 {{site.data.keyword.Bluemix_notm}} 更新項目（例如 Cloud Foundry 版本更新）會需要您更新 ESXi 或 vCenter 軟體。{{site.data.keyword.Bluemix_notm}} 支援會警示您必須更新的項目，以及更新的期限。您會有一個時間範圍可以完成此更新。
 
