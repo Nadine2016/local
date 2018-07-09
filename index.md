@@ -6,7 +6,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-05-31"
+lastupdated: "2018-07-09"
 
 
 ---
@@ -127,7 +127,7 @@ If you have a private instance of a {{site.data.keyword.Bluemix_notm}} service f
 
 {{site.data.keyword.Bluemix_local_notm}} sits on a virtualized infrastructure that is behind your Enterprise firewall, providing the highest performing and most secure cloud infrastructure to you. {{site.data.keyword.IBM_notm}} installs, remotely monitors, and manages {{site.data.keyword.Bluemix_local_notm}} in your data center through {{site.data.keyword.IBM_notm}}'s [Relay](#localrelay) technology. The logical architecture in [Figure 1](#figure01) describes how {{site.data.keyword.Bluemix_notm}} is set up in your local environment and how {{site.data.keyword.IBM_notm}} maintains your local instance:
 
-![{{site.data.keyword.Bluemix_local_notm}} architecture.](images/bmlocal_arch.png "Bluemix Local architecture diagram")
+![{{site.data.keyword.Bluemix_local_notm}} architecture.](images/bmlocal_arch.svg "Bluemix Local architecture diagram")
 
 Figure 1. {{site.data.keyword.Bluemix_local_notm}} architecture
 {: #figure01}
