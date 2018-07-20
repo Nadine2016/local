@@ -6,7 +6,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-05-31"
+lastupdated: "2018-07-09"
 
 
 ---
@@ -128,7 +128,7 @@ Se disponi di un'istanza privata di un servizio {{site.data.keyword.Bluemix_notm
 
 {{site.data.keyword.Bluemix_local_notm}} si trova su una struttura virtuale protetta dal tuo firewall aziendale, mettendo così a tua disposizione l'infrastruttura cloud con le prestazioni più elevate e la massima protezione possibili. {{site.data.keyword.IBM_notm}} installa, esegue il monitoraggio in remoto e gestisce {{site.data.keyword.Bluemix_local_notm}} nel tuo data center attraverso la tecnologia [Relay](#localrelay) di {{site.data.keyword.IBM_notm}}. L'architettura logica in [Figure 1](#figure01) descrive come {{site.data.keyword.Bluemix_notm}} nel tuo ambiente locale e sulle modalità di gestione della tua istanza locale da parte di {{site.data.keyword.IBM_notm}}:
 
-![{{site.data.keyword.Bluemix_local_notm}} architettura.](images/bmlocal_arch.png "Diagramma dell'architettura di Bluemix locale")
+![{{site.data.keyword.Bluemix_local_notm}} architettura.](images/bmlocal_arch.svg "Diagramma dell'architettura di Bluemix locale")
 
 Figura 1. Architettura {{site.data.keyword.Bluemix_local_notm}}
 {: #figure01}
@@ -336,7 +336,7 @@ Il seguente elenco mostra i ruoli e le responsabilità dei clienti che puoi asse
 <dt>**DevOps focal**</dt>
 <dd>Lavora con il rappresentante {{site.data.keyword.IBM_notm}} per pianificare e applicare gli aggiornamenti di manutenzione necessari per la piattaforma, i servizi e i runtime {{site.data.keyword.Bluemix_notm}}. La persona assegnata a questo ruolo lavora anche con il rappresentante {{site.data.keyword.IBM_notm}} sulla configurazione della tua istanza di {{site.data.keyword.Bluemix_local_notm}}.</dd>
 <dt>**Specialista IaaS**</dt>
-<dd>Lavora con i rappresentanti {{site.data.keyword.IBM_notm}} sul piano di distribuzione per VMware. In genere, si tratta di un amministratore VMware nel data center. La persona assegnata a questo ruolo riesamina i  <a href="../local/index.html#localinfra">requisiti dell'infrastruttura {{site.data.keyword.Bluemix_local_notm}}</a> e lavora con {{site.data.keyword.IBM_notm}} su un piano di implementazione. Al termine della distribuzione, la persona assegnata a questo ruolo conferma che la distribuzione è in conformità con gli standard aziendali a livello IaaS.</dd>
+<dd>Lavora con i rappresentanti {{site.data.keyword.IBM_notm}} sul piano di distribuzione per VMware. In genere, si tratta di un amministratore VMware nel data center. La persona assegnata a questo ruolo riesamina i <a href="../local/index.html#localinfra">requisiti dell'infrastruttura {{site.data.keyword.Bluemix_local_notm}}</a> e lavora con {{site.data.keyword.IBM_notm}} su un piano di implementazione. Al termine della distribuzione, la persona assegnata a questo ruolo conferma che la distribuzione è in conformità con gli standard aziendali a livello IaaS.</dd>
 <dt>**Operations focal**</dt>
 <dd>Lavora con il team di supporto {{site.data.keyword.IBM_notm}} come necessario quando l'ambiente è attivo e in esecuzione. In genere si tratta di qualcuno con l'accesso **Superuser** alla console di gestione che può approvare gli aggiornamenti di manutenzione pianificati per l'ambiente {{site.data.keyword.Bluemix_notm}} ed essere disponibile tutte le volte che si verifica un incidente critico. La persona assegnata a questo ruolo deve avere una conoscenza tecnica dell'ambiente {{site.data.keyword.Bluemix_notm}} ed essere nella posizione di raggiungere le altre persone nell'azienda con competenze avanzate in un'area che potrebbe essere influenzata inclusi ad esempio la rete e la sicurezza.
 </dd>

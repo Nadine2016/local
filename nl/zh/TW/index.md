@@ -6,7 +6,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-05-31"
+lastupdated: "2018-07-09"
 
 
 ---
@@ -127,7 +127,7 @@ IBM® 使用雲端作業作為服務來監視及維護您的環境，因此您�
 
 {{site.data.keyword.Bluemix_local_notm}} 位在受企業防火牆保護的虛擬化基礎架構上，以提供您最高效能且最安全的雲端基礎架構。{{site.data.keyword.IBM_notm}} 透過 {{site.data.keyword.IBM_notm}} 的[轉遞](#localrelay)技術來安裝、遠端監視及管理資料中心中的 {{site.data.keyword.Bluemix_local_notm}}。[圖 1](#figure01) 中的邏輯架構說明如何在本端環境中設定 {{site.data.keyword.Bluemix_notm}}，以及 {{site.data.keyword.IBM_notm}} 如何維護本端實例：
 
-![{{site.data.keyword.Bluemix_local_notm}} 架構。](images/bmlocal_arch.png "Bluemix Local 架構圖")
+![{{site.data.keyword.Bluemix_local_notm}} 架構。](images/bmlocal_arch.svg "Bluemix Local 架構圖")
 
 圖 1. {{site.data.keyword.Bluemix_local_notm}} 架構
 {: #figure01}

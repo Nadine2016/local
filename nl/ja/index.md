@@ -6,7 +6,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-05-31"
+lastupdated: "2018-07-09"
 
 
 ---
@@ -127,7 +127,7 @@ IBM® はクラウド操作をサービスとして使用してお客様の環�
 
 {{site.data.keyword.Bluemix_local_notm}} は、エンタープライズ・ファイアウォールの内側にある仮想インフラストラクチャー上に存在し、最高の処理性能を持つ最もセキュアなクラウド・インフラストラクチャーを提供します。 {{site.data.keyword.IBM_notm}} は、{{site.data.keyword.IBM_notm}} の[リレー](#localrelay)・テクノロジーを使用して、お客様のデータ・センターでの {{site.data.keyword.Bluemix_local_notm}} のインストール、リモート・モニター、および管理を行います。 [図 1](#figure01) の論理アーキテクチャーでは、{{site.data.keyword.Bluemix_notm}} がローカル環境にどのようにセットアップされるか、また {{site.data.keyword.IBM_notm}} がお客様のローカル・インスタンスをどのように保守するかを示しています。
 
-![{{site.data.keyword.Bluemix_local_notm}} のアーキテクチャー。](images/bmlocal_arch.png "Bluemix Local のアーキテクチャー図")
+![{{site.data.keyword.Bluemix_local_notm}} のアーキテクチャー。](images/bmlocal_arch.svg "Bluemix Local のアーキテクチャー図")
 
 図 1. {{site.data.keyword.Bluemix_local_notm}} アーキテクチャー
 {: #figure01}
@@ -335,7 +335,7 @@ Cloud Foundry アプリケーションおよび {{site.data.keyword.Bluemix_notm
 </dd>
 </dl>
 
-お客様の担当者は {{site.data.keyword.IBM_notm}} の専門家と連携して、必要なサポートが常に得られるようにします。 プレミアム・サポート層にアップグレードすると、ご使用のアカウントに関して専用テクニカル・アカウント・マネージャー (TAM) と連携できます。異なるサポート層について詳しく
+お客様の担当者は {{site.data.keyword.IBM_notm}} の専門家と連携して、必要なサポートが常に得られるようにします。 プレミアム・サポート層にアップグレードすると、ご使用のアカウントに関して専用テクニカル・アカウント・マネージャー (TAM) と連携できます。 異なるサポート層について詳しく
 は、[『サポートへのお問い合わせ』](/docs/get-support/howtogetsupport.html#contacting-bluemix-support-dedicated-local)を参照してください。TAM
 は次のタイプのタスクを完了します。
 
