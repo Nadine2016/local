@@ -6,7 +6,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-05-31"
+lastupdated: "2018-07-09"
 
 
 ---
@@ -127,7 +127,7 @@ Wenn es sich um eine private Instanz eines {{site.data.keyword.Bluemix_notm}}-Se
 
 {{site.data.keyword.Bluemix_local_notm}} befindet sich auf einer virtuellen Maschine hinter der Firewall Ihres Unternehmens. Auf diese Weise steht Ihnen eine besonders leistungsfähige und sichere Cloudinfrastruktur zur Verfügung. {{site.data.keyword.IBM_notm}} installiert und verwaltet {{site.data.keyword.Bluemix_local_notm}} mit der [Relay](#localrelay)-Technologie von {{site.data.keyword.IBM_notm}} in Ihrem Rechenzentrum und führt eine Fernüberwachung durch. Die logische Architektur in [Abbildung 1](#figure01) veranschaulicht, wie {{site.data.keyword.Bluemix_notm}} in Ihrer lokalen Umgebung eingerichtet wird und wie {{site.data.keyword.IBM_notm}} Ihre lokale Instanz wartet:
 
-![{{site.data.keyword.Bluemix_local_notm}}-Architektur.](images/bmlocal_arch.png "Diagramm zur Bluemix Local-Architektur")
+![{{site.data.keyword.Bluemix_local_notm}}-Architektur.](images/bmlocal_arch.svg "Diagramm zur Bluemix Local-Architektur")
 
 Abbildung 1. {{site.data.keyword.Bluemix_local_notm}}-Architektur
 {: #figure01}
@@ -352,7 +352,7 @@ Das {{site.data.keyword.Bluemix_notm}}-Support- und -Operationsteam, das gemeins
 
 ###Zuständigkeiten
 
-Von der Einrichtung Ihrer Umgebung bis hin zur kontinuierlichen Wartung müssen von Ihnen und von IBM eine Vielfalt von Tasks abgeschlossen werden. Die folgenden Tabellen beschreiben grob die erforderlichen Tasks und die Eigner zum Abschließen der Task in den Phasen der Konzeption, des Fortschritts und der Fertigstellung.
+Von der Einrichtung Ihrer Umgebung bis hin zur kontinuierlichen Wartung müssen von Ihnen und von IBM eine Vielfalt von Tasks ausgeführt werden. Die folgenden Tabellen beschreiben grob die erforderlichen Tasks und die Eigner zum Abschließen der Task in den Phasen der Konzeption, des Fortschritts und der Fertigstellung.
 
 In der Konzeptionsphase wird die {{site.data.keyword.Bluemix_local_notm}}-Umgebung eingerichtet. Zu diesem Zeitpunkt haben Sie sich bereits mit den [Infrastrukturanforderungen für Local](../local/index.html#localinfra) vertraut gemacht. Die primären Ziele dieser Phase sind unter anderem:
 
@@ -366,40 +366,26 @@ In der Konzeptionsphase wird die {{site.data.keyword.Bluemix_local_notm}}-Umgebu
 |Festlegen von Konformitätsstandards | Ermitteln Sie Behörden-, Branchen- und proprietäre Unternehmensstandards, die für die Umgebung erforderlich sind. | Kunde |
 |Erstellen eines Sicherheits- und Konformitätsintegrationsplans | Erstellen Sie einen Sicherheits- und Integrationsplan, der Kosten, Planung und Ressourcen einbezieht, die für die Einhaltung von Sicherheitsbestimmungen erforderlich sind. | {{site.data.keyword.IBM_notm}} |
 |Genehmigen des Konformitätsplans | Genehmigen Sie den Konformitätsplan. | Kunde |
-|Dimensionieren der Umgebung |  	Dimensionieren Sie die Umgebung auf der Basis von vordefinierten Optionen, die die Hochverfügbarkeits- und Disaster-Recovery-Ziele sowie den ursprünglichen DEA und die Servicebereitstellung berücksichtigen, die zur Unterstützung der mit der Plattform erstellten Apps erforderlich sind. Gemeinsam mit {{site.data.keyword.IBM_notm}} definieren Sie
-beispielsweise, welche Datenbanken
-erforderlich sind, welche Services im syndizierten Katalog des Benutzers
-angeboten werden und vieles mehr. | {{site.data.keyword.IBM_notm}} und Kunde |
+|Dimensionieren der Umgebung |  	Dimensionieren Sie die Umgebung auf der Basis von vordefinierten Optionen, die die Hochverfügbarkeits- und Disaster-Recovery-Ziele sowie den ursprünglichen DEA und die Servicebereitstellung berücksichtigen, die zur Unterstützung der mit der Plattform erstellten Apps erforderlich sind. Gemeinsam mit {{site.data.keyword.IBM_notm}} definieren Sie beispielsweise, welche Datenbanken erforderlich sind, welche Services im syndizierten Katalog des Benutzers angeboten werden und vieles mehr. | {{site.data.keyword.IBM_notm}} und Kunde |
 |Auswählen der Architektur | Wählen Sie die Architektur auf der Basis vordefinierter Optionen aus, die Hochverfügbarkeits- und Disaster-Recovery-Anforderungen berücksichtigen. | {{site.data.keyword.IBM_notm}} |
 |Definieren von Disaster-Recovery-Zielen | Definieren Sie die Disaster-Recovery-Anforderungen für die Umgebung. | Kunde |
-|Erstellen eines Disaster-Recovery-Plans | Konsultieren und definieren Sie den Disaster-Recovery-Plan. {{site.data.keyword.IBM_notm}} erstellt ein Disaster-Recovery-Modell und berät mit Ihnen, wo Sie Feedback
-bereitstellen und den Plan genehmigen. | {{site.data.keyword.IBM_notm}} und Kunde |
-|Erstellen eines Sicherungs- und Wiederherstellungsplans | Erstellen Sie einen Sicherungs- und Wiederherstellungsplan, der die Häufigkeit und die Anforderungen einer zentralen bzw. dezentralen Verteilung der Sicherung definiert. {{site.data.keyword.IBM_notm}} sichert Plattformkomponenten, {{site.data.keyword.IBM_notm}}
-Services, Servicemetadaten wie
-Benutzerrollen und vieles mehr. Sie sichern alle anwendungsspezifischen Daten, für die Sie verantwortlich sind. | {{site.data.keyword.IBM_notm}} und Kunde |
-|Angeben von Tools für Ereigniserkennung und Problembestimmung | Geben Sie {{site.data.keyword.IBM_notm}}
-Tools und Tools von Drittanbietern für die Ereigniserkennung und
-Problembestimmung auf der
-{{site.data.keyword.Bluemix_notm}}-Plattformebene an. | {{site.data.keyword.IBM_notm}} |
+|Erstellen eines Disaster-Recovery-Plans | Konsultieren und definieren Sie den Disaster-Recovery-Plan. {{site.data.keyword.IBM_notm}} erstellt ein Disaster-Recovery-Modell und berät mit Ihnen, wo Sie Feedback bereitstellen und den Plan genehmigen. | {{site.data.keyword.IBM_notm}} und Kunde |
+|Erstellen eines Sicherungs- und Wiederherstellungsplans | Erstellen Sie einen Sicherungs- und Wiederherstellungsplan, der die Häufigkeit und die Anforderungen einer zentralen bzw. dezentralen Verteilung der Sicherung definiert. {{site.data.keyword.IBM_notm}} sichert Plattformkomponenten, {{site.data.keyword.IBM_notm}} Services, Servicemetadaten wie Benutzerrollen und vieles mehr. Sie sichern alle anwendungsspezifischen Daten, für die Sie verantwortlich sind. | {{site.data.keyword.IBM_notm}} und Kunde |
+|Angeben von Tools für Ereigniserkennung und Problembestimmung | Geben Sie {{site.data.keyword.IBM_notm}} Tools und Tools von Drittanbietern für die Ereigniserkennung und Problembestimmung auf der {{site.data.keyword.Bluemix_notm}}-Plattformebene an. | {{site.data.keyword.IBM_notm}} |
 |Definieren eines Eskalationsplans | Definieren Sie den Eskalationsplan zur Klassifizierung und Auflösung von Ereignissen, die von Überwachungskomponenten erkannt werden. | {{site.data.keyword.IBM_notm}} |
 |Unterzeichnen von Infrastruktur-, Plattform- und Supportvereinbarungen | Unterzeichnen Sie die Abonnementvereinbarung, einschließlich der finanziellen Vertragsbedingungen für die Umgebung. Unterzeichnen Sie das Supportabonnement. | Kunde |
 |Beschaffen einer Umgebung | Beschaffen Sie Rechen-, Netz- und Speicherressourcen. Weitere Informationen zu den Infrastrukturanforderungen für die Umgebung finden Sie unter [ Local-Infrastrukturanforderungen](../local/index.html#localinfra). | Kunde |
 |Installieren einer VPN-Lösung | Installieren Sie eine bidirektionale VPN-Lösung. | {{site.data.keyword.IBM_notm}} |
 |Installieren von Plattform-, Anwendungs- sowie Überwachungs- und Verwaltungskomponenten | Installieren, konfigurieren und überprüfen Sie Plattformkomponenten wie BOSH Director, Cloud-Controller, Statusmanager, Messaging, Router, DEAs und Service-Provider sowie die Überwachungskomponenten, die im Eskalations- und Problemerkennungsplan definiert sind. | {{site.data.keyword.IBM_notm}} |
-|Installieren und Konfigurieren von Sicherheitskomponenten | Installieren und
-konfigurieren Sie Sicherheitskomponenten, die in den Überwachungs- und
-Eskalationsplan eingebunden sind, darunter {{site.data.keyword.IBM_notm}} QRadar, Vault für
-Berechtigungsnachweise, Abwehrsystem gegen Angriffe von außen, {{site.data.keyword.IBM_notm}} BigFix und
-{{site.data.keyword.IBM_notm}} Security Privileged Identity Management. | {{site.data.keyword.IBM_notm}} |
+|Installieren und Konfigurieren von Sicherheitskomponenten | Installieren und konfigurieren Sie Sicherheitskomponenten, die in den Überwachungs- und Eskalationsplan eingebunden sind, darunter {{site.data.keyword.IBM_notm}} QRadar, Vault für Berechtigungsnachweise, Abwehrsystem gegen Angriffe von außen, {{site.data.keyword.IBM_notm}} BigFix und {{site.data.keyword.IBM_notm}} Security Privileged Identity Management. | {{site.data.keyword.IBM_notm}} |
 |Konfigurieren eines Anmeldungsservers | Konfigurieren Sie den Anmeldungsserver für die Verwendung mit dem unternehmensweiten LDAP. | {{site.data.keyword.IBM_notm}} |
 |Installieren und Konfigurieren von angepassten Komponenten |  	Installieren und konfigurieren Sie angepasste Komponenten, die sich außerhalb des Geltungsbereichs des {{site.data.keyword.Bluemix_notm}}-Produkts und der -Services befinden. | Kunde |
-|Verbinden einer {{site.data.keyword.Bluemix_notm}}-Pipeline | Verbinden Sie eine {{site.data.keyword.Bluemix_notm}}-Pipeline für
-kontinuierliche Integration und Bereitstellung mit {{site.data.keyword.IBM_notm}} Repositorys. | {{site.data.keyword.IBM_notm}} |
+|Verbinden einer {{site.data.keyword.Bluemix_notm}}-Pipeline | Verbinden Sie eine {{site.data.keyword.Bluemix_notm}}-Pipeline für kontinuierliche Integration und Bereitstellung mit {{site.data.keyword.IBM_notm}} Repositorys. | {{site.data.keyword.IBM_notm}} |
 |Anpassen externer Lösungskomponenten | Passen Sie Lastausgleichsfunktionen für Disaster-Recovery-Szenarios an. | Kunde |
 |Verfolgen des Status von Sicherheits-, Konformitäts- und Prüfungsmaßnahmen  | Verfolgen Sie den Status bis zu dem Zeitpunkt, an dem alle Tools und Prozesse zum Erzielen der gewünschten Konformität vorhanden und einsatzbereit sind. | Kunde |
 |Überprüfen der physischen Infrastruktur | Überprüfen Sie die Orte, an denen die Lösungskomponenten für Bedrohungen gehostet werden, und überprüfen Sie die Sicherheitsmaßnahmen zum Schutz des Rechenzentrums. | Kunde |
 |Untersuchen der Überwachungssoftware | Untersuchen Sie Überwachungs- und Verwaltungskomponenten, wie im Eskalations- und Problembestimmungsplan definiert. | Kunde |
-|Untersuchen des Betriebssystems | Stellen Sie sicher, dass das Betriebssystemimage Konfomitätsstandards entspricht. {{site.data.keyword.IBM_notm}} stellt Zugriff auf das Betriebssystemimage bereit. | {{site.data.keyword.IBM_notm}} und Kunde |
+|Untersuchen des Betriebssystems | Stellen Sie sicher, dass das Betriebssystemimage Konformitätsstandards entspricht. {{site.data.keyword.IBM_notm}} stellt Zugriff auf das Betriebssystemimage bereit. | {{site.data.keyword.IBM_notm}} und Kunde |
 {: caption="Tabelle 5. Tasks der Konzeptionsphase" caption-side="top"}
 
 Als Nächstes folgt die Fortschrittsphase. Die Fortschrittsphase beschreibt die laufende, interaktive Beziehung zwischen Ihnen und IBM. Die primären Ziele dieser Phase sind unter anderem:
@@ -412,24 +398,16 @@ Als Nächstes folgt die Fortschrittsphase. Die Fortschrittsphase beschreibt die 
 |----------|------------------|-----------------------|
 |Überprüfen von wöchentlichen Kapazitätsberichten | Überprüfen Sie die wöchentlichen Kapazitätsberichte und ergreifen Sie ggf. Korrekturmaßnahmen. | Kunde |
 |Erstellen von monatlichen Projektionen | Erfassen Sie Informationen und erstellen Sie eine monatliche Projektion von Kapazität und Nutzung. | {{site.data.keyword.IBM_notm}} und Kunde |
-|Überprüfen von Kapazitätsprojektionen | Überprüfen Sie die Kapazitätsprojektionen hinsichtlich externer Ereignisse, die sich sowohl auf die Kapazität als auch auf geplante neue Implementierungen von Apps auswirken können. Arbeiten Sie gemeinsam mit {{site.data.keyword.IBM_notm}} an der Überprüfung der Projektionen und der
-entsprechenden Planung. | {{site.data.keyword.IBM_notm}} und Kunde |
+|Überprüfen von Kapazitätsprojektionen | Überprüfen Sie die Kapazitätsprojektionen hinsichtlich externer Ereignisse, die sich sowohl auf die Kapazität als auch auf geplante neue Implementierungen von Apps auswirken können. Arbeiten Sie gemeinsam mit {{site.data.keyword.IBM_notm}} an der Überprüfung der Projektionen und der entsprechenden Planung. | {{site.data.keyword.IBM_notm}} und Kunde |
 |Anpassen der Kapazität |  Fügen Sie Kapazität hinzu oder entfernen Sie Kapazität nach Bedarf. | {{site.data.keyword.IBM_notm}} |
-|Veröffentlichen zukünftiger Aktualisierungen und Wartungen | Erstellen Sie
-eine Dokumentation für die erforderliche Wartung von {{site.data.keyword.IBM_notm}} Komponenten. | {{site.data.keyword.IBM_notm}} |
-|Durchführen einer Wartung | Planen Sie gemeinsam mit {{site.data.keyword.IBM_notm}} die erforderliche
-Wartung innerhalb eines 21-tägigen Zeitraums. Sie können innerhalb des
-21-tägigen Zeitraums Daten angeben, an denen keine Wartungsarbeiten ausgeführt
-werden sollen, und {{site.data.keyword.IBM_notm}} bemüht sich, die Wartung entsprechend zu planen. | {{site.data.keyword.IBM_notm}} und Kunde |
+|Veröffentlichen zukünftiger Aktualisierungen und Wartungen | Erstellen Sie eine Dokumentation für die erforderliche Wartung von {{site.data.keyword.IBM_notm}} Komponenten. | {{site.data.keyword.IBM_notm}} |
+|Durchführen einer Wartung | Planen Sie gemeinsam mit {{site.data.keyword.IBM_notm}} die erforderliche Wartung innerhalb eines 21-tägigen Zeitraums. Sie können innerhalb des 21-tägigen Zeitraums Daten angeben, an denen keine Wartungsarbeiten ausgeführt werden sollen, und {{site.data.keyword.IBM_notm}} bemüht sich, die Wartung entsprechend zu planen. | {{site.data.keyword.IBM_notm}} und Kunde |
 |Adressieren von Bereitstellungsfehlern | Beheben Sie ggf. auftretende Bereitstellungsfehler für vom Kunden erstellte Services, die im Katalog implementiert werden. | {{site.data.keyword.IBM_notm}} |
 |Durchführen von Netz- und IP-Scans | Führen Sie tägliche und monatliche Netz- und IP-Scans durch. | {{site.data.keyword.IBM_notm}} und Kunde |
 |Bereitstellen von Zugriff auf Prüfprotokolle | Stellen Sie Zugriff auf alle Sicherheits- und Verwaltungsprüfprotokolle bereit.   | {{site.data.keyword.IBM_notm}} und Kunde |
 |Durchführen von Tests | Führen Sie regelmäßige Kontrollen für Operationstests und Penetrationstests von Drittanbietern durch. | {{site.data.keyword.IBM_notm}} und Kunde |
 |Statusberichterstattung, Prüfungskoordination und Konformitätsbesprechungen  | Führen Sie eine Statusberichterstattung, eine externe Prüfungskoordination und eine Präsentation bei Statusbesprechungen zur Konformitätsprüfung aus. | {{site.data.keyword.IBM_notm}} |
-|Prüfung der Beschäftigungssituation und Geschäftsanforderungen | Führen Sie
-eine vierteljährliche Prüfung der Beschäftigungssituation sowie eine Prüfung
-kontinuierlicher Geschäftsanforderungen für {{site.data.keyword.IBM_notm}} Ansprechpartner aus, die
-Zugriff auf die Umgebung des Kunden haben. | {{site.data.keyword.IBM_notm}} |
+|Prüfung der Beschäftigungssituation und Geschäftsanforderungen | Führen Sie eine vierteljährliche Prüfung der Beschäftigungssituation sowie eine Prüfung kontinuierlicher Geschäftsanforderungen für {{site.data.keyword.IBM_notm}} Ansprechpartner aus, die Zugriff auf die Umgebung des Kunden haben. | {{site.data.keyword.IBM_notm}} |
 |Beheben von Sicherheitslücken | Beheben Sie berichtete Sicherheitslücken in der Plattform. | {{site.data.keyword.IBM_notm}} |
 {: caption="Tabelle 6. Tasks der Fortschrittsphase" caption-side="top"}
 
@@ -603,7 +581,7 @@ Die folgenden Wartungsarten sind für
 
 **Wichtig**: {{site.data.keyword.IBM_notm}} behält sich das Recht vor, Services zu unterbrechen, um im Bedarfsfall Notfallwartungen vorzunehmen. {{site.data.keyword.IBM_notm}} kann die geplanten Wartungszeiten ändern, wird Sie aber über solche Änderungen sowie über eventuelle Notfallwartungen benachrichtigen.
 
-Falls nach einer Wartungsaktualisierung ein Problem berichtet wird, entscheiden Sie gemeinsam mit dem {{site.data.keyword.Bluemix_notm}}-Support, ob es sinnvoll wäre, dass {{site.data.keyword.IBM_notm}} die Aktualisierung rückgängig macht. Nachdem Sie sich geeinigt haben, macht {{site.data.keyword.IBM_notm}} die Aktualisierung rückgängig und stellt die Umgebung in ihrem ursprünglichen Zustand wieder her.
+Falls nach einer Wartungsaktualisierung ein Problem berichtet wird, entscheiden Sie gemeinsam mit dem {{site.data.keyword.Bluemix_notm}}-Support, ob es sinnvoll wäre, dass {{site.data.keyword.IBM_notm}} die Aktualisierung rückgängig macht. Nachdem Sie sich geeinigt haben, macht {{site.data.keyword.IBM_notm}} die Aktualisierung rückgängig und stellt die Umgebung in ihrem ursprünglichen Status wieder her.
 
 ### Wartung der Kundeninfrastruktur
 {: #inframaintenance}
