@@ -6,7 +6,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-05-31"
+lastupdated: "2018-07-09"
 
 
 ---
@@ -127,7 +127,7 @@ IBM® 使用云操作即服务来监视和维护您的环境，让您可以专�
 
 {{site.data.keyword.Bluemix_local_notm}} 位于企业防火墙后的虚拟基础架构上，可为您提供性能最佳、最安全的云基础架构。{{site.data.keyword.IBM_notm}} 通过 {{site.data.keyword.IBM_notm}} 的[中继](#localrelay)技术在您的数据中心内对 {{site.data.keyword.Bluemix_local_notm}} 进行安装、远程监视以及管理。[图 1](#figure01) 中的逻辑体系结构描述了如何在本地环境中设置 {{site.data.keyword.Bluemix_notm}} 以及 {{site.data.keyword.IBM_notm}} 如何维护本地实例的信息：
 
-![{{site.data.keyword.Bluemix_local_notm}} 体系结构。](images/bmlocal_arch.png "Bluemix Local 体系结构图")
+![{{site.data.keyword.Bluemix_local_notm}} 体系结构。](images/bmlocal_arch.svg "Bluemix Local 体系结构图")
 
 图 1. {{site.data.keyword.Bluemix_local_notm}} 体系结构
 {: #figure01}

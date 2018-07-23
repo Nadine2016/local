@@ -6,7 +6,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-05-31"
+lastupdated: "2018-07-09"
 
 
 ---
@@ -35,7 +35,7 @@ IBM®은 환경의 맨 위에서 실행되는 앱과 서비스를 빌드하는 �
 |포함 | [{{site.data.keyword.autoscaling}}](/docs/services/Auto-Scaling/index.html)|정책에 따라 애플리케이션의 컴퓨팅 용량을 동적으로 늘리거나 줄입니다. 이 서비스를 사용하면 {{site.data.keyword.Bluemix_local_notm}} 환경에서 무제한 사용이 가능합니다.|
 |선택사항 | [{{site.data.keyword.apiconnect_short}}](/docs/services/apiconnect/index.html) |{{site.data.keyword.apiconnect_long}}는 {{site.data.keyword.APIM}}와 IBM StrongLoop를 API 및 마이크로서비스를 작성, 실행, 관리 및 적용하기 위한 포괄적 솔루션을 제공하는 단일 오퍼링으로 통합합니다. |
 |선택사항 | [{{site.data.keyword.containershort}}](/docs/containers/container_index.html) |{{site.data.keyword.Bluemix_local_notm}}에서 Docker 컨테이너를 실행합니다. 컨테이너는 앱에서 실행해야 하는 모든 요소를 포함하는 가상 소프트웨어 오브젝트입니다. 컨테이너는 리소스 격리와 할당의 이점이 있으며 가상 머신 등보다 휴대가 간편하고 효율적입니다. 하드웨어 요구사항에 대한 정보는 [{{site.data.keyword.Bluemix_dedicated_notm}} 및 {{site.data.keyword.Bluemix_local_notm}}의 IBM {{site.data.keyword.containershort}}](/docs/containers/container_ov.html#container_dl)를 참조하십시오. |
-|선택사항(베타) |[로깅](/docs/monitor_log/logging/dedicated/logging_local_dedicated.html#hybrid_apps_logs_dash) |Kibana의 검색 가능한 로그 및 대시보드와 {{site.data.keyword.Bluemix_notm}} 사용자 인터페이스의 Cloud Foundry 앱에 대한 로그를 제공합니다. |
+|선택사항(베타) | [Logging](/docs/monitor_log/logging/dedicated/logging_local_dedicated.html#hybrid_apps_logs_dash) |Kibana의 검색 가능한 로그 및 대시보드와 {{site.data.keyword.Bluemix_notm}} 사용자 인터페이스의 Cloud Foundry 앱에 대한 로그를 제공합니다. |
 |선택사항 | [{{site.data.keyword.mobilepush}}](/docs/services/mobilepush/index.html) | {{site.data.keyword.mobilepush}}는 iOS 및 Android 디바이스에 알림을 보내는 데 사용할 수 있는 서비스입니다. 알림은 모든 애플리케이션 사용자와 태그를 사용하는 특정 디바이스 및 사용자 세트를 대상으로 할 수 있습니다. 디바이스, 태그 및 구독을 관리할 수 있습니다. SDK(Software Development Kit) 및 REST(Representational State Transfer) API(Application Program Interface)를 사용하여 클라이언트 애플리케이션을 추가로 개발할 수도 있습니다. |
 |선택사항 | [{{site.data.keyword.iot_short}}](/docs/services/IoT/index.html) |이 서비스를 사용하여 앱은 연결된 디바이스, 센서 및 게이트웨이와 통신하고 여기서 수집한 데이터를 이용할 수 있습니다. 로컬 기본 오퍼링에는 1.6TB의 데이터 교환과 100,000개의 동시 연결된 디바이스 또는 애플리케이션의 용량을 지닌 전용 환경 내에서 IBM {{site.data.keyword.iot_short}}의 개인용 버전 실행을 허용하는 초기 환경이 포함됩니다. |
 {: caption="표 1. 로컬 서비스 및 런타임" caption-side="top"}
@@ -127,7 +127,7 @@ IBM®은 환경의 맨 위에서 실행되는 앱과 서비스를 빌드하는 �
 
 {{site.data.keyword.Bluemix_local_notm}}은 엔터프라이즈 방화벽 뒤에 있는 가상화 인프라에 설치되며 최고 성능의 가장 안전한 클라우드 인프라를 제공합니다. {{site.data.keyword.IBM_notm}}은 {{site.data.keyword.IBM_notm}}의 [릴레이](#localrelay) 기술을 통해 데이터 센터에 {{site.data.keyword.Bluemix_local_notm}}을 설치하고 원격으로 모니터링하며 관리합니다. [그림 1](#figure01)의 논리적 아키텍처는 로컬 환경에서 {{site.data.keyword.Bluemix_notm}}를 설정하는 방법과 {{site.data.keyword.IBM_notm}}이 로컬 인스턴스를 유지보수하는 방법에 대해 설명합니다.
 
-![{{site.data.keyword.Bluemix_local_notm}} 아키텍처](images/bmlocal_arch.png "Bluemix 로컬 아키텍처 다이어그램")
+![{{site.data.keyword.Bluemix_local_notm}} 아키텍처](images/bmlocal_arch.svg "Bluemix 로컬 아키텍처 다이어그램")
 
 그림 1. {{site.data.keyword.Bluemix_local_notm}} 아키텍처
 {: #figure01}
@@ -429,7 +429,7 @@ Cloud Foundry 및 {{site.data.keyword.Bluemix_notm}} 애플리케이션은 로�
 ## {{site.data.keyword.Bluemix_local_notm}} 인프라 요구사항
 {: #localinfra}
 
-{{site.data.keyword.Bluemix_local_notm}}에 대해 사용자는 로컬 인스턴스를 호스팅하기 위한 실제 보안 및 인프라를 소유합니다. 인프라 요구사항은 자체 VMware 사용 및 관리를 선택하는지 또는 IBM에서 주문한 PureApp 어플라이언스가 포함된 {{site.data.keyword.Bluemix_local_notm}} 시스템의 구매를 선택하는지와 무관하게 모두 동일합니다. 그러나 주문 시에는 두 개의 PureApp 어플라이언스 옵션 중에서 선택할 수 있으며, 환경을 스케일링하는 프로세스는 VMware 및 {{site.data.keyword.Bluemix_local_notm}} 시스템의 경우에 서로 다릅니다. PureApp 어플라이언스 옵션에 대한 자세한 정보는 [IBM {{site.data.keyword.Bluemix_local_notm}} System W3500 and W3550 models run cloud native services, enabled middleware, and open pattern workloads concurrently ![외부 링크 아이콘](../icons/launch-glyph.svg)](https://www-01.ibm.com/common/ssi/rep_ca/5/897/ENUS216-325/){: new_window}를 참조하십시오.
+{{site.data.keyword.Bluemix_local_notm}}에 대해 사용자는 로컬 인스턴스를 호스팅하기 위한 실제 보안 및 인프라를 소유합니다. 인프라 요구사항은 고유 VMware 사용 및 관리를 선택하는지 또는 IBM에서 주문한 PureApp 어플라이언스가 포함된 {{site.data.keyword.Bluemix_local_notm}} 시스템의 구매를 선택하는지와 무관하게 모두 동일합니다. 그러나 주문 시에는 두 개의 PureApp 어플라이언스 옵션 중에서 선택할 수 있으며, 환경을 스케일링하는 프로세스는 VMware 및 {{site.data.keyword.Bluemix_local_notm}} 시스템의 경우에 서로 다릅니다. PureApp 어플라이언스 옵션에 대한 자세한 정보는 [IBM {{site.data.keyword.Bluemix_local_notm}} System W3500 and W3550 models run cloud native services, enabled middleware, and open pattern workloads concurrently ![외부 링크 아이콘](../icons/launch-glyph.svg)](https://www-01.ibm.com/common/ssi/rep_ca/5/897/ENUS216-325/){: new_window}를 참조하십시오.
 
 {{site.data.keyword.IBM_notm}}은 {{site.data.keyword.Bluemix_local_notm}}을 설정하기 위해 다음과 같은 최소 요구사항을 설정합니다.
 
@@ -625,7 +625,7 @@ DEA 풀을 늘리기 위해 각 DEA가 다음으로 구성됩니다.
 
 기본적으로 {{site.data.keyword.Bluemix_notm}} 퍼블릭은 지리적으로 여러 위치에 배치됩니다. 그러나 글로벌하게 분산된 {{site.data.keyword.Bluemix_local_notm}} 인스턴스를 사용하려면 다음을 수행해야 합니다.
 
-* 개발자는 수동 또는 자동화된 프로세스를 통해 하나 이상의 지역에 앱을 배치해야 합니다. 자연 재해가 두 위치에 모두 영향을 줄 수 없도록, 선택된 지역은 200km 이상 떨어져 있어야 합니다.
+* 개발자는 수동 또는 자동화된 프로세스를 통해 둘 이상의 지역에 앱을 배치해야 합니다. 자연 재해가 두 위치에 모두 영향을 줄 수 없도록, 선택된 지역은 200km 넘게 떨어져 있어야 합니다.
 * 둘 이상의 서로 다른 지역에 있는 앱을 가리키도록 글로벌 로드 밸런서(예: Akamai 또는 Dyn)를 구성하십시오.
 
 **참고**: 모든 {{site.data.keyword.Bluemix_notm}} 서비스가 지역 분산 배포를 지원하는 것은 아닙니다. 앱을 생성할 때 지역 분산을 원하는 경우 해당 애플리케이션에서 사용하는 서비스가 데이터 동기화를 핵심 기능으로 가지고 있는지도 확인해야 합니다.
