@@ -6,7 +6,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-05-31"
+lastupdated: "2018-07-09"
 
 
 ---
@@ -31,12 +31,11 @@ Além disso, há um conjunto de serviços que estão disponíveis como serviços
 
 | **Tipo** | **Nome** | **Descrição** |
 |----------|----------|-----------------|
-|Incluído |Tempos de execução do {{site.data.keyword.Bluemix_notm}}| Use tempos de execução para colocar seu app funcionando rapidamente, sem necessidade de configurar e gerenciar as máquinas e os sistemas operacionais. Todos os tempos de execução do {{site.data.keyword.Bluemix_notm}} estão disponíveis para você usar em sua instância do {{site.data.keyword.Bluemix_local_notm}}.|
+|Incluído | Tempos de execução do {{site.data.keyword.Bluemix_notm}} | Use tempos de execução para colocar seu app funcionando rapidamente, sem necessidade de configurar e gerenciar as máquinas e os sistemas operacionais. Todos os tempos de execução do {{site.data.keyword.Bluemix_notm}} estão disponíveis para você usar em sua instância do {{site.data.keyword.Bluemix_local_notm}}.|
 |Incluído | [{{site.data.keyword.autoscaling}}](/docs/services/Auto-Scaling/index.html)| Aumentar ou diminuir dinamicamente a capacidade de cálculo do aplicativo com base em políticas. Com esse serviço, você tem uso ilimitado em seu ambiente do {{site.data.keyword.Bluemix_local_notm}}.|
 |Opcional | [{{site.data.keyword.apiconnect_short}}](/docs/services/apiconnect/index.html) | O {{site.data.keyword.apiconnect_long}} integra o {{site.data.keyword.APIM}} e o IBM StrongLoop em uma única oferta que fornece uma solução abrangente para criar, executar, gerenciar e impingir APIs e microsserviços. |
 |Opcional | [{{site.data.keyword.containershort}}](/docs/containers/container_index.html) | Execute os contêineres do Docker no {{site.data.keyword.Bluemix_local_notm}}. Contêineres são objetos de software virtuais que incluem todos os elementos que um aplicativo precisa executar. Um contêiner tem os benefícios do isolamento e da alocação de recursos, mas é mais móvel e eficiente do que, por exemplo, uma máquina virtual. Para obter informações sobre os requisitos de hardware, veja[IBM {{site.data.keyword.containershort}} no {{site.data.keyword.Bluemix_dedicated_notm}} e {{site.data.keyword.Bluemix_local_notm}}](/docs/containers/container_ov.html#container_dl). |
-| Opcional (Beta) |
-[Criação de log](/docs/monitor_log/logging/dedicated/logging_local_dedicated.html#hybrid_apps_logs_dash) | Fornece logs para os aplicativos Cloud Foundry em sua interface com o usuário do {{site.data.keyword.Bluemix_notm}} e logs pesquisáveis e painéis em Kibana. |
+| Opcional (Beta) | [Criação de log](/docs/monitor_log/logging/dedicated/logging_local_dedicated.html#hybrid_apps_logs_dash) | Fornece logs para os aplicativos Cloud Foundry em sua interface com o usuário do {{site.data.keyword.Bluemix_notm}} e logs pesquisáveis e painéis em Kibana. |
 |Opcional | [{{site.data.keyword.mobilepush}}](/docs/services/mobilepush/index.html) | O {{site.data.keyword.mobilepush}} é um serviço que você pode usar para enviar notificações para iOS e dispositivo Android. É possível direcionar notificações para todos os usuários do aplicativo ou para um conjunto específico de usuários e dispositivos usando tags. É possível administrar dispositivos, tags e assinaturas. É possível também usar um SDK (kit de desenvolvimento de software) e interfaces de programação de aplicativo (APIs) Representational State Transfer (REST) para desenvolver ainda mais seus aplicativos cliente. |
 |Opcional | [{{site.data.keyword.iot_short}}](/docs/services/IoT/index.html) | Esse serviço permite que os apps se comuniquem e consumam dados coletados por seus dispositivos conectados, sensores e gateways. A oferta de base local inclui um ambiente inicial que permite executar uma versão privada do IBM {{site.data.keyword.iot_short}} dentro do ambiente local com uma capacidade de 100.000 dispositivos ou aplicativos conectados simultaneamente e 1.6 TB de troca de dados. |
 {: caption="Tabela 1. Serviços locais e tempos de execução" caption-side="top"}
@@ -128,7 +127,7 @@ Se você tiver uma instância privada de um serviço do {{site.data.keyword.Blue
 
 O {{site.data.keyword.Bluemix_local_notm}} fica em uma infraestrutura virtualizada que está atrás do firewall Corporativo, fornecendo a infraestrutura em nuvem mais segura e com maior desempenho. A {{site.data.keyword.IBM_notm}} instala, monitora remotamente e gerencia o {{site.data.keyword.Bluemix_local_notm}} em seu datacenter por meio da tecnologia de [Retransmissão](#localrelay) da {{site.data.keyword.IBM_notm}}. A arquitetura lógica na [Figura 1](#figure01) descreve como o {{site.data.keyword.Bluemix_notm}} está configurado em seu ambiente local e como a {{site.data.keyword.IBM_notm}} mantém sua instância local:
 
-![Arquitetura do {{site.data.keyword.Bluemix_local_notm}}.](images/bmlocal_arch.png "Diagrama da arquitetura do Bluemix Local")
+![Arquitetura do {{site.data.keyword.Bluemix_local_notm}}.](images/bmlocal_arch.svg "Diagrama da arquitetura do Bluemix Local")
 
 Figura 1. Arquitetura do {{site.data.keyword.Bluemix_local_notm}}
 {: #figure01}
@@ -335,8 +334,7 @@ A lista a seguir mostra as funções e as responsabilidades designadas ao client
 </dd>
 </dl>
 
-Seus representantes de serviços trabalham com especialistas {{site.data.keyword.IBM_notm}}, que trabalham juntos para assegurar que você sempre tenha o suporte necessário. 
-É possível fazer upgrade para a camada de suporte Premium para trabalhar com um gerente de contas técnicas (TAM) dedicado para a sua
+Seus representantes de serviços trabalham com especialistas {{site.data.keyword.IBM_notm}}, que trabalham juntos para assegurar que você sempre tenha o suporte necessário. É possível fazer upgrade para a camada de suporte Premium para trabalhar com um gerente de contas técnicas (TAM) dedicado para a sua
 conta. Para obter informações adicionais sobre as camadas de suporte diferentes, consulte
 [Entrando em contato com o
 suporte](/docs/get-support/howtogetsupport.html#contacting-bluemix-support-dedicated-local). O TAM conclui os tipos de tarefas a seguir:
@@ -543,8 +541,7 @@ Configure as funções e as permissões a seguir. A propagação é configurada 
 
 #### Opção VMware
 
-Se você tiver escolhido fornecer sua própria opção de hardware VMware com base nas especificações mínimas, você será configurado com 64 GB de memória disponível. Caso queira incluir 16 ou 32 GB, deve-se trabalhar com a sua equipe de hardware para fornecer a memória disponível ou incluir um servidor ESXi, se necessário, conforme descrito no exemplo a seguir. 
-Quando a capacidade de hardware estiver disponível, trabalhe com o seu gerente de contas técnicas que pode trabalhar com a equipe da
+Se você tiver escolhido fornecer sua própria opção de hardware VMware com base nas especificações mínimas, você será configurado com 64 GB de memória disponível. Caso queira incluir 16 ou 32 GB, deve-se trabalhar com a sua equipe de hardware para fornecer a memória disponível ou incluir um servidor ESXi, se necessário, conforme descrito no exemplo a seguir. Quando a capacidade de hardware estiver disponível, trabalhe com o seu gerente de contas técnicas que pode trabalhar com a equipe da
 IBM para gerenciar o aumento de memória de cálculo.
 
 Para aumentar o conjunto de DEA, cada DEA é configurado com:
@@ -558,8 +555,7 @@ Por exemplo, se o tamanho do host ESXi for 256 GB de memória com 16x núcleos, 
 
 #### Opção do sistema {{site.data.keyword.Bluemix_local_notm}}
 
-Se você escolhe pedir o hardware PureApplication por meio da {{site.data.keyword.IBM_notm}} para hospedar sua instância do {{site.data.keyword.Bluemix_local_notm}}, deve-se pedir outro nó de cálculo no tamanho de especificação comprado anteriormente. 
-É possível pedir outro nó por meio do seu gerente de contas técnicas que trabalha com a equipe da IBM para obter o hardware
+Se você escolhe pedir o hardware PureApplication por meio da {{site.data.keyword.IBM_notm}} para hospedar sua instância do {{site.data.keyword.Bluemix_local_notm}}, deve-se pedir outro nó de cálculo no tamanho de especificação comprado anteriormente. É possível pedir outro nó por meio do seu gerente de contas técnicas que trabalha com a equipe da IBM para obter o hardware
 atualizado enviado diretamente a você. Quando o hardware é entregue e instalado, a IBM é notificada e a equipe de implementação inclui um adicional de 64 GB. Dependendo do tamanho do nó de cálculo pedido, é possível que você tenha capacidade adicional disponível para futuros upgrades. Nesse caso, você só precisará entrar em contato com a IBM e a equipe poderá incluir incrementos adicionais de 64 GB de memória de cálculo disponível, conforme necessário.
 
 ## Mantendo sua instância local
