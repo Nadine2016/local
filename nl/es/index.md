@@ -6,7 +6,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-05-31"
+lastupdated: "2018-07-09"
 
 
 ---
@@ -32,7 +32,7 @@ Además, hay un conjunto de servicios que están disponibles como servicios de {
 | **Tipo** | **Nombre** | **Descripción** |
 |----------|----------|-----------------|
 |Incluido | Tiempos de ejecución de {{site.data.keyword.Bluemix_notm}} | Utilice los tiempos de ejecución para que su app esté activa y en funcionamiento con rapidez, sin necesidad de configurar y gestionar las máquinas ni los sistemas operativos. Todos los tiempos de ejecución de {{site.data.keyword.Bluemix_notm}} están disponibles para utilizarlos en la instancia de {{site.data.keyword.Bluemix_local_notm}}.|
-|Incluido | [{{site.data.keyword.autoscaling}}](/docs/services/Auto-Scaling/index.html)| Aumente o reduzca de forma dinámica la capacidad de cálculo de la app en función de políticas. Con este servicio, dispone de un uso ilimitado del entorno de {{site.data.keyword.Bluemix_local_notm}}.|
+|Incluido | [{{site.data.keyword.autoscaling}}](/docs/services/Auto-Scaling/index.html)| Aumente o reduzca de forma dinámica la capacidad de cálculo de la aplicación en función de políticas. Con este servicio, dispone de un uso ilimitado del entorno de {{site.data.keyword.Bluemix_local_notm}}.|
 |Opcional | [{{site.data.keyword.apiconnect_short}}](/docs/services/apiconnect/index.html) | {{site.data.keyword.apiconnect_long}} integra {{site.data.keyword.APIM}} e IBM StrongLoop en una única oferta que proporciona una solución completa para crear, ejecutar gestionar e imponer API y microservicios. |
 |Opcional | [{{site.data.keyword.containershort}}](/docs/containers/container_index.html) | Ejecutar contenedores de Docker en {{site.data.keyword.Bluemix_local_notm}}. Los contenedores son objetos de software virtuales que incluyen todos los elementos que una app necesita para ejecutarse. Un contenedor tiene las ventajas del aislamiento y asignación de recursos, pero es más portable y eficiente que, por ejemplo, una máquina virtual. Para obtener información sobre los requisitos de hardware, consulte [IBM {{site.data.keyword.containershort}} en {{site.data.keyword.Bluemix_dedicated_notm}} y {{site.data.keyword.Bluemix_local_notm}}](/docs/containers/container_ov.html#container_dl). |
 | Opcional (Beta) | [Registro](/docs/monitor_log/logging/dedicated/logging_local_dedicated.html#hybrid_apps_logs_dash) | Proporciona registros para las apps de Cloud Foundry en la interfaz de usuario de {{site.data.keyword.Bluemix_notm}} y registros y paneles de control en los que pueden realizarse búsquedas en Kibana. |
@@ -128,7 +128,7 @@ Si es una instancia privada de un servicio de {{site.data.keyword.Bluemix_notm}}
 {{site.data.keyword.Bluemix_local_notm}} forma parte de una infraestructura virtualizada que está detrás del cortafuegos de la empresa, lo que le permite disponer de la infraestructura de nube de alto rendimiento y más segura. {{site.data.keyword.IBM_notm}} instala, supervisa de forma remota y gestiona
 {{site.data.keyword.Bluemix_local_notm}} en su centro de datos gracias a la tecnología [Relay](#localrelay) de {{site.data.keyword.IBM_notm}}. La arquitectura lógica de [Figure 1](#figure01) describe cómo {{site.data.keyword.Bluemix_notm}} configura el entorno local y cómo {{site.data.keyword.IBM_notm}} mantiene la instancia local:
 
-![Arquitectura de {{site.data.keyword.Bluemix_local_notm}}.](images/bmlocal_arch.png "Diagrama de la arquitectura de Bluemix Local")
+![Arquitectura de {{site.data.keyword.Bluemix_local_notm}}.](images/bmlocal_arch.svg "Arquitectura de Bluemix Local")
 
 Figura 1. Arquitectura de {{site.data.keyword.Bluemix_local_notm}}
 {: #figure01}
@@ -386,7 +386,7 @@ La fase inicial se utiliza para establecer el entorno de {{site.data.keyword.Blu
 |Seleccionar una arquitectura | Seleccionar una arquitectura basada en opciones predefinidas que tengan en cuenta requisitos de alta disponibilidad y de recuperación en caso de desastre. | {{site.data.keyword.IBM_notm}} |
 |Definir objetivos de recuperación en caso de error | Definir los requisitos de recuperación en caso de error para el entorno. | Cliente |
 |Crear un plan de recuperación en caso de error | Consultar y definir el plan de recuperación en caso de error. {{site.data.keyword.IBM_notm}} crea un modelo de recuperación en caso de error y le consulta dónde debe proporcionar comentarios y aprobar el plan. | {{site.data.keyword.IBM_notm}} y el cliente comparten responsabilidades |
-|Crear un plan de copia de seguridad y recuperación | Crear un plan de copia de seguridad y recuperación que defina la frecuencia y los requisitos para la distribución interna y externa de la copia de seguridad. {{site.data.keyword.IBM_notm}} realiza una copia de seguridad de componentes de plataforma, servicios de {{site.data.keyword.IBM_notm}}, metadatos de servicios (roles de usuarios), etc. Debe realizar una copia de seguridad de todos los datos específicos de app de los que sea responsable. | {{site.data.keyword.IBM_notm}} y el cliente comparten responsabilidades |
+|Crear un plan de copia de seguridad y recuperación | Crear un plan de copia de seguridad y recuperación que defina la frecuencia y los requisitos para la distribución interna y externa de la copia de seguridad. {{site.data.keyword.IBM_notm}} realiza una copia de seguridad de componentes de plataforma, servicios de {{site.data.keyword.IBM_notm}}, metadatos de servicios (roles de usuarios), etc. Debe realizar una copia de seguridad de todos los datos específicos de la aplicación de los que sea responsable. | {{site.data.keyword.IBM_notm}} y el cliente comparten responsabilidades |
 |Identificar herramientas para la detección de sucesos y la determinación de problemas | Identificar herramientas de {{site.data.keyword.IBM_notm}} y de terceros utilizadas para la detección de sucesos y la determinación de problemas en el nivel de plataforma de {{site.data.keyword.Bluemix_notm}}. | {{site.data.keyword.IBM_notm}} |
 |Definir un plan de escalamiento | Definir el plan de escalamiento para seleccionar y resolver sucesos detectados desde los componentes de supervisión. | {{site.data.keyword.IBM_notm}} |
 |Firmar acuerdos de infraestructuras, plataformas y soporte | Firmar el acuerdo de suscripción, incluidos los términos y condiciones financieros del entorno. Firmar la suscripción de soporte. | Cliente |
@@ -675,7 +675,7 @@ De forma predeterminada, {{site.data.keyword.Bluemix_notm}} público se desplieg
 
 Para efectuar un despliegue en una segunda ubicación o en varias ubicaciones, debe seguir un proceso similar al que siguió para habilitar la ubicación geográfica primaria:
 
-1. Habilite un nuevo entorno local para alojar instancias adicionales de las apps. Para crear un nuevo entorno, póngase en contacto con el equipo de ventas de {{site.data.keyword.IBM_notm}} para iniciar el proceso. Para obtener más información sobre cómo configurar una instancia local, consulte [Configuración de {{site.data.keyword.Bluemix_local_notm}}](../local/index.html#setuplocal). Debe iniciar sesión por separado para acceder a cada entorno. Cada ubicación física de los entornos alojados debe estar a una distancia mínima de 200 km de la ubicación original para garantizar la disponibilidad.
+1. Habilite un nuevo entorno local para alojar instancias adicionales de las aplicaciones. Para crear un nuevo entorno, póngase en contacto con el equipo de ventas de {{site.data.keyword.IBM_notm}} para iniciar el proceso. Para obtener más información sobre cómo configurar una instancia local, consulte [Configuración de {{site.data.keyword.Bluemix_local_notm}}](../local/index.html#setuplocal). Debe iniciar sesión por separado para acceder a cada entorno. Cada ubicación física de los entornos alojados debe estar a una distancia mínima de 200 km de la ubicación original para garantizar la disponibilidad.
 2. Obtenga el nombre de dominio exclusivo en el que se alojará la nueva app desplegada. Por ejemplo, si el dominio original es *mycompany.caeast.bluemix.net*, puede crear un nuevo entorno local con un nuevo dominio como *mycompany.cawest.bluemix.net* y realizar el despliegue en el nuevo dominio.
 3. Efectúe un despliegue en la nueva ubicación cada vez que despliegue la app original. Para obtener más información sobre el despliegue, consulte [Carga de una app](/docs/starters/upload_app.html).
 
@@ -687,9 +687,9 @@ Un equilibrador de carga global no solo garantiza una disponibilidad continua y 
 
 * Dirige a los usuarios a la región más próxima de {{site.data.keyword.Bluemix_notm}} de forma predeterminada
 * Efectúa un enrutamiento en función del rendimiento
-* Dirige de forma selectiva un porcentaje de tráfico a una nueva versión de una app
+* Dirige de forma selectiva un porcentaje de tráfico a una nueva versión de una aplicación
 * Proporciona migración tras error de sitio en función de la comprobación del estado de la región
-* Proporciona migración tras error de sitio en función de la comprobación del estado de la app
+* Proporciona migración tras error de sitio en función de la comprobación del estado de la aplicación
 * Utiliza un direccionamiento ponderado entre los puntos finales
 
 Puede elegir un equilibrador de carga global como Akamai o Dyn. Para obtener más información sobre cómo utilizar Akamai como equilibrador de carga global, consulte [Gestión de tráfico global ![icono de enlace externo](../icons/launch-glyph.svg)](https://www.akamai.com/us/en/solutions/products/web-performance/global-traffic-management.jsp){: new_window}. Para obtener más información sobre cómo utilizar Dyn como equilibrador de carga global, consulte [4 Reasons Businesses Are Taking Global Load Balancing to the Cloud ![icono de enlace externo](../icons/launch-glyph.svg)](http://dyn.com/blog/4-reasons-businesses-are-taking-global-load-balancing-to-the-cloud/){: new_window}.
@@ -716,7 +716,7 @@ Estas tecnologías incluyen:
 ## Restauración de la instancia local
 {: #restorelocal}
 
-Se hace una copia de seguridad de forma regular de los valores, los metadatos y las configuraciones de {{site.data.keyword.Bluemix_local_notm}} para prepararse ante cualquier interrupción no planificada del entorno. Los datos de cuya copia de seguridad es responsable incluyen datos de app, datos de servicios de bases de datos en la nube y almacenes de objetos.
+Se hace una copia de seguridad de forma regular de los valores, los metadatos y las configuraciones de {{site.data.keyword.Bluemix_local_notm}} para prepararse ante cualquier interrupción no planificada del entorno. Los datos de cuya copia de seguridad es responsable incluyen datos de aplicación, datos de servicios de bases de datos en la nube y almacenes de objetos.
 
 Como parte de la copia de seguridad de los datos, que incluye metadatos del sistema y configuraciones, {{site.data.keyword.IBM_notm}} lleva a cabo las tareas siguientes:
 
