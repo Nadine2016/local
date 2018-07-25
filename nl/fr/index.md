@@ -6,7 +6,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-05-31"
+lastupdated: "2018-07-09"
 
 
 ---
@@ -127,7 +127,7 @@ Si vous disposez d'une instance privée d'un service {{site.data.keyword.Bluemix
 
 L'environnement {{site.data.keyword.Bluemix_local_notm}} s'appuie sur une infrastructure virtuelle qui se situe derrière le pare-feu de votre société pour que vous puissiez bénéficier de l'infrastructure de cloud la plus performante et la mieux sécurisée. {{site.data.keyword.IBM_notm}} installe, surveille à distance et gère l'environnement {{site.data.keyword.Bluemix_local_notm}} dans votre centre de données par le biais de la technologie de [relais](#localrelay) d'{{site.data.keyword.IBM_notm}}. L'architecture logique de la [Figure 1](#figure01) décrit la façon dont {{site.data.keyword.Bluemix_notm}} est configuré dans votre environnement local et la façon dont {{site.data.keyword.IBM_notm}} gère votre instance locale :
 
-![{{site.data.keyword.Bluemix_local_notm}}.](images/bmlocal_arch.png "Diagramme de l'architecture de Bluemix Local")
+![{{site.data.keyword.Bluemix_local_notm}}.](images/bmlocal_arch.svg "Diagramme de l'architecture de Bluemix Local")
 
 Figure 1. Architecture de l'environnement {{site.data.keyword.Bluemix_local_notm}}
 {: #figure01}
