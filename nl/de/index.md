@@ -6,7 +6,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-07-09"
+lastupdated: "2018-05-31"
 
 
 ---
@@ -127,7 +127,7 @@ Wenn es sich um eine private Instanz eines {{site.data.keyword.Bluemix_notm}}-Se
 
 {{site.data.keyword.Bluemix_local_notm}} befindet sich auf einer virtuellen Maschine hinter der Firewall Ihres Unternehmens. Auf diese Weise steht Ihnen eine besonders leistungsfähige und sichere Cloudinfrastruktur zur Verfügung. {{site.data.keyword.IBM_notm}} installiert und verwaltet {{site.data.keyword.Bluemix_local_notm}} mit der [Relay](#localrelay)-Technologie von {{site.data.keyword.IBM_notm}} in Ihrem Rechenzentrum und führt eine Fernüberwachung durch. Die logische Architektur in [Abbildung 1](#figure01) veranschaulicht, wie {{site.data.keyword.Bluemix_notm}} in Ihrer lokalen Umgebung eingerichtet wird und wie {{site.data.keyword.IBM_notm}} Ihre lokale Instanz wartet:
 
-![{{site.data.keyword.Bluemix_local_notm}}-Architektur.](images/bmlocal_arch.svg "Diagramm zur Bluemix Local-Architektur")
+![{{site.data.keyword.Bluemix_local_notm}}-Architektur.](images/bmlocal_arch.png "Diagramm zur Bluemix Local-Architektur")
 
 Abbildung 1. {{site.data.keyword.Bluemix_local_notm}}-Architektur
 {: #figure01}
@@ -352,7 +352,7 @@ Das {{site.data.keyword.Bluemix_notm}}-Support- und -Operationsteam, das gemeins
 
 ###Zuständigkeiten
 
-Von der Einrichtung Ihrer Umgebung bis hin zur kontinuierlichen Wartung müssen von Ihnen und von IBM eine Vielfalt von Tasks ausgeführt werden. Die folgenden Tabellen beschreiben grob die erforderlichen Tasks und die Eigner zum Abschließen der Task in den Phasen der Konzeption, des Fortschritts und der Fertigstellung.
+Von der Einrichtung Ihrer Umgebung bis hin zur kontinuierlichen Wartung müssen von Ihnen und von IBM eine Vielfalt von Tasks abgeschlossen werden. Die folgenden Tabellen beschreiben grob die erforderlichen Tasks und die Eigner zum Abschließen der Task in den Phasen der Konzeption, des Fortschritts und der Fertigstellung.
 
 In der Konzeptionsphase wird die {{site.data.keyword.Bluemix_local_notm}}-Umgebung eingerichtet. Zu diesem Zeitpunkt haben Sie sich bereits mit den [Infrastrukturanforderungen für Local](../local/index.html#localinfra) vertraut gemacht. Die primären Ziele dieser Phase sind unter anderem:
 
@@ -385,7 +385,7 @@ In der Konzeptionsphase wird die {{site.data.keyword.Bluemix_local_notm}}-Umgebu
 |Verfolgen des Status von Sicherheits-, Konformitäts- und Prüfungsmaßnahmen  | Verfolgen Sie den Status bis zu dem Zeitpunkt, an dem alle Tools und Prozesse zum Erzielen der gewünschten Konformität vorhanden und einsatzbereit sind. | Kunde |
 |Überprüfen der physischen Infrastruktur | Überprüfen Sie die Orte, an denen die Lösungskomponenten für Bedrohungen gehostet werden, und überprüfen Sie die Sicherheitsmaßnahmen zum Schutz des Rechenzentrums. | Kunde |
 |Untersuchen der Überwachungssoftware | Untersuchen Sie Überwachungs- und Verwaltungskomponenten, wie im Eskalations- und Problembestimmungsplan definiert. | Kunde |
-|Untersuchen des Betriebssystems | Stellen Sie sicher, dass das Betriebssystemimage Konformitätsstandards entspricht. {{site.data.keyword.IBM_notm}} stellt Zugriff auf das Betriebssystemimage bereit. | {{site.data.keyword.IBM_notm}} und Kunde |
+|Untersuchen des Betriebssystems | Stellen Sie sicher, dass das Betriebssystemimage Konfomitätsstandards entspricht. {{site.data.keyword.IBM_notm}} stellt Zugriff auf das Betriebssystemimage bereit. | {{site.data.keyword.IBM_notm}} und Kunde |
 {: caption="Tabelle 5. Tasks der Konzeptionsphase" caption-side="top"}
 
 Als Nächstes folgt die Fortschrittsphase. Die Fortschrittsphase beschreibt die laufende, interaktive Beziehung zwischen Ihnen und IBM. Die primären Ziele dieser Phase sind unter anderem:
@@ -581,7 +581,7 @@ Die folgenden Wartungsarten sind für
 
 **Wichtig**: {{site.data.keyword.IBM_notm}} behält sich das Recht vor, Services zu unterbrechen, um im Bedarfsfall Notfallwartungen vorzunehmen. {{site.data.keyword.IBM_notm}} kann die geplanten Wartungszeiten ändern, wird Sie aber über solche Änderungen sowie über eventuelle Notfallwartungen benachrichtigen.
 
-Falls nach einer Wartungsaktualisierung ein Problem berichtet wird, entscheiden Sie gemeinsam mit dem {{site.data.keyword.Bluemix_notm}}-Support, ob es sinnvoll wäre, dass {{site.data.keyword.IBM_notm}} die Aktualisierung rückgängig macht. Nachdem Sie sich geeinigt haben, macht {{site.data.keyword.IBM_notm}} die Aktualisierung rückgängig und stellt die Umgebung in ihrem ursprünglichen Status wieder her.
+Falls nach einer Wartungsaktualisierung ein Problem berichtet wird, entscheiden Sie gemeinsam mit dem {{site.data.keyword.Bluemix_notm}}-Support, ob es sinnvoll wäre, dass {{site.data.keyword.IBM_notm}} die Aktualisierung rückgängig macht. Nachdem Sie sich geeinigt haben, macht {{site.data.keyword.IBM_notm}} die Aktualisierung rückgängig und stellt die Umgebung in ihrem ursprünglichen Zustand wieder her.
 
 ### Wartung der Kundeninfrastruktur
 {: #inframaintenance}
