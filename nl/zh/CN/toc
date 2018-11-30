@@ -2,7 +2,7 @@
 {:topicgroup: .topicgroup}
 
 {: .toc}
-Bluemix Local
+{: .toc subcollection="local" audience="platform" href="/docs/local/index.html" path="local"}
 
     {: .navgroup id="howto"}
     index.md
