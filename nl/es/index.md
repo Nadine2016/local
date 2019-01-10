@@ -126,7 +126,7 @@ Si es una instancia privada de un servicio de {{site.data.keyword.Bluemix_notm}}
 {: #localarch}
 
 {{site.data.keyword.Bluemix_local_notm}} forma parte de una infraestructura virtualizada que está detrás del cortafuegos de la empresa, lo que le permite disponer de la infraestructura de nube de alto rendimiento y más segura. {{site.data.keyword.IBM_notm}} instala, supervisa de forma remota y gestiona
-{{site.data.keyword.Bluemix_local_notm}} en su centro de datos gracias a la tecnología [Relay](#localrelay) de {{site.data.keyword.IBM_notm}}. La arquitectura lógica de [Figure 1](#figure01) describe cómo {{site.data.keyword.Bluemix_notm}} configura el entorno local y cómo {{site.data.keyword.IBM_notm}} mantiene la instancia local:
+{{site.data.keyword.Bluemix_local_notm}} en su centro de datos gracias a la tecnología [Relay](#localrelay) de {{site.data.keyword.IBM_notm}}. La arquitectura lógica de la [Figura 1](#figure01) describe cómo {{site.data.keyword.Bluemix_notm}} configura el entorno local y cómo {{site.data.keyword.IBM_notm}} mantiene la instancia local:
 
 ![Arquitectura de {{site.data.keyword.Bluemix_local_notm}}.](images/bmlocal_arch.svg "Arquitectura de Bluemix Local")
 
@@ -418,7 +418,7 @@ A continuación tenemos la fase de progresión. En la fase de progresión se des
 |Ajustar la capacidad |  Añadir o eliminar capacidad a medida que cambien sus necesidades. | {{site.data.keyword.IBM_notm}} |
 |Publicar actualizaciones venideras y realizar mantenimiento | Crear documentación para el mantenimiento necesario de los componentes de {{site.data.keyword.IBM_notm}}. | {{site.data.keyword.IBM_notm}} |
 |Realizar tareas de mantenimiento | Trabajar con {{site.data.keyword.IBM_notm}} para planificar tareas de mantenimiento necesarias en un intervalo de 21 días. Puede proporcionar fechas que no le vayan bien en dicho período de 21 días, e {{site.data.keyword.IBM_notm}} trabajará para planificar el mantenimiento según convenga. | {{site.data.keyword.IBM_notm}} y el cliente comparten responsabilidades |
-|Abordar fallos de aprovisionamiento | Corregir fallos de aprovisionamiento, si se producen, de los servicios creados por el cliente desplegados en el catálogo. | {{site.data.keyword.IBM_notm}} |
+|Abordar fallos de suministro | Corregir fallos de suministro, si se producen, de los servicios creados por el cliente desplegados en el catálogo. | {{site.data.keyword.IBM_notm}} |
 |Realizar exploraciones de red y de IP | Realizar exploraciones diarias y mensuales de red y de IP. | {{site.data.keyword.IBM_notm}} y el cliente comparten responsabilidades |
 |Proporcionar acceso a los registros de auditoría | Proporcionar acceso a todos los registros de auditoría de seguridad y administración.   | {{site.data.keyword.IBM_notm}} y el cliente comparten responsabilidades |
 |Realizar pruebas | Realizar pruebas Key Controls over Operations (KCO) periódicas y pruebas de penetración de terceros. | {{site.data.keyword.IBM_notm}} y el cliente comparten responsabilidades |
@@ -458,8 +458,7 @@ combinación que cumpla los requisitos totales de los recursos definidos.
 <dl>
 <dt>**Hardware VMware ESXi**</dt>
 <dd>
-ESXi es una capa de virtualización que se ejecuta en servidores físicos y que abstrae el procesador,
-la memoria, el almacenamiento y los recursos en varias máquinas virtuales. Elija cualquier combinación que cumpla los siguientes totales de recursos, con la condición de que el recuento mínimo de núcleos físicos por ESXi sea ocho. Las siguientes especificaciones son sólo para el tiempo de ejecución de núcleo de {{site.data.keyword.Bluemix_notm}}.
+ESXi es una capa de virtualización que se ejecuta en servidores físicos y que abstrae el procesador, la memoria, el almacenamiento y los recursos en varias máquinas virtuales. Elija cualquier combinación que cumpla los siguientes totales de recursos, con la condición de que el recuento mínimo de núcleos físicos por ESXi sea ocho. Las siguientes especificaciones son sólo para el tiempo de ejecución de núcleo de {{site.data.keyword.Bluemix_notm}}.
 <ul>
 <li>40 núcleos físicos a 2.0 o más GHz cada uno de ellos</li>
 <li>768 GB de memoria RAM física</li>
