@@ -6,5 +6,4 @@ Bluemix Local
 
     {: .navgroup id="howto"}
     index.md
-    [Test link](https://{DomainName}/developer/appledevelopment/dashboard)
     {: .navgroup-end}
